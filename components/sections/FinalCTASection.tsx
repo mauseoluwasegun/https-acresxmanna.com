@@ -4,17 +4,20 @@ import { SectionContainer } from "@/components/layout/SectionContainer";
 import { Eyebrow } from "@/components/ui/Eyebrow";
 import { Button } from "@/components/ui/Button";
 import { PatternDivider } from "@/components/animations/PatternDivider";
-import { DecorativeBlob, DecorativeBlobSet } from "@/components/ui/DecorativeBlobs";
+import { DecorativeBlobSet } from "@/components/ui/DecorativeBlobs";
 import { PatternWatermark, FloatingPatternMotif, HandDrawnPlantLine } from "@/components/ui/DecorativePatterns";
 import { IconPhone, IconMail, IconMapPin } from "@/components/ui/icons";
+import { useTranslations } from "next-intl";
 
 export function FinalCTASection() {
+  const t = useTranslations("cta");
+
   return (
     <>
       <PatternDivider
         pattern="ankara"
         thickness="bold"
-        eyebrow="— LET'S GROW TOGETHER"
+        eyebrow={t("dividerEyebrow")}
         eyebrowAccent="mango"
       />
 
@@ -48,20 +51,14 @@ export function FinalCTASection() {
                 <div className="relative h-full p-7 sm:p-10 lg:p-12 flex flex-col justify-between text-cream-100">
                   <div>
                     <Eyebrow accent="mango" className="mb-4">
-                      Let&apos;s Talk
+                      {t("eyebrow")}
                     </Eyebrow>
-                    <h3 className="font-display font-black italic text-[clamp(2rem,4.2vw,3.5rem)] leading-[1.02] tracking-tight max-w-xl">
-                      Great partnerships
-                      <br />
-                      start with a{" "}
-                      <span className="not-italic text-mango-400">
-                        single conversation.
-                      </span>
-                    </h3>
+                    <h3
+                      className="font-display font-black italic text-[clamp(2rem,4.2vw,3.5rem)] leading-[1.02] tracking-tight max-w-xl"
+                      dangerouslySetInnerHTML={{ __html: t.raw("headline") }}
+                    />
                     <p className="mt-5 max-w-md font-sans text-body-md text-cream-50/90 leading-relaxed">
-                      Whether you&apos;re a farmer, distributor, investor, or
-                      retailer ready to stock African-made — our team is
-                      ready to build the next step with you.
+                      {t("description")}
                     </p>
                   </div>
                   <ul className="mt-8 flex flex-wrap gap-x-8 gap-y-4">
@@ -69,19 +66,19 @@ export function FinalCTASection() {
                       <span className="w-10 h-10 rounded-full bg-cream-50/10 flex items-center justify-center ring-1 ring-cream-50/20 text-mango-400">
                         <IconMail size={18} />
                       </span>
-                      <span className="font-sans text-body-md">Email: [TBC]</span>
+                      <span className="font-sans text-body-md">{t("emailLabel")}</span>
                     </li>
                     <li className="flex items-center gap-3">
                       <span className="w-10 h-10 rounded-full bg-cream-50/10 flex items-center justify-center ring-1 ring-cream-50/20 text-mango-400">
                         <IconPhone size={18} />
                       </span>
-                      <span className="font-sans text-body-md">Phone: [TBC]</span>
+                      <span className="font-sans text-body-md">{t("phoneLabel")}</span>
                     </li>
                     <li className="flex items-center gap-3">
                       <span className="w-10 h-10 rounded-full bg-cream-50/10 flex items-center justify-center ring-1 ring-cream-50/20 text-mango-400">
                         <IconMapPin size={18} />
                       </span>
-                      <span className="font-sans text-body-md">HQ: [TBC]</span>
+                      <span className="font-sans text-body-md">{t("hqLabel")}</span>
                     </li>
                   </ul>
                 </div>
@@ -99,13 +96,12 @@ export function FinalCTASection() {
                 />
                 <div className="relative">
                   <Eyebrow accent="terracotta" className="mb-3">
-                    Quick Inquiry
+                    {t("formEyebrow")}
                   </Eyebrow>
-                  <h4 className="font-display font-black text-heading-hero leading-[1.02] max-w-md">
-                    Tell us what you need —
-                    <br />
-                    <em className="text-terracotta-600">we&apos;ll reply in 48h.</em>
-                  </h4>
+                  <h4
+                    className="font-display font-black text-heading-hero leading-[1.02] max-w-md"
+                    dangerouslySetInnerHTML={{ __html: t.raw("formHeadline") }}
+                  />
                 </div>
 
                 <form
@@ -114,55 +110,55 @@ export function FinalCTASection() {
                 >
                   <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                     <label className="block">
-                      <span className="sr-only">Full Name</span>
+                      <span className="sr-only">{t("placeholderName")}</span>
                       <input
-                        placeholder="Full name"
+                        placeholder={t("placeholderName")}
                         className="w-full rounded-soft border border-charcoal-900/10 bg-white px-4 py-3 text-body-md outline-none focus:ring-2 focus:ring-mango-500"
                       />
                     </label>
                     <label className="block">
-                      <span className="sr-only">Email</span>
+                      <span className="sr-only">{t("placeholderEmail")}</span>
                       <input
                         type="email"
-                        placeholder="you@email.com"
+                        placeholder={t("placeholderEmail")}
                         className="w-full rounded-soft border border-charcoal-900/10 bg-white px-4 py-3 text-body-md outline-none focus:ring-2 focus:ring-mango-500"
                       />
                     </label>
                   </div>
                   <label className="block">
-                    <span className="sr-only">Company or Farm</span>
+                    <span className="sr-only">{t("placeholderCompany")}</span>
                     <input
-                      placeholder="Company / Cooperative / Farm (optional)"
+                      placeholder={t("placeholderCompany")}
                       className="w-full rounded-soft border border-charcoal-900/10 bg-white px-4 py-3 text-body-md outline-none focus:ring-2 focus:ring-mango-500"
                     />
                   </label>
                   <label className="block">
-                    <span className="sr-only">I&apos;m reaching out as a</span>
+                    <span className="sr-only">{t("selectDefault")}</span>
                     <select className="w-full rounded-soft border border-charcoal-900/10 bg-white px-4 py-3 text-body-md outline-none focus:ring-2 focus:ring-mango-500">
-                      <option>I&apos;m reaching out as a...</option>
-                      <option>Consumer</option>
-                      <option>Farmer / Supplier</option>
-                      <option>Distributor / Retailer</option>
-                      <option>Business Partner</option>
-                      <option>Investor</option>
-                      <option>Press</option>
-                      <option>Job Seeker</option>
+                      <option>{t("selectDefault")}</option>
+                      <option>{t("selectConsumer")}</option>
+                      <option>{t("selectFarmer")}</option>
+                      <option>{t("selectDistributor")}</option>
+                      <option>{t("selectPartner")}</option>
+                      <option>{t("selectInvestor")}</option>
+                      <option>{t("selectPress")}</option>
+                      <option>{t("selectJobSeeker")}</option>
                     </select>
                   </label>
                   <label className="block">
-                    <span className="sr-only">Message</span>
+                    <span className="sr-only">{t("placeholderMessage")}</span>
                     <textarea
                       rows={4}
-                      placeholder="A few sentences about what you need..."
+                      placeholder={t("placeholderMessage")}
                       className="w-full rounded-soft border border-charcoal-900/10 bg-white px-4 py-3 text-body-md outline-none focus:ring-2 focus:ring-mango-500 resize-none"
                     />
                   </label>
                   <div className="flex flex-wrap gap-3 pt-2">
                     <Button type="submit" variant="primary" size="lg">
-                      Send Inquiry
+                      {t("sendInquiry")}
                     </Button>
                     <Button href="/contact" variant="secondary" size="lg">
-                      Full Contact Page
+                      {t("fullContactPage")}
                     </Button>
                   </div>
                 </form>
@@ -173,10 +169,10 @@ export function FinalCTASection() {
           {/* Bottom micro-trust row */}
           <div className="mt-12 grid grid-cols-2 md:grid-cols-4 gap-6 text-charcoal-900">
             {[
-              { k: "✉", t: "48h response time" },
-              { k: "🔒", t: "Secure, confidential process" },
-              { k: "🌾", t: "Farmers-first sourcing" },
-              { k: "🌏", t: "Global shipping + logistics" },
+              { k: "✉", t: t("trust48h") },
+              { k: "🔒", t: t("trustSecure") },
+              { k: "🌾", t: t("trustFarmers") },
+              { k: "🌏", t: t("trustGlobal") },
             ].map((row) => (
               <div
                 key={row.t}
@@ -192,3 +188,4 @@ export function FinalCTASection() {
     </>
   );
 }
+

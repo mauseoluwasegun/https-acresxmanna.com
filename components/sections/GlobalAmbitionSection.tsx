@@ -123,38 +123,42 @@ const tintClasses = {
   },
 };
 
-const EXPORT_STATS = [
-  {
-    eyebrow: "CURRENT",
-    value: "[12]+",
-    label: "Countries with current distribution",
-    accent: "terracotta" as const,
-    icon: "globe" as const,
-  },
-  {
-    eyebrow: "3-YEAR TARGET",
-    value: "[40]+",
-    label: "Target countries by Year 3",
-    accent: "indigo" as const,
-    icon: "markets" as const,
-  },
-  {
-    eyebrow: "CAPACITY",
-    value: "[XX,XXX] t/yr",
-    label: "Annual production capacity",
-    accent: "mango" as const,
-    icon: "capacity" as const,
-  },
-  {
-    eyebrow: "EXPORTS",
-    value: "[XX]%",
-    label: "Of output sold outside home markets",
-    accent: "forest" as const,
-    icon: "products" as const,
-  },
-];
+import { useTranslations } from "next-intl";
 
 export function GlobalAmbitionSection() {
+  const t = useTranslations("global");
+
+  const exportStats = [
+    {
+      eyebrow: t("exportStats.currentEyebrow"),
+      value: t("exportStats.currentValue"),
+      label: t("exportStats.currentLabel"),
+      accent: "terracotta" as const,
+      icon: "globe" as const,
+    },
+    {
+      eyebrow: t("exportStats.targetEyebrow"),
+      value: t("exportStats.targetValue"),
+      label: t("exportStats.targetLabel"),
+      accent: "indigo" as const,
+      icon: "markets" as const,
+    },
+    {
+      eyebrow: t("exportStats.capacityEyebrow"),
+      value: t("exportStats.capacityValue"),
+      label: t("exportStats.capacityLabel"),
+      accent: "mango" as const,
+      icon: "capacity" as const,
+    },
+    {
+      eyebrow: t("exportStats.exportsEyebrow"),
+      value: t("exportStats.exportsValue"),
+      label: t("exportStats.exportsLabel"),
+      accent: "forest" as const,
+      icon: "products" as const,
+    },
+  ];
+
   return (
     <>
       <PatternDivider
@@ -185,18 +189,16 @@ export function GlobalAmbitionSection() {
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 items-end mb-14 sm:mb-18">
             <div className="lg:col-span-7">
               <Eyebrow accent="indigo" className="mb-5">
-                Global Ambition
+                {t("eyebrow")}
               </Eyebrow>
               <h2 className="font-display font-black text-display-1 leading-[0.98] text-balance max-w-4xl">
-                <ScrollTypingText text="Built in Africa, " speed={25} />
-                <em className="not-italic text-terracotta-600"><ScrollTypingText text="shipped to the world." speed={25} delay={0.1} /></em>
+                <ScrollTypingText text={t("headlineP1")} speed={25} />
+                <em className="not-italic text-terracotta-600"><ScrollTypingText text={t("headlineEmphasis")} speed={25} delay={0.1} /></em>
               </h2>
             </div>
             <div className="lg:col-span-5">
               <p className="font-sans text-body-lg text-charcoal-700 leading-relaxed max-w-xl">
-                Our ambition is simple: make African-made food a household
-                category on every continent. These are the markets we
-                serve today and the roadmap ahead.
+                {t("description")}
               </p>
             </div>
           </div>
@@ -330,24 +332,23 @@ export function GlobalAmbitionSection() {
               {/* Right panel: Africa focus + headline */}
               <div className="lg:col-span-4 relative border-t lg:border-t-0 lg:border-l border-cream-100 bg-cream-50/80 p-6 sm:p-8 flex flex-col">
                 <Eyebrow accent="terracotta" className="mb-3">
-                  HQ · Ghana
+                  {t("hqEyebrow")}
                 </Eyebrow>
-                <h4 className="font-display font-black text-heading-hero leading-[1.02]">
-                  Our <em>home market</em> is where it all starts.
-                </h4>
+                <h4
+                  className="font-display font-black text-heading-hero leading-[1.02]"
+                  dangerouslySetInnerHTML={{ __html: t.raw("hqHeadline") }}
+                />
                 <p className="mt-4 font-sans text-body-md text-charcoal-700 leading-relaxed">
-                  West Africa is our heartland — Ghana as HQ, Nigeria as
-                  our biggest national market, and the broader cocoa belt
-                  our richest source of raw material.
+                  {t("hqDescription")}
                 </p>
 
                 <ul className="mt-7 space-y-4">
                   {[
-                    { f: "🇬🇭", c: "Ghana · HQ + milling + cocoa processing" },
-                    { f: "🇳🇬", c: "Nigeria · Jollof / ready meals lines" },
-                    { f: "🇨🇮", c: "Côte d'Ivoire · Cocoa supply network" },
-                    { f: "🇰🇪", c: "Kenya · East Africa distribution hub" },
-                    { f: "🇿🇦", c: "South Africa · Southern Africa retail" },
+                    { f: "🇬🇭", c: t("hqGhana") },
+                    { f: "🇳🇬", c: t("hqNigeria") },
+                    { f: "🇨🇮", c: t("hqCoteDivoire") },
+                    { f: "🇰🇪", c: t("hqKenya") },
+                    { f: "🇿🇦", c: t("hqSouthAfrica") },
                   ].map((row) => (
                     <li
                       key={row.c}
@@ -367,9 +368,9 @@ export function GlobalAmbitionSection() {
                     variant="dark"
                     size="md"
                     className="w-full"
-                    ariaLabel="Bring Acres X Manna to your region"
+                    ariaLabel={t("bringToRegion")}
                   >
-                    Bring Us To Your Region
+                    {t("bringToRegion")}
                   </Button>
                 </div>
               </div>
@@ -378,7 +379,7 @@ export function GlobalAmbitionSection() {
 
           {/* 4 export stats tiles */}
           <div className="mt-14 sm:mt-20 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 sm:gap-8">
-            {EXPORT_STATS.map((s, i) => (
+            {exportStats.map((s, i) => (
               <ScrollReveal
                 as="div"
                 key={s.label}

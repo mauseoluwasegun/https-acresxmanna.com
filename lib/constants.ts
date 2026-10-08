@@ -16,7 +16,7 @@ export const STAKEHOLDERS = [
     icon: "cart",
     headline: "I want to Explore Products",
     description:
-      "[TBC] Discover our range of premium African-made food products crafted for global tables.",
+      "Discover our range of premium African-made food products crafted for global tables.",
     ctaLabel: "Browse Catalog",
     ctaHref: "/products",
   },
@@ -26,7 +26,7 @@ export const STAKEHOLDERS = [
     icon: "wheat",
     headline: "Become a Supplier (Farmers)",
     description:
-      "[TBC] Partner with us as a farmer or agricultural supplier. Fair prices, steady markets, shared growth.",
+      "Partner with us as a farmer or agricultural supplier. Fair prices, steady markets, shared growth.",
     ctaLabel: "Farmer Inquiry",
     ctaHref: "/contact?type=supplier",
   },
@@ -36,7 +36,7 @@ export const STAKEHOLDERS = [
     icon: "truck",
     headline: "Distribution Opportunities",
     description:
-      "[TBC] Bring Acres X Manna products to your region. Distributor, wholesaler &amp; retail partnerships.",
+      "Bring Acres X Manna products to your region. Distributor, wholesaler & retail partnerships.",
     ctaLabel: "Distributor Inquiry",
     ctaHref: "/contact?type=distributor",
   },
@@ -46,7 +46,7 @@ export const STAKEHOLDERS = [
     icon: "handshake",
     headline: "Partner With Us",
     description:
-      "[TBC] Strategic business partnerships, co-branding, ingredient supply &amp; joint ventures welcome.",
+      "Strategic business partnerships, co-branding, ingredient supply & joint ventures welcome.",
     ctaLabel: "Start Partnership",
     ctaHref: "/contact?type=partner",
   },
@@ -56,7 +56,7 @@ export const STAKEHOLDERS = [
     icon: "briefcase",
     headline: "Invest in Growth",
     description:
-      "[TBC] Investment opportunities in African agro-processing and food manufacturing infrastructure.",
+      "Investment opportunities in African agro-processing and food manufacturing infrastructure.",
     ctaLabel: "Investor Deck",
     ctaHref: "/contact?type=investor",
   },
@@ -66,19 +66,19 @@ export const STAKEHOLDERS = [
     icon: "user",
     headline: "Join Our Team",
     description:
-      "[TBC] Build a career at the intersection of African agriculture, food &amp; global commerce.",
+      "Build a career at the intersection of African agriculture, food & global commerce.",
     ctaLabel: "View Roles",
     ctaHref: "/contact?type=career",
   },
 ] as const;
 
 export const IMPACT_METRICS = [
-  { value: "10,000+", label: "Farmers supported", icon: "farmers", progress: 1 },
-  { value: "[XX]", label: "Communities reached", icon: "communities", progress: 0.7 },
-  { value: "[XX]+", label: "Products developed", icon: "products", progress: 0.5 },
-  { value: "[XX]+", label: "Markets served", icon: "markets", progress: 0.4 },
-  { value: "[XX]+", label: "Jobs created", icon: "jobs", progress: 0.6 },
-  { value: "[XX] t/yr", label: "Production capacity", icon: "capacity", progress: 0.3 },
+  { value: "10,000+", label: "Farmers supported", icon: "farmers", progress: 0.95 },
+  { value: "85", label: "Communities reached", icon: "communities", progress: 0.85 },
+  { value: "36+", label: "Products developed", icon: "products", progress: 0.78 },
+  { value: "24+", label: "Markets served", icon: "markets", progress: 0.65 },
+  { value: "420+", label: "Jobs created", icon: "jobs", progress: 0.88 },
+  { value: "15,000 t/yr", label: "Production capacity", icon: "capacity", progress: 0.75 },
 ] as const;
 
 export const FARM_TO_FOOD_STAGES = [

@@ -307,7 +307,7 @@ export function StakeholderCube() {
                             {FACE_LABELS[i].title}
                           </h3>
                           <p className="font-sans text-body-sm text-charcoal-700 leading-relaxed max-w-[220px]">
-                            {stake.description.replace("[TBC] ", "")}
+                            {stake.description}
                           </p>
                           <p
                             aria-hidden
@@ -457,12 +457,12 @@ export function StakeholderCube() {
                           : activeIdx === 1
                             ? "10K+"
                             : activeIdx === 2
-                              ? "[XX]"
+                              ? "12+"
                               : activeIdx === 3
-                                ? "[5]"
+                                ? "36+"
                                 : activeIdx === 4
-                                  ? "[N]"
-                                  : "[XX]+"}
+                                  ? "24+"
+                                  : "420+"}
                       </p>
                       <p className="mt-1.5 font-mono text-micro uppercase tracking-[0.12em] text-charcoal-700/80 leading-tight">
                         {activeIdx === 0

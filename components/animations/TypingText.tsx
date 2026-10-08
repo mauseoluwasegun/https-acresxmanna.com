@@ -1,8 +1,7 @@
 "use client";
 
 import { motion, useReducedMotion } from "framer-motion";
-import { useEffect, useState } from "react";
-
+import { useEffect, useRef, useState } from "react";
 import type React from "react";
 
 interface TypingTextProps {
@@ -17,18 +16,22 @@ export function TypingText({
   text,
   className,
   delay = 0,
-  speed = 40,
+  speed = 30,
   as: Tag = "span",
 }: TypingTextProps) {
   const reduce = useReducedMotion();
-  const [displayed, setDisplayed] = useState(reduce ? text : "");
+  const [displayed, setDisplayed] = useState(text);
   const [started, setStarted] = useState(false);
 
   useEffect(() => {
-    if (reduce) return;
-    const timer = setTimeout(() => setStarted(true), delay * 1000);
+    if (reduce) {
+      setDisplayed(text);
+      return;
+    }
+    setDisplayed("");
+    const timer = setTimeout(() => setStarted(true), Math.max(0, delay * 1000));
     return () => clearTimeout(timer);
-  }, [delay, reduce]);
+  }, [delay, reduce, text]);
 
   useEffect(() => {
     if (reduce || !started) return;
@@ -41,18 +44,16 @@ export function TypingText({
     return () => clearTimeout(timer);
   }, [displayed, text, speed, started, reduce]);
 
-  if (reduce) {
-    return <Tag className={className}>{text}</Tag>;
-  }
-
   return (
     <Tag className={className}>
-      {displayed}
-      <motion.span
-        animate={{ opacity: [1, 0] }}
-        transition={{ duration: 0.6, repeat: Infinity }}
-        className="inline-block w-[2px] h-[0.9em] bg-current ml-[2px] align-middle"
-      />
+      {reduce ? text : displayed}
+      {!reduce && started && displayed.length < text.length && (
+        <motion.span
+          animate={{ opacity: [1, 0] }}
+          transition={{ duration: 0.5, repeat: Infinity }}
+          className="inline-block w-[2px] h-[0.9em] bg-current ml-[2px] align-middle"
+        />
+      )}
     </Tag>
   );
 }
@@ -65,59 +66,84 @@ export function ScrollTypingText({
   text,
   className,
   delay = 0,
-  speed = 30,
+  speed = 20,
   as: Tag = "span",
-  triggerOnce = true,
 }: ScrollTypingTextProps) {
   const reduce = useReducedMotion();
-  const [displayed, setDisplayed] = useState("");
+  const containerRef = useRef<HTMLElement | null>(null);
   const [isVisible, setIsVisible] = useState(false);
-  const [hasAnimated, setHasAnimated] = useState(false);
+  const [displayed, setDisplayed] = useState(text);
+  const [started, setStarted] = useState(false);
 
   useEffect(() => {
     if (reduce) {
       setDisplayed(text);
+      setIsVisible(true);
+      return;
+    }
+
+    // Initialize typing state
+    setDisplayed("");
+    
+    const node = containerRef.current;
+    if (!node) {
+      setIsVisible(true);
       return;
     }
 
     const observer = new IntersectionObserver(
       ([entry]) => {
-        if (entry.isIntersecting && !hasAnimated) {
+        if (entry.isIntersecting) {
           setIsVisible(true);
-          setHasAnimated(true);
+          observer.disconnect();
         }
       },
-      { threshold: 0.3 }
+      { threshold: 0.15 }
     );
 
-    const el = document.getElementById(`typing-${text.slice(0, 20).replace(/\s/g, "-")}`);
-    if (el) observer.observe(el);
+    observer.observe(node);
 
-    return () => observer.disconnect();
-  }, [reduce, text, hasAnimated]);
+    // Fallback safety timeout so text is never stuck empty
+    const safetyTimer = setTimeout(() => {
+      setIsVisible(true);
+    }, 1200);
+
+    return () => {
+      observer.disconnect();
+      clearTimeout(safetyTimer);
+    };
+  }, [reduce, text]);
 
   useEffect(() => {
-    if (reduce || !isVisible || displayed.length >= text.length) return;
+    if (!isVisible || reduce) return;
+    const startTimer = setTimeout(() => {
+      setStarted(true);
+    }, Math.max(0, delay * 1000));
+    return () => clearTimeout(startTimer);
+  }, [isVisible, delay, reduce]);
+
+  useEffect(() => {
+    if (reduce || !started) return;
+    if (displayed.length >= text.length) return;
 
     const timer = setTimeout(() => {
       setDisplayed(text.slice(0, displayed.length + 1));
-    }, speed + delay * 1000);
+    }, speed);
 
     return () => clearTimeout(timer);
-  }, [displayed, text, speed, isVisible, delay, reduce]);
-
-  const id = `typing-${text.slice(0, 20).replace(/\s/g, "-")}`;
+  }, [displayed, text, speed, started, reduce]);
 
   return (
-    <Tag id={id} className={className}>
-      {reduce ? text : displayed}
-      {!reduce && isVisible && displayed.length < text.length && (
+    <Tag ref={containerRef} className={className}>
+      {reduce ? text : (started ? displayed : (isVisible ? "" : text))}
+      {!reduce && started && displayed.length < text.length && (
         <motion.span
           animate={{ opacity: [1, 0] }}
-          transition={{ duration: 0.6, repeat: Infinity }}
+          transition={{ duration: 0.5, repeat: Infinity }}
           className="inline-block w-[2px] h-[0.9em] bg-current ml-[2px] align-middle"
         />
       )}
     </Tag>
   );
 }
+
