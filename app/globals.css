@@ -1,0 +1,170 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --cream-50: 251 248 243;
+    --cream-100: 250 246 240;
+
+    --terracotta-500: 198 93 58;
+    --terracotta-600: 168 74 44;
+    --terracotta-700: 138 59 34;
+
+    --mango-400: 244 167 58;
+    --mango-500: 232 146 42;
+
+    --earth-600: 107 66 38;
+
+    --forest-600: 47 93 58;
+    --forest-700: 31 64 41;
+
+    --indigo-700: 43 58 103;
+
+    --charcoal-700: 61 61 61;
+    --charcoal-900: 26 26 26;
+
+    --focus: var(--mango-500);
+
+    --font-display: "__Playfair_Display_xxxxxxxx";
+    --font-sans: "__DM_Sans_xxxxxxxx";
+    --font-mono: "__DM_Mono_xxxxxxxx";
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  body {
+    background-color: rgb(var(--cream-100));
+    color: rgb(var(--charcoal-900));
+    font-family: var(--font-sans), system-ui, sans-serif;
+    font-feature-settings: "ss01", "ss02";
+    overflow-x: hidden;
+  }
+
+  ::selection {
+    background-color: rgb(var(--mango-400) / 0.45);
+    color: rgb(var(--charcoal-900));
+  }
+
+  :focus-visible {
+    outline: 3px solid rgb(var(--focus));
+    outline-offset: 3px;
+    border-radius: 4px;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-display), "Times New Roman", serif;
+    color: rgb(var(--charcoal-900));
+    font-weight: 900;
+  }
+
+  em {
+    font-family: var(--font-display), serif;
+    font-style: italic;
+    font-weight: 900;
+    color: rgb(var(--terracotta-600));
+  }
+
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+
+  img {
+    display: block;
+    max-width: 100%;
+  }
+
+  button {
+    font-family: inherit;
+    cursor: pointer;
+    border: none;
+    background: none;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.001ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.001ms !important;
+      scroll-behavior: auto !important;
+    }
+  }
+}
+
+@layer components {
+  .container-page {
+    @apply mx-auto w-full max-w-[1400px] px-5 sm:px-8 lg:px-12;
+  }
+
+  .eyebrow {
+    @apply font-mono text-label uppercase text-terracotta-700;
+  }
+
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+@layer utilities {
+  .grain {
+    background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='200' height='200'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/><feColorMatrix values='0 0 0 0 0.1  0 0 0 0 0.1  0 0 0 0 0.1  0 0 0 0.04 0'/></filter><rect width='100%25' height='100%25' filter='url(%23n)'/></svg>");
+  }
+
+  .bg-kente {
+    background-image: repeating-linear-gradient(
+        45deg,
+        rgb(var(--terracotta-500) / 0.9) 0 8px,
+        rgb(var(--mango-400) / 0.95) 8px 16px,
+        rgb(var(--charcoal-900) / 0.9) 16px 22px,
+        rgb(var(--cream-100) / 0.95) 22px 30px
+      );
+  }
+
+  .bg-ankara {
+    background-image:
+      radial-gradient(circle at 25% 25%, rgb(var(--mango-500)) 0 4px, transparent 5px),
+      radial-gradient(circle at 75% 75%, rgb(var(--terracotta-600)) 0 4px, transparent 5px),
+      repeating-linear-gradient(0deg, rgb(var(--indigo-700) / 0.9) 0 2px, transparent 2px 12px),
+      repeating-linear-gradient(90deg, rgb(var(--forest-700) / 0.9) 0 2px, transparent 2px 12px);
+    background-size: 48px 48px, 48px 48px, 48px 48px, 48px 48px;
+  }
+
+  .bg-mudcloth {
+    background-image:
+      repeating-linear-gradient(90deg, rgb(var(--charcoal-900) / 0.9) 0 4px, transparent 4px 18px),
+      repeating-linear-gradient(0deg, rgb(var(--charcoal-900) / 0.9) 0 4px, transparent 4px 18px),
+      radial-gradient(circle, rgb(var(--earth-600)) 0 6px, transparent 7px);
+    background-size: 36px 36px, 36px 36px, 36px 36px;
+  }
+
+  .bg-woven {
+    background-image:
+      repeating-linear-gradient(45deg, rgb(var(--terracotta-500) / 0.9) 0 2px, transparent 2px 8px),
+      repeating-linear-gradient(-45deg, rgb(var(--mango-500) / 0.9) 0 2px, transparent 2px 8px);
+    background-size: 20px 20px;
+  }
+
+  .bg-bogolan {
+    background-image:
+      repeating-linear-gradient(0deg, rgb(var(--earth-600) / 0.95) 0 6px, transparent 6px 28px),
+      repeating-linear-gradient(90deg, rgb(var(--charcoal-900) / 0.9) 0 1px, transparent 1px 14px),
+      radial-gradient(ellipse 6px 3px at center, rgb(var(--mango-500)) 100%, transparent 100%);
+    background-size: 56px 56px, 14px 14px, 28px 28px;
+  }
+
+  .pattern-watermark {
+    mask-image: linear-gradient(to bottom, black 30%, transparent 95%);
+    opacity: 0.06;
+  }
+}

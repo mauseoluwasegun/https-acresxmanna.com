@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 120" role="img" aria-labelledby="logo2-title logo2-desc">
+  <title id="logo2-title">Cresx Manna Logo - Concept 2</title>
+  <desc id="logo2-desc">Interlocking CM monogram in hexagonal African shield motif with mango gold and terracotta</desc>
+
+  <defs>
+    <linearGradient id="shield-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#E8932A"/>
+      <stop offset="50%" style="stop-color:#C65D3A"/>
+      <stop offset="100%" style="stop-color:#8B3A1D"/>
+    </linearGradient>
+
+    <linearGradient id="cm-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#F4A73A"/>
+      <stop offset="100%" style="stop-color:#1A1A1A"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Icon: CM Monogram in African Shield -->
+  <g id="icon" transform="translate(10, 10)">
+    <!-- Hexagonal shield outline -->
+    <polygon points="50,0 95,25 95,75 50,100 5,75 5,25"
+             fill="url(#shield-grad)" stroke="#1A1A1A" stroke-width="2"/>
+
+    <!-- Inner hexagon border -->
+    <polygon points="50,12 83,30 83,70 50,88 17,70 17,30"
+             fill="none" stroke="#F4A73A" stroke-width="1.5" opacity="0.7"/>
+
+    <!-- C letter -->
+    <text x="32" y="62" font-family="'Playfair Display', Georgia, serif" font-size="48" font-weight="900" fill="#F4A73A">C</text>
+
+    <!-- M letter overlapping -->
+    <text x="50" y="62" font-family="'Playfair Display', Georgia, serif" font-size="48" font-weight="900" fill="#1A1A1A">M</text>
+
+    <!-- Crown accent at top -->
+    <path d="M35 8 L50 -5 L65 8 L60 15 L50 10 L40 15 Z" fill="#2F5D3A"/>
+  </g>
+
+  <!-- Wordmark -->
+  <g id="wordmark" transform="translate(120, 45)">
+    <text x="0" y="35" font-family="'Playfair Display', Georgia, serif" font-size="42" font-weight="900" fill="#1A1A1A" letter-spacing="-1">Cresx</text>
+    <text x="0" y="72" font-family="'DM Sans', Arial, sans-serif" font-size="28" font-weight="600" fill="#C65D3A" letter-spacing="3">MANNA</text>
+
+    <!-- Accent line -->
+    <rect x="0" y="80" width="180" height="3" fill="url(#shield-grad)"/>
+  </g>
+</svg>

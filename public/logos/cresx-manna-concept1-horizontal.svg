@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 120" role="img" aria-labelledby="logo1-title logo1-desc">
+  <title id="logo1-title">Cresx Manna Logo - Concept 1</title>
+  <desc id="logo1-desc">Stylized mango crown with kente-inspired geometric pattern in mango gold, terracotta, and forest green</desc>
+
+  <defs>
+    <!-- Kente-inspired diagonal stripes -->
+    <pattern id="kente-stripes" patternUnits="userSpaceOnUse" width="12" height="12" patternTransform="rotate(45)">
+      <rect width="4" height="12" fill="#E8932A"/>
+      <rect x="4" width="4" height="12" fill="#C65D3A"/>
+      <rect x="8" width="4" height="12" fill="#2F5D3A"/>
+    </pattern>
+
+    <!-- Mango gradient -->
+    <linearGradient id="mango-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#F4A73A"/>
+      <stop offset="100%" style="stop-color:#E8932A"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Icon: Stylized Mango Crown -->
+  <g id="icon" transform="translate(10, 10)">
+    <!-- Mango body -->
+    <path d="M45 85 Q15 65 20 35 Q25 5 50 10 Q75 5 80 35 Q85 65 55 85 Q50 88 45 85 Z"
+          fill="url(#mango-grad)" stroke="#C65D3A" stroke-width="2"/>
+
+    <!-- Kente crown detail at top -->
+    <path d="M35 15 L50 2 L65 15 L60 25 L50 18 L40 25 Z"
+          fill="url(#kente-stripes)" stroke="#1A1A1A" stroke-width="1.5"/>
+
+    <!-- Leaf accent -->
+    <path d="M75 25 Q90 15 85 35 Q80 45 75 40 Q73 32 75 25 Z"
+          fill="#2F5D3A" stroke="#1A5A30" stroke-width="1"/>
+
+    <!-- Shine highlight -->
+    <ellipse cx="35" cy="35" rx="8" ry="12" fill="white" opacity="0.3"/>
+  </g>
+
+  <!-- Wordmark -->
+  <g id="wordmark" transform="translate(110, 45)">
+    <!-- Cresx -->
+    <text x="0" y="35" font-family="'Playfair Display', Georgia, serif" font-size="42" font-weight="900" fill="#1A1A1A" letter-spacing="-1">Cresx</text>
+
+    <!-- Manna -->
+    <text x="0" y="72" font-family="'DM Sans', Arial, sans-serif" font-size="28" font-weight="600" fill="#C65D3A" letter-spacing="3">MANNA</text>
+
+    <!-- Tagline underline accent -->
+    <rect x="0" y="80" width="140" height="3" fill="#E8932A"/>
+    <rect x="145" y="80" width="50" height="3" fill="#2F5D3A"/>
+  </g>
+</svg>

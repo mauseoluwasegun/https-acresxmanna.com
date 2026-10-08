@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 220" role="img" aria-labelledby="logo3v-title logo3v-desc">
+  <title id="logo3v-title">Cresx Manna Logo - Concept 3 Vertical</title>
+  <desc id="logo3v-desc">Minimalist mango slice with leaf, vertical layout</desc>
+
+  <defs>
+    <linearGradient id="mango-slice-grad-v" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#F4A73A"/>
+      <stop offset="40%" style="stop-color:#E8932A"/>
+      <stop offset="100%" style="stop-color:#D97706"/>
+    </linearGradient>
+
+    <linearGradient id="leaf-grad-v" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#3D8B4A"/>
+      <stop offset="100%" style="stop-color:#2F5D3A"/>
+    </linearGradient>
+
+    <pattern id="fiber-texture-v" patternUnits="userSpaceOnUse" width="4" height="8">
+      <line x1="2" y1="0" x2="2" y2="8" stroke="#C65D3A" stroke-width="0.5" opacity="0.3"/>
+    </pattern>
+  </defs>
+
+  <g id="icon" transform="translate(50, 5)">
+    <ellipse cx="50" cy="50" rx="42" ry="48" fill="url(#mango-slice-grad-v)" stroke="#C65D3A" stroke-width="2"/>
+    <ellipse cx="50" cy="50" rx="35" ry="40" fill="#F4A73A" opacity="0.9"/>
+    <ellipse cx="50" cy="50" rx="35" ry="40" fill="url(#fiber-texture-v)"/>
+    <ellipse cx="50" cy="58" rx="12" ry="18" fill="#8B4513" opacity="0.8"/>
+    <ellipse cx="50" cy="55" rx="8" ry="12" fill="#A0522D" opacity="0.6"/>
+    <path d="M50 5 Q70 -10 75 15 Q65 25 55 20 Q52 12 50 5 Z" fill="url(#leaf-grad-v)" stroke="#2F5D3A" stroke-width="1"/>
+    <path d="M50 8 Q60 5 70 12" stroke="#1A1A1A" stroke-width="0.75" fill="none" opacity="0.4"/>
+    <ellipse cx="35" cy="35" rx="10" ry="15" fill="white" opacity="0.25"/>
+  </g>
+
+  <g id="wordmark" transform="translate(100, 150)">
+    <text x="0" y="0" font-family="'Playfair Display', Georgia, serif" font-size="36" font-weight="900" fill="#1A1A1A" letter-spacing="-1" text-anchor="middle">Cresx</text>
+    <text x="0" y="30" font-family="'DM Sans', Arial, sans-serif" font-size="20" font-weight="600" fill="#2F5D3A" letter-spacing="3" text-anchor="middle">MANNA</text>
+    <rect x="-40" y="38" width="80" height="2" fill="#E8932A"/>
+  </g>
+</svg>

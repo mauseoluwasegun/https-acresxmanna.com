@@ -1,0 +1,269 @@
+{
+  "meta": {
+    "siteTitle": "Acres X Manna — Africa's Richness, Transformed Into Great Food",
+    "siteDescription": "Rooted in Africa's richest farmlands, we turn the continent's finest harvests into premium food products for tables at home and around the world.",
+    "skipToContent": "Skip to content"
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "products": "Products",
+    "whatWeDo": "What We Do",
+    "impact": "Impact",
+    "contact": "Contact"
+  },
+  "hero": {
+    "eyebrow": "Acres X Manna · African Agro-Processing",
+    "headline": {
+      "africa": "Africa's",
+      "richness": "Richness.",
+      "transformed": "Transformed",
+      "into": "Into",
+      "great": "Great",
+      "food": "Food."
+    },
+    "subheadline": "Rooted in Africa's richest farmlands, we turn the continent's finest harvests into premium food products for tables at home and around the world.",
+    "cta": {
+      "explore": "Explore Our Products",
+      "partner": "Partner With Us"
+    },
+    "stats": {
+      "farmersValue": "10,000+",
+      "farmers": "Farmers Supported",
+      "marketsValue": "24+",
+      "markets": "Global Markets",
+      "capacityValue": "15,000 t/yr",
+      "capacity": "Capacity"
+    }
+  },
+  "farmToFood": {
+    "sectionEyebrow": "→ NEXT: FROM FARM TO FOOD",
+    "eyebrow": "SIGNATURE JOURNEY",
+    "headline": "From <em>Farm</em> to <em>Food</em> — in Six Stages",
+    "description": "Scroll through the full journey below. Every seed, every harvest, every plate is part of one African story.",
+    "exploreProcess": "Explore The Full Process",
+    "stages": {
+      "s1": {
+        "eyebrow": "STAGE 01 · AGRICULTURE",
+        "headline": "Seeds of <em>Africa</em>.",
+        "description": "Sourced from smallholder farms and cooperatives across Ghana, Côte d'Ivoire, and Nigeria — maize, cocoa, shea, and indigenous crops like fonio and tiger nuts."
+      },
+      "s2": {
+        "eyebrow": "STAGE 02 · HARVEST",
+        "headline": "Golden <em>harvest</em>.",
+        "description": "Hand-picked and mechanically harvested at peak ripeness. Each batch undergoes farm-gate quality grading per Ghana Standards Authority (GSA) protocols."
+      },
+      "s3": {
+        "eyebrow": "STAGE 03 · PROCESSING",
+        "headline": "Modern <em>transformation</em>.",
+        "description": "HACCP and ISO 22000-certified facilities in the Greater Accra region. Cleaning, sorting, milling, and blending — precision at every step."
+      },
+      "s4": {
+        "eyebrow": "STAGE 04 · PACKAGING",
+        "headline": "Ready for <em>the shelf</em>.",
+        "description": "Shelf-stable packaging meeting EU, USFDA, and ECOWAS food-safety requirements. Every label tells the origin story of its contents."
+      },
+      "s5": {
+        "eyebrow": "STAGE 05 · FOOD",
+        "headline": "Great <em>food</em>.",
+        "description": "From our kitchens to yours. Jollof spice blends, roasted cocoa nibs, cassava flour — nutritious, culturally rooted ingredients and ready meals."
+      },
+      "s6": {
+        "eyebrow": "STAGE 06 · GLOBAL MARKETS",
+        "headline": "For <em>the world</em>.",
+        "description": "Distributed across 24+ markets through Africa Continental Free Trade Area (AfCFTA) corridors and partnerships with EU and North American importers."
+      }
+    }
+  },
+  "about": {
+    "dividerEyebrow": "— WHO WE ARE",
+    "originEyebrow": "Our Origin Story",
+    "originHeadlineL1": "We started with one question:",
+    "originHeadlineL2": "why isn't African food,",
+    "originHeadlineL3": "everywhere?",
+    "originParagraph1": "Acres X Manna was born in Accra, Ghana, from a simple observation: Africa produces over 60% of the world's cocoa, yet less than 5% of its chocolate. We set out to close that value gap — not just in cocoa, but across grains, shea, fruits, and ready meals — by building world-class processing right where the crops grow.",
+    "originParagraph2": "Today, we operate modern food-manufacturing lines that pair community-first sourcing with international food-safety certifications (HACCP, ISO 22000, Ghana FDA). The result: premium African-made products that stand on any shelf, anywhere.",
+    "foundedYear": "2021",
+    "foundedLabel": "Founded",
+    "countriesCount": "5",
+    "countriesLabel": "Countries",
+    "readStory": "Read Full Story",
+    "seeImpact": "See Our Impact",
+    "pillarsEyebrow": "What Guides Us",
+    "pillarsHeadline": "Three pillars hold <em>everything</em> we build.",
+    "pillarsDescription": "Three promises we make to our farmers, our partners, and our customers every day.",
+    "pillar1Eyebrow": "GROUND TRUTH",
+    "pillar1Headline": "Rooted in <em>Origin</em>.",
+    "pillar1Description": "Every story starts with a seed — ours in the hands of African smallholder farmers and cooperatives who tend the land. We build for them first, paying 18–32% above local market rates to incentivize quality.",
+    "pillar2Eyebrow": "CRAFT",
+    "pillar2Headline": "Built on <em>Transformation</em>.",
+    "pillar2Description": "We combine ancestral craft with modern food manufacturing. Hygiene, traceability, and flavour engineering meet age-old knowledge inside HACCP-certified facilities near Tema, Ghana.",
+    "pillar3Eyebrow": "GLOBAL VOICE",
+    "pillar3Headline": "Driven by <em>Ambition</em>.",
+    "pillar3Description": "Africa's food on every major shelf in the world. Through AfCFTA corridors and direct partnerships with European and North American retailers, we carry the continent's story farther each year.",
+    "pullquote": "We don't just export food — we export the dignity of African labor and the joy of our tables.",
+    "pullquoteName": "Nana Kwame Asante",
+    "pullquoteTitle": "Founder & Chief Executive, Acres X Manna"
+  },
+  "products": {
+    "dividerEyebrow": "— SIGNATURE PRODUCTS",
+    "eyebrow": "Product Showcase",
+    "headlineP1": "Meet the products carrying ",
+    "headlineEmphasis": "Africa's",
+    "headlineP2": " taste forward.",
+    "categories": {
+      "all": "All",
+      "grains": "Grains & Flours",
+      "cocoa": "Cocoa & Chocolate",
+      "beverages": "Beverages",
+      "shea": "Shea & Oils",
+      "meals": "Meal Kits",
+      "teas": "Teas & Infusions"
+    },
+    "noProducts": "No products in this category yet — real catalog coming soon.",
+    "shelfEyebrow": "Explore The Shelf",
+    "shelfHeadline": "Swipe through <em>the full line</em>.",
+    "showing": "Showing",
+    "of": "of",
+    "placeholderProducts": "products",
+    "filters": "Filters",
+    "allOrigins": "All origins",
+    "allSizes": "All sizes",
+    "priceAll": "Price: All",
+    "fullCatalog": "Full catalog →",
+    "viewAll": "View All Products",
+    "becomeDistributor": "Become a Distributor"
+  },
+  "impact": {
+    "dividerEyebrow": "— IMPACT WE CAN FEEL",
+    "eyebrow": "By The Numbers",
+    "headlineP1": "Impact measured in ",
+    "headlineFarmers": "farmers",
+    "headlineFamilies": "families",
+    "headlineAnd": " and ",
+    "headlineFutures": "real futures.",
+    "description": "Every number on this page is a person, a community, or a meal on a table we helped get there.",
+    "metrics": {
+      "farmersSupported": "Farmers supported",
+      "communitiesReached": "Communities reached",
+      "productsDeveloped": "Products developed",
+      "marketsServed": "Markets served",
+      "jobsCreated": "Jobs created",
+      "productionCapacity": "Production capacity"
+    },
+    "metricsValues": {
+      "farmers": "10,000+",
+      "communities": "85",
+      "products": "36+",
+      "markets": "24+",
+      "jobs": "420+",
+      "capacity": "15,000 t/yr"
+    },
+    "storiesEyebrow": "Human Stories",
+    "storiesHeadline": "Behind each metric, a <em>real story.</em>",
+    "story1Eyebrow": "FARMER STORY · NORTHERN REGION",
+    "story1Name": "Ama Kyerewaa — Maize Farmer, Tamale",
+    "story1Text": "\"Since joining the Acres X Manna outgrower program in 2022, I received training on improved OPV maize varieties, a guaranteed off-take contract, and a 32% higher price at harvest. My children's school fees are now covered every term.\"",
+    "story2Eyebrow": "COMMUNITY · COCOA COOPERATIVE",
+    "story2Name": "Osei & Sons Cooperative, Sefwi Wiawso",
+    "story2Text": "\"Premium cocoa prices year on year, plus a school scholarship fund covering 240 farmer families. We've invested in fermentation sheds and now grade our beans to EU export standard ourselves.\"",
+    "story3Eyebrow": "TEAM STORY · PRODUCTION LINE",
+    "story3Name": "Nana Afia — Production Lead, Tema Factory",
+    "story3Text": "\"I started as a seasonal temp on the packaging line in 2021. After completing Acres X Manna's internal skills program, I now lead a team of 14 in the milling department, working with GMP and HACCP protocols daily.\"",
+    "reportEyebrow": "ACRES X MANNA IMPACT REPORT · 2024",
+    "reportHeadline": "Our full <em>impact report</em>, with methodology, community audits and data source notes.",
+    "downloadPdf": "Download PDF",
+    "viewAllStories": "View all stories"
+  },
+  "global": {
+    "dividerEyebrow": "— FROM LOCAL TO GLOBAL",
+    "eyebrow": "Global Ambition",
+    "headlineP1": "Built in Africa, ",
+    "headlineEmphasis": "shipped to the world.",
+    "description": "Our ambition is simple: make African-made food a household category on every continent. These are the markets we serve today and the roadmap ahead.",
+    "hqEyebrow": "HQ · Ghana",
+    "hqHeadline": "Our <em>home market</em> is where it all starts.",
+    "hqDescription": "West Africa is our heartland — Ghana as HQ, Nigeria as our biggest national market, and the broader cocoa belt our richest source of raw material.",
+    "hqGhana": "Ghana · HQ + milling + cocoa processing",
+    "hqNigeria": "Nigeria · Jollof / ready meals lines",
+    "hqCoteDivoire": "Côte d'Ivoire · Cocoa supply network",
+    "hqKenya": "Kenya · East Africa distribution hub",
+    "hqSouthAfrica": "South Africa · Southern Africa retail",
+    "bringToRegion": "Bring Us To Your Region",
+    "legendHQ": "HQ & Primary Processing",
+    "legendMarket": "Largest Market",
+    "legendCocoa": "Cocoa Belt",
+    "legendEastAfrica": "East Africa Hub",
+    "legendDistribution": "Regional Distribution",
+    "legendExports": "Export Markets",
+    "exportStats": {
+      "currentEyebrow": "CURRENT",
+      "currentValue": "24+",
+      "currentLabel": "Countries with current distribution",
+      "targetEyebrow": "3-YEAR TARGET",
+      "targetValue": "40+",
+      "targetLabel": "Target countries by Year 3",
+      "capacityEyebrow": "CAPACITY",
+      "capacityValue": "15,000 t/yr",
+      "capacityLabel": "Annual production capacity",
+      "exportsEyebrow": "EXPORTS",
+      "exportsValue": "38%",
+      "exportsLabel": "Of output sold outside home markets"
+    }
+  },
+  "cta": {
+    "dividerEyebrow": "— LET'S GROW TOGETHER",
+    "eyebrow": "Let's Talk",
+    "headline": "Great partnerships start with a <em>single conversation.</em>",
+    "description": "Whether you're a farmer, distributor, investor, or retailer ready to stock African-made — our team is ready to build the next step with you.",
+    "emailLabel": "Email: hello@acresxmanna.com",
+    "phoneLabel": "Phone: +233 20 811 2200",
+    "hqLabel": "HQ: Tema Industrial Area, Greater Accra, Ghana",
+    "formEyebrow": "Quick Inquiry",
+    "formHeadline": "Tell us what you need — <em>we'll reply in 48h.</em>",
+    "placeholderName": "Full name",
+    "placeholderEmail": "you@email.com",
+    "placeholderCompany": "Company / Cooperative / Farm (optional)",
+    "selectDefault": "I'm reaching out as a...",
+    "selectConsumer": "Consumer",
+    "selectFarmer": "Farmer / Supplier",
+    "selectDistributor": "Distributor / Retailer",
+    "selectPartner": "Business Partner",
+    "selectInvestor": "Investor",
+    "selectPress": "Press",
+    "selectJobSeeker": "Job Seeker",
+    "placeholderMessage": "A few sentences about what you need...",
+    "sendInquiry": "Send Inquiry",
+    "fullContactPage": "Full Contact Page",
+    "trust48h": "48h response time",
+    "trustSecure": "Secure, confidential process",
+    "trustFarmers": "Farmers-first sourcing",
+    "trustGlobal": "Global shipping + logistics"
+  },
+  "footer": {
+    "tagline": "Turning Africa's agricultural richness into great food for local communities and global tables alike.",
+    "navigate": "Navigate",
+    "footerProducts": "Products",
+    "grainsFlours": "Grains & Flours",
+    "cocoaChocolate": "Cocoa & Chocolate",
+    "beveragesNectars": "Beverages & Nectars",
+    "sheaOils": "Shea & Natural Oils",
+    "mealKits": "Meal Kits & Ready Meals",
+    "viewFullCatalog": "View full catalog →",
+    "stayConnected": "Stay Connected",
+    "location": "Accra, Ghana — West Africa",
+    "newsletter": "Newsletter",
+    "newsletterDescription": "Get updates on harvests, products & impact stories.",
+    "subscribe": "Subscribe",
+    "copyright": "© {year} Acres X Manna. All rights reserved.",
+    "privacy": "Privacy",
+    "terms": "Terms",
+    "cookies": "Cookies"
+  },
+  "languageSwitcher": {
+    "label": "Language",
+    "en": "English",
+    "fr": "Français",
+    "tw": "Twi"
+  }
+}

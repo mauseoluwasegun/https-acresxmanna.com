@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" role="img" aria-labelledby="icon1-title icon1-desc">
+  <title id="icon1-title">Cresx Manna Icon - Concept 1</title>
+  <desc id="icon1-desc">Mango crown icon for Cresx Manna</desc>
+
+  <defs>
+    <pattern id="kente-icon" patternUnits="userSpaceOnUse" width="8" height="8" patternTransform="rotate(45)">
+      <rect width="3" height="8" fill="#E8932A"/>
+      <rect x="3" width="3" height="8" fill="#C65D3A"/>
+      <rect x="6" width="2" height="8" fill="#2F5D3A"/>
+    </pattern>
+
+    <linearGradient id="mango-icon-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#F4A73A"/>
+      <stop offset="100%" style="stop-color:#E8932A"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background circle -->
+  <circle cx="50" cy="50" r="48" fill="#FEF9F3" stroke="#E8932A" stroke-width="2"/>
+
+  <!-- Mango body -->
+  <path d="M50 80 Q20 60 25 35 Q30 10 50 15 Q70 10 75 35 Q80 60 50 80 Q45 83 50 80 Z"
+        fill="url(#mango-icon-grad)" stroke="#C65D3A" stroke-width="1.5"/>
+
+  <!-- Kente crown -->
+  <path d="M38 20 L50 5 L62 20 L58 28 L50 22 L42 28 Z"
+        fill="url(#kente-icon)" stroke="#1A1A1A" stroke-width="1"/>
+
+  <!-- Leaf -->
+  <path d="M72 30 Q85 22 82 38 Q78 46 72 42 Q70 36 72 30 Z" fill="#2F5D3A"/>
+
+  <!-- Shine -->
+  <ellipse cx="38" cy="35" rx="6" ry="10" fill="white" opacity="0.35"/>
+</svg>

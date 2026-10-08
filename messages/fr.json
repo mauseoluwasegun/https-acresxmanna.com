@@ -1,0 +1,269 @@
+{
+  "meta": {
+    "siteTitle": "Acres X Manna — La richesse de l'Afrique, transformée en grande alimentation",
+    "siteDescription": "Ancrée dans les terres agricoles les plus riches d'Afrique, nous transformons les meilleures récoltes du continent en produits alimentaires premium pour les tables locales et internationales.",
+    "skipToContent": "Aller au contenu principal"
+  },
+  "nav": {
+    "home": "Accueil",
+    "about": "À propos",
+    "products": "Produits",
+    "whatWeDo": "Nos activités",
+    "impact": "Impact",
+    "contact": "Contact"
+  },
+  "hero": {
+    "eyebrow": "Acres X Manna · Agro-transformation africaine",
+    "headline": {
+      "africa": "La richesse",
+      "richness": "de l'Afrique.",
+      "transformed": "Transformée",
+      "into": "en",
+      "great": "Grande",
+      "food": "Alimentation."
+    },
+    "subheadline": "Ancrée dans les terres agricoles les plus riches d'Afrique, nous transformons les meilleures récoltes du continent en produits alimentaires premium pour les tables locales et internationales.",
+    "cta": {
+      "explore": "Explorer nos produits",
+      "partner": "Devenir partenaire"
+    },
+    "stats": {
+      "farmersValue": "10 000+",
+      "farmers": "Agriculteurs accompagnés",
+      "marketsValue": "24+",
+      "markets": "Marchés mondiaux",
+      "capacityValue": "15 000 t/an",
+      "capacity": "Capacité"
+    }
+  },
+  "farmToFood": {
+    "sectionEyebrow": "→ SUITE : DE LA FERME À L'ASSIETTE",
+    "eyebrow": "PARCOURS SIGNATURE",
+    "headline": "De la <em>ferme</em> à l'<em>assiette</em> — en six étapes",
+    "description": "Parcourez le voyage complet ci-dessous. Chaque graine, chaque récolte, chaque assiette fait partie d'une même histoire africaine.",
+    "exploreProcess": "Explorer le processus complet",
+    "stages": {
+      "s1": {
+        "eyebrow": "ÉTAPE 01 · AGRICULTURE",
+        "headline": "Semences d'<em>Afrique</em>.",
+        "description": "Approvisionnées auprès de petits exploitants et coopératives au Ghana, en Côte d'Ivoire et au Nigeria — maïs, cacao, karité et cultures indigènes comme le fonio et les noix tigrées."
+      },
+      "s2": {
+        "eyebrow": "ÉTAPE 02 · RÉCOLTE",
+        "headline": "Récolte <em>dorée</em>.",
+        "description": "Cueillies à la main et récoltées mécaniquement à maturité optimale. Chaque lot subit un contrôle qualité selon les protocoles de la Ghana Standards Authority (GSA)."
+      },
+      "s3": {
+        "eyebrow": "ÉTAPE 03 · TRANSFORMATION",
+        "headline": "Transformation <em>moderne</em>.",
+        "description": "Installations certifiées HACCP et ISO 22000 dans la région du Grand Accra. Nettoyage, tri, mouture et mélange — précision à chaque étape."
+      },
+      "s4": {
+        "eyebrow": "ÉTAPE 04 · EMBALLAGE",
+        "headline": "Prêt pour <em>les rayons</em>.",
+        "description": "Emballages à longue conservation conformes aux normes alimentaires UE, USFDA et CEDEAO. Chaque étiquette raconte l'histoire d'origine de son contenu."
+      },
+      "s5": {
+        "eyebrow": "ÉTAPE 05 · ALIMENTATION",
+        "headline": "Grande <em>cuisine</em>.",
+        "description": "De nos cuisines aux vôtres. Mélanges d'épices jollof, éclats de cacao torréfiés, farine de manioc — des ingrédients nutritifs et culturellement ancrés."
+      },
+      "s6": {
+        "eyebrow": "ÉTAPE 06 · MARCHÉS MONDIAUX",
+        "headline": "Pour <em>le monde</em>.",
+        "description": "Distribués dans plus de 24 marchés via les corridors de la Zone de libre-échange continentale africaine (ZLECAf) et des partenariats avec les importateurs européens et nord-américains."
+      }
+    }
+  },
+  "about": {
+    "dividerEyebrow": "— QUI SOMMES-NOUS",
+    "originEyebrow": "Notre histoire",
+    "originHeadlineL1": "Nous avons commencé avec une question :",
+    "originHeadlineL2": "pourquoi la cuisine africaine",
+    "originHeadlineL3": "n'est-elle pas partout ?",
+    "originParagraph1": "Acres X Manna est née à Accra, au Ghana, d'une simple observation : l'Afrique produit plus de 60 % du cacao mondial, mais moins de 5 % de son chocolat. Nous avons décidé de combler cet écart de valeur — pas seulement pour le cacao, mais aussi pour les céréales, le karité, les fruits et les plats préparés — en construisant des usines de transformation de classe mondiale là où poussent les cultures.",
+    "originParagraph2": "Aujourd'hui, nous exploitons des lignes de fabrication alimentaire modernes qui allient un approvisionnement communautaire à des certifications internationales de sécurité alimentaire (HACCP, ISO 22000, Ghana FDA). Résultat : des produits premium fabriqués en Afrique, présents sur n'importe quel rayon, n'importe où.",
+    "foundedYear": "2021",
+    "foundedLabel": "Fondée",
+    "countriesCount": "5",
+    "countriesLabel": "Pays",
+    "readStory": "Lire l'histoire complète",
+    "seeImpact": "Voir notre impact",
+    "pillarsEyebrow": "Ce qui nous guide",
+    "pillarsHeadline": "Trois piliers soutiennent <em>tout</em> ce que nous construisons.",
+    "pillarsDescription": "Trois promesses que nous faisons à nos agriculteurs, nos partenaires et nos clients chaque jour.",
+    "pillar1Eyebrow": "ANCRAGE",
+    "pillar1Headline": "Enracinés dans l'<em>Origine</em>.",
+    "pillar1Description": "Chaque histoire commence avec une graine — la nôtre dans les mains des petits agriculteurs et coopératives africains qui cultivent la terre. Nous leur donnons la priorité, en payant 18 à 32 % au-dessus des prix locaux du marché.",
+    "pillar2Eyebrow": "SAVOIR-FAIRE",
+    "pillar2Headline": "Bâtis sur la <em>Transformation</em>.",
+    "pillar2Description": "Nous combinons le savoir-faire ancestral avec la fabrication alimentaire moderne. L'hygiène, la traçabilité et l'ingénierie des saveurs rencontrent le savoir millénaire dans nos installations certifiées HACCP près de Tema, au Ghana.",
+    "pillar3Eyebrow": "AMBITION MONDIALE",
+    "pillar3Headline": "Portés par l'<em>Ambition</em>.",
+    "pillar3Description": "La nourriture africaine sur chaque grand rayon du monde. Grâce aux corridors ZLECAf et aux partenariats directs avec les distributeurs européens et nord-américains, nous portons l'histoire du continent toujours plus loin.",
+    "pullquote": "Nous n'exportons pas seulement de la nourriture — nous exportons la dignité du travail africain et la joie de nos tables.",
+    "pullquoteName": "Nana Kwame Asante",
+    "pullquoteTitle": "Fondateur et Directeur général, Acres X Manna"
+  },
+  "products": {
+    "dividerEyebrow": "— PRODUITS SIGNATURE",
+    "eyebrow": "Vitrine produits",
+    "headlineP1": "Découvrez les produits portant le goût de ",
+    "headlineEmphasis": "l'Afrique",
+    "headlineP2": " vers l'avant.",
+    "categories": {
+      "all": "Tous",
+      "grains": "Céréales et farines",
+      "cocoa": "Cacao et chocolat",
+      "beverages": "Boissons",
+      "shea": "Karité et huiles",
+      "meals": "Kits repas",
+      "teas": "Thés et infusions"
+    },
+    "noProducts": "Aucun produit dans cette catégorie pour le moment — catalogue à venir.",
+    "shelfEyebrow": "Explorer le rayon",
+    "shelfHeadline": "Parcourez <em>toute la gamme</em>.",
+    "showing": "Affichage de",
+    "of": "sur",
+    "placeholderProducts": "produits",
+    "filters": "Filtres",
+    "allOrigins": "Toutes origines",
+    "allSizes": "Toutes tailles",
+    "priceAll": "Prix : Tous",
+    "fullCatalog": "Catalogue complet →",
+    "viewAll": "Voir tous les produits",
+    "becomeDistributor": "Devenir distributeur"
+  },
+  "impact": {
+    "dividerEyebrow": "— L'IMPACT QUE L'ON RESSENT",
+    "eyebrow": "En chiffres",
+    "headlineP1": "L'impact mesuré en ",
+    "headlineFarmers": "agriculteurs",
+    "headlineFamilies": "familles",
+    "headlineAnd": " et ",
+    "headlineFutures": "avenirs réels.",
+    "description": "Chaque chiffre sur cette page est une personne, une communauté ou un repas sur une table que nous avons aidé à servir.",
+    "metrics": {
+      "farmersSupported": "Agriculteurs accompagnés",
+      "communitiesReached": "Communautés touchées",
+      "productsDeveloped": "Produits développés",
+      "marketsServed": "Marchés desservis",
+      "jobsCreated": "Emplois créés",
+      "productionCapacity": "Capacité de production"
+    },
+    "metricsValues": {
+      "farmers": "10 000+",
+      "communities": "85",
+      "products": "36+",
+      "markets": "24+",
+      "jobs": "420+",
+      "capacity": "15 000 t/an"
+    },
+    "storiesEyebrow": "Histoires humaines",
+    "storiesHeadline": "Derrière chaque chiffre, une <em>vraie histoire.</em>",
+    "story1Eyebrow": "TÉMOIGNAGE · RÉGION DU NORD",
+    "story1Name": "Ama Kyerewaa — Cultivatrice de maïs, Tamale",
+    "story1Text": "« Depuis que j'ai rejoint le programme d'agriculteurs contractuels d'Acres X Manna en 2022, j'ai bénéficié d'une formation sur les variétés de maïs OPV améliorées, d'un contrat d'achat garanti et d'un prix 32 % supérieur à la récolte. Les frais de scolarité de mes enfants sont désormais couverts chaque trimestre. »",
+    "story2Eyebrow": "COMMUNAUTÉ · COOPÉRATIVE CACAO",
+    "story2Name": "Coopérative Osei & Fils, Sefwi Wiawso",
+    "story2Text": "« Des prix premium pour le cacao année après année, plus un fonds de bourses scolaires couvrant 240 familles d'agriculteurs. Nous avons investi dans des hangars de fermentation et classons désormais nos fèves selon les normes d'exportation européennes. »",
+    "story3Eyebrow": "ÉQUIPE · LIGNE DE PRODUCTION",
+    "story3Name": "Nana Afia — Chef de production, Usine de Tema",
+    "story3Text": "« J'ai commencé comme intérimaire saisonnière sur la ligne d'emballage en 2021. Après avoir suivi le programme interne de compétences d'Acres X Manna, je dirige aujourd'hui une équipe de 14 personnes au département de mouture, travaillant quotidiennement avec les protocoles GMP et HACCP. »",
+    "reportEyebrow": "RAPPORT D'IMPACT ACRES X MANNA · 2024",
+    "reportHeadline": "Notre <em>rapport d'impact</em> complet, avec méthodologie, audits communautaires et notes sur les sources de données.",
+    "downloadPdf": "Télécharger le PDF",
+    "viewAllStories": "Voir toutes les histoires"
+  },
+  "global": {
+    "dividerEyebrow": "— DU LOCAL AU MONDIAL",
+    "eyebrow": "Ambition mondiale",
+    "headlineP1": "Fabriqué en Afrique, ",
+    "headlineEmphasis": "expédié dans le monde entier.",
+    "description": "Notre ambition est simple : faire de l'alimentation africaine une catégorie incontournable sur chaque continent. Voici les marchés que nous servons aujourd'hui et notre feuille de route.",
+    "hqEyebrow": "SIÈGE · Ghana",
+    "hqHeadline": "Notre <em>marché national</em> est le point de départ.",
+    "hqDescription": "L'Afrique de l'Ouest est notre cœur de métier — le Ghana comme siège, le Nigeria comme plus grand marché national, et la ceinture cacaoyère comme source la plus riche de matière première.",
+    "hqGhana": "Ghana · Siège + mouture + transformation du cacao",
+    "hqNigeria": "Nigeria · Lignes jollof / plats préparés",
+    "hqCoteDivoire": "Côte d'Ivoire · Réseau d'approvisionnement cacao",
+    "hqKenya": "Kenya · Hub de distribution Afrique de l'Est",
+    "hqSouthAfrica": "Afrique du Sud · Distribution Afrique australe",
+    "bringToRegion": "Nous amener dans votre région",
+    "legendHQ": "Siège et transformation primaire",
+    "legendMarket": "Plus grand marché",
+    "legendCocoa": "Ceinture cacaoyère",
+    "legendEastAfrica": "Hub Afrique de l'Est",
+    "legendDistribution": "Distribution régionale",
+    "legendExports": "Marchés d'exportation",
+    "exportStats": {
+      "currentEyebrow": "ACTUEL",
+      "currentValue": "24+",
+      "currentLabel": "Pays avec distribution actuelle",
+      "targetEyebrow": "OBJECTIF 3 ANS",
+      "targetValue": "40+",
+      "targetLabel": "Pays cibles d'ici 3 ans",
+      "capacityEyebrow": "CAPACITÉ",
+      "capacityValue": "15 000 t/an",
+      "capacityLabel": "Capacité de production annuelle",
+      "exportsEyebrow": "EXPORTATIONS",
+      "exportsValue": "38 %",
+      "exportsLabel": "De la production vendue hors marchés nationaux"
+    }
+  },
+  "cta": {
+    "dividerEyebrow": "— GRANDISSONS ENSEMBLE",
+    "eyebrow": "Parlons-en",
+    "headline": "Les grands partenariats commencent par une <em>simple conversation.</em>",
+    "description": "Que vous soyez agriculteur, distributeur, investisseur ou détaillant prêt à stocker des produits africains — notre équipe est prête à construire la prochaine étape avec vous.",
+    "emailLabel": "E-mail : hello@acresxmanna.com",
+    "phoneLabel": "Téléphone : +233 20 811 2200",
+    "hqLabel": "Siège : Zone industrielle de Tema, Grand Accra, Ghana",
+    "formEyebrow": "Demande rapide",
+    "formHeadline": "Dites-nous ce qu'il vous faut — <em>nous répondons sous 48h.</em>",
+    "placeholderName": "Nom complet",
+    "placeholderEmail": "vous@email.com",
+    "placeholderCompany": "Entreprise / Coopérative / Ferme (facultatif)",
+    "selectDefault": "Je vous contacte en tant que...",
+    "selectConsumer": "Consommateur",
+    "selectFarmer": "Agriculteur / Fournisseur",
+    "selectDistributor": "Distributeur / Détaillant",
+    "selectPartner": "Partenaire commercial",
+    "selectInvestor": "Investisseur",
+    "selectPress": "Presse",
+    "selectJobSeeker": "Chercheur d'emploi",
+    "placeholderMessage": "Quelques phrases sur vos besoins...",
+    "sendInquiry": "Envoyer la demande",
+    "fullContactPage": "Page de contact complète",
+    "trust48h": "Réponse sous 48h",
+    "trustSecure": "Processus sécurisé et confidentiel",
+    "trustFarmers": "Approvisionnement prioritaire aux agriculteurs",
+    "trustGlobal": "Expédition et logistique mondiales"
+  },
+  "footer": {
+    "tagline": "Transformer la richesse agricole de l'Afrique en grande alimentation pour les communautés locales et les tables du monde entier.",
+    "navigate": "Navigation",
+    "footerProducts": "Produits",
+    "grainsFlours": "Céréales et farines",
+    "cocoaChocolate": "Cacao et chocolat",
+    "beveragesNectars": "Boissons et nectars",
+    "sheaOils": "Karité et huiles naturelles",
+    "mealKits": "Kits repas et plats préparés",
+    "viewFullCatalog": "Voir le catalogue complet →",
+    "stayConnected": "Restez connecté",
+    "location": "Accra, Ghana — Afrique de l'Ouest",
+    "newsletter": "Newsletter",
+    "newsletterDescription": "Recevez des nouvelles sur les récoltes, les produits et les récits d'impact.",
+    "subscribe": "S'abonner",
+    "copyright": "© {year} Acres X Manna. Tous droits réservés.",
+    "privacy": "Confidentialité",
+    "terms": "Conditions",
+    "cookies": "Cookies"
+  },
+  "languageSwitcher": {
+    "label": "Langue",
+    "en": "English",
+    "fr": "Français",
+    "tw": "Twi"
+  }
+}
