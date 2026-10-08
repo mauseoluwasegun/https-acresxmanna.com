@@ -39,10 +39,8 @@ export function FinalCTASection() {
               {/* Left half — hero editorial image with overlay */}
               <div className="relative h-full min-h-[420px] sm:min-h-[480px]">
                 <img
-                  src={`https://coresg-normal.trae.ai/api/ide/v1/text_to_image?prompt=${encodeURIComponent(
-                    "Vibrant African market day scene with baskets of harvest, happy farmers shaking hands with business partners, golden hour sunlight, wide editorial banner photography",
-                  )}&image_size=landscape_16_9`}
-                  alt="Acres X Manna partnership — farmers and business partners shaking hands at harvest market"
+                  src="/images/farm-origin.jpg"
+                  alt="Acres X Manna partnership — farmers and agricultural excellence"
                   className="absolute inset-0 w-full h-full object-cover"
                 />
                 <div className="absolute inset-0 bg-gradient-to-r from-charcoal-900/90 via-charcoal-900/60 to-cream-50/10" />

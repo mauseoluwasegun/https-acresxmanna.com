@@ -183,7 +183,7 @@ export function ManufacturingSection() {
 
                   <div className="mb-5">
                     <PatternFramedImage
-                      src={`https://coresg-normal.trae.ai/api/ide/v1/text_to_image?prompt=${s.img}&image_size=landscape_4_3`}
+                      src={s.img}
                       alt={s.headline}
                       width={640}
                       height={500}
@@ -229,7 +229,7 @@ export function ManufacturingSection() {
                   className="group"
                 >
                   <PatternFramedImage
-                    src={`https://coresg-normal.trae.ai/api/ide/v1/text_to_image?prompt=${t.img}&image_size=landscape_4_3`}
+                    src={t.img}
                     alt={t.headline}
                     width={700}
                     height={900}
