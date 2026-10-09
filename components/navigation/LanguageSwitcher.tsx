@@ -6,17 +6,17 @@ import { useState, useRef, useEffect } from "react";
 import { cn } from "@/lib/utils";
 
 const languages = [
-  { code: "en", name: "English", flag: "🇬🇧" },
-  { code: "fr", name: "Français", flag: "🇫🇷" },
-  { code: "tw", name: "Twi", flag: "🇬🇭" },
-  { code: "es", name: "Español", flag: "🇪🇸" },
-  { code: "ru", name: "Русский", flag: "🇷🇺" },
-  { code: "pt", name: "Português", flag: "🇵🇹" },
-  { code: "de", name: "Deutsch", flag: "🇩🇪" },
-  { code: "it", name: "Italiano", flag: "🇮🇹" },
-  { code: "ar", name: "العربية", flag: "🇦🇪" },
-  { code: "zh-CN", name: "简体中文", flag: "🇨🇳" },
-  { code: "nl", name: "Nederlands", flag: "🇳🇱" },
+  { code: "en", name: "English", flag: "gb" },
+  { code: "fr", name: "Français", flag: "fr" },
+  { code: "tw", name: "Twi", flag: "gh" },
+  { code: "es", name: "Español", flag: "es" },
+  { code: "ru", name: "Русский", flag: "ru" },
+  { code: "pt", name: "Português", flag: "pt" },
+  { code: "de", name: "Deutsch", flag: "de" },
+  { code: "it", name: "Italiano", flag: "it" },
+  { code: "ar", name: "العربية", flag: "ae" },
+  { code: "zh-CN", name: "简体中文", flag: "cn" },
+  { code: "nl", name: "Nederlands", flag: "nl" },
 ];
 
 export function LanguageSwitcher({ isLight }: { isLight?: boolean }) {
@@ -64,7 +64,12 @@ export function LanguageSwitcher({ isLight }: { isLight?: boolean }) {
             : "text-charcoal-900 hover:bg-charcoal-900/5 hover:text-terracotta-600"
         )}
       >
-        <span className="text-lg leading-none">{currentLang.flag}</span>
+        <img
+          src={`/flags/${currentLang.flag}.svg`}
+          alt=""
+          aria-hidden="true"
+          className="h-4 w-6 object-contain"
+        />
         <span className="uppercase">{currentLang.code}</span>
       </button>
 
@@ -82,7 +87,13 @@ export function LanguageSwitcher({ isLight }: { isLight?: boolean }) {
                     : "text-charcoal-700 hover:bg-cream-50 hover:text-charcoal-900"
                 )}
               >
-                <span className="text-base">{lang.flag}</span>
+                <img
+                  src={`/flags/${lang.flag}.svg`}
+                  alt=""
+                  aria-hidden="true"
+                  className="h-4 w-6 object-contain"
+                  loading="lazy"
+                />
                 <span>{lang.name}</span>
               </button>
             ))}
