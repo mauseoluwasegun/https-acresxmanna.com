@@ -7,66 +7,89 @@ export interface Product {
   badge?: string;
   accentColor: "terracotta" | "mango" | "forest" | "indigo";
   ctaLabel?: string;
+  origin?: string;
+  terroir?: string;
+  culturalNote?: string;
 }
 
-// TODO: Replace with real product data when final catalog is confirmed
 export const PRODUCTS: Product[] = [
   {
     id: "product-01",
-    name: "African Grain Flour Blend",
+    name: "Volta Ancient Grain Flour",
     category: "GRAINS & FLOURS",
     description:
-      "Premium stone-ground blend of African ancient grains — versatile for baking, nutritious swallows, and porridge.",
+      "Stone-ground blend of ancestral sorghum, fonio, and pearl millet from the Volta basin. Naturally gluten-free, mineral-dense, and revered in West African heritage cuisine.",
     imageUrl: "/images/product-flour.jpg",
-    badge: "Bestseller",
+    badge: "Heritage Selection",
     accentColor: "terracotta",
-    ctaLabel: "Learn More",
+    origin: "Volta Basin · Ghana",
+    terroir: "Alluvial plains & rainfed riverlands",
+    culturalNote: "Sustaining West African culinary traditions for over 3,000 years",
+    ctaLabel: "Explore Harvest",
   },
   {
     id: "product-02",
-    name: "Pure Ghanaian Cocoa Powder",
+    name: "Ashanti Heirloom Cocoa Powder",
     category: "COCOA & CHOCOLATE",
     description:
-      "Single-origin Ghanaian raw & alkalized cocoa powder, intensely rich in flavonoids and natural chocolate aroma.",
+      "Single-origin Ghanaian Forastero cocoa, fermented under plantain leaves and slow sun-cured. Imparts profound dark fruit notes, raw silk finish, and exceptional polyphenol depth.",
     imageUrl: "/images/product-cocoa.jpg",
-    badge: "Premium",
+    badge: "Grand Cru",
     accentColor: "forest",
+    origin: "Sefwi Wiawso · Western North",
+    terroir: "Tropical rainforest shade canopy",
+    culturalNote: "Honoring the cocoa belt elders with 100% fair cooperative pricing",
   },
   {
     id: "product-03",
-    name: "Wildcrafted Mango Nectar",
+    name: "Wild Savanna Mango Nectar",
     category: "BEVERAGES",
     description:
-      "Cold-pressed fruit nectar made from sun-ripened West African mangoes with zero added sugar or preservatives.",
+      "Cold-extracted nectar from tree-ripened Keitt and Kent mangoes bathed in Sahelian sunshine. Pure single-press fruit essence with zero refined sugars, additives, or dilution.",
     imageUrl: "/images/product-mango.jpg",
+    badge: "Single Press",
     accentColor: "mango",
+    origin: "Kintampo Belt · Bono East",
+    terroir: "Sub-Sahelian golden sunshine orchards",
+    culturalNote: "Harvested at peak brix ripeness during the dry harmattan bounty",
   },
   {
     id: "product-04",
-    name: "Raw Organic Shea Butter",
+    name: "Northern Savanna Gold Shea",
     category: "SHEA & NATURAL OILS",
     description:
-      "Handcrafted, 100% unrefined golden shea butter sustainably sourced from women's cooperatives in Northern Ghana.",
+      "First cold-press unrefined vitellaria paradoxa butter. Handcrafted by master women custodians using woodsmoke roasting and cold filtration, preserving all active phytosterols.",
     imageUrl: "/images/product-shea.jpg",
+    badge: "Women Cooperative Reserve",
     accentColor: "forest",
+    origin: "Tamale & Dagbon · Northern Region",
+    terroir: "Sacred wild shea parklands",
+    culturalNote: "Direct off-take empowering 2,400+ women processors and their families",
   },
   {
     id: "product-05",
-    name: "Authentic Jollof Rice Kit",
+    name: "Heritage Jollof Feast Kit",
     category: "MEAL KITS & READY MEALS",
     description:
-      "Everything needed for restaurant-grade West African Jollof — premium parboiled rice, signature spice blend, and rich aromatics.",
+      "An homage to the West African culinary crown. Features long-grain parboiled rice, slow-simmered vine tomato purée, aged dawadawa seasoning, and Scotch bonnet aromatics.",
     imageUrl: "/images/product-jollof.jpg",
-    badge: "Bestseller",
+    badge: "Culinary Icon",
     accentColor: "terracotta",
+    origin: "Accra & Kumasi Artisanal Kitchens",
+    terroir: "Woodfire-simmered spice reductions",
+    culturalNote: "The authentic party-pot smokiness celebrating joyous African feasts",
   },
   {
     id: "product-06",
-    name: "Hibiscus Zobo & Ginger Tea",
+    name: "Sahelian Hibiscus & Ginger Tisane",
     category: "TEAS & INFUSIONS",
     description:
-      "Vibrant loose-leaf blend of sun-dried African hibiscus calyces, fiery ginger, and aromatic botanicals.",
+      "Sun-dried crimson Bissap (Hibiscus sabdariffa) calyces balanced with fiery hand-crushed Volta ginger and wild mint. A deeply restorative, ruby-hued royal elixir.",
     imageUrl: "/images/product-tea.jpg",
+    badge: "Royal Reserve",
     accentColor: "indigo",
+    origin: "Upper East Savannas",
+    terroir: "High-altitude mineral-rich soils",
+    culturalNote: "Served across centuries at West African celebrations and ceremonies",
   },
 ];

@@ -101,6 +101,7 @@ type PatternFramedImageProps = Omit<PatternFrameProps, "children"> &
   Omit<ComponentPropsWithoutRef<typeof Image>, "src" | "alt"> & {
     src: ImageProps["src"];
     alt: string;
+    imgClassName?: string;
   };
 
 export function PatternFramedImage({
@@ -110,8 +111,8 @@ export function PatternFramedImage({
   cornerAccent = "terracotta",
   className,
   innerClassName,
+  imgClassName,
   alt,
-  className: _imgClassName,
   ...imageProps
 }: PatternFramedImageProps) {
   return (
@@ -128,7 +129,7 @@ export function PatternFramedImage({
         {...imageProps}
         className={cn(
           "w-full h-full object-cover transition-transform duration-700 ease-spring-soft group-hover:scale-[1.08]",
-          _imgClassName,
+          imgClassName,
         )}
       />
     </PatternFrame>

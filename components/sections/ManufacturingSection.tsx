@@ -14,40 +14,40 @@ import { cn } from "@/lib/utils";
 
 const MFG_STAGES = [
   {
-    eyebrow: "RAW MATERIALS",
-    headline: "Hand-picked <em>African harvests.</em>",
+    eyebrow: "HARVEST & TERROIR",
+    headline: "Hand-picked by <em>generational custodians.</em>",
     description:
-      "Seasoned graders and QC officers receive grains, cocoa, shea nuts, fruits and indigenous crops directly from our cooperatives and farming partners. Traceable from farm-gate.",
+      "Sourced directly from outgrower cooperatives across the Ashanti cocoa belt, Sahelian shea parklands, and Volta grain plains. Graded at the farm gate, honoring traditional harvesting rhythms with digital batch traceability.",
     accent: "terracotta" as const,
     iconName: "wheat" as const,
     pattern: "kente" as const,
     img: "/images/farm-origin.jpg",
   },
   {
-    eyebrow: "PROCESSING",
-    headline: "Modern, <em>hygienic, precise.</em>",
+    eyebrow: "TRANSFORMATION",
+    headline: "Ancestral craft, <em>modern food science.</em>",
     description:
-      "Cleaning, sorting, milling, blending, roasting, pressing. Automated and semi-automated lines run under HACCP / ISO-aligned protocols, overseen by trained production teams.",
+      "Sun-curing under plantain leaves, stone-milling, and precision cold extraction. Our Tema manufacturing lines marry age-old agro-wisdom with strict HACCP and ISO 22000 protocols.",
     accent: "forest" as const,
     iconName: "factory" as const,
     pattern: "mudcloth" as const,
     img: "/images/processing-facility.jpg",
   },
   {
-    eyebrow: "PACKAGING",
-    headline: "Built for the <em>shelf.</em>",
+    eyebrow: "CULINARY PRESERVATION",
+    headline: "Engineered for <em>global fine dining.</em>",
     description:
-      "Shelf-stable, premium, culturally resonant packaging. Retort, aseptic and sustainable options. Every carton tells a small piece of the African story.",
+      "Sustainable barrier packaging and retort technologies that lock in delicate volatile aromas, nutrients, and terroir identity — free from artificial additives or preservatives.",
     accent: "indigo" as const,
     iconName: "box" as const,
     pattern: "bogolan" as const,
     img: "/images/hero-bg.jpg",
   },
   {
-    eyebrow: "FINISHED FOOD",
-    headline: "Great food, <em>finally.</em>",
+    eyebrow: "AFRICAN SOVEREIGNTY",
+    headline: "Finished food, <em>celebrated worldwide.</em>",
     description:
-      "Rigorous final QA, shelf-life testing, and organoleptic sign-off before pallets leave our warehouses — bound for shelves, kitchens and dinner tables across the globe.",
+      "Rigorous sensory panels, nutritional certification, and organoleptic sign-off before pallets depart Accra — proudly elevating African culinary heritage across 24+ global markets.",
     accent: "mango" as const,
     iconName: "plate" as const,
     pattern: "ankara" as const,
@@ -57,22 +57,22 @@ const MFG_STAGES = [
 
 const TRIPTYCH = [
   {
-    eyebrow: "QUALITY",
-    headline: "Rigorous QA, every batch.",
+    eyebrow: "TERROIR INTEGRITY",
+    headline: "100% Value Added on African Soil.",
     img: "/images/processing-facility.jpg",
     pattern: "kente" as const,
     corner: "terracotta" as const,
   },
   {
-    eyebrow: "CERTIFICATIONS",
-    headline: "HACCP · ISO · FDA-aligned.",
+    eyebrow: "WORLD-CLASS STANDARDS",
+    headline: "HACCP · ISO 22000 · FDA-Aligned.",
     img: "/images/hero-bg.jpg",
     pattern: "mudcloth" as const,
     corner: "forest" as const,
   },
   {
-    eyebrow: "SUSTAINABILITY",
-    headline: "Low waste, high purpose.",
+    eyebrow: "COMMUNAL PROSPERITY",
+    headline: "Fair Off-Take & Living Income Premiums.",
     img: "/images/farm-origin.jpg",
     pattern: "bogolan" as const,
     corner: "indigo" as const,
@@ -80,14 +80,14 @@ const TRIPTYCH = [
 ] as const;
 
 const CAPABILITIES = [
-  "Contract manufacturing",
-  "Private label & white-label",
-  "Co-packing & formulation",
-  "HACCP / GMP / QA labs on-site",
-  "Dry milling & blending",
-  "Cold chain & beverage lines",
-  "Cocoa & shea butter presses",
-  "Export-ready palletization",
+  "Single-origin cocoa & liquor pressing",
+  "Sahelian cold-pressed virgin shea butter",
+  "Heritage ancient grain milling (fonio, sorghum, millet)",
+  "HACCP & ISO 22000 certified cleanrooms",
+  "Retort pouching & shelf-stable African ready meals",
+  "Private label & bespoke formulation for luxury hospitality",
+  "Solar-assisted dehydration & botanical teas",
+  "Direct AfCFTA, EU & North America export logistics",
 ];
 
 export function ManufacturingSection() {
@@ -96,7 +96,7 @@ export function ManufacturingSection() {
       <PatternDivider
         pattern="woven"
         thickness="bold"
-        eyebrow="— MANUFACTURING"
+        eyebrow="— MANUFACTURING & HERITAGE"
         eyebrowAccent="mango"
       />
 
@@ -119,19 +119,17 @@ export function ManufacturingSection() {
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 items-end mb-16 sm:mb-20">
             <div className="lg:col-span-7">
               <Eyebrow accent="forest" className="mb-5">
-                How The Sausage Gets Made
+                The Science of African Transformation
               </Eyebrow>
               <h2 className="font-display font-black text-display-1 leading-[0.98] text-balance max-w-4xl">
-                <ScrollTypingText text="From raw harvest to the " speed={25} />
-                <em className="not-italic text-terracotta-600"><ScrollTypingText text="finished plate" speed={25} delay={0.1} /></em>
-                <ScrollTypingText text=" — end-to-end, in our hands." speed={25} delay={0.2} />
+                <ScrollTypingText text="From ancestral harvest to the " speed={25} />
+                <em className="not-italic text-terracotta-600"><ScrollTypingText text="world's tables" speed={25} delay={0.1} /></em>
+                <ScrollTypingText text=" — sovereign, pristine, uncompromising." speed={25} delay={0.2} />
               </h2>
             </div>
             <div className="lg:col-span-5 lg:pr-6">
               <p className="font-sans text-body-lg text-charcoal-700 leading-relaxed max-w-lg">
-                The work of transformation happens in four stages. Scroll
-                through our process, capabilities, and the standards that
-                bind them together.
+                We believe Africa should never just export raw bulk ingredients. We transform our continent&apos;s richness in-country — with generational reverence, laboratory precision, and culinary artistry.
               </p>
             </div>
           </div>

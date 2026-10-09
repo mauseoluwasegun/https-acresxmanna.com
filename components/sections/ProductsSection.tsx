@@ -162,7 +162,7 @@ export function ProductsSection() {
                     />
                   </div>
                   {p.badge && (
-                    <div className="absolute top-4 right-4 z-20 rounded-full px-3.5 py-1.5 bg-charcoal-900/90 backdrop-blur text-cream-50 font-mono text-micro uppercase tracking-[0.14em]">
+                    <div className="absolute top-4 right-4 z-20 rounded-full px-3.5 py-1.5 bg-charcoal-900/90 backdrop-blur border border-mango-400/30 text-mango-300 font-mono text-micro uppercase tracking-[0.14em] shadow-sm">
                       {p.badge}
                     </div>
                   )}
@@ -183,21 +183,31 @@ export function ProductsSection() {
                     )}
                   />
 
-                  <div className="absolute inset-x-0 bottom-0 z-20 p-5 sm:p-7 bg-gradient-to-t from-charcoal-900/85 via-charcoal-900/40 to-transparent">
-                    <p
-                      className={cn(
-                        "font-mono text-micro uppercase tracking-[0.16em] mb-1.5",
-                        p.accentColor === "terracotta"
-                          ? "text-mango-400"
-                          : p.accentColor === "forest"
-                            ? "text-forest-200"
-                            : p.accentColor === "indigo"
-                              ? "text-indigo-200"
-                              : "text-mango-300",
+                  <div className="absolute inset-x-0 bottom-0 z-20 p-5 sm:p-7 bg-gradient-to-t from-charcoal-900/95 via-charcoal-900/60 to-transparent">
+                    <div className="flex items-center gap-2 mb-1.5 flex-wrap">
+                      <p
+                        className={cn(
+                          "font-mono text-micro uppercase tracking-[0.16em]",
+                          p.accentColor === "terracotta"
+                            ? "text-mango-400"
+                            : p.accentColor === "forest"
+                              ? "text-forest-200"
+                              : p.accentColor === "indigo"
+                                ? "text-indigo-200"
+                                : "text-mango-300",
+                        )}
+                      >
+                        {p.category}
+                      </p>
+                      {p.origin && (
+                        <>
+                          <span className="text-cream-100/40 text-xs">·</span>
+                          <span className="font-mono text-[11px] text-cream-100/80 tracking-wide">
+                            📍 {p.origin}
+                          </span>
+                        </>
                       )}
-                    >
-                      {p.category}
-                    </p>
+                    </div>
                     <h3 className="font-display font-black text-[clamp(1.1rem,2.1vw,1.9rem)] leading-[1.05] text-cream-50">
                       {p.name}
                     </h3>
@@ -206,6 +216,11 @@ export function ProductsSection() {
                         className="mt-2 text-cream-50/90 font-sans text-body-sm max-w-md leading-relaxed"
                         dangerouslySetInnerHTML={{ __html: p.description }}
                       />
+                    )}
+                    {p.culturalNote && (
+                      <p className="mt-2 font-sans italic text-xs text-mango-200/90 line-clamp-1">
+                        &ldquo;{p.culturalNote}&rdquo;
+                      </p>
                     )}
                   </div>
                 </article>

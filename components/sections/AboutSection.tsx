@@ -247,13 +247,16 @@ export function AboutSection() {
                   className="opacity-80"
                 />
                 <div className="relative">
-                  <div className="flex items-start justify-between mb-6">
+                  <div className="flex items-start justify-between mb-5">
                     <HandDrawnIcon
                       name={p.iconName}
                       size={46}
                       color={p.iconColor}
                       withFrame
                     />
+                    <span className="font-mono text-[10px] uppercase tracking-[0.16em] px-2.5 py-1 rounded-full bg-cream-100/80 text-charcoal-700/80 border border-charcoal-900/10">
+                      {i === 0 ? "SANKOFA" : i === 1 ? "ASASE YAA" : "NKONSONKONSON"}
+                    </span>
                   </div>
 
                   <Eyebrow accent={p.corner} className="mb-3">

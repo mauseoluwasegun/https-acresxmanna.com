@@ -135,12 +135,12 @@ export function ScrollTypingText({
 
   return (
     <Tag ref={containerRef} className={className}>
-      {reduce ? text : (started ? displayed : (isVisible ? "" : text))}
+      {reduce ? text : (started ? displayed : text)}
       {!reduce && started && displayed.length < text.length && (
         <motion.span
           animate={{ opacity: [1, 0] }}
           transition={{ duration: 0.5, repeat: Infinity }}
-          className="inline-block w-[2px] h-[0.9em] bg-current ml-[2px] align-middle"
+          className="inline-block w-[2px] h-[0.9em] bg-terracotta-500 ml-[2px] align-middle"
         />
       )}
     </Tag>

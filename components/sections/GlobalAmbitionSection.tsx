@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { SectionContainer } from "@/components/layout/SectionContainer";
 import { Eyebrow } from "@/components/ui/Eyebrow";
 import { Button } from "@/components/ui/Button";
@@ -213,47 +214,24 @@ export function GlobalAmbitionSection() {
               {/* Left panel: map */}
               <div className="lg:col-span-8 p-6 sm:p-10">
                 <div className="relative w-full aspect-[2/1.15] rounded-soft overflow-hidden bg-cream-50/80 border border-charcoal-900/5">
-                  {/* Stylized world background (dot grid + continents tint) */}
+                  {/* World map background image */}
+                  <Image
+                    src="/images/world-map.jpg"
+                    alt="World map showing Acres X Manna global presence"
+                    fill
+                    className="object-cover object-center opacity-90"
+                    sizes="(max-width: 1024px) 100vw, 66vw"
+                    priority
+                  />
+
+                  {/* Connection lines overlay */}
                   <svg
                     viewBox="0 0 1000 575"
                     className="absolute inset-0 w-full h-full"
                     aria-hidden
                   >
-                    <defs>
-                      <pattern id="dotgrid" width="10" height="10" patternUnits="userSpaceOnUse">
-                        <circle cx="1" cy="1" r="1" fill="rgb(var(--indigo-700) / 0.25)" />
-                      </pattern>
-                      <radialGradient id="mapglow" cx="50%" cy="55%" r="60%">
-                        <stop offset="0%" stopColor="rgb(var(--mango-400) / 0.25)" />
-                        <stop offset="60%" stopColor="rgb(var(--terracotta-500) / 0.08)" />
-                        <stop offset="100%" stopColor="transparent" />
-                      </radialGradient>
-                    </defs>
-                    <rect width="1000" height="575" fill="url(#dotgrid)" />
-                    <rect width="1000" height="575" fill="url(#mapglow)" />
-
-                    {/* Africa block (highlights) */}
-                    <g fill="rgb(var(--terracotta-500) / 0.08)" stroke="rgb(var(--terracotta-500) / 0.35)" strokeWidth="1.6">
-                      <path d="M340 250 Q 360 230 380 240 Q 400 220 430 230 Q 455 210 480 230 Q 520 215 555 240 Q 580 260 580 290 Q 605 310 610 340 Q 625 370 610 400 Q 600 435 570 455 Q 550 480 520 490 Q 495 498 475 485 Q 440 500 410 490 Q 385 495 360 475 Q 335 460 330 430 Q 310 400 320 370 Q 300 345 305 315 Q 300 285 320 265 Q 330 255 340 250 Z" />
-                    </g>
-
-                    {/* Europe block */}
-                    <g fill="rgb(var(--indigo-700) / 0.08)" stroke="rgb(var(--indigo-700) / 0.35)" strokeWidth="1.5">
-                      <path d="M430 130 L 470 115 L 500 120 L 520 140 L 500 160 L 470 175 L 440 170 Z" />
-                    </g>
-
-                    {/* North America block */}
-                    <g fill="rgb(var(--terracotta-500) / 0.07)" stroke="rgb(var(--terracotta-500) / 0.3)" strokeWidth="1.5">
-                      <path d="M 80 170 L 200 150 L 260 190 L 240 250 L 180 290 L 120 270 L 80 240 Z" />
-                    </g>
-
-                    {/* Middle East block */}
-                    <g fill="rgb(var(--mango-500) / 0.12)" stroke="rgb(var(--mango-500) / 0.5)" strokeWidth="1.5">
-                      <path d="M580 240 L 640 230 L 680 250 L 670 285 L 620 300 L 580 280 Z" />
-                    </g>
-
-                    {/* Connections — dashed lines from Ghana hub to export pins */}
-                    <g stroke="rgb(var(--terracotta-500) / 0.45)" strokeWidth="2.2" strokeDasharray="4 6" fill="none" strokeLinecap="round">
+                    {/* Dashed lines from Ghana hub to export pins */}
+                    <g stroke="#c4623a" strokeWidth="2.2" strokeDasharray="4 6" fill="none" strokeLinecap="round" opacity="0.55">
                       <path d="M 400 355 Q 450 230 470 175" /> {/* Ghana → UK */}
                       <path d="M 400 355 Q 280 260 180 220" /> {/* Ghana → US */}
                       <path d="M 400 355 Q 510 300 640 260" /> {/* Ghana → UAE */}
