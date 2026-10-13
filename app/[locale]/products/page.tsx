@@ -1,77 +1,40 @@
-import { SectionContainer } from "@/components/layout/SectionContainer";
-import { PatternDivider } from "@/components/animations/PatternDivider";
-import { Eyebrow } from "@/components/ui/Eyebrow";
-import { Button } from "@/components/ui/Button";
-import { PatternFramedImage } from "@/components/ui/PatternFrame";
-import { PRODUCTS } from "@/lib/products";
-import { useTranslations } from "next-intl";
+import type { Metadata } from "next";
+import { PageHero } from "@/components/site/PageHero";
+import { ProductsFilter } from "@/components/site/ProductsFilter";
+import { CTA } from "@/components/site/CTA";
+import { SectionTitle } from "@/components/site/SectionTitle";
+import { FAQSection } from "@/components/site/FAQSection";
+import { faqs, products } from "@/lib/site-content";
+import { pageMetadata } from "@/lib/seo";
+
+export const metadata: Metadata = pageMetadata(
+  "Garri, Plantain Chips, Groundnuts and More",
+  "Explore AcresxManna’s African food products: garri, cassava flour, groundnuts, cashew nuts, plantain chips and hibiscus teas.",
+  "/products",
+);
 
 export default function ProductsPage() {
-  const t = useTranslations("products");
-  const tNav = useTranslations("nav");
-
   return (
-    <main id="main" className="pt-32 pb-24">
-      <SectionContainer size="wide" className="text-center">
-        <Eyebrow className="mb-5">{t("eyebrow")}</Eyebrow>
-        <h1 className="font-display font-black text-display-1 text-balance mx-auto max-w-4xl">
-          {t("headlineP1")} <em>{t("headlineEmphasis")}</em> {t("headlineP2")}
-        </h1>
-        <p className="mt-8 font-sans text-body-lg text-charcoal-700 max-w-2xl mx-auto leading-relaxed">
-          {t("shelfHeadline")}
-        </p>
-      </SectionContainer>
-
-      <div className="my-20">
-        <PatternDivider pattern="kente" thickness="medium" />
-      </div>
-
-      <SectionContainer size="wide">
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 sm:gap-10">
-          {PRODUCTS.map((p) => (
-            <article
-              key={p.id}
-              className="group relative rounded-soft-lg bg-white/60 border border-cream-100 p-5 shadow-card hover:shadow-card-hover transition-all duration-500 hover:-translate-y-2"
-            >
-              <PatternFramedImage
-                src={p.imageUrl}
-                alt={p.name}
-                width={600}
-                height={760}
-                thickness="medium"
-                pattern={
-                  p.accentColor === "forest"
-                    ? "bogolan"
-                    : p.accentColor === "indigo"
-                      ? "mudcloth"
-                      : p.accentColor === "mango"
-                        ? "woven"
-                        : "ankara"
-                }
-                cornerAccent={p.accentColor as any}
-                className="aspect-[4/5] mb-6"
-                priority={false}
-              />
-              <Eyebrow className="mb-3" accent={p.accentColor as any}>
-                {p.category}
-              </Eyebrow>
-              <h3 className="font-display font-black text-heading-1 mb-2">
-                {p.name}
-              </h3>
-              <p
-                className="font-sans text-body-md text-charcoal-700 leading-relaxed"
-                dangerouslySetInnerHTML={{ __html: p.description }}
-              />
-            </article>
-          ))}
+    <main id="main">
+      <PageHero
+        eyebrow="Our products"
+        title="African agricultural products, transformed into everyday food."
+        intro="From traditional staples to snacks, ingredients and beverages, our portfolio is built around African agricultural resources."
+        path="/products"
+      />
+      <section className="section section--paper">
+        <div className="section-inner">
+          <ProductsFilter products={products} />
+          <p className="status-note text-center">Export focused today; Nigerian retail is planned through shops and the UncleTobi online grocery store. Products are packed to each client’s requirements, so we don’t publish standard pack sizes.</p>
         </div>
-
-        <div className="text-center mt-20">
-          <Button href="/" variant="secondary" size="lg">
-            ← {tNav("home")}
-          </Button>
+      </section>
+      <section className="section section--soft">
+        <div className="section-inner">
+          <SectionTitle eyebrow="Good to know" title="Let’s answer a few product questions." align="center" />
+          <FAQSection entries={faqs.slice(1, 7)} />
         </div>
-      </SectionContainer>
+      </section>
+      <CTA title="Looking for a product or pack format?" text="Tell us what you need. Product details and availability depend on your requirements and destination." primaryLabel="Request product information" primaryHref="/contact?type=product" />
     </main>
   );
 }

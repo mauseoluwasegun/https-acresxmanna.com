@@ -4,8 +4,8 @@
   "description": "Africa's Richness, Transformed Into Great Food",
   "start_url": "/",
   "display": "standalone",
-  "background_color": "#faf6f0",
-  "theme_color": "#c66d3a",
+  "background_color": "#FFFFFF",
+  "theme_color": "#594B9A",
   "icons": [
     {
       "src": "/favicon.svg",

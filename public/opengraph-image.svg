@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#594B9A"/>
+  <circle cx="1040" cy="100" r="260" fill="#FDDC42" opacity=".12"/>
+  <circle cx="1050" cy="110" r="190" fill="none" stroke="#FFFFFF" stroke-opacity=".4" stroke-width="3"/>
+  <path d="M0 500c190-70 302 68 488 10 180-56 284-34 430 9s203 35 282-3v114H0z" fill="#FDDC42"/>
+  <text x="82" y="210" fill="#FDDC42" font-family="Arial,Helvetica,sans-serif" font-size="28" font-weight="700" letter-spacing="4">ACRESXMANNA</text>
+  <text x="82" y="322" fill="#FFFFFF" font-family="Arial,Helvetica,sans-serif" font-size="66" font-weight="700">Africa’s food.</text>
+  <text x="82" y="402" fill="#FFFFFF" font-family="Arial,Helvetica,sans-serif" font-size="66" font-weight="700">Processed for the world.</text>
+</svg>

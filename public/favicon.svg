@@ -1,31 +1,14 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 220" role="img" aria-labelledby="logo2v-title logo2v-desc">
-  <title id="logo2v-title">Cresx Manna Logo - Concept 2 Vertical</title>
-  <desc id="logo2v-desc">Interlocking CM monogram in hexagonal African shield motif, vertical layout</desc>
-
-  <defs>
-    <linearGradient id="shield-grad-v" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#E8932A"/>
-      <stop offset="50%" style="stop-color:#C65D3A"/>
-      <stop offset="100%" style="stop-color:#8B3A1D"/>
-    </linearGradient>
-  </defs>
-
-  <g id="icon" transform="translate(50, 10)">
-    <polygon points="50,0 95,25 95,75 50,100 5,75 5,25"
-             fill="url(#shield-grad-v)" stroke="#1A1A1A" stroke-width="2"/>
-
-    <polygon points="50,12 83,30 83,70 50,88 17,70 17,30"
-             fill="none" stroke="#F4A73A" stroke-width="1.5" opacity="0.7"/>
-
-    <text x="32" y="62" font-family="'Playfair Display', Georgia, serif" font-size="48" font-weight="900" fill="#F4A73A">C</text>
-    <text x="50" y="62" font-family="'Playfair Display', Georgia, serif" font-size="48" font-weight="900" fill="#1A1A1A">M</text>
-
-    <path d="M35 8 L50 -5 L65 8 L60 15 L50 10 L40 15 Z" fill="#2F5D3A"/>
-  </g>
-
-  <g id="wordmark" transform="translate(100, 150)">
-    <text x="0" y="0" font-family="'Playfair Display', Georgia, serif" font-size="36" font-weight="900" fill="#1A1A1A" letter-spacing="-1" text-anchor="middle">Cresx</text>
-    <text x="0" y="30" font-family="'DM Sans', Arial, sans-serif" font-size="20" font-weight="600" fill="#C65D3A" letter-spacing="3" text-anchor="middle">MANNA</text>
-    <rect x="-40" y="38" width="80" height="2" fill="url(#shield-grad-v)"/>
-  </g>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" version="1.1" width="712" height="713" viewBox="644 643 712 713">
+<title>Acres &amp; Manna brand symbol</title>
+<defs>
+<clipPath id="clip_1">
+<path transform="matrix(1,0,0,-1,0,2000)" d="M0 2000H2000V0H0Z"/>
+</clipPath>
+</defs>
+<g>
+<path transform="matrix(1,0,0,-1,976.5042,977.0469)" d="M0 0H.008 122.506L129.282 4.913 319.494 142.846 281.736 194.916 91.516 56.983 84.593 51.957V51.965L87.246 60.094 160.052 283.497 98.897 303.429 26.091 80.026H26.083L23.429 71.897 20.792 80.034-51.612 303.558-112.799 283.738-40.395 60.215-37.758 52.062-44.681 57.111-234.644 195.382-272.498 143.377-82.535 5.106-75.62 .064H-75.612V.056" fill="#594B9A"/>
+<g clip-path="url(#clip_1)">
+<path transform="matrix(1,0,0,-1,1296,1166.3334)" d="M0 0-37.853-52.007-69.375-29.062C-92.93-11.916-125.02-12.552-147.878-30.616L-150.156-32.416C-171.461-49.253-180.045-77.566-171.676-103.399L-159.706-140.35-220.888-160.178-234.33-118.695C-243.01-91.905-267.964-73.76-296.124-73.76-324.244-73.76-349.171-91.853-357.885-118.589L-371.399-160.055-432.561-140.125-422.928-110.57C-414.5-84.708-423.076-56.334-444.419-39.472L-450.422-34.729C-473.247-16.696-505.277-16.036-528.826-33.113L-554.229-51.536-592 .532-401.774 138.465-395.015 143.381H-272.506L-196.883 143.319-189.96 138.28Z" fill="#594B9A"/>
+</g>
+</g>
 </svg>

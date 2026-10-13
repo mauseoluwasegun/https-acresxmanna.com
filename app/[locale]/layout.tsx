@@ -1,37 +1,42 @@
 import type { Metadata, Viewport } from "next";
 import type { ReactNode } from "react";
-import { NextIntlClientProvider } from 'next-intl';
-import { getMessages, getTranslations } from 'next-intl/server';
-import { fontDisplay, fontSans, fontMono, fontLogo } from "@/lib/fonts";
-import { SiteHeader } from "@/components/navigation/SiteHeader";
-import { Footer } from "@/components/footer/Footer";
+import { NextIntlClientProvider } from "next-intl";
+import { getMessages } from "next-intl/server";
+import { ConsentBanner } from "@/components/site/ConsentBanner";
+import { SiteFooter } from "@/components/site/SiteFooter";
+import { SiteHeader } from "@/components/site/SiteHeader";
+import { StructuredData } from "@/components/site/StructuredData";
 import { routing } from "@/i18n/routing";
-import "../globals.css";
+import "../site.css";
 
 const SITE_URL = "https://acresxmanna.com";
 
-export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
-  const { locale } = await params;
-  const t = await getTranslations({ locale, namespace: 'hero' });
-  
-  return {
-    title: {
-      default: "AcresxManna — Africa's Richness, Transformed Into Great Food",
-      template: "%s · AcresxManna",
-    },
-    description: t('subheadline'),
-    icons: {
-      icon: '/favicon.svg',
-      apple: '/favicon.svg',
-    },
-  } satisfies Metadata;
-}
+export const metadata: Metadata = {
+  metadataBase: new URL(SITE_URL),
+  title: {
+    default: "AcresxManna | African Agro-Processing and Food",
+    template: "%s | AcresxManna",
+  },
+  description: "AcresxManna turns Africa’s agricultural resources into quality food products through processing, manufacturing and market access.",
+  robots: { index: false, follow: false },
+  openGraph: {
+    type: "website",
+    siteName: "AcresxManna",
+    title: "AcresxManna | African Agro-Processing and Food",
+    description: "Africa’s food. Processed for the world.",
+    url: SITE_URL,
+    images: [{ url: "/opengraph-image.svg", width: 1200, height: 630, alt: "AcresxManna — African agro-processing and food" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "AcresxManna | African Agro-Processing and Food",
+    description: "Africa’s food. Processed for the world.",
+    images: ["/opengraph-image.svg"],
+  },
+};
 
 export const viewport: Viewport = {
-  themeColor: [
-    { media: "(prefers-color-scheme: light)", color: "#FAF6F0" },
-    { media: "(prefers-color-scheme: dark)", color: "#1A1A1A" },
-  ],
+  themeColor: "#594B9A",
   width: "device-width",
   initialScale: 1,
 };
@@ -42,7 +47,7 @@ export function generateStaticParams() {
 
 export default async function LocaleLayout({
   children,
-  params
+  params,
 }: {
   children: ReactNode;
   params: Promise<{ locale: string }>;
@@ -51,26 +56,26 @@ export default async function LocaleLayout({
   const messages = await getMessages();
 
   return (
-    <html
-      lang={locale}
-      className={`${fontDisplay.variable} ${fontSans.variable} ${fontMono.variable} ${fontLogo.variable} scroll-smooth`}
-    >
-      <head>
-        <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
-        <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
-        <link rel="manifest" href="/manifest.json" />
-      </head>
-      <body className="bg-cream-100 text-charcoal-900 antialiased" suppressHydrationWarning>
+    <html data-scroll-behavior="smooth" lang={locale}>
+      <body>
         <NextIntlClientProvider messages={messages}>
-          <a
-            href="#main"
-            className="sr-only focus:not-sr-only focus:fixed focus:left-4 focus:top-4 focus:z-[100] focus:rounded-soft focus:bg-terracotta-500 focus:px-5 focus:py-3 focus:font-sans focus:font-bold focus:text-white"
-          >
-            Skip to content
-          </a>
+          <StructuredData
+            value={{
+              "@context": "https://schema.org",
+              "@type": "Organization",
+              name: "AcresxManna",
+              url: SITE_URL,
+              email: "info@acresxmanna.com",
+              telephone: "+234 804 700 0587",
+              sameAs: ["https://www.instagram.com/acresxmanna/"],
+              logo: `${SITE_URL}/logos/acres-manna-horizontal.svg`,
+            }}
+          />
+          <a className="skip-link" href="#main">Skip to content</a>
           <SiteHeader />
           {children}
-          <Footer />
+          <SiteFooter />
+          <ConsentBanner />
         </NextIntlClientProvider>
       </body>
     </html>
