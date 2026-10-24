@@ -7,11 +7,19 @@ import { Button } from "@/components/ui/Button";
 import { BusinessFaq } from "@/components/sections/BusinessFaq";
 import { ScrollReveal } from "@/components/animations/MotionSection";
 
-export const metadata = {
-  title: "Global Markets",
-  description:
-    "We’re building a business that connects African food production with customers and opportunities in international markets.",
-};
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}) {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: "pages.globalMarkets" });
+
+  return {
+    title: t("metadataTitle"),
+    description: t("metadataDescription"),
+  };
+}
 
 const marketSteps = [
   {

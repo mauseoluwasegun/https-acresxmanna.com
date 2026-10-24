@@ -9,11 +9,19 @@ import { IMPACT_METRICS, IMPACT_SCORECARD } from "@/lib/constants";
 import { ScrollReveal } from "@/components/animations/MotionSection";
 
 
-export const metadata = {
-  title: "Impact",
-  description:
-    "Explore the business focus areas behind AcresxManna's agro-processing and food manufacturing work.",
-};
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}) {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: "pages.impact" });
+
+  return {
+    title: t("metadataTitle"),
+    description: t("metadataDescription"),
+  };
+}
 
 const impactStories = [
   {

@@ -6,7 +6,11 @@
   },
   "layout": {
     "title": "AcresxManna — De rijkdom van Afrika, getransformeerd in geweldig eten",
-    "description": "Geworteld in de rijkste landbouwgronden van Afrika."
+    "description": "Geworteld in de rijkste landbouwgronden van Afrika.",
+    "titleTemplate": "%s | AcresxManna",
+    "ogImageAlt": "AcresxManna — Afrikaanse Agrofoodgroep",
+    "legalName": "AcresxManna-groep",
+    "skipToContent": "Ga naar de inhoud"
   },
   "nav": {
     "home": "Home",
@@ -15,7 +19,13 @@
     "whatWeDo": "Wat We Doen",
     "what-we-do": "Wat We Doen",
     "impact": "Impact",
-    "contact": "Contact"
+    "contact": "Contact",
+    "primaryAria": "Primaire navigatie",
+    "more": "Meer",
+    "letsTalk": "Laten we praten",
+    "openMenu": "Menu openen",
+    "mobileAria": "Mobiele navigatie",
+    "closeMenu": "Menu sluiten"
   },
   "hero": {
     "eyebrow": "AcresxManna · Afrikaanse landbouwverwerking",
@@ -319,7 +329,29 @@
     "copyright": "© {year} AcresxManna.",
     "privacy": "Privacy",
     "terms": "Voorwaarden",
-    "cookies": "Cookies"
+    "cookies": "Cookies",
+    "brandHomeAria": "AcresxManna Thuis",
+    "brandLogoAlt": "AcresxManna-logo",
+    "taglineText": "De agrarische rijkdom van Afrika omzetten in heerlijk voedsel voor zowel lokale gemeenschappen als mondiale tafels.",
+    "exploreHeading": "Ontdekken",
+    "aboutUs": "Over ons",
+    "contactUs": "Neem contact met ons op",
+    "brandsHeading": "Onze merken",
+    "brand1Label": "UncleTobi Boeren",
+    "brand2Label": "Maluza Foods Co.",
+    "brand3Label": "HappyMan Foods",
+    "brand4Label": "African Food King",
+    "certifiedBy": "Gecertificeerd door",
+    "certifiedByAlt": "Kwaliteitscertificeringsbadge",
+    "copyrightLine": "© {year} AcresxManna. Alle rechten voorbehouden.",
+    "privacyPolicy": "Privacybeleid",
+    "termsOfUse": "Gebruiksvoorwaarden",
+    "cookiePolicy": "Cookiebeleid",
+    "whatWeDo": "Wat wij doen",
+    "impact": "Invloed",
+    "globalMarkets": "Mondiale markten",
+    "instagramAria": "AcresxManna op Instagram",
+    "certifiedByNote": "Voedselveiligheids- en kwaliteitsnormen waar we in al onze faciliteiten aan werken."
   },
   "languageSwitcher": {
     "label": "Taal",
@@ -351,36 +383,1265 @@
     "manufacturing": {
       "eyebrow": "Productie-uitmuntendheid",
       "headline": "Moderne Verwerkingsfaciliteiten",
-      "description": "Onze ultramoderne verwerkingsfaciliteiten garanderen kwaliteit, veiligheid en conservering in elke fase van de voedselproductie."
+      "description": "Onze ultramoderne verwerkingsfaciliteiten garanderen kwaliteit, veiligheid en conservering in elke fase van de voedselproductie.",
+      "cap0Alt": "Cassave landbouwveld met groene planten",
+      "cap0Title": "Inkoop",
+      "cap0Description": "We betrekken grondstoffen rechtstreeks van vertrouwde boeren en coöperaties in heel West-Afrika.",
+      "cap1Alt": "Gepalletiseerde potten met verpakte gecoate pinda's in de opslag van eindproducten",
+      "cap1Title": "Opslag",
+      "cap1Description": "Onze opslagfaciliteiten handhaven optimale omstandigheden voor kwaliteitsbehoud.",
+      "cap2Alt": "Voedselproductie-operator in beschermende kleding die een roestvrijstalen verwerkingsketel bewaakt",
+      "cap2Title": "Productie",
+      "cap2Description": "Geavanceerde verwerkingsapparatuur voor reiniging, sortering en voorbereiding.",
+      "cap3Alt": "Industriële meng- en zeeftanks in verwerkingsfaciliteit",
+      "cap3Title": "Kwaliteitscontrole",
+      "cap3Description": "Strenge kwaliteitstests zorgen ervoor dat elk product aan de internationale normen voldoet.",
+      "cap4Alt": "Boerderijteam oogst tomaten in merkuniformen in een kas",
+      "cap4Title": "Landbouw",
+      "cap4Description": "Moderne landbouwpraktijken met duurzame technieken en irrigatie.",
+      "cap5Alt": "Exportcontainer geladen met gebottelde producten klaar voor verzending",
+      "cap5Title": "Verdeling",
+      "cap5Description": "Efficiënt logistiek netwerk dat onze producten verbindt met mondiale markten."
     },
     "products": {
       "dividerEyebrow": "— SIGNATUURPRODUCTEN",
       "eyebrow": "Productenshowcase",
       "headline": "Kwalitatieve Afrikaanse Voedingsproducten",
-      "description": "Van granen en meel tot kant-en-klare maaltijden, onze producten brengen de authentieke smaak van Afrika naar markten wereldwijd."
+      "description": "Van granen en meel tot kant-en-klare maaltijden, onze producten brengen de authentieke smaak van Afrika naar markten wereldwijd.",
+      "statusAvailable": "Nu beschikbaar",
+      "statusComingSoon": "Binnenkort beschikbaar",
+      "requestInfo": "Vraag informatie aan",
+      "cta": "Bekijk alle producten",
+      "items": {
+        "garri": {
+          "name": "Garri",
+          "description": "Een belangrijk basisproduct in veel Afrikaanse gemeenschappen, met kansen in de detailhandel, foodservice en internationale Afrikaanse voedselmarkten. Wij verwerken het in de witte, Ijebu en gele varianten.",
+          "imageAlt": "Garri-zakken opgeslagen in magazijn voor opslag en distributie"
+        },
+        "cassava-flour": {
+          "name": "Cassavemeel",
+          "description": "Een meel op cassavebasis voor thuiskoken, bakkers en voedingsbedrijven, verpakt volgens uw wensen.",
+          "imageAlt": "Zakken van cassavemeel van het merk, verpakt voor distributie"
+        },
+        "plantain-flour": {
+          "name": "Weegbreemeel",
+          "description": "Een meel op basis van bakbananen voor thuiskoken, bakkers en voedingsbedrijven, verpakt volgens uw wensen.",
+          "imageAlt": "Close-up van weegbreemeel met lepel"
+        },
+        "groundnuts-peanuts": {
+          "name": "Aardnoten en Pinda's",
+          "description": "Een veelzijdig landbouwproduct met potentie als verpakt voedsel en als grondstof voor verdere verwerking.",
+          "imageAlt": "Bulkverpakte aardnoten en pinda's in magazijn"
+        },
+        "roasted-groundnuts": {
+          "name": "Geroosterde Aardnoten",
+          "description": "Geroosterde aardnoten en gepelde pinda's voor bulklevering, verpakt volgens uw wensen.",
+          "imageAlt": "Pallets met geroosterde aardnoten en gepelde pinda's in flessen, klaar voor bulklevering"
+        },
+        "cashew-nuts": {
+          "name": "Cashewnoten",
+          "description": "Een snack en ingrediënt waar mensen dol op zijn, verpakt naar jouw wensen.",
+          "imageAlt": "Cashewnoten en cashewappels geoogst van boomgaard tot tafel"
+        },
+        "plantain-chips": {
+          "name": "Plantain-chips",
+          "description": "Een vertrouwd, handig Afrikaans tussendoortje voor mensen die op zoek zijn naar lekker eten. Productvragen kunnen de verpakkings- en distributievereisten bespreken.",
+          "imageAlt": "HappyMan Plantain-chips verpakt in doorzichtige plastic zak"
+        },
+        "hibiscus-teas": {
+          "name": "Hibiscus en thee",
+          "description": "Een herkenbare Afrikaanse botanische stof voor thee, infusies en dranken. Neem contact met ons op om de beschikbare producten en vereisten te bespreken.",
+          "imageAlt": "African Food King premium kruidentheecollectie met piramidetheezakjes van hibiscus, gember, kruidnagel en kaneel"
+        },
+        "kuli-kuli": {
+          "name": "Kuli Kuli",
+          "description": "Een iconische West-Afrikaanse knapperige snack gemaakt van geroosterde aardnoten, gekruid en knapperig tot in de perfectie. Rijk aan plantaardige eiwitten en verpakt voor versheid en export in de detailhandel.",
+          "imageAlt": "Authentieke knapperige Kuli Kuli-snack verpakt in verzegelde retailpotten met groene deksels"
+        },
+        "palm-oil": {
+          "name": "Zuivere palmolie",
+          "description": "Duurzaam geproduceerde, pure, ongeraffineerde rode palmolie, verwerkt onder strikte hygiënische omstandigheden. Essentieel voor de authentieke Afrikaanse keuken, foodservice en commerciële productie.",
+          "imageAlt": "Bovenaanzicht van verzegelde pure rode palmolieflessen klaar voor distributie en export"
+        },
+        "ayamase-sauce": {
+          "name": "Ayamase-saus",
+          "description": "Een rijke West-Afrikaanse pepersaus, ook bekend als Ofada-saus, bereid voor de dagelijkse keuken en verpakt in zakjes van 250 g.",
+          "imageAlt": "HappyMan Ayamase Sauszakje met Ofada sauslabel"
+        },
+        "seasonings-spices": {
+          "name": "Kruiden en specerijen",
+          "description": "Een gepland assortiment dat agrarische ingrediënten verbindt met de dagelijkse keuken, met de nadruk op smaak, gemak en consistentie. Nog niet beschikbaar.",
+          "imageAlt": "Rustiek kruidenstilleven met knoflook, chilipepers, peperkorrels, kerriepoeder en verse kruiden op houten oppervlak"
+        }
+      }
     },
     "operatingModel": {
       "dividerEyebrow": "— HOE WIJ WERKEN",
       "eyebrow": "Onze Operationele Modellen",
       "headline": "Geïntegreerde Waardeketen",
-      "description": "Wij verbinden landbouw, verwerking, financiering en distributie om duurzame voedselsystemen te creëren."
+      "description": "Wij verbinden landbouw, verwerking, financiering en distributie om duurzame voedselsystemen te creëren.",
+      "steps": {
+        "source": {
+          "title": "Bron",
+          "description": "Rechtstreeks van boeren uit Ghana, Nigeria en Ivoorkust."
+        },
+        "processAndManufacture": {
+          "title": "Proces en fabricage",
+          "description": "HACCP- en ISO 22000-gecertificeerde faciliteiten garanderen kwaliteit."
+        },
+        "packageAndBuildBrands": {
+          "title": "Verpak en bouw merken",
+          "description": "Het creëren van merken die authentieke Afrikaanse eetverhalen vertellen."
+        },
+        "connectToMarkets": {
+          "title": "Maak verbinding met markten",
+          "description": "Distributie over meer dan 24 markten via AfCFTA-corridors."
+        }
+      }
     },
     "brands": {
       "dividerEyebrow": "— ONZE MERKEN",
       "eyebrow": "Onze Merkenportfolio",
       "headline": "Diverse Merken, Één Missie",
-      "description": "Onze collectief van merken dient zowel landelijke producenten als stedelijke consumenten en creëert waarde door innovatie en integriteit."
+      "description": "Onze collectief van merken dient zowel landelijke producenten als stedelijke consumenten en creëert waarde door innovatie en integriteit.",
+      "heading": "Diverse merken, één missie",
+      "brand0Alt": "African Food King-logo",
+      "brand0Status": "Actief",
+      "brand0Name": "African Food King",
+      "brand0Description": "Authentieke Afrikaanse voedingsproducten voor retail- en exportmarkten.",
+      "brand1Alt": "Goederenzakken van het merk HappyMan Foods",
+      "brand1Status": "Actief",
+      "brand1Name": "HappyMan Foods",
+      "brand1Description": "Ons consumentenvoedselmerk dat betaalbare alledaagse producten produceert.",
+      "brand2Alt": "Vers brood van bakkerij Maluza Foods",
+      "brand2Status": "Actief",
+      "brand2Name": "Maluza Foods",
+      "brand2Description": "Onze bakkerij produceert vers brood en gebak.",
+      "brand3Alt": "UncleTobi-logo",
+      "brand3Status": "Binnenkort beschikbaar",
+      "brand3Name": "UncleTobi",
+      "brand3Description": "Een online boodschappenconcept dat leveranciers samenbrengt voor de retail.",
+      "cta": "Bekijk alle merken"
     },
     "impact": {
       "dividerEyebrow": "— VOELBARE IMPACT",
       "eyebrow": "In Cijfers",
       "headline": "Echte Impact, Echte Verhalen",
-      "description": "Elke meting vertegenwoordigt een persoon, een gemeenschap of een maaltijd op een tafel die we hebben bereikt."
+      "description": "Elke meting vertegenwoordigt een persoon, een gemeenschap of een maaltijd op een tafel die we hebben bereikt.",
+      "chip0": "Boeren in hun kracht",
+      "chip1": "Gemeenschappen bereikt",
+      "chip2": "Banen gecreëerd",
+      "chip3": "Markten geserveerd",
+      "cta": "Bekijk volledige impact"
     },
     "finalCta": {
       "eyebrow": "Verbind met Ons",
       "headline": "Partnerschappen",
-      "description": "Of u nu boer, distributeur, investeerder of partner bent, laten we samen de toekomst van Afrikaans voedsel bouwen."
+      "description": "Of u nu boer, distributeur, investeerder of partner bent, laten we samen de toekomst van Afrikaans voedsel bouwen.",
+      "partnerWithUs": "Werk met ons samen",
+      "becomeSupplier": "Word een leverancier",
+      "exploreProducts": "Ontdek producten"
+    },
+    "hero": {
+      "eyebrow": "AcresxManna · Agrofoodgroep",
+      "word0": "Herdefiniëren",
+      "word1": "Afrika's",
+      "word2": "rol",
+      "word3": "in de",
+      "word4": "mondiaal",
+      "word5": "markt",
+      "typingText": "Een gediversifieerde internationale voedings-, ingrediënten- en retailgroep.",
+      "exploreProducts": "Ontdek onze producten",
+      "letsTalk": "Laten we praten",
+      "heroImageAlt": "Productielijn voor het bottelen van palmolie in de AcresxManna-verwerkingsfaciliteit",
+      "tagAfricanHarvest": "100% Afrikaanse oogst",
+      "tagExportReady": "Klaar voor exporteren",
+      "tagValueAdded": "Verwerking met toegevoegde waarde",
+      "tagFarmToGlobal": "Van boerderij tot mondiaal",
+      "tagQuality": "Premium kwaliteit",
+      "mascotAlt": "AcresxManna merkmascottekarakter"
+    },
+    "clients": {
+      "heading": "Onze klanten",
+      "headline": "Enkele van onze klanten.",
+      "description": "Retailers, distributeurs en cash-and-carry-partners die onze producten naar klanten brengen.",
+      "items": {
+        "segGroup": {
+          "description": "Detail- en groothandelspartner die HappyMan Foods-producten in voorraad heeft voor zijn klanten.",
+          "location": "Hertford",
+          "logoAlt": "SEG Group-logo"
+        },
+        "aliBabaFoods": {
+          "description": "Voedingsbedrijf dat Afrikaanse kruidenierswaren levert aan retailklanten.",
+          "location": "Hertford",
+          "logoAlt": "Ali Baba Foods Ltd-logo"
+        },
+        "adesCashAndCarry": {
+          "description": "Zelfbedieningswinkel die lokale detailhandelaren en winkelend publiek toegang geeft tot dagelijkse Afrikaanse voedselproducten.",
+          "logoAlt": "Ades Cash and Carry-logo"
+        },
+        "wosiwosiCashAndCarry": {
+          "description": "Zelfbedieningswinkel die de gemeenschap bedient met vertrouwde Afrikaanse voedselmerken."
+        }
+      }
+    },
+    "brandShowcase": {
+      "dividerEyebrow": "Ons ecosysteem",
+      "eyebrow": "Onze merken",
+      "headline": "Enkele van onze merken.",
+      "cta": "Ontdek onze merken",
+      "items": {
+        "africanFoodKing": {
+          "status": "actief",
+          "description": "Authentieke Afrikaanse voedingsproducten die levendige culinaire tradities en premium theelijnen naar de wereldwijde consument brengen.",
+          "alt": "African Food King officieel merklogo"
+        },
+        "uncleTobi": {
+          "status": "binnenkort beschikbaar",
+          "description": "Een online boodschappenconcept dat leveranciers samenbrengt voor retail en internationale bezorging.",
+          "alt": "UncleTobi online boodschappenconcept-logo"
+        },
+        "ijgbFoods": {
+          "status": "actief",
+          "description": "Afrikaanse snacks met mondiale branie – die de handel vergemakkelijken en kwaliteitsproducten op verschillende markten met elkaar verbinden.",
+          "alt": "IJGB Foods-merklogo"
+        },
+        "happyManFoods": {
+          "status": "actief",
+          "description": "Het vlaggenschipmerk AcresxManna gebruikt om al zijn producten te verkopen en distribueren.",
+          "alt": "HappyMan Foods-logo"
+        },
+        "maluzaFoods": {
+          "status": "live",
+          "description": "Een commerciële bakkerij die nieuwe producten ontwikkelt en winkelstalletjes opent in en rond Ibadan.",
+          "alt": "Maluza Foods Co.-logo"
+        }
+      }
+    },
+    "productTicker": {
+      "ariaLabel": "Scrollende productticker met: {products}"
+    },
+    "globalAmbition": {
+      "eyebrow": "Mondiale ambitie",
+      "headline": "Bouwen over de grenzen heen",
+      "description": "Van West-Afrika tot mondiale markten: we breiden ons bereik uit terwijl we geworteld blijven in onze missie."
+    },
+    "stakeholderCube": {
+      "dividerEyebrow": "— ONZE BELANGHEBBENDEN",
+      "eyebrow": "Wie we dienen",
+      "heading": "Zes gezichten van waarde",
+      "description": "Elke stakeholder in ons ecosysteem is van belang. Ontdek hoe we waarde creëren in de gehele waardeketen van de agrofoodsector.",
+      "cubeAriaLabel": "Interactieve kubus met {face}",
+      "faceAriaLabel": "Bekijk het {label}-stakeholderperspectief",
+      "face": "Kubus draaien",
+      "hint": "Tik om te draaien",
+      "panel": "Details",
+      "talkToTeam": "Praat met ons team",
+      "faces": {
+        "consumer": "Consument",
+        "farmer": "Boer",
+        "distributor": "Distributeur",
+        "partner": "Partner",
+        "investor": "Investeerder",
+        "employee": "Medewerker"
+      },
+      "stakeholders": {
+        "consumer": {
+          "label": "CONSUMENT",
+          "headline": "Kwaliteit & Vertrouwen",
+          "description": "Consumenten verdienen veilige, voedzame en authentieke Afrikaanse voedingsproducten. Wij zorgen ervoor dat elk product voldoet aan de internationale normen en tegelijkertijd het culturele erfgoed behoudt.",
+          "ctaLabel": "Winkel producten"
+        },
+        "farmer": {
+          "label": "BOER",
+          "headline": "Groei en waardigheid",
+          "description": "Kleine boeren vormen de ruggengraat van ons ecosysteem. Wij bieden eerlijke prijzen, trainingen op het gebied van duurzame praktijken en directe markttoegang om de levensstandaard te transformeren.",
+          "ctaLabel": "Werk met ons samen"
+        },
+        "distributor": {
+          "label": "DISTRIBUTEUR",
+          "headline": "Betrouwbaarheid en bereik",
+          "description": "Distributeurs verbinden onze producten met markten over de hele wereld. We bieden een consistente levering, concurrerende prijzen en logistieke ondersteuning voor een naadloze bedrijfsvoering.",
+          "ctaLabel": "Sluit je aan bij Netwerk"
+        },
+        "partner": {
+          "label": "PARTNER",
+          "headline": "Samenwerking & Impact",
+          "description": "Strategische partners versterken onze missie. Van NGO's tot overheidsinstanties: we bouwen allianties die de voedselzekerheid en economische groei van Afrika versterken.",
+          "ctaLabel": "Ontdek partnerschap"
+        },
+        "investor": {
+          "label": "INVESTEERDER",
+          "headline": "Retouren & Schaal",
+          "description": "Investeerders voeden onze expansie in de hele waardeketen. We bieden transparante activiteiten, bewezen bedrijfsmodellen en een aanzienlijk groeipotentieel in de Afrikaanse agrofoodmarkten.",
+          "ctaLabel": "Investeringsmogelijkheden"
+        },
+        "employee": {
+          "label": "MEDEWERKER",
+          "headline": "Doel & Ontwikkeling",
+          "description": "Ons team drijft onze missie vooruit. Wij bieden betekenisvol werk, de ontwikkeling van vaardigheden en een cultuur van uitmuntendheid op boerderijen, fabrieken en kantoren.",
+          "ctaLabel": "Sluit je aan bij ons team"
+        }
+      }
+    },
+    "businessFaq": {
+      "eyebrow": "Veelgestelde vragen",
+      "heading": "Veelgestelde vragen",
+      "faq0Question": "Welke soorten partnerschappen bieden jullie aan?",
+      "faq0Answer": "We bieden verschillende partnerschapsmogelijkheden, waaronder partnerschappen met leveranciers, distributieovereenkomsten, productiesamenwerkingen en investeringsmogelijkheden. Elk is afgestemd op de specifieke behoeften en omvang van de partner.",
+      "faq1Question": "Wat is uw minimale bestelhoeveelheid?",
+      "faq1Answer": "Minimale bestelhoeveelheden variëren per product en markt. Voor retailproducten beginnen we doorgaans vanaf 500 stuks. Voor bulkgoederen en export worden minimumhoeveelheden onderhandeld op basis van de containercapaciteit en het producttype.",
+      "faq2Question": "Exporteert u internationaal?",
+      "faq2Answer": "Ja, we exporteren naar meer dan 24 markten wereldwijd via corridors in de Afrikaanse Continentale Vrijhandelszone (AfCFTA) en directe partnerschappen met importeurs uit de EU en Noord-Amerika. Onze producten voldoen aan de internationale voedselveiligheidsnormen.",
+      "faq3Question": "Welke certificeringen bezit u?",
+      "faq3Answer": "We beschikken over meerdere certificeringen, waaronder HACCP, ISO 22000, NAFDAC, SON en MAN. Deze certificeringen zorgen ervoor dat onze producten voldoen aan de hoogste voedselveiligheids-, kwaliteits- en regelgevingsnormen op alle markten.",
+      "faq4Question": "Hoe word ik leverancier?",
+      "faq4Answer": "Om leverancier te worden, vult u ons leveranciersaanvraagformulier in met details over uw producten, capaciteit en certificeringen. Ons inkoopteam beoordeelt uw aanvraag en neemt binnen 5 werkdagen contact met u op voor de volgende stappen.",
+      "faq5Question": "Welke betalingsvoorwaarden biedt u?",
+      "faq5Answer": "We bieden flexibele betalingsvoorwaarden op basis van het type partnerschap en de ordergrootte. Veel voorkomende termen zijn onder meer een nettobetaling van 30 tot 60 dagen voor gevestigde partners, vooruitbetaling voor nieuwe partnerschappen en een kredietbrief voor internationale exporten.",
+      "faq6Question": "Biedt u private label-diensten aan?",
+      "faq6Answer": "Ja, we bieden private label- en white label-productiediensten aan voor geselecteerde partners. Dit omvat aangepaste formulering, verpakkingsontwerp en productie onder uw merknaam met onze kwaliteitsborging.",
+      "faq7Question": "Wat is uw doorlooptijd voor bestellingen?",
+      "faq7Answer": "De doorlooptijden variëren per product: kant-en-klare producten worden binnen 3-5 werkdagen verzonden, op maat gemaakte bestellingen duren 2-4 weken en voor grote exportbestellingen kan het 4-8 weken duren, afhankelijk van de productieplanning en logistiek.",
+      "faq8Question": "Biedt u monsters aan?",
+      "faq8Answer": "Ja, wij bieden productmonsters voor gekwalificeerde zakelijke vragen. Monsteraanvragen kunnen worden ingediend via ons contactformulier. Er kunnen verzendkosten van toepassing zijn, afhankelijk van de locatie en de monsterhoeveelheid.",
+      "faq9Question": "Welke kwaliteitscontrolemaatregelen heeft u?",
+      "faq9Answer": "We implementeren een strenge kwaliteitscontrole in elke fase: beoordeling op de boerderij, testen tijdens het proces, inspectie van het eindproduct en verificatie vóór verzending. Onze faciliteiten zijn uitgerust met moderne testapparatuur en volgen de GMP-normen.",
+      "faq10Question": "Kunt u grote bestellingen verwerken?",
+      "faq10Answer": "Ja, onze faciliteiten zijn ontworpen voor grootschalige productie met meerdere verwerkingslijnen en voldoende opslagcapaciteit. We kunnen de productie opschalen om aan de aanzienlijke volumevereisten te voldoen, terwijl de kwaliteitsnormen behouden blijven.",
+      "faq11Question": "Steunt u duurzame landbouwpraktijken?",
+      "faq11Answer": "Absoluut. We werken nauw samen met boeren om duurzame praktijken te bevorderen, waaronder bodembehoud, waterbeheer, verminderde chemische input en behoud van biodiversiteit. Onze landbouwprogramma's omvatten training en certificeringsondersteuning.",
+      "faq12Question": "Hoe waarborg je de productveiligheid?",
+      "faq12Answer": "De productveiligheid wordt gegarandeerd door HACCP-gecertificeerde processen, regelmatige microbiologische tests, goede opslag- en verwerkingsprotocollen, traceerbaarheidssystemen en naleving van internationale voedselveiligheidsvoorschriften, waaronder USFDA en EU-normen."
+    },
+    "pages": {
+      "notFound": {
+        "title": "Pagina niet gevonden",
+        "description": "De pagina die u zoekt bestaat niet of is verplaatst.",
+        "backToHome": "Terug naar Thuis"
+      }
+    }
+  },
+  "pages": {
+    "products": {
+      "items": {
+        "garri": {
+          "varieties": [
+            "Wit",
+            "Ijebu",
+            "Geel"
+          ],
+          "highlights": [
+            "Drie varianten: wit, Ijebu en geel",
+            "Beschikbaar voor export",
+            "Verpakt volgens de eisen van elke klant"
+          ],
+          "name": "Garri",
+          "description": "Een belangrijk basisproduct in veel Afrikaanse gemeenschappen, met kansen in de detailhandel, foodservice en internationale Afrikaanse voedselmarkten. Wij verwerken het in de witte, Ijebu en gele varianten.",
+          "imageAlt": "Garri-zakken opgeslagen in magazijn voor opslag en distributie",
+          "caption": "Bulkverpakte goederen onder het merk HappyMan Foods in onze centrale verwerkingshub."
+        },
+        "cassava-flour": {
+          "highlights": [
+            "Meel op cassavebasis",
+            "Voor thuiskoken en voedingsbedrijven",
+            "Verpakt volgens de eisen van elke klant"
+          ],
+          "name": "Cassavemeel",
+          "description": "Een meel op cassavebasis voor thuiskoken, bakkers en voedingsbedrijven, verpakt volgens uw wensen.",
+          "imageAlt": "Zakken van cassavemeel van het merk, verpakt voor distributie",
+          "caption": "Meel van exportkwaliteit wordt rechtstreeks in containers geladen voor internationale verzending."
+        },
+        "plantain-flour": {
+          "highlights": [
+            "Meel op basis van bakbananen",
+            "Voor thuiskoken en voedingsbedrijven",
+            "Verpakt volgens de eisen van elke klant"
+          ],
+          "name": "Weegbreemeel",
+          "description": "Een meel op basis van bakbananen voor thuiskoken, bakkers en voedingsbedrijven, verpakt volgens uw wensen.",
+          "imageAlt": "Close-up van weegbreemeel met lepel",
+          "caption": "Weegbreemeel verwerkt uit verse bakbananen in onze fabriek."
+        },
+        "groundnuts-peanuts": {
+          "highlights": [
+            "Beschikbaar voor export",
+            "Verpakt volgens de eisen van elke klant",
+            "Er worden geen niet-gelanceerde productextensies vermeld"
+          ],
+          "name": "Aardnoten en Pinda's",
+          "description": "Een veelzijdig landbouwproduct met potentie als verpakt voedsel en als grondstof voor verdere verwerking. We vermelden geen producten zoals pindakaas, tenzij deze in de handel verkrijgbaar zijn.",
+          "imageAlt": "Bulkverpakte aardnoten en pinda's in magazijn",
+          "caption": "Zorgvuldig geroosterde en gesorteerde pinda's die voldoen aan de exportkwaliteitsnormen."
+        },
+        "roasted-groundnuts": {
+          "highlights": [
+            "Geroosterd en gepeld voor bulklevering",
+            "Groothandel en export vragen welkom",
+            "Verpakt volgens de eisen van elke klant"
+          ],
+          "name": "Geroosterde Aardnoten",
+          "description": "Geroosterde aardnoten en gepelde pinda's voor bulklevering, verpakt volgens uw wensen.",
+          "imageAlt": "Pallets met geroosterde aardnoten en gepelde pinda's in flessen, klaar voor bulklevering",
+          "caption": "Geroosterde aardnoten en gepelde pinda's verpakt op pallets voor bulklevering."
+        },
+        "cashew-nuts": {
+          "highlights": [
+            "Beschikbaar voor export",
+            "Geschikt voor foodretail en zakelijke vragen",
+            "Verpakt volgens de eisen van elke klant"
+          ],
+          "name": "Cashewnoten",
+          "description": "Een snack en ingrediënt waar mensen dol op zijn, verpakt naar jouw wensen.",
+          "imageAlt": "Cashewnoten en cashewappels geoogst van boomgaard tot tafel",
+          "caption": "Met de hand gesorteerde kwaliteitsborging om nul onzuiverheden te garanderen."
+        },
+        "plantain-chips": {
+          "highlights": [
+            "Kant-en-klaar tussendoortje",
+            "Retail- en groothandelsvragen zijn welkom",
+            "Aangepaste verpakking kan worden besproken"
+          ],
+          "name": "Plantain-chips",
+          "description": "Een vertrouwd, handig Afrikaans tussendoortje voor mensen die op zoek zijn naar lekker eten. Productvragen kunnen de verpakkings- en distributievereisten bespreken.",
+          "imageAlt": "HappyMan Plantain-chips verpakt in doorzichtige plastic zak",
+          "caption": "Vers gesneden, knapperige bakbananenchips verpakt voor winkelschappen en export."
+        },
+        "hibiscus-teas": {
+          "highlights": [
+            "Hibiscus- en theeproducten beschikbaar voor export",
+            "Voor vragen over thee, infusie en dranken",
+            "Verpakt volgens de eisen van elke klant"
+          ],
+          "name": "Hibiscus en thee",
+          "description": "Een herkenbare Afrikaanse botanische stof voor thee, infusies en dranken. Neem contact met ons op om de beschikbare producten en vereisten te bespreken.",
+          "imageAlt": "African Food King premium kruidentheecollectie met piramidetheezakjes van hibiscus, gember, kruidnagel en kaneel",
+          "caption": "African Food King kruidentheelijn, 100% natuurlijk en cafeïnevrij."
+        },
+        "kuli-kuli": {
+          "varieties": [
+            "Knapperige reepjes",
+            "Gekruide hapjes"
+          ],
+          "highlights": [
+            "100% premium geroosterde aardnoten",
+            "Beschikbaar voor export",
+            "Verpakt naar wens van de klant in verzegelde potten"
+          ],
+          "name": "Kuli Kuli",
+          "description": "Een iconische West-Afrikaanse knapperige snack gemaakt van geroosterde aardnoten, gekruid en knapperig tot in de perfectie. Rijk aan plantaardige eiwitten en verpakt voor versheid en export in de detailhandel.",
+          "imageAlt": "Authentieke knapperige Kuli Kuli-snack verpakt in verzegelde retailpotten met groene deksels",
+          "caption": "Vers geroosterde, gekruide Kuli Kuli-pinda's, verpakt in kant-en-klare potten en groothandelsdozen."
+        },
+        "palm-oil": {
+          "varieties": [
+            "Culinair klasse A",
+            "Bulkverwerkingskwaliteit"
+          ],
+          "highlights": [
+            "Van nature rijk aan carotenoïden en voedingsstoffen",
+            "Hygiënisch gebotteld en verzegeld voor export",
+            "Verkrijgbaar in retailflessen en industriële bulkverpakkingen"
+          ],
+          "name": "Zuivere palmolie",
+          "description": "Duurzaam geproduceerde, pure, ongeraffineerde rode palmolie, verwerkt onder strikte hygiënische omstandigheden. Essentieel voor de authentieke Afrikaanse keuken, foodservice en commerciële productie.",
+          "imageAlt": "Bovenaanzicht van verzegelde pure rode palmolieflessen klaar voor distributie en export",
+          "caption": "Premium pure rode palmolie, hygiënisch gebotteld en op kwaliteit beoordeeld voor internationale markten."
+        },
+        "ayamase-sauce": {
+          "highlights": [
+            "Verkrijgbaar in retailzakjes van 250 gram",
+            "Beschikbaar voor export",
+            "Verpakt volgens de eisen van elke klant"
+          ],
+          "name": "Ayamase-saus",
+          "description": "Een rijke West-Afrikaanse pepersaus, ook bekend als Ofada-saus, bereid voor de dagelijkse keuken en verpakt in zakjes van 250 g.",
+          "imageAlt": "HappyMan Ayamase Sauszakje met Ofada sauslabel",
+          "caption": "HappyMan Ayamase (Ofada) saus in een winkelzakje van 250 g."
+        },
+        "seasonings-spices": {
+          "name": "Kruiden en specerijen",
+          "description": "Een gepland assortiment dat agrarische ingrediënten verbindt met de dagelijkse keuken, met de nadruk op smaak, gemak en consistentie. Nog niet beschikbaar.",
+          "imageAlt": "Rustiek kruidenstilleven met knoflook, chilipepers, peperkorrels, kerriepoeder en verse kruiden op houten oppervlak",
+          "caption": "Binnenkort beschikbaar: een samengesteld assortiment premium kruiden en specerijen die agrarische ingrediënten verbinden met de dagelijkse keuken."
+        }
+      },
+      "eyebrow": "Onze producten",
+      "heading": "Afrikaanse landbouwproducten, omgezet in alledaags voedsel.",
+      "intro": "Van traditionele basisproducten tot snacks, ingrediënten en dranken: we ontwikkelen producten die de Afrikaanse landbouwhulpbronnen verbinden met de veranderende consumentenbehoeften. Export is onze focus vandaag, met de Nigeriaanse retail gepland.",
+      "onSaleBadge": "Nu te koop · Exporteren",
+      "varieties": "Rassen: {varieties}",
+      "requestProductInformation": "Productinformatie opvragen",
+      "plannedEyebrow": "Gepland",
+      "comingSoon": "Binnenkort beschikbaar",
+      "notifyMe": "Breng mij op de hoogte",
+      "exportNote": "Exportbestemmingen en standaardverpakkingsgroottes worden niet gepubliceerd. Neem contact met ons op om uw wensen te bespreken.",
+      "requestProductInfo": "Productinformatie opvragen",
+      "metadataTitle": "Producten",
+      "metadataDescription": "Ontdek de producten van AcresxManna die te koop zijn voor export, productvariëteiten en geplande Nigeriaanse detailhandel."
+    },
+    "becomeADistributor": {
+      "whatToKnow": [
+        "Vertel ons wie u bedient, waar u actief bent en via welke kanalen u verkoopt.",
+        "Laat ons weten welke producten u interesseren en wat uw verwachte bestelgrootte is.",
+        "Productinformatie, beschikbaarheid, logistiek en eventuele bemonsteringen worden individueel bevestigd."
+      ],
+      "steps": [
+        "Stel uzelf en uw bedrijf voor.",
+        "Wij delen productinformatie.",
+        "We bespreken pasvorm, volumes en logistiek.",
+        "We spreken een manier af om samen te werken."
+      ],
+      "metadataTitle": "Word distributeur",
+      "metadataDescription": "Bespreek de distributie van AcresxManna-voedingsproducten met ons team.",
+      "eyebrow": "Bewaar de smaak",
+      "title": "Breng Afrikaans voedsel naar uw schappen.",
+      "intro": "We verwelkomen vragen van detailhandelaren, groothandelaren, distributeurs en importeurs die geïnteresseerd zijn in Afrikaanse voedingsproducten en commerciële partnerschappen op lange termijn.",
+      "submitLabel": "Solliciteer om distributeur te worden",
+      "formIntro": "Vertel ons over uw bedrijf.",
+      "imageAlt": "Pallets met verpakte snacks en voedselartikelen in het verzenddepot",
+      "imageCaption": "Gepalletiseerde voorraad en groothandelsafhandeling voor distributiepartners."
+    },
+    "becomeASupplier": {
+      "whatToKnow": [
+        "We zijn geïnteresseerd in cassave, bakbanaan, aardnoten en pinda's, hibiscus en specerijen en kruideningrediënten.",
+        "Vertel ons over kwaliteit, herkomst, verwerking en de volumes die u gedurende het seizoen kunt leveren.",
+        "Prijzen, gegarandeerde volumes en betalingsvoorwaarden worden pas overeengekomen nadat we de mogelijkheid hebben beoordeeld."
+      ],
+      "steps": [
+        "Vertel ons wat u levert.",
+        "We beoordelen kwaliteit, volume en timing.",
+        "Wij komen specificaties en voorwaarden overeen.",
+        "Stap voor stap bouwen we de leveringsrelatie op."
+      ],
+      "metadataTitle": "Word een leverancier",
+      "metadataDescription": "Vertel AcresxManna over de landbouwproducten die u verbouwt, verzamelt of verhandelt.",
+      "eyebrow": "Groei met ons mee",
+      "title": "Laten we samen de Afrikaanse oogst binnenhalen.",
+      "intro": "Een betrouwbaar verwerkingsbedrijf heeft een betrouwbaar landbouwaanbod nodig. Als u landbouwgrondstoffen verbouwt, verzamelt of verhandelt, horen we graag van u.",
+      "submitLabel": "Solliciteer om leverancier te worden",
+      "formIntro": "Vertel ons wat u teelt of verhandelt.",
+      "imageAlt": "AcresxManna commerciële weegbree-bosjes met druppelirrigatie",
+      "imageCaption": "Duurzame inkoop- en afnamepartnerschappen met lokale telers."
+    },
+    "businessEnquiries": {
+      "whatToKnow": [
+        "Productaanvragen: beschikbaarheid en productinformatie.",
+        "Aanbod- of landbouwpartnerschappen: landbouwgrondstoffen en seizoensvolumes.",
+        "Distributie of groothandel: interessante kanalen, markten en producten.",
+        "Productiepartnerschappen, investeringsvragen en andere zakelijke onderwerpen."
+      ],
+      "steps": [
+        "Stel uzelf of uw organisatie voor.",
+        "Vertel ons wat voor soort gesprek u graag zou willen hebben.",
+        "Ons team zal uw vraag doorsturen naar de juiste contactpersoon."
+      ],
+      "metadataTitle": "Zakelijke vragen",
+      "metadataDescription": "Neem contact op met AcresxManna over productie, partnerschappen, media en andere zakelijke vragen.",
+      "eyebrow": "Zakelijke vragen",
+      "title": "Laten we het over zaken hebben.",
+      "intro": "Voor alles wat geen product-, leverings- of distributievraag is, kunt u contact opnemen over productie- en private label-discussies, partnerschappen, media of een ander idee.",
+      "submitLabel": "Begin het gesprek",
+      "formIntro": "Vertel ons waar u aan denkt.",
+      "imageAlt": "AcresxManna directieadvies en showroomkantoor",
+      "imageCaption": "Strategische gesprekken op het AcresxManna-hoofdkantoor in Ibadan, Nigeria."
+    },
+    "about": {
+      "eyebrow": "Over AcresxManna",
+      "heading": "Wij zijn van mening dat Afrika meer waarde uit zijn landbouw moet halen.",
+      "intro": "AcresxManna is een exportgericht agroverwerkings- en voedselproductiebedrijf. Wij verbinden agrarische inkoop met verwerking, productontwikkeling en markttoegang. Lokale detailhandel in Nigeria wordt gepland via winkels en het online boodschappenconcept UncleTobi.",
+      "storyEyebrow": "Ons verhaal",
+      "storyHeading": "Na de oogst kan er meer waarde worden gecreëerd.",
+      "storyParagraph1": "Afrika beschikt over aanzienlijke landbouwhulpbronnen, maar toch zit een groot deel van de waarde in de voedseleconomie in wat er na de oogst gebeurt. Wij geloven dat een groter deel van die waarde kan worden gerealiseerd via verwerking, productie, verpakking, kwaliteitscontrole en concurrerende voedselmerken.",
+      "storyParagraph2": "Via onze Nigeriaanse activiteiten en onze Britse activiteiten bouwen we de basis voor een sterkere link tussen de Afrikaanse voedselproductie en de internationale markten. We begrijpen beide kanten: de realiteit van de inkoop en verwerking in Afrika, en de kwaliteit, consistentie en commerciële behoeften van de markten die we willen bedienen.",
+      "storyImageAlt": "AcresxManna-showroom met paarse geometrische muur en merkproducten op bureau",
+      "entities": {
+        "acresxmannaLtd": {
+          "title": "AcresxManna Ltd",
+          "alt": "AcresxManna bedrijfsontvangstmuur in Ibadan, Nigeria",
+          "description": "De Nigeriaanse entiteit produceert, tekent klantencontracten en exporteert vanuit onze verwerkingsfaciliteit in Moniya."
+        },
+        "uncleTobiShop": {
+          "title": "UncleTobi.Winkel",
+          "alt": "UncleTobi.Shop officiële merkidentiteit",
+          "description": "De in het Verenigd Koninkrijk gerichte entiteit factureert kopers en exploiteert een magazijn en kantoor in Hertford, Verenigd Koninkrijk."
+        }
+      },
+      "companyStructureEyebrow": "Bedrijfsstructuur",
+      "visionEyebrow": "Onze visie",
+      "visionText": "Het leidende agroverwerkings- en voedselproductiebedrijf van Afrika worden, wereldwijd erkend vanwege schaal, kwaliteit, innovatie en de waarde die we creëren uit de Afrikaanse landbouw.",
+      "missionEyebrow": "Onze missie",
+      "missionText": "Afrikaanse landbouwhulpbronnen omzetten in concurrerende voedselproducten door middel van verwerking, productie, kwaliteitscontrole, merkontwikkeling en toegang tot markten.",
+      "fieldToFactoryEyebrow": "Van veld tot fabriek",
+      "fieldToFactoryHeading": "Agrarische wortels, industriële ambitie.",
+      "fieldToFactoryText": "Onze activiteiten omvatten de glastuinbouw, de aggregatie van grondstoffen, de verwerking en het verpakte voedsel – allemaal gebouwd op Afrikaanse bodem.",
+      "gallery": {
+        "palmOilBottling": {
+          "alt": "Bottel- en productieteam voor palmolie in de AcresxManna-fabriek",
+          "caption": "Bottelen van palmolie"
+        },
+        "seedlingNursery": {
+          "alt": "Dichte tomatenzaailingen in kweekrijen in schaduwhuizen",
+          "caption": "Zaailing kwekerij"
+        },
+        "papayaGrowing": {
+          "alt": "Papajaboom beladen met fruit in kas met boer",
+          "caption": "Papaja groeit"
+        },
+        "peanutProcessing": {
+          "alt": "Notensorteerteam in witte laboratoriumjassen aan lange tafel",
+          "caption": "Verwerking van pinda's"
+        },
+        "bottlingLine": {
+          "alt": "Werknemers etiketteren rijen palmolieflessen op de productievloer",
+          "caption": "Bottelen van palmolie"
+        },
+        "finishedProductStock": {
+          "alt": "Gestapelde gecoate pindapotten en snackpotten in magazijn",
+          "caption": "Voorraad eindproduct"
+        }
+      },
+      "valuesEyebrow": "Wat ons leidt",
+      "valuesHeading": "Waarden die bepalen hoe we bouwen.",
+      "values": {
+        "qualityAndExcellence": {
+          "title": "Kwaliteit en uitmuntendheid",
+          "description": "Normen, discipline en consistentie die vertrouwen verdienen."
+        },
+        "community": {
+          "title": "Gemeenschap",
+          "description": "Groei die kansen creëert voor leveranciers, werknemers, producenten en gemeenschappen."
+        },
+        "innovation": {
+          "title": "Innovatie",
+          "description": "Betere manieren om Afrikaans voedsel te verwerken, verpakken en bezorgen."
+        },
+        "collaboration": {
+          "title": "Samenwerking",
+          "description": "Partnerships, gedeelde expertise en sterke commerciële relaties."
+        },
+        "dedicationAndHeart": {
+          "title": "Toewijding en hart",
+          "description": "Verantwoordelijkheid, veerkracht en betrokkenheid bij mensen."
+        },
+        "capacityBuilding": {
+          "title": "Capaciteitsopbouw",
+          "description": "Investeren in mensen, processen, partnerschappen en infrastructuur."
+        }
+      },
+      "quote": "De landbouwrijkdom van Afrika zou Afrikaanse industriële waarde moeten creëren: meer grondstoffen worden omgezet in eindproducten, er wordt meer productiecapaciteit opgebouwd binnen de Afrikaanse economieën, en meer Afrikaanse voedselbedrijven kunnen met vertrouwen wereldwijd concurreren.",
+      "locationsEyebrow": "Onze locaties",
+      "locations": {
+        "factory": {
+          "label": "Fabriek"
+        },
+        "nigerianOffice": {
+          "label": "Nigeriaans kantoor"
+        },
+        "ukWarehouse": {
+          "label": "Groot-Brittannië magazijn en kantoor"
+        }
+      },
+      "cta": "Laten we praten",
+      "metadataTitle": "Over ons",
+      "metadataDescription": "Leer meer over AcresxManna, een op export gericht Nigeriaans agroverwerkings- en voedselproductiebedrijf."
+    },
+    "ourBrands": {
+      "eyebrow": "Onze merken",
+      "heading": "Eén platform. Verschillende manieren om Afrikaans eten op de markt te brengen.",
+      "intro": "Het bredere ecosysteem van AcresxManna omvat voedselmerken, een bakkerij en een online boodschappenconcept, elk met een verschillend doel in de voedselwaardeketen.",
+      "items": {
+        "africanFoodKing": {
+          "description": "Authentieke Afrikaanse voedingsproducten die levendige culinaire tradities en premium theelijnen naar de wereldwijde consument brengen.",
+          "alt": "African Food King officieel merklogo"
+        },
+        "happyManFoods": {
+          "description": "Het merk AcresxManna gebruikt om al zijn producten te verkopen.",
+          "alt": "HappyMan Foods-logo"
+        },
+        "maluzaFoods": {
+          "description": "Een bakkerij die nieuwe producten ontwikkelt en nieuwe kraampjes opent in en rond Ibadan.",
+          "alt": "Maluza Foods Co.-logo"
+        },
+        "uncleTobi": {
+          "description": "Een online boodschappenconcept dat leveranciers voor de detailhandel samenbrengt. Lanceringsdatum wordt bekend gemaakt.",
+          "alt": "UncleTobi online boodschappenconcept-logo"
+        },
+        "ijgbFoods": {
+          "description": "Afrikaanse snacks met mondiale branie – die de handel vergemakkelijken en kwaliteitsproducten op verschillende markten met elkaar verbinden.",
+          "alt": "IJGB Foods-merklogo"
+        }
+      },
+      "distribution": {
+        "heading": "Distributie en handel",
+        "body": "HappyMan Foods is het merk dat AcresxManna gebruikt om zijn producten te verkopen en te distribueren aan detailhandels- en handelspartners.",
+        "imageAlt": "Pallets met gebottelde pinda's verpakt onder onze merken en klaar voor distributie en handel"
+      },
+      "contact": {
+        "body": "Geïnteresseerd in onze producten, merken of een commerciële samenwerking? Wij horen graag van u.",
+        "cta": "Neem contact op met ons team"
+      },
+      "metadataTitle": "Onze merken",
+      "metadataDescription": "Maak kennis met HappyMan Foods, Maluza Foods Co., UncleTobi en IJGB Foods en leer de rol en status van elk merk kennen."
+    },
+    "productDetail": {
+      "backToProducts": "Terug naar producten",
+      "onSaleBadge": "Nu te koop · Exporteren",
+      "plannedBadge": "Gepland · Nog niet beschikbaar",
+      "varieties": "Rassen: {varieties}",
+      "productHighlights": "Producthoogtepunten",
+      "enquiryWelcome": "Wij verwelkomen vragen van detailhandelaren, groothandelaars, foodservicebedrijven, importeurs en distributeurs.",
+      "packSizesNote": "De verpakkingsgroottes worden aangepast aan de eisen van elke klant. Productspecificaties, ingrediënten, herkomst, opslag, houdbaarheid, allergenen en conformiteitsinformatie moeten voor het specifieke product worden bevestigd en worden hier niet gepubliceerd.",
+      "requestInformationEyebrow": "Vraag informatie aan",
+      "requestInformationHeading": "Vertel ons over uw wensen.",
+      "requestInformationText": "Stuur ons uw vraag en ons team neemt contact met u op met productinformatie, beschikbaarheid en volgende stappen.",
+      "requestProductInformation": "Productinformatie opvragen",
+      "moreProducts": "Meer producten",
+      "viewProduct": "Bekijk product"
+    },
+    "infrastructure": {
+      "eyebrow": "Onze activiteiten",
+      "heading": "Het opbouwen van de capaciteit achter Afrikaans voedsel.",
+      "intro": "Onze ambitie heeft meer nodig dan alleen landbouwaanbod. Er zijn productie-infrastructuur, mensen, systemen en partnerschappen nodig om grondstoffen om te zetten in consistent, marktklaar voedsel. AcresxManna Ltd produceert en exporteert vanuit Nigeria; we bouwen verdere capaciteit op naarmate de vraag, de investeringen en de bereidheid dit toelaten.",
+      "cards": {
+        "production": {
+          "title": "Productie en verwerking",
+          "status": "Vandaag actief",
+          "description": "AcresxManna Ltd produceert voedingsproducten in zijn fabriek in Moniya, Ibadan. Verdere productiecapaciteit en procesverbeteringen maken deel uit van onze ontwikkelingsambities."
+        },
+        "quality": {
+          "title": "Kwaliteitsinformatie",
+          "status": "Ingebouwd in het werk",
+          "description": "Kwaliteitseisen zijn product- en marktspecifiek. We bevestigen de specificaties en nalevingsdetails voor elke aanvraag en publiceren geen niet-geverifieerde certificeringsclaims."
+        },
+        "supplyChain": {
+          "title": "Supply chain en opslag",
+          "status": "Vandaag actief",
+          "description": "Onze bevestigde locaties zijn onder meer de fabriek in Moniya, Ibadan, het Nigeriaanse kantoor in Lagos en het Britse magazijn en kantoor in Hertford."
+        },
+        "growth": {
+          "title": "Infrastructuur voor groei",
+          "status": "Volgende gebouw",
+          "description": "De geplande ontwikkeling omvat extra productiecapaciteit, efficiëntere verwerking en verpakking, verbeterde opslag- en voorraadcontrole en bredere productmogelijkheden."
+        }
+      },
+      "insideFacilityEyebrow": "Binnen de faciliteit",
+      "insideFacilityHeading": "Actieve verwerking, testen en verpakken in Moniya, Ibadan.",
+      "insideFacilityText": "Een kijkje in de dagelijkse activiteiten waarbij geoogste grondstoffen worden omgezet in marktklare, hygiënisch verpakte voedingsproducten.",
+      "gallery": {
+        "mixingSifting": {
+          "title": "Mengen en zeven van roestvrij staal",
+          "caption": "Industriële verwerkingstanks van voedingskwaliteit, gemotoriseerde blenders en mechanische zeven die opereren in onze centrale verwerkingshub."
+        },
+        "bakeryOvens": {
+          "title": "Commerciële bakkerijovens met meerdere verdiepingen",
+          "caption": "Meesterbakkers die gouden broden en gebakken producten maken met behulp van commerciële digitale deckovens met hoge capaciteit."
+        },
+        "sortingQualityControl": {
+          "title": "Hygiënische sortering en kwaliteitscontrole",
+          "caption": "Geschoold kwaliteitsborgingspersoneel in steriele beschermende kleding sorteert de producten nauwgezet met de hand tot exportkwaliteit."
+        },
+        "palmOilBottlingLine": {
+          "title": "Bottellijn voor palmolie",
+          "caption": "Hygiënische bottelarijen die honderden palmolieflessen ordenen en inspecteren voordat ze worden verpakt voor verzending."
+        },
+        "nutSortingLongTable": {
+          "title": "Noten sorteren — Bewerkingen aan lange tafels",
+          "caption": "Een groot team van bekwame sorteerders die geroosterde pinda's scheiden tot premium kwaliteit via onze uitgebreide sorteerlijn."
+        },
+        "rotaryCooker": {
+          "title": "Industriële roterende kookplaat",
+          "caption": "Operators bedienen de gemotoriseerde roestvrijstalen roterende kookplaat die wordt gebruikt voor gelijkmatig braden in batchproductieruns."
+        },
+        "palletRacking": {
+          "title": "Logistieke stellingen voor hoogbouwpallets",
+          "caption": "State-of-the-art magazijnstellingsysteem met geautomatiseerde barcodetracking in onze centrale agrologistieke hub."
+        },
+        "containerLoading": {
+          "title": "Container laden en verzenden",
+          "caption": "Toezicht houden op het laden van containers, waardoor een veilige doorvoer wordt gegarandeerd voor regionale en mondiale exportorders met hoge capaciteit."
+        },
+        "sealedContainer": {
+          "title": "Exportklare container verzegeld",
+          "caption": "Een volledig geladen vrachtcontainer, verzegeld en voorbereid voor douaneafhandeling en internationale verzending."
+        }
+      },
+      "locations": {
+        "factory": {
+          "label": "Fabriek"
+        },
+        "nigerianOffice": {
+          "label": "Nigeriaans kantoor"
+        },
+        "ukWarehouse": {
+          "label": "Groot-Brittannië magazijn en kantoor"
+        }
+      },
+      "cta": "Informeer over een bezoek",
+      "metadataTitle": "Infrastructuur",
+      "metadataDescription": "Hoe AcresxManna productie-, kwaliteitsborging- en supply chain-capaciteit voor de Afrikaanse voedselproductie opbouwt."
+    },
+    "impact": {
+      "eyebrow": "Onze focus",
+      "heading": "Verwerking creëert waarde. Waarde creëert kansen.",
+      "intro": "AcresxManna bouwt zijn activiteiten op rond toegevoegde waarde in de landbouw, lokale productie en toegang tot markten. We zullen meetbare impactinformatie publiceren wanneer geverifieerde gegevens beschikbaar zijn.",
+      "stories": {
+        "valueAddition": {
+          "title": "Agrarische waardetoevoeging",
+          "caption": "Kleine boeren voorzien van moderne schaduwhuislandbouw, druppelirrigatie en agronomie van gewassen met een hoge opbrengst."
+        },
+        "localProduction": {
+          "title": "Lokale productie en werkgelegenheid",
+          "caption": "Het creëren van duurzame banen en technische training in kwaliteitssortering, hygiënische voedselverwerking en productie."
+        },
+        "supplyChains": {
+          "title": "Sterkere toeleveringsketens",
+          "caption": "Het overbruggen van de kloof tussen kleine boeren op het platteland en agroverwerkingsfaciliteiten op industriële schaal."
+        },
+        "globalMarkets": {
+          "title": "Afrikaans voedsel op de wereldmarkten",
+          "caption": "Het opschalen van gecontaineriseerde exportroutes zodat hoogwaardige Afrikaanse voedselproducten wereldwijd met onderscheiding kunnen concurreren."
+        }
+      },
+      "spotlightImageAlt": "Boer inspecteert dwerghybride papajabomen met hoge opbrengst",
+      "spotlightEyebrow": "Gemeenschap en agronomie",
+      "spotlightHeading": "Boeren steunen met een veerkrachtige agronomie.",
+      "spotlightText": "Via partnerschappen met lokale telers introduceren we dwerghybride gewasvariëteiten, ongediertebestendig zaadmateriaal en beschermde schaduwstructuren. Dit verhoogt het oogstvolume per hectare en beschermt boerenfamilies tegen klimaatschommelingen.",
+      "spotlightTagSeedlings": "Zaailing verzorgen",
+      "spotlightTagContracts": "Directe afnamecontracten",
+      "spotlightTagWorkforce": "Empowerment van vrouwelijke arbeidskrachten",
+      "scorecardEyebrow": "Impactscorekaart",
+      "scorecardHeading": "Cijfers waar wij achter kunnen staan.",
+      "scorecardText": "Wij publiceren alleen geverifieerde gegevens. De onderstaande cijfers worden bijgewerkt naarmate we elke statistiek van ons operationele team ontvangen en bevestigen.",
+      "verified": "Geverifieerd",
+      "scorecard": {
+        "tonnesProcessed": {
+          "label": "Ton verwerkt",
+          "note": "Streefcijfers volgen binnenkort"
+        },
+        "finishedProducts": {
+          "label": "Afgewerkte producten vervaardigd",
+          "note": "Streefcijfers volgen binnenkort"
+        },
+        "activeSuppliers": {
+          "label": "Actieve partnerschappen met leveranciers en producenten",
+          "note": "Streefcijfers volgen binnenkort"
+        },
+        "directJobs": {
+          "label": "Directe banen gecreëerd en behouden",
+          "note": "Streefcijfers volgen binnenkort"
+        },
+        "productCategories": {
+          "label": "Productcategorieën lokaal verwerkt",
+          "note": "Streefcijfers volgen binnenkort"
+        },
+        "countriesWithVerifiedSales": {
+          "label": "Landen met geverifieerde verkopen",
+          "note": "Streefcijfers volgen binnenkort"
+        },
+        "complianceQualityMeasures": {
+          "label": "Compliance & kwaliteitsmaatregelen",
+          "note": "Streefcijfers volgen binnenkort"
+        }
+      },
+      "closing": "We willen dat onze groei niet alleen wordt afgemeten aan de producten die we verkopen, maar ook aan de productiecapaciteit en economische kansen die we helpen creëren.",
+      "cta": "Praat met ons team",
+      "metadataTitle": "Invloed",
+      "metadataDescription": "Ontdek de zakelijke focusgebieden achter de agroverwerkings- en voedselproductieactiviteiten van AcresxManna."
+    },
+    "globalMarkets": {
+      "eyebrow": "Mondiale markten",
+      "heading": "Van Afrikaanse landbouwgrondstoffen tot mondiale voedselmarkten.",
+      "intro": "We bouwen aan een bedrijf dat de Afrikaanse voedselproductie verbindt met klanten, bedrijven en kansen op internationale markten. Export is onze huidige focus; specifieke bestemmingen worden niet gepubliceerd.",
+      "routes": {
+        "currentRoute": {
+          "label": "Huidige route",
+          "value": "Vandaag exporteren"
+        },
+        "nigerianRetail": {
+          "label": "Nigeriaanse detailhandel",
+          "value": "Gepland via winkels en UncleTobi"
+        },
+        "packSizes": {
+          "label": "Verpakkingsgroottes",
+          "value": "Afgestemd op de eisen van elke klant"
+        }
+      },
+      "destinationsNote": "Er worden geen specifieke exportbestemmingen of standaardverpakkingsgroottes gepubliceerd.",
+      "freightImageAlt": "Vrachtcontainer van 28 ton geladen voor exportlevering",
+      "freightEyebrow": "Gecontaineriseerde export",
+      "freightHeading": "Directe containerverzending van fabriek naar haven.",
+      "freightText": "Onze Moniya-verwerkingsfaciliteit is strategisch gepositioneerd voor containervervoer. Standaard 20ft en 40ft vrachtcontainers (met een inhoud van meer dan 28 ton aan verpakte voedselartikelen en grondstoffen) worden ter plaatse gevuld en verzegeld voor directe verzending.",
+      "accessEyebrow": "Hoe we markttoegang opbouwen",
+      "accessHeading": "Betrouwbare handel vergt meer dan verzending.",
+      "accessText": "We bouwen aan een aanpak rond marktvereisten, productgereedheid, commerciële partnerschappen en betrouwbare levering.",
+      "steps": {
+        "marketDevelopment": {
+          "title": "Marktontwikkeling",
+          "description": "Denk aan vraag, concurrentie, regulering en distributie over regionale en overzeese markten.",
+          "alt": "AcresxManna Ibadan-kantoor met paarse logowand met merklogo"
+        },
+        "productReadiness": {
+          "title": "Productgereedheid",
+          "description": "Bevestig specificaties, hermetische voedselverpakkingen en fytosanitaire certificaten voor elke handelsroute.",
+          "alt": "Team dat de productie van gebottelde palmolie regelt en inspecteert"
+        },
+        "commercialPartnerships": {
+          "title": "Commerciële partnerschappen",
+          "description": "Bouw relaties op met importeurs, bulkkopers, supermarktketens en foodservicebedrijven.",
+          "alt": "Team laadt gebottelde pindaproducten in een vrachtcontainer voor verzending"
+        },
+        "supplyReliability": {
+          "title": "Betrouwbaarheid van de levering",
+          "description": "Ontwikkel schaalbare verwerkingslijnen om terugkerende volumes met meerdere containers volgens strikte schema's te leveren.",
+          "alt": "Exportcontainer van muur tot muur verpakt met gebotteld product klaar voor internationale verzending"
+        }
+      },
+      "ukOperationsEyebrow": "operaties gericht op Groot-Brittannië",
+      "ukOperationsHeading": "UncleTobi.Winkel",
+      "ukOperationsText": "AcresxManna Ltd produceert producten, tekent klantencontracten en exporteert vanuit Nigeria. UncleTobi.Shop factureert kopers en exploiteert een magazijn en kantoor in Hertford, Verenigd Koninkrijk.",
+      "ukOperationsNote": "Exportbestemmingen worden niet gepubliceerd, dus er wordt hier geen land als gevestigde markt of doelmarkt gepresenteerd.",
+      "cta": "Internationale handelsvragen",
+      "metadataTitle": "Mondiale markten",
+      "metadataDescription": "We bouwen aan een bedrijf dat de Afrikaanse voedselproductie verbindt met klanten en kansen op internationale markten."
+    },
+    "investorsPartners": {
+      "eyebrow": "Investeerders en partners",
+      "heading": "Het opbouwen van de volgende generatie landbouwverwerkingscapaciteit in Afrika.",
+      "intro": "AcresxManna is gericht op het transformeren van Afrikaanse landbouwhulpbronnen in concurrerend voedsel door middel van verwerking, productie en marktontwikkeling. Groei is afhankelijk van productiecapaciteit, werkkapitaal, aanbodrelaties, markttoegang en operationele systemen.",
+      "spotlightImageAlt": "AcresxManna-kantoor in Ibadan, Nigeria",
+      "spotlightEyebrow": "Onze uitvalsbasis",
+      "spotlightHeading": "Gegrond in Nigeria. Geschaald voor mondiale markten.",
+      "spotlightText": "Onze centrale verwerkingsfaciliteit, opslaginfrastructuur en administratief hoofdkantoor bevinden zich in Moniya, Ibadan, in de staat Oyo – binnen het bereik van grote landbouwteeltgebieden en directe logistieke corridors naar de haven.",
+      "buildingEyebrow": "Wat we aan het bouwen zijn",
+      "building": {
+        "productionCapacity": {
+          "title": "Productiecapaciteit",
+          "description": "Het opbouwen van de productiecapaciteit achter de Afrikaanse agroverwerking en voedselproductie.",
+          "alt": "Industrieel roestvrijstalen kook- en mengstation"
+        },
+        "workingCapital": {
+          "title": "Werkkapitaal en voorraad",
+          "description": "De middelen die nodig zijn voor grondstoffen, productiecycli, verpakking, voorraad en fulfilment.",
+          "alt": "Gepalletiseerde voorraad afgewerkte levensmiddelen in magazijnopslag"
+        },
+        "productDevelopment": {
+          "title": "Productontwikkeling",
+          "description": "Het ontwikkelen van voedselproducten die Afrikaanse landbouwbronnen verbinden met de behoeften van kopers.",
+          "alt": "Verpakte agrofood-snacks in merkpotten"
+        },
+        "marketDevelopment": {
+          "title": "Marktontwikkeling",
+          "description": "Het opbouwen van commerciële relaties en routes naar de markt in Afrika en internationaal.",
+          "alt": "Exportvrachtcontainer voorbereid voor internationale verzending"
+        }
+      },
+      "meetEyebrow": "Wie we graag ontmoeten",
+      "people": {
+        "investors": {
+          "title": "Investeerders",
+          "description": "Langetermijninteresse in Afrikaanse agroverwerking, voedselproductie en waardetoevoeging."
+        },
+        "agriculturalSuppliers": {
+          "title": "Agrarische leveranciers",
+          "description": "Geschikte grondstoffen en bereidheid om volgens afgesproken specificaties te werken."
+        },
+        "distributors": {
+          "title": "Distributeurs",
+          "description": "Detailhandelaren, groothandelaren, distributeurs en importeurs die geïnteresseerd zijn in Afrikaanse voedingsproducten."
+        },
+        "buyers": {
+          "title": "Kopers",
+          "description": "Voedingsbedrijven en kopers die geïnteresseerd zijn in product- of leveringsgesprekken."
+        },
+        "strategicPartners": {
+          "title": "Industriële en strategische partners",
+          "description": "Verwerking, verpakking, logistiek, technologie of markttoegangsmogelijkheden."
+        }
+      },
+      "conversationEyebrow": "Begin een gesprek",
+      "conversationHeading": "Laten we samen de Afrikaanse voedselcapaciteit opbouwen.",
+      "conversationText": "Wij verwelkomen mensen en organisaties die kapitaal, capaciteiten, aanbod, technologie of markttoegang kunnen bijdragen. Fondsenwervingsbedragen, waarderingen, aandelenvoorwaarden en financiële projecties worden niet gepubliceerd.",
+      "conversationSubmitLabel": "Start een partnerschapsgesprek",
+      "metadataTitle": "Investeerders en Partners",
+      "metadataDescription": "Bespreek partnerschappen met investeerders, landbouwleveranciers, distributie en productie met AcresxManna."
+    },
+    "whatWeDo": {
+      "eyebrow": "Wat wij doen",
+      "heading": "Wij zetten landbouwpotentieel om in voedselproducten en commerciële waarde.",
+      "intro": "Wij verbinden het landbouwaanbod met verwerking, productie, productontwikkeling en markttoegang.",
+      "capabilities": {
+        "agriculturalSourcing": {
+          "title": "Agrarische herkomst",
+          "description": "Betrouwbare leveringsrelaties beginnen met inzicht in de kwaliteit, beschikbaarheid en seizoensinvloeden van grondstoffen."
+        },
+        "aggregationAndSupply": {
+          "title": "Aggregatie en aanbodbeheer",
+          "description": "Het coördineren van leveranciers en binnenkomende materialen helpt het aanbod af te stemmen op de productiebehoeften."
+        },
+        "agroProcessing": {
+          "title": "Agro-verwerking",
+          "description": "Het transformeren van grondstoffen in voedselproducten met meer nut, gemak en waarde."
+        },
+        "foodManufacturing": {
+          "title": "Voedselproductie",
+          "description": "AcresxManna Ltd produceert voedselproducten in Nigeria voor exportmarkten."
+        },
+        "qualityAssurance": {
+          "title": "Kwaliteitsborging",
+          "description": "Wij bouwen kwaliteitsborging in de productie. We publiceren geen niet-geverifieerde certificeringsclaims."
+        },
+        "productAndBrandDevelopment": {
+          "title": "Product- en merkontwikkeling",
+          "description": "AcresxManna verkoopt zijn producten onder HappyMan Foods; Maluza Foods Co. ontwikkelt bakkerijproducten."
+        },
+        "distributionAndInternationalTrade": {
+          "title": "Distributie en internationale handel",
+          "description": "Export is onze huidige route naar de markt. Specifieke exportbestemmingen worden niet gepubliceerd."
+        },
+        "contractManufacturing": {
+          "title": "Contractproductie en partnerschappen",
+          "description": "Neem contact met ons op om mogelijke samenwerkingen te bespreken. Mogelijkheden, minimale bestelhoeveelheden en doorlooptijden worden geval per geval bevestigd."
+        }
+      },
+      "closing": "We bouwen aan één geïntegreerd Afrikaans voedingsbedrijf, en niet aan een stapel losse onderdelen.",
+      "cta": "Bespreek een commercieel partnerschap",
+      "metadataTitle": "Wat wij doen",
+      "metadataDescription": "Hoe AcresxManna het landbouwaanbod verbindt met verwerking, productie, productontwikkeling en markttoegang."
+    },
+    "newsInsights": {
+      "eyebrow": "Nieuws & inzichten",
+      "heading": "Ideeën, vooruitgang en perspectieven die het Afrikaanse voedsel vormgeven.",
+      "intro": "Volg de ontwikkelingen, partnerschappen en ideeën achter ons werk op het gebied van agroverwerking, voedselproductie en agrarische waardetoevoeging.",
+      "categories": {
+        "companyNews": "Bedrijfsnieuws",
+        "productsAndInnovation": "Producten & Innovatie",
+        "industryInsights": "Industrie-inzichten",
+        "supplyChain": "Toeleveringsketen",
+        "globalTrade": "Mondiale handel"
+      },
+      "comingSoonEyebrow": "Binnenkort beschikbaar",
+      "comingSoonText": "Binnenkort komen onze eerste verhalen.",
+      "meantimeText": "Ontdek ondertussen onze producten of neem contact op met ons team.",
+      "cta": "Neem contact op met ons team",
+      "metadataTitle": "Nieuws en inzichten",
+      "metadataDescription": "Volg de ontwikkelingen, partnerschappen en ideeën achter ons werk op het gebied van agroverwerking, voedselproductie en agrarische waardetoevoeging."
+    },
+    "notFound": {
+      "eyebrow": "Pagina niet gevonden",
+      "heading": "Oeps! Deze pagina heeft een omweg gemaakt.",
+      "body": "De pagina die u zoekt is verplaatst of bestaat niet. Laten we je terugbrengen naar iets heerlijks.",
+      "backHome": "Terug naar huis",
+      "exploreProducts": "Ontdek onze producten",
+      "contactUs": "Neem contact met ons op"
+    },
+    "thankYou": {
+      "metadataTitle": "Bedankt",
+      "metadataDescription": "Bedankt dat u contact heeft opgenomen met AcresxManna. Een lid van ons team zal uw bericht lezen en antwoorden.",
+      "eyebrow": "Bericht ontvangen",
+      "heading": "Jaaa, bericht ontvangen!",
+      "body": "Bedankt dat u contact heeft opgenomen met AcresxManna over uw {type}. Een lid van ons team zal uw bericht lezen en antwoorden.",
+      "bodyWithProduct": "Bedankt dat u contact heeft opgenomen met AcresxManna over uw {type} ({product}). Een lid van ons team zal uw bericht lezen en antwoorden.",
+      "typeLabels": {
+        "product": "productaanvraag",
+        "supply": "aanbod- of landbouwpartnerschap",
+        "distribution": "distributie- of groothandelsaanvraag",
+        "manufacturing": "onderzoek naar productiepartnerschap",
+        "investment": "investeringsonderzoek",
+        "other": "zakelijk onderzoek",
+        "supplier": "leverancier applicatie",
+        "distributor": "distributeur applicatie",
+        "investor": "onderzoek van investeerders",
+        "fallback": "navraag"
+      },
+      "browseProducts": "Blader door onze producten",
+      "readOurStory": "Lees ons verhaal",
+      "followOurNews": "Volg ons nieuws"
+    },
+    "contact": {
+      "metadataTitle": "Contact",
+      "metadataDescription": "Neem contact op over producten, levering, distributie, productiepartnerschappen of investeringen. AcresxManna antwoordt binnen twee werkdagen.",
+      "eyebrow": "Neem contact op met AcresxManna",
+      "heading": "Een goede samenwerking begint met een gesprek.",
+      "intro": "Of u nu onze producten wilt kopen, landbouwgrondstoffen wilt leveren, onze merken wilt distribueren, productiepartnerschappen wilt verkennen of investeringen wilt bespreken, wij horen graag van u. Wij antwoorden binnen twee werkdagen.",
+      "emailCta": "E-mail ons team",
+      "whatsappCta": "WhatsApp",
+      "callUs": "U kunt ook bellen met <phone>+234 804 700 0587</phone>.",
+      "emailLabel": "E-mail",
+      "formEyebrow": "Stuur ons een bericht",
+      "formHeading": "Vertel ons hoe we kunnen helpen.",
+      "formBody": "Gebruik het formulier om uw vraag te verzenden en wij sturen deze door naar de juiste persoon in ons team. U kunt ons ook rechtstreeks per e-mail of WhatsApp bereiken met behulp van de bovenstaande gegevens.",
+      "submitLabel": "Bericht verzenden"
+    },
+    "privacy": {
+      "metadataTitle": "Privacybeleid",
+      "metadataDescription": "Hoe AcresxManna persoonlijke gegevens verzamelt, gebruikt, opslaat en beschermt tegen contactformulieren, vragen en aanmeldingen voor nieuwsbrieven.",
+      "eyebrow": "Privacybeleid",
+      "heading": "Hoe wij met uw gegevens omgaan.",
+      "intro": "Laatst bijgewerkt: oktober 2026. Dit beleid legt uit hoe AcresxManna omgaat met persoonlijke informatie die via deze website wordt verzameld. Het is geschreven in duidelijke taal en is van toepassing op bezoekers in Nigeria, het Verenigd Koninkrijk en elders.",
+      "whoWeAreHeading": "Wie wij zijn",
+      "whoWeAreBody": "AcresxManna Ltd is de Nigeriaanse entiteit die klantencontracten produceert, ondertekent en producten exporteert. UncleTobi.Shop is de Britse entiteit die kopers factureert en een magazijn en kantoor exploiteert in Hertford, Verenigd Koninkrijk. Samen zijn wij de gegevensbeheerders voor informatie die via deze site wordt verzonden.",
+      "whoWeAreContact": "Neem voor elke privacyvraag contact met ons op via <link>info@acresxmanna.com</link>.",
+      "collectHeading": "Wat we verzamelen",
+      "collectIntro": "Wij verzamelen alleen de informatie die u met ons wilt delen:",
+      "collectItem1": "Inzendingen via contactformulier: naam, e-mailadres, bedrijf of organisatie, type aanvraag en bericht.",
+      "collectItem2": "Toepassingen van leveranciers en distributeurs: naam, bedrijfs- of boerderijnaam, locatie, goederen, geschatte volumes en seizoen, en boodschap.",
+      "collectItem3": "Productaanvragen: naam, e-mailadres, bedrijf en bericht.",
+      "collectItem4": "Aanmeldingen voor de nieuwsbrief: alleen e-mailadres.",
+      "collectItem5": "Technische gegevens zoals IP-adres, apparaattype en browser, worden alleen automatisch verzameld door analysetools nadat u toestemming hebt gegeven.",
+      "whyHeading": "Waarom we het verzamelen en op welke basis",
+      "whyIntro": "Wij gebruiken uw gegevens om:",
+      "whyItem1": "Beantwoord uw vraag of sollicitatie.",
+      "whyItem2": "Beheer commerciële en leveringspartnerschappen.",
+      "whyItem3": "Verstuur alleen nieuwsbriefupdates als u daarom heeft gevraagd deze te ontvangen.",
+      "whyItem4": "Verbeter de website en begrijp hoe deze wordt gebruikt.",
+      "whyItem5": "Voldoe aan wettelijke en regelgevende verplichtingen.",
+      "whyBasis": "We verwerken deze informatie op basis van uw toestemming (voor nieuwsbrief en analyses), ons legitieme belang bij het reageren op zakelijke vragen en onze wettelijke verplichtingen.",
+      "shareHeading": "Met wie we het delen",
+      "shareBody": "Wij verkopen geen persoonlijke gegevens. We delen deze gegevens alleen met dienstverleners die namens ons handelen, waaronder hosting-, e-mail-, CRM- en analyseproviders. We kunnen ook informatie delen met professionele adviseurs of autoriteiten indien dit wettelijk vereist is.",
+      "transfersHeading": "Internationale overschrijvingen",
+      "transfersBody": "Uw gegevens kunnen worden verwerkt in Nigeria, het Verenigd Koninkrijk en andere landen waar onze dienstverleners actief zijn. We gebruiken passende veiligheidsmaatregelen om uw informatie te beschermen wanneer deze over de grenzen heen wordt overgedragen.",
+      "retentionHeading": "Hoe lang we het bewaren",
+      "retentionBody": "We bewaren de gegevens van aanvragen en sollicitaties zo lang als nodig is om de relatie te beheren en aan wettelijke verplichtingen te voldoen. De nieuwsbriefgegevens worden bewaard totdat u zich afmeldt. We beoordelen en verwijderen persoonlijke gegevens regelmatig wanneer deze niet langer nodig zijn.",
+      "securityHeading": "Beveiliging",
+      "securityBody": "We gebruiken redelijke technische en organisatorische maatregelen om uw informatie te beschermen, inclusief veilige hosting, toegangscontroles en regelmatige beoordelingen. Geen enkele transmissiemethode via internet is volledig veilig, maar we doen ons best om uw gegevens zo goed mogelijk te beschermen.",
+      "rightsHeading": "Jouw rechten",
+      "rightsBody": "Afhankelijk van waar u woont, heeft u mogelijk het recht om de verwerking van uw persoonsgegevens in te zien, te corrigeren, te verwijderen, bezwaar te maken of te beperken, en om uw toestemming op elk moment in te trekken. Om deze rechten uit te oefenen, kunt u contact met ons opnemen via <link>info@acresxmanna.com</link>.",
+      "complaintsHeading": "Klachten",
+      "complaintsBody": "Als u niet tevreden bent over de manier waarop wij met uw gegevens omgaan, kunt u contact met ons opnemen via <link>info@acresxmanna.com</link>. Mogelijk hebt u ook het recht om een ​​klacht in te dienen bij een gegevensbeschermingsautoriteit in uw land.",
+      "cookiesHeading": "Koekjes en kinderen",
+      "cookiesBody": "Zie ons <link>Cookiebeleid</link> voor informatie over cookies. Deze website is niet gericht op kinderen en wij verzamelen niet bewust persoonsgegevens van kinderen.",
+      "changesHeading": "Wijzigingen in dit beleid",
+      "changesBody": "We kunnen dit beleid van tijd tot tijd bijwerken. Wanneer we dat doen, zullen we de datum bovenaan deze pagina bijwerken en u, indien van toepassing, per e-mail of via de website op de hoogte stellen."
+    },
+    "terms": {
+      "metadataTitle": "Gebruiksvoorwaarden",
+      "metadataDescription": "Voorwaarden die het gebruik van de AcresxManna-website regelen, inclusief acceptabel gebruik, intellectueel eigendom en disclaimers.",
+      "eyebrow": "Gebruiksvoorwaarden",
+      "heading": "Gebruiksvoorwaarden",
+      "intro": "Laatst bijgewerkt: oktober 2026. Deze voorwaarden zijn van toepassing op uw gebruik van de AcresxManna-website. Door deze site te bezoeken of te gebruiken, gaat u akkoord met deze voorwaarden.",
+      "useHeading": "Wie kan de site gebruiken",
+      "useBody": "Deze website is bedoeld voor bedrijven en particulieren die geïnteresseerd zijn in de producten, diensten en partnerschappen van AcresxManna. U mag de site uitsluitend voor wettige doeleinden en in overeenstemming met deze voorwaarden gebruiken.",
+      "acceptableHeading": "Aanvaardbaar en verboden gebruik",
+      "acceptableIntro": "U mag niet:",
+      "acceptableItem1": "Gebruik de site voor onwettige doeleinden of op een manier die de site kan beschadigen, uitschakelen of aantasten.",
+      "acceptableItem2": "Poging om ongeoorloofde toegang te verkrijgen tot de site, de systemen of gegevens ervan.",
+      "acceptableItem3": "Gebruik geautomatiseerde tools om inhoud zonder toestemming te schrapen, kopiëren of reproduceren.",
+      "acceptableItem4": "Geef valse, misleidende of schadelijke informatie door via welk formulier dan ook op de site.",
+      "ipHeading": "Intellectueel eigendom",
+      "ipBody": "Alle inhoud op deze website, inclusief tekst, logo's, afbeeldingen, grafische afbeeldingen en software, is eigendom van AcresxManna of haar licentiegevers en wordt beschermd door wetten op het gebied van intellectuele eigendom. U mag inhoud bekijken en delen voor persoonlijk, niet-commercieel gebruik, maar u mag deze niet reproduceren, wijzigen of distribueren zonder onze schriftelijke toestemming.",
+      "accuracyHeading": "Nauwkeurigheid van informatie",
+      "accuracyBody": "De inhoud op deze site is uitsluitend bedoeld voor algemene informatiedoeleinden en kan zonder voorafgaande kennisgeving worden gewijzigd. Het is geen aanbod tot verkoop of een garantie voor de beschikbaarheid van producten. Productinformatie, specificaties en beschikbaarheid zijn indicatief totdat deze schriftelijk door AcresxManna zijn bevestigd.",
+      "linksHeading": "Links naar websites van derden",
+      "linksBody": "Deze site kan links bevatten naar websites van derden, waaronder merkwebsites en sociale media. Wij zijn niet verantwoordelijk voor de inhoud of praktijken van die sites.",
+      "liabilityHeading": "Beperking van aansprakelijkheid",
+      "liabilityBody": "Voor zover toegestaan ​​door de wet, is AcresxManna niet aansprakelijk voor enige directe, indirecte, incidentele of gevolgschade die voortvloeit uit uw gebruik van, of het onvermogen om deze website te gebruiken. Dit sluit de aansprakelijkheid niet uit of beperkt deze niet indien dit bij wet verboden is.",
+      "governingLawHeading": "Toepasselijk recht",
+      "governingLawBody": "Op deze voorwaarden is de wetgeving van Nigeria en het Verenigd Koninkrijk van toepassing, indien van toepassing. Geschillen zullen worden behandeld bij de bevoegde rechtbanken.",
+      "contactHeading": "Contact",
+      "contactBody": "Voor vragen over deze voorwaarden kunt u contact met ons opnemen via <link>info@acresxmanna.com</link>."
+    },
+    "cookies": {
+      "metadataTitle": "Cookiebeleid",
+      "metadataDescription": "Informatie over de cookies en soortgelijke technologieën die op de AcresxManna-website worden gebruikt en hoe u deze kunt beheren.",
+      "eyebrow": "Cookiebeleid",
+      "heading": "Cookies en soortgelijke technologieën.",
+      "intro": "Laatst bijgewerkt: oktober 2026. Dit beleid legt uit wat cookies zijn, welke we gebruiken en hoe u ze kunt beheren.",
+      "whatAreCookiesHeading": "Wat zijn cookies?",
+      "whatAreCookiesBody": "Cookies zijn kleine tekstbestanden die op uw apparaat worden opgeslagen wanneer u een website bezoekt. Ze helpen de website uw voorkeuren te onthouden en te begrijpen hoe de site wordt gebruikt. Soortgelijke technologieën omvatten lokale opslag en pixeltags.",
+      "tableHeading": "De cookies die wij gebruiken",
+      "tableName": "Naam",
+      "tablePurpose": "Doel",
+      "tableType": "Type",
+      "tableDuration": "Duur",
+      "essentialName": "Essentiële koekjes",
+      "essentialPurpose": "Vereist voor het functioneren van de site, zoals het onthouden van uw keuze voor toestemming voor cookies en de landinstelling.",
+      "essentialType": "Essentieel",
+      "essentialDuration": "1 jaar",
+      "analyticsName": "Analytics-cookies",
+      "analyticsPurpose": "Wordt gebruikt om te begrijpen hoe bezoekers de site gebruiken, inclusief bezochte pagina's en verkeersbronnen. Alleen ingesteld nadat u toestemming heeft gegeven.",
+      "analyticsType": "Analyses",
+      "analyticsDuration": "Varieert",
+      "essentialVsOptionalHeading": "Essentiële versus optionele cookies",
+      "essentialVsOptionalBody": "Essentiële cookies zijn nodig om de website te laten werken en kunnen niet worden uitgeschakeld. Optionele analytische cookies worden alleen gebruikt als u toestemming geeft via onze cookiebanner.",
+      "consentHeading": "Hoe wij omgaan met toestemming",
+      "consentBody": "Wanneer u de site voor het eerst bezoekt, ziet u een cookiebanner. U kunt ervoor kiezen om alle cookies te accepteren, alleen essentiële cookies te accepteren of uw instellingen te beheren. U kunt uw keuze op elk moment wijzigen via de link Cookie-instellingen in de voettekst.",
+      "blockDeleteHeading": "Hoe u cookies kunt blokkeren of verwijderen",
+      "blockDeleteBody": "Via uw browserinstellingen kunt u cookies blokkeren of verwijderen. Houd er rekening mee dat het blokkeren van essentiële cookies de functionaliteit van de website kan beïnvloeden.",
+      "contactHeading": "Contact",
+      "contactBody": "Voor vragen over dit Cookiebeleid kunt u contact met ons opnemen via <link>info@acresxmanna.com</link>."
+    }
+  },
+  "brandStatus": {
+    "active": "Actief",
+    "comingSoon": "Binnenkort beschikbaar",
+    "live": "Live"
+  },
+  "locations": {
+    "factory": "Fabriek",
+    "nigerianOffice": "Nigeriaans kantoor",
+    "ukWarehouse": "Groot-Brittannië magazijn en kantoor"
+  },
+  "chrome": {
+    "logoAria": "AcresxManna Thuis",
+    "logoAlt": "AcresxManna-logo",
+    "languages": {
+      "en": "Engels",
+      "fr": "Frans",
+      "tw": "Twee",
+      "es": "Spaans",
+      "ru": "Русский",
+      "pt": "Portugees",
+      "de": "Duits",
+      "it": "Italiaans",
+      "ar": "العربية",
+      "nl": "Nederlands",
+      "zh-CN": "简体中文"
+    }
+  },
+  "forms": {
+    "nameLabel": "Volledige naam",
+    "emailLabel": "E-mailadres",
+    "companyLabel": "Bedrijfsnaam (optioneel)",
+    "enquiryTypeLabel": "Onderzoekstype",
+    "productLabel": "Productnaam",
+    "messageLabel": "Jouw bericht",
+    "messagePlaceholder": "Vertel ons over uw wensen...",
+    "honeypotLabel": "Website (leeg laten)",
+    "privacyConsent": "Door dit formulier in te dienen, gaat u akkoord met ons {privacy}-beleid.",
+    "errorName": "Voer uw naam in",
+    "errorEmail": "Voer uw e-mailadres in",
+    "errorEmailFormat": "Voer een geldig e-mailadres in",
+    "errorMessage": "Voer een bericht in (minimaal 10 tekens)",
+    "errorSend": "Er is iets misgegaan. Probeer het opnieuw.",
+    "sending": "Verzenden...",
+    "sendMessage": "Bericht verzenden",
+    "options": {
+      "product": "Productaanvraag",
+      "supply": "Leveringspartnerschap",
+      "distribution": "Verdeling",
+      "manufacturing": "Productie",
+      "investment": "Investering",
+      "other": "Ander"
+    }
+  },
+  "enquiry": {
+    "whatToInclude": "Wat op te nemen",
+    "howItWorks": "Hoe het werkt",
+    "apply": "Solliciteer nu",
+    "startConversation": "Begin een gesprek",
+    "formIntroBody": "Vul het formulier in en ons team neemt binnen 48 uur contact met u op."
+  },
+  "ui": {
+    "cookieConsent": {
+      "title": "Wij waarderen uw privacy",
+      "description": "Wij gebruiken cookies om uw ervaring te verbeteren. Als u deze site blijft bezoeken, gaat u akkoord met ons gebruik van cookies.",
+      "accept": "Accepteren",
+      "decline": "Afwijzen",
+      "settings": "Cookie-instellingen",
+      "dialogLabel": "Toestemming voor cookies",
+      "essentialOnly": "Alleen essentieel",
+      "acceptAll": "Accepteer alles"
     }
   }
 }

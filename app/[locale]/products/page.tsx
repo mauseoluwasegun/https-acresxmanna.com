@@ -9,11 +9,19 @@ import { ScrollReveal } from "@/components/animations/MotionSection";
 import { Link } from "@/i18n/routing";
 import { BusinessFaq } from "@/components/sections/BusinessFaq";
 
-export const metadata = {
-  title: "Products",
-  description:
-    "Explore AcresxManna's products on sale for export, product varieties, and planned Nigerian retail.",
-};
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}) {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: "pages.products" });
+
+  return {
+    title: t("metadataTitle"),
+    description: t("metadataDescription"),
+  };
+}
 
 export default async function ProductsPage() {
   const t = await getTranslations("pages.products");

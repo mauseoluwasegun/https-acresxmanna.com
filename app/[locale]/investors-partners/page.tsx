@@ -6,11 +6,19 @@ import { ScrollReveal } from "@/components/animations/MotionSection";
 import { Eyebrow } from "@/components/ui/Eyebrow";
 import { EnquiryForm } from "@/components/forms/EnquiryForm";
 
-export const metadata = {
-  title: "Investors and Partners",
-  description:
-    "Discuss investor, agricultural supplier, distribution and manufacturing partnerships with AcresxManna.",
-};
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}) {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: "pages.investorsPartners" });
+
+  return {
+    title: t("metadataTitle"),
+    description: t("metadataDescription"),
+  };
+}
 
 const WHAT_WE_BUILD = [
   {

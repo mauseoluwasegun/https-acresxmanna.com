@@ -6,10 +6,16 @@ import uiMessages from '../messages/_en.ui.json';
 import pageMessagesA from '../messages/_en.pages-a.json';
 import pageMessagesB from '../messages/_en.pages-b.json';
 
+const isPlainObject = (value: any): boolean =>
+  !!value && typeof value === 'object' && !Array.isArray(value);
+
 function mergeDeep(target: any, source: any): any {
   const output = { ...target };
   for (const key of Object.keys(source)) {
-    if (source[key] instanceof Object && key in target && target[key] instanceof Object) {
+    // Arrays (product highlights, enquiry steps, variety lists) are merged as
+    // whole values. Recursing into them would turn them into `{0: …, 1: …}`
+    // objects, and every `.map()` call on that copy would fail.
+    if (isPlainObject(source[key]) && isPlainObject(target[key])) {
       output[key] = mergeDeep(target[key], source[key]);
     } else if (!(key in target)) {
       output[key] = source[key];

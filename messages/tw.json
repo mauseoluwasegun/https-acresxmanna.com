@@ -6,7 +6,11 @@
   },
   "layout": {
     "title": "AcresxManna — Afrika Ahonya, Akyɛ Yɛ Aduane Pa",
-    "description": "Amanaman aduane, nnuane mu nneɛma ne dwadini kuw a ɛresesa Afrika dwuma wɔ Agrofood wiase guasoɔ so."
+    "description": "Amanaman aduane, nnuane mu nneɛma ne dwadini kuw a ɛresesa Afrika dwuma wɔ Agrofood wiase guasoɔ so.",
+    "titleTemplate": "%s | AcresxManna",
+    "ogImageAlt": "AcresxManna — Afrika Kuadwuma mu Nnuan Kuw",
+    "legalName": "AcresxManna Kuw no",
+    "skipToContent": "Twa kɔ emu nsɛm no so"
   },
   "nav": {
     "home": "Fie",
@@ -15,7 +19,13 @@
     "whatWeDo": "Deɛ Yɛyɛ",
     "what-we-do": "Deɛ Yɛyɛ",
     "impact": "Nsunsuɛ",
-    "contact": "Nkitahodi"
+    "contact": "Nkitahodi",
+    "primaryAria": "Nneɛma a wɔde fa kwan so titiriw",
+    "more": "Dodoɔ",
+    "letsTalk": "Momma Yɛnkasa",
+    "openMenu": "Bue menu no mu",
+    "mobileAria": "Mobile akwantuo a wɔde fa so",
+    "closeMenu": "To menu no mu"
   },
   "hero": {
     "eyebrow": "AcresxManna · Agrofood Kuw",
@@ -303,7 +313,29 @@
     "copyright": "© {year} AcresxManna. Hokwan nyinaa wɔ hɔ.",
     "privacy": "Kokoam",
     "terms": "Nhyehyɛeɛ",
-    "cookies": "Cookies"
+    "cookies": "Cookies",
+    "brandHomeAria": "AcresxManna Fie",
+    "brandLogoAlt": "AcresxManna Ahyɛnsode",
+    "taglineText": "Afrika kuayɛ mu ahonyade a wɔbɛdan no aduan kɛse ama mpɔtam hɔfo ne wiase nyinaa apon nyinaa.",
+    "exploreHeading": "Hwehwɛ mu",
+    "aboutUs": "Yɛn Ho Nsɛm",
+    "contactUs": "Di Yɛn Nkitahodi",
+    "brandsHeading": "Yɛn Brands no",
+    "brand1Label": "UncleTobi Akuafoɔ",
+    "brand2Label": "Maluza Foods Co. na ɔkyerɛwee",
+    "brand3Label": "HappyMan Foods na ɔkyerɛwee",
+    "brand4Label": "African Food King na ɔkyerɛwee",
+    "certifiedBy": "Certified By",
+    "certifiedByAlt": "Badge a ɛkyerɛ sɛ ɛyɛ papa",
+    "copyrightLine": "© {year} AcresxManna na ɛyɛ adwuma yiye. Hokwan ahorow nyinaa wɔ hɔ.",
+    "privacyPolicy": "Nsɛm a Wɔde Sie",
+    "termsOfUse": "Nsɛm a Wɔde Di Dwuma",
+    "cookiePolicy": "Kuki ho Mmara",
+    "whatWeDo": "Nea Yɛyɛ",
+    "impact": "Nsunsuansoɔ",
+    "globalMarkets": "Wiase Nyinaa Guadidan ahorow",
+    "instagramAria": "AcresxManna wɔ Instagram so",
+    "certifiedByNote": "Aduan ahobammɔ ne gyinapɛn ahorow a ɛyɛ papa a yɛyɛ ho adwuma wɔ yɛn adwumayɛbea ahorow nyinaa mu."
   },
   "languageSwitcher": {
     "label": "Kasa",
@@ -327,36 +359,1265 @@
     "manufacturing": {
       "eyebrow": "Yɛn Adwuma no",
       "headline": "Adwuma Beaeɛ",
-      "description": "Yɛn adwuma beaeɛ no yɛ pɛ na ɛma aduane no yɛ pɛ wɔ berɛ biara mu."
+      "description": "Yɛn adwuma beaeɛ no yɛ pɛ na ɛma aduane no yɛ pɛ wɔ berɛ biara mu.",
+      "cap0Alt": "Cassava kuayɛ afuw a afifide a ɛyɛ ahabammono wɔ so",
+      "cap0Title": "Nneɛma a wonya fi mu",
+      "cap0Description": "Yɛnya nneɛma a wɔde yɛ adwuma no fi akuafoɔ ne adwumayɛkuo a wɔgye wɔn di wɔ Afrika Atɔeɛ fam nyinaa hɔ tẽẽ.",
+      "cap1Alt": "Nkuku a wɔde atoko a wɔakata so a wɔde ahyɛ mu a wɔde nneɛma a wɔawie akora so",
+      "cap1Title": "Akoraeɛ",
+      "cap1Description": "Yɛn adekoradan ahorow no kura tebea horow a eye sen biara mu ma nneɛma a wɔkora so yiye.",
+      "cap2Alt": "Aduan a wɔyɛ ho adwumayɛfo a ɔhyɛ ntade a ɛbɔ wɔn ho ban a ɔrehwɛ dade a ɛnyɛ den a wɔde yɛ kettle so",
+      "cap2Title": "Nneɛma a wɔyɛ",
+      "cap2Description": "Mfiri a ɛkɔ akyiri a wɔde yɛ nneɛma a wɔde siesie, hyehyɛ, na wosiesie.",
+      "cap3Alt": "Industrial mixing ne sifter tanks wɔ processing adwumayɛbea",
+      "cap3Title": "Nneɛma Pa a Wɔhwɛ So",
+      "cap3Description": "Sɔhwɛ a emu yɛ den a wɔyɛ wɔ nneɛma pa ho no hwɛ hu sɛ ade biara du amanaman ntam gyinapɛn ahorow ho.",
+      "cap4Alt": "Afuw kuw bi a wɔretwa tomato a wɔhyɛ ntade a wɔakyerɛw din wɔ so wɔ dan bi a wɔde nneɛma gu mu mu",
+      "cap4Title": "Kuadwuma",
+      "cap4Description": "Nnɛyi kuayɛ nneyɛe a wɔde akwan a ɛtra hɔ daa ne nsu a wɔde gugu nnɔbae so.",
+      "cap5Alt": "Fa ade a wɔde nneɛma a wɔde ahyɛ toa mu ahyɛ mu ma a wɔasiesie sɛ wɔde bɛkɔ amannɔne no kɔ amannɔne",
+      "cap5Title": "Akyekyɛ",
+      "cap5Description": "Logistics network a etu mpɔn a ɛde yɛn nneɛma bata wiase nyinaa gua ahorow ho."
     },
     "products": {
       "dividerEyebrow": "— YƐN NEƐMA",
       "eyebrow": "Nneɛma",
       "headline": "Afrika Aduane a Ɛyɛ Pɛ",
-      "description": "Afiri aba so kosi aduane a wɔayɛ no, yɛn nneɛma no kɔ wiase nyinaa."
+      "description": "Afiri aba so kosi aduane a wɔayɛ no, yɛn nneɛma no kɔ wiase nyinaa.",
+      "statusAvailable": "Ɛwɔ Hɔ Mprempren",
+      "statusComingSoon": "Reba seesei ara",
+      "requestInfo": "Bisa Nsɛm",
+      "cta": "Hwɛ Nneɛma a Wɔyɛ Nyinaa",
+      "items": {
+        "garri": {
+          "name": "Garri na ɔkyerɛwee",
+          "description": "Ade titiriw a ɛho hia wɔ Afrika mpɔtam pii, a hokwan ahorow wɔ aguadidan, aduan a wɔde ma ne amanaman ntam Afrikafo nnuan gua ahorow nyinaa so. Yɛyɛ ho adwuma wɔ fitaa, Ijebu ne kɔkɔɔ ahorow mu.",
+          "imageAlt": "Garri kotoku a wɔde sie adekoradan mu de sie na wɔkyekyɛ"
+        },
+        "cassava-flour": {
+          "name": "Cassava Esiam a Wɔde Yɛ Adwuma",
+          "description": "Esiam a wɔde cassava ayɛ a wɔde noa aduan wɔ fie, paanootofo ne nnuan ho adwumayɛfo, a wɔahyɛ no ma sɛnea w’ahiade te.",
+          "imageAlt": "Cassava esiam kotoku a wɔakyerɛw so a wɔakyekyere ama wɔakyekyɛ"
+        },
+        "plantain-flour": {
+          "name": "Plantain esiam a Wɔde Yɛ Nneɛma",
+          "description": "Esiam a wɔde plantain ayɛ a wɔde noa aduan wɔ fie, paanootofo ne nnuan ho adwumayɛfo, a wɔahyɛ no ma sɛnea w’ahiade te.",
+          "imageAlt": "Plantain esiam a wɔde scoop ayɛ a wɔabɛn ho"
+        },
+        "groundnuts-peanuts": {
+          "name": "Asase ne Atoko",
+          "description": "Kuadwuma mu ade a wotumi de di dwuma pii a ebetumi ayɛ aduan a wɔakyekyere ne ade a wɔde yɛ adwuma bio.",
+          "imageAlt": "Asase ne atoko a wɔakyekyere no pii wɔ adekoradan mu"
+        },
+        "roasted-groundnuts": {
+          "name": "Groundnuts a Wɔayam",
+          "description": "Asase so nnua a wɔayam ne atoko a wɔabɔ no akutu a wɔde bɛtɔn no kɛse, a wɔahyɛ no ma sɛnea w’ahiade te.",
+          "imageAlt": "Pallets a wɔde asase a wɔayam a wɔde ahyɛ toa mu ne atoko a wɔabɔ no akuturuku a wɔasiesie ama dodow a wɔtɔn no kɛse"
+        },
+        "cashew-nuts": {
+          "name": "Cashew Nnua a Wɔde Yɛ Nnuadewa",
+          "description": "Nnuan a wɔde di agoru ne nneɛma a nkurɔfo ani gye ho, a wɔahyɛ no ma sɛnea w’ahiade te.",
+          "imageAlt": "Cashew nnua ne cashew apɔw-mu-teɛteɛ a wotwa fi nnuaba turo so kosi pon so"
+        },
+        "plantain-chips": {
+          "name": "Plantain a Wɔde Yɛ Nneɛma",
+          "description": "Afrikafo aduan a wonim na ɛyɛ mmerɛw ma nnipa a wɔrehwehwɛ nnuan a ɛyɛ anigye. Nneɛma a wobisabisa no betumi asusuw nneɛma a wɔde kyekyere nneɛma ne nea wɔkyekyɛ ho ahwehwɛde ahorow ho.",
+          "imageAlt": "HappyMan Plantain Chips a wɔde ahyɛ plastic bag a emu da hɔ mu"
+        },
+        "hibiscus-teas": {
+          "name": "Hibiscus ne Tia",
+          "description": "Afrika afifide a wogye tom a wɔde yɛ tii, infusions ne anonne. Di yɛn ho nkɔmmɔ na munsusuw nneɛma a ɛwɔ hɔ ne ahwehwɛde ahorow ho.",
+          "imageAlt": "African Food King nhabannuru tii a ɛyɛ fɛ a wɔaboaboa ano a Hibiscus, Ginger, Clove & Cinnamon pyramid tii bag ahorow wom"
+        },
+        "kuli-kuli": {
+          "name": "Kuli Kuli na ɔkyerɛwee",
+          "description": "Afrika Atɔe Fam aduan a ɛyɛ mmerɛw a ɛyɛ nwonwa a wɔde asase mu nnua a wɔayam ayɛ, a wɔde ahyɛ mu ma na wɔayɛ no yiye ma ɛyɛ pɛpɛɛpɛ. Afifide mu protein dɔɔso na wɔahyɛ no ma ama adetɔnbea foforo ne nea wɔde kɔ amannɔne.",
+          "imageAlt": "Kuli Kuli nnuan a ɛyɛ mmerɛw ankasa a wɔde ahyɛ aguadidan nkuku a ɛda adi sɛ wɔayɛ no basabasa a akataso yɛ ahabammono mu"
+        },
+        "palm-oil": {
+          "name": "Palm Ngo a Ɛho Tew",
+          "description": "Nnuadewa ngo kɔkɔɔ a ɛho tew a wɔansiesie a wonya fi baabi a ɛtra hɔ daa a wɔayɛ ho adwuma wɔ ahotew tebea a emu yɛ den mu. Ɛho hia ma Afrikafo aduannoa ankasa, aduan a wɔde ma, ne aguadi mu nneɛma a wɔyɛ.",
+          "imageAlt": "Nnuadewa ngo kɔkɔɔ a ɛho tew nkotoku a wɔatoto mu a wɔasiesie sɛ wɔbɛkyekyɛ na wɔde akɔ amannɔne a wɔhwɛ wɔ soro"
+        },
+        "ayamase-sauce": {
+          "name": "Ayamase Sauce a wɔde yɛ aduan",
+          "description": "West African pepper sauce a ɛyɛ dɛ, a wɔsan frɛ no Ofada sauce, a wɔasiesie ama da biara da aduannoa na wɔde ahyɛ 250g nkotoku mu.",
+          "imageAlt": "HappyMan Ayamase Sauce aguadidan kotoku a Ofada sauce nkyerɛwde wɔ so"
+        },
+        "seasonings-spices": {
+          "name": "Nneɛma a Wɔde Yɛ Nnuan ne Nnuhwam",
+          "description": "Nneɛma ahorow a wɔayɛ ho nhyehyɛe a ɛde kuayɛ mu nneɛma bata da biara da aduannoa ho, a wɔde wɔn adwene si dɛ, nea ɛyɛ mmerɛw ne nea ɛkɔ so daa so. Wonnya nnyaa bi.",
+          "imageAlt": "Rustic spice still life a wɔde garlic, chili peppers, peppercorns, curry powder, ne nhabannuru a wɔayɛ no foforo wɔ nnua so"
+        }
+      }
     },
     "operatingModel": {
       "dividerEyebrow": "— YƐN ADWUMA",
       "eyebrow": "Yɛn Adwuma",
       "headline": "Value Chain",
-      "description": "Yɛka kuayɛ, adwuma, sika ne distribution bom na yɛyɛ aduane."
+      "description": "Yɛka kuayɛ, adwuma, sika ne distribution bom na yɛyɛ aduane.",
+      "steps": {
+        "source": {
+          "title": "Farebae",
+          "description": "Tẽẽ fi akuafo a wɔwɔ Ghana, Nigeria, ne Côte d’Ivoire nyinaa hɔ."
+        },
+        "processAndManufacture": {
+          "title": "Adeyɛ & Nneɛma a Wɔyɛ",
+          "description": "HACCP ne ISO 22000 adansedi adwumayɛbea ahorow hwɛ hu sɛ ɛyɛ papa."
+        },
+        "packageAndBuildBrands": {
+          "title": "Package & Sisi Nneɛma a Wɔde Yɛ Nneɛma",
+          "description": "Nneɛma a wɔde yɛ nneɛma a ɛka Afrikafo nnuan ho nsɛm a ɛyɛ nokware."
+        },
+        "connectToMarkets": {
+          "title": "Fa Nkitahodi Kɔ Guadidan ahorow so",
+          "description": "Nkyekyɛmu wɔ 24+ gua so denam AfCFTA akwan so."
+        }
+      }
     },
     "brands": {
       "dividerEyebrow": "— YƐN BRANDS",
       "eyebrow": "Yɛn Brands",
       "headline": "Brands Bɛtɔ, Botae Koro",
-      "description": "Yɛn brands no boa akuafoɔ ne afoforɔ, na ɛyɛ pɛ."
+      "description": "Yɛn brands no boa akuafoɔ ne afoforɔ, na ɛyɛ pɛ.",
+      "heading": "Nneɛma a Wɔde Yɛ Nneɛma Ahorow, Asɛmpatrɛw Baako",
+      "brand0Alt": "African Food King ahyɛnsode",
+      "brand0Status": "Asɔ",
+      "brand0Name": "African Food King na ɔkyerɛwee",
+      "brand0Description": "Afrikafo nnuan a ɛyɛ nokware a wɔde yɛ aguadidan ne aguadidan ahorow a wɔde kɔ amannɔne.",
+      "brand1Alt": "HappyMan Foods branded aguade kotoku",
+      "brand1Status": "Asɔ",
+      "brand1Name": "HappyMan Foods na ɔkyerɛwee",
+      "brand1Description": "Yɛn consumer food brand a ɛyɛ da biara da nneɛma a ne bo yɛ den.",
+      "brand2Alt": "Abodoo a wɔayɛ no foforo a efi Maluza Foods paanootɔnbea hɔ",
+      "brand2Status": "Asɔ",
+      "brand2Name": "Maluza Foods na ɔkyerɛwee",
+      "brand2Description": "Yɛn paanootɔnbea a wɔyɛ paanoo ne paanoo a wɔayɛ no foforo.",
+      "brand3Alt": "UncleTobi ahyɛnsode",
+      "brand3Status": "Reba seesei ara",
+      "brand3Name": "UncleTobi na ɔkyerɛwee",
+      "brand3Description": "Intanɛt so aduan ho adwene a ɛde wɔn a wɔde nneɛma ma no bom ma wɔtɔn nneɛma.",
+      "cta": "Hwɛ Nneɛma a Wɔde Yɛ Nneɛma Nyinaa"
     },
     "impact": {
       "dividerEyebrow": "— YƐN IMPACT",
       "eyebrow": "Wɔ Nsɛm Mu",
       "headline": "Impact a Ɛyɛ Nokware",
-      "description": "Obiara yɛ kuayɛfoɔ anaasɛ ɔkuo a yɛaboa."
+      "description": "Obiara yɛ kuayɛfoɔ anaasɛ ɔkuo a yɛaboa.",
+      "chip0": "Akuafo a Wɔama Wɔn Tumi",
+      "chip1": "Mpɔtam Ahorow a Wodu Ho",
+      "chip2": "Nnwuma a Wɔabɔ",
+      "chip3": "Guadidan ahorow a Wɔsom",
+      "cta": "Hwɛ Nkɛntɛnso a Ɛdi Nyinaa"
     },
     "finalCta": {
       "eyebrow": "Nkitahodi",
       "headline": "Partnerships",
-      "description": "Sɛ wo yɛ kuayɛfoɔ, distribuidor anaasɛ partner, ka yɛn ho bom."
+      "description": "Sɛ wo yɛ kuayɛfoɔ, distribuidor anaasɛ partner, ka yɛn ho bom.",
+      "partnerWithUs": "Wo ne Yɛn Yɛ Adwuma",
+      "becomeSupplier": "Bɛyɛ Ɔdemafoɔ",
+      "exploreProducts": "Hwehwɛ Nneɛma a Wɔde Yɛ Adwuma Mu"
+    },
+    "hero": {
+      "eyebrow": "AcresxManna · Agrofood Kuw",
+      "word0": "Nkyerɛkyerɛmu a wɔsan kyerɛkyerɛ mu",
+      "word1": "Afrika deɛ",
+      "word2": "asodie",
+      "word3": "wɔ",
+      "word4": "amansan",
+      "word5": "dwa",
+      "typingText": "Amanaman ntam nnuan, nneɛma a wɔde yɛ ne aguadi kuw a ɛwɔ ahorow ahorow.",
+      "exploreProducts": "Hwehwɛ Yɛn Nneɛma mu",
+      "letsTalk": "Momma Yɛnkasa",
+      "heroImageAlt": "Palm oil bottling production line wɔ AcresxManna adwumayɛbea",
+      "tagAfricanHarvest": "100% Afrikafo Otwa",
+      "tagExportReady": "Export Ready a Wɔasiesie",
+      "tagValueAdded": "Nneɛma a Wɔde Di Dwuma a Ɛsom Bo a Wɔde Ka Ho",
+      "tagFarmToGlobal": "Farm to Global",
+      "tagQuality": "Premium Quality a Ɛyɛ Fɛ",
+      "mascotAlt": "AcresxManna brand mascot suban"
+    },
+    "clients": {
+      "heading": "Yɛn Adetɔfoɔ",
+      "headline": "Yɛn afɛfo no bi.",
+      "description": "Adetɔnfo, wɔn a wɔkyekyɛ ne sika-ne-soa ahokafo a wɔde yɛn nneɛma brɛ adetɔfo.",
+      "items": {
+        "segGroup": {
+          "description": "Retail ne wholesale partner stocking HappyMan Foods nneɛma ma n’atɔfo.",
+          "location": "Hertford na ɔkyerɛwee",
+          "logoAlt": "SEG Group ahyɛnsode"
+        },
+        "aliBabaFoods": {
+          "description": "Aduan ho adwuma a ɛde Afrikafo nneɛma a wɔtɔn ma wɔn a wɔtɔn nneɛma wɔ sotɔɔ mu.",
+          "location": "Hertford na ɔkyerɛwee",
+          "logoAlt": "Ali Baba Foods Ltd ahyɛnsode"
+        },
+        "adesCashAndCarry": {
+          "description": "Cash-and-carry outlet a ɛma mpɔtam hɔ aguadifo ne adetɔfo nya Afrikafo nnuan titiriw a wodi da biara da.",
+          "logoAlt": "Ades Cash and Carry ahyɛnsode"
+        },
+        "wosiwosiCashAndCarry": {
+          "description": "Cash-and-carry outlet a ɛsom ne mpɔtam hɔfo a Afrikafo nnuan ahorow a wogye di wom."
+        }
+      }
+    },
+    "brandShowcase": {
+      "dividerEyebrow": "Yɛn abɔde a nkwa wom nhyehyɛe",
+      "eyebrow": "Yɛn brands a yɛde yɛ nneɛma",
+      "headline": "Yɛn brands no bi.",
+      "cta": "Hwehwɛ yɛn brands mu",
+      "items": {
+        "africanFoodKing": {
+          "status": "asɔ",
+          "description": "Afrikafo nnuan a ɛyɛ nokware a ɛde aduannoa ho atetesɛm a ɛyɛ hyew ne tii a ɛyɛ fɛ brɛ wiase nyinaa adetɔfo.",
+          "alt": "African Food King aban ahyɛnsode ahyɛnsode"
+        },
+        "uncleTobi": {
+          "status": "reba seesei ara",
+          "description": "Intanɛt so aduan ho adwene a ɛka wɔn a wɔde nneɛma ma no bom ma wɔde kɔ aguadidan ne amanaman ntam.",
+          "alt": "UncleTobi intanɛt so aduannoa adwene logo"
+        },
+        "ijgbFoods": {
+          "status": "asɔ",
+          "description": "Afrikafo nnuan a wɔde di agoru a wiase nyinaa swagger — a ɛma aguadi yɛ mmerɛw na ɛka nneɛma a ɛyɛ papa bom wɔ gua ahorow so.",
+          "alt": "IJGB Foods ahyɛnsodeɛ ahyɛnsodeɛ"
+        },
+        "happyManFoods": {
+          "status": "asɔ",
+          "description": "Flagship brand AcresxManna de di dwuma de tɔn na wɔkyekyɛ ne nneɛma nyinaa.",
+          "alt": "HappyMan Foods ahyɛnsode"
+        },
+        "maluzaFoods": {
+          "status": "te ase",
+          "description": "Aguadidan bi a wɔyɛ paanoo a wɔreyɛ nneɛma foforo na wɔrebue aguadidan ahorow wɔ Ibadan ne ne mpɔtam.",
+          "alt": "Maluza Foods Co. ahyɛnsode"
+        }
+      }
+    },
+    "productTicker": {
+      "ariaLabel": "Scrolling product ticker a ɛwɔ: {products}"
+    },
+    "globalAmbition": {
+      "eyebrow": "Wiase Nyinaa Aniberesɛm",
+      "headline": "Ɔdan a Wɔkyekye wɔ Ahye so",
+      "description": "Efi Afrika Atɔe Fam kosi wiase nyinaa gua so no, yɛretrɛw yɛn nsa a yɛde bɛkɔ no mu bere a yɛda so gye ntini wɔ yɛn asɛmpatrɛw adwuma no mu no."
+    },
+    "stakeholderCube": {
+      "dividerEyebrow": "— YƐN AKWANKYERƐFO",
+      "eyebrow": "Wɔn a Yɛsom Wɔn",
+      "heading": "Anim Nsia a Ɛsom Bo",
+      "description": "Obiara a ɔde ne ho hyɛ yɛn abɔde a nkwa wom mu no ho hia. Hwehwɛ sɛnea yɛbɔ mfaso wɔ agrofood bo a ɛsom no nyinaa mu.",
+      "cubeAriaLabel": "Nkitahodi kuruwa a ɛkyerɛ {face}",
+      "faceAriaLabel": "Hwɛ {label} akyidifoɔ adwene",
+      "face": "Di akɔneaba kube no",
+      "hint": "Kɔ so na di akɔneaba",
+      "panel": "Nkyerɛmu",
+      "talkToTeam": "Wo ne Yɛn Kuw no nkasa",
+      "faces": {
+        "consumer": "Adetɔfo",
+        "farmer": "Okuani",
+        "distributor": "Ɔkyekyɛfo",
+        "partner": "Hokani",
+        "investor": "Sikakorabea",
+        "employee": "Odwumayɛni"
+      },
+      "stakeholders": {
+        "consumer": {
+          "label": "CONSUMER",
+          "headline": "Quality & Ahotoso",
+          "description": "Wɔn a wɔde di dwuma no fata Afrikafo nnuan a ahobammɔ wom, ahoɔden wom, na ɛyɛ nokware. Yɛhwɛ hu sɛ ade biara a wɔyɛ no du amanaman ntam gyinapɛn ahorow ho bere a yɛkora amammerɛ agyapade so no.",
+          "ctaLabel": "Sotɔɔ Nneɛma a Wɔde Yɛ Adwuma"
+        },
+        "farmer": {
+          "label": "OKUANI",
+          "headline": "Nkɔso & Nidi",
+          "description": "Akuafo nketewa ne yɛn abɔde a nkwa wom nhyehyɛe no akyi dompe. Yɛde nneɛma bo a ɛfata, nneyɛe ho ntetee a ɛtra hɔ daa, ne gua so kwan tẽẽ ma de sesa asetrade.",
+          "ctaLabel": "Wo ne Yɛn Yɛ Adwuma"
+        },
+        "distributor": {
+          "label": "ƆKYERƐWFO",
+          "headline": "Ahotoso & Nkɔso",
+          "description": "Wɔn a wɔkyekyɛ nneɛma no de yɛn nneɛma bata gua ahorow ho wɔ wiase nyinaa. Yɛde nneɛma a wɔde ma daa, bo a ɛyɛ den, ne nneɛma a wɔde kɔ amannɔne mmoa ma ma adwumayɛ a ɛnyɛ den.",
+          "ctaLabel": "Kɔka Network ho"
+        },
+        "partner": {
+          "label": "HOKANI",
+          "headline": "Nkɔmmɔbɔ & Nkɛntɛnso",
+          "description": "Ahokafo a wɔyɛ nhyehyɛe ma yɛn asɛmpatrɛw adwuma no yɛ kɛse. Efi NGO ahorow so kosi aban adwumayɛbea ahorow so no, yɛyɛ apam ahorow a ɛhyɛ Afrika aduan a wobenya ne sikasɛm mu nkɔso mu den.",
+          "ctaLabel": "Hwehwɛ Nkɔmmɔbɔ mu"
+        },
+        "investor": {
+          "label": "INVESTOR HO NSƐM",
+          "headline": "Sankɔhwɛ & Scale",
+          "description": "Sikakorafo ma yɛn ntrɛwmu no yɛ kɛse wɔ bo a ɛsom no nyinaa mu. Yɛde adwumayɛ a ɛda adi pefee, adwumayɛ ho nhyehyɛe a wɔada no adi, ne nkɔso kɛse a ebetumi aba wɔ Afrika kuayɛ mu nnuan gua so ma.",
+          "ctaLabel": "Sika a Wɔde Toto Ho Hokwan ahorow"
+        },
+        "employee": {
+          "label": "ODWUMAYƐNI",
+          "headline": "Botae & Nkɔso",
+          "description": "Yɛn kuw no ma yɛn asɛmpatrɛw adwuma no kɔ yɛn anim. Yɛde adwuma a ntease wom, ahokokwaw nkɔso, ne amammerɛ a ɛyɛ papa ma wɔ mfuw, adwumayɛbea, ne adwumayɛbea ahorow nyinaa mu.",
+          "ctaLabel": "Kɔka Yɛn Kuw no ho"
+        }
+      }
+    },
+    "businessFaq": {
+      "eyebrow": "FAQ",
+      "heading": "Nsɛm a Wɔtaa Bisa",
+      "faq0Question": "Ayɔnkofa ahorow bɛn na wode ma?",
+      "faq0Answer": "Yɛde ayɔnkofa hokwan ahodoɔ ma a nea ɛka ho ne adetɔnfoɔ fekubɔ, nkyekyɛmu apam, nneɛma a wɔyɛ abom, ne sika a wɔde bɛto mu hokwan. Wɔayɛ emu biara sɛnea ɔhokafo no ahiade pɔtee ne ne kɛse te.",
+      "faq1Question": "Dɛn ne wo dodow a ɛba fam koraa a wobɛkra?",
+      "faq1Answer": "Nneɛma dodow a wɔkra a ɛba fam koraa no gu ahorow wɔ nneɛma ne gua so. Wɔ nneɛma a wɔtɔn wɔ sotɔɔ mu ho no, yɛtaa fi ase fi 500 units. Wɔ nneɛma a wɔde di dwuma kɛse ne nea wɔde kɔ amannɔne ho no, wogyina nneɛma a wɔde gu mu ne nneɛma ko a wɔde gu mu so na ɛyɛ dodow a ɛba fam koraa ho nkitahodi.",
+      "faq2Question": "So wode nneɛma kɔ amannɔne?",
+      "faq2Answer": "Yiw, yɛde nneɛma kɔ gua bɛboro 24 so wɔ wiase nyinaa denam Africa Continental Free Trade Area (AfCFTA) akwan ne fekubɔ tẽẽ a yɛne EU ne North America a wɔde nneɛma ba amannɔne no yɛ so. Yɛn nneɛma no du amanaman ntam aduan ahobammɔ gyinapɛn ahorow ho.",
+      "faq3Question": "Adansedi nkrataa bɛn na wowɔ?",
+      "faq3Answer": "Yɛkura adansedie ahodoɔ pii a HACCP, ISO 22000, NAFDAC, SON, ne MAN ka ho. Saa adansedi ahorow yi hwɛ hu sɛ yɛn nneɛma no du aduan ahobammɔ, ne su, ne mmara gyinapɛn a ɛkorɔn sen biara ho wɔ gua ahorow so.",
+      "faq4Question": "Mɛyɛ dɛn abɛyɛ obi a ɔde nneɛma ma?",
+      "faq4Answer": "Sɛ wopɛ sɛ wobɛyɛ obi a ɔde nneɛma ma a, hyehyɛ yɛn adetɔnfo nsɛmmisa kratasin no hyehyɛ wo nneɛma, wo tumi, ne adansedi ahorow ho nsɛm. Yɛn adetɔ kuw no bɛhwɛ wo akwammisa krataa no mu na wɔne wo adi nkitaho wɔ adwuma nnafua 5 ntam ama anammɔn a edi hɔ no.",
+      "faq5Question": "Tua ho nhyehyɛe bɛn na wode ma?",
+      "faq5Answer": "Yɛde sikatua ho nhyehyɛe a ɛyɛ mmerɛw a egyina fekubɔ su ne nea wɔkra no kɛse so ma. Nsɛm a wɔtaa de di dwuma no bi ne nnafua 30-60 sika a wotua ma ahokafo a wɔatew wɔn ho, sika a wodi kan tua ma fekuw foforo, ne krataa a wɔde gye bosea ma amanaman ntam nneɛma a wɔde kɔ amannɔne.",
+      "faq6Question": "So wode private label nnwuma ma?",
+      "faq6Answer": "Yiw, yɛde private label ne white label manufacturing services ma ahokafo a wɔapaw wɔn. Eyi ka ho ne sɛnea wɔyɛ no sɛnea wɔpɛ, nneɛma a wɔde kyekyere nneɛma ho nhyehyɛe, ne nneɛma a wɔyɛ wɔ wo brand din ase a yɛn awerɛhyem sɛ ɛyɛ papa.",
+      "faq7Question": "Dɛn ne bere a wode bedi dwuma wɔ nneɛma a wɔkra ho?",
+      "faq7Answer": "Bere a wɔde di kan no gu ahorow wɔ nneɛma a wɔyɛ no mu: nneɛma a wɔasiesie no de kɔ wɔ adwuma nnafua 3-5 mu, amanneɛbɔ a wɔkra no gye adapɛn 2-4, na ahyɛde akɛse a wɔde kɔ amannɔne betumi ahwehwɛ adapɛn 4-8 a egyina nhyehyɛe a wɔyɛ ne nneɛma a wɔde kɔ amannɔne so.",
+      "faq8Question": "So wode nhwɛsode ahorow ma?",
+      "faq8Answer": "Yiw, yɛde nneɛma nhwɛsode ma ma adwumayɛ ho nsɛmmisa a ɛfata. Wobetumi afa yɛn nkitahodi kratasin no so abisa nhwɛsode, na ebia wɔbɛbɔ ka a wɔbɔ wɔ nneɛma a wɔde mena ho a egyina beae ne nhwɛsode dodow so.",
+      "faq9Question": "Nneɛma bɛn na wowɔ a ɛbɛma woatumi ahwɛ sɛnea nneɛma te yiye?",
+      "faq9Answer": "Yɛde nneɛma a ɛyɛ papa ho nhyehyɛe a emu yɛ den di dwuma wɔ ɔfã biara mu: afuw-pon ano a wɔde hyɛ mu, sɔhwɛ a wɔyɛ wɔ nhyehyɛe mu, nneɛma a wɔyɛ no mu nhwehwɛmu a etwa to, ne nokwaredi a wɔyɛ ansa na wɔde akɔma. Wɔde nnɛyi mfiri a wɔde sɔ hwɛ ahyɛ yɛn adwumayɛbea ahorow no mu na edi GMP gyinapɛn ahorow akyi.",
+      "faq10Question": "So wubetumi adi nneɛma akɛse a wɔkra ho dwuma?",
+      "faq10Answer": "Yiw, wɔayɛ yɛn adwumayɛbea ahorow no sɛ wɔmfa nyɛ nneɛma akɛse a ɛwɔ nhama pii a wɔde yɛ nneɛma ne nneɛma pii a wɔde sie. Yebetumi ayɛ nneɛma a wɔyɛ no kɛse ma adi dodow a ɛho hia a ɛho hia ho dwuma bere a yɛkura gyinapɛn ahorow a ɛfa nneɛma pa ho no mu.",
+      "faq11Question": "So woboa kuayɛ nneyɛe a ɛtra hɔ daa?",
+      "faq11Answer": "Pɛpɛɛpɛ. Yɛne akuafoɔ yɛ adwuma yie de hyɛ nneyɛeɛ a ɛbɛtena hɔ daa a asase a wɔbɛkora soɔ, nsuo a wɔde di dwuma, nnuru a wɔde di dwuma a wɔbɛtew so, ne abɔdeɛ a nkwa wom a wɔbɛkora soɔ ka ho ho nkuran. Yɛn kuayɛ nhyehyɛe ahorow no bi ne ntetee ne adansedi mmoa.",
+      "faq12Question": "Wobɛyɛ dɛn ahwɛ ahu sɛ nneɛma a wɔyɛ no yɛ nea ahobammɔ wom?",
+      "faq12Answer": "Wɔnam akwan a HACCP agye atom, mmoawa nketenkete a wɔsɔ hwɛ daa, nneɛma a wɔkora so ne nea wɔde di dwuma ho nhyehyɛe a ɛfata, nhyehyɛe a wɔde hwehwɛ nneɛma akyi, ne amanaman ntam aduan ho ahobammɔ ho mmara a USFDA ne EU gyinapɛn ahorow ka ho a wodi so na ɛhwɛ ma nneɛma no yɛ ahobammɔ."
+    },
+    "pages": {
+      "notFound": {
+        "title": "Kratafa a Wonhu",
+        "description": "Kratafa a worehwehwɛ no nni hɔ anaasɛ wɔatu akɔ baabi foforo.",
+        "backToHome": "San Kɔ Fie"
+      }
+    }
+  },
+  "pages": {
+    "products": {
+      "items": {
+        "garri": {
+          "varieties": [
+            "Fitaa",
+            "Ijebu",
+            "Yɛlo"
+          ],
+          "highlights": [
+            "Ahorow abiɛsa: fitaa, Ijebu ne kɔkɔɔ",
+            "Ɛwɔ hɔ a wobetumi de akɔ amannɔne",
+            "Packed to each client ahwehwɛde ahorow"
+          ],
+          "name": "Garri na ɔkyerɛwee",
+          "description": "Ade titiriw a ɛho hia wɔ Afrika mpɔtam pii, a hokwan ahorow wɔ aguadidan, aduan a wɔde ma ne amanaman ntam Afrikafo nnuan gua ahorow nyinaa so. Yɛyɛ ho adwuma wɔ fitaa, Ijebu ne kɔkɔɔ ahorow mu.",
+          "imageAlt": "Garri kotoku a wɔde sie adekoradan mu de sie na wɔkyekyɛ",
+          "caption": "Bulk packaged commodities ase HappyMan Foods brand wɔ yɛn mfinimfini processing hub."
+        },
+        "cassava-flour": {
+          "highlights": [
+            "Esiam a wɔde cassava ayɛ",
+            "Wɔ ofie aduannoa ne aduan ho nnwuma ho",
+            "Packed to each client ahwehwɛde ahorow"
+          ],
+          "name": "Cassava Esiam a Wɔde Yɛ Adwuma",
+          "description": "Esiam a wɔde cassava ayɛ a wɔde noa aduan wɔ fie, paanootofo ne nnuan ho adwumayɛfo, a wɔahyɛ no ma sɛnea w’ahiade te.",
+          "imageAlt": "Cassava esiam kotoku a wɔakyerɛw so a wɔakyekyere ama wɔakyekyɛ",
+          "caption": "Esiam a wɔde kɔ amannɔne a wɔde gu nsukorade mu tẽẽ de kɔ amannɔne."
+        },
+        "plantain-flour": {
+          "highlights": [
+            "Esiam a wɔde plantain ayɛ",
+            "Wɔ ofie aduannoa ne aduan ho nnwuma ho",
+            "Packed to each client ahwehwɛde ahorow"
+          ],
+          "name": "Plantain esiam a Wɔde Yɛ Nneɛma",
+          "description": "Esiam a wɔde plantain ayɛ a wɔde noa aduan wɔ fie, paanootofo ne nnuan ho adwumayɛfo, a wɔahyɛ no ma sɛnea w’ahiade te.",
+          "imageAlt": "Plantain esiam a wɔde scoop ayɛ a wɔabɛn ho",
+          "caption": "Plantain esiam a wɔde plantain a wɔayɛ no foforo ayɛ ho adwuma wɔ yɛn adwumayɛbea hɔ."
+        },
+        "groundnuts-peanuts": {
+          "highlights": [
+            "Ɛwɔ hɔ a wobetumi de akɔ amannɔne",
+            "Packed to each client ahwehwɛde ahorow",
+            "Wɔnkyerɛw nneɛma ntrɛwmu biara a wɔanhyɛ da"
+          ],
+          "name": "Asase ne Atoko",
+          "description": "Kuadwuma mu ade a wotumi de di dwuma pii a ebetumi ayɛ aduan a wɔakyekyere ne ade a wɔde yɛ adwuma bio. Yɛnkyerɛw nneɛma te sɛ peanut butter din gye sɛ wotumi tɔ.",
+          "imageAlt": "Asase ne atoko a wɔakyekyere no pii wɔ adekoradan mu",
+          "caption": "Atoko a wɔayam no yiye na wɔahyehyɛ no a ɛne nea wɔde kɔ amannɔne gyinapɛn ahorow hyia."
+        },
+        "roasted-groundnuts": {
+          "highlights": [
+            "Wɔayam na wɔde akutu ayɛ no sɛnea ɛbɛyɛ a wɔde bɛma pii",
+            "Wholesale ne export nsɛmmisa akwaaba",
+            "Packed to each client ahwehwɛde ahorow"
+          ],
+          "name": "Groundnuts a Wɔayam",
+          "description": "Asase so nnua a wɔayam ne atoko a wɔabɔ no akutu a wɔde bɛtɔn no kɛse, a wɔahyɛ no ma sɛnea w’ahiade te.",
+          "imageAlt": "Pallets a wɔde asase a wɔayam a wɔde ahyɛ toa mu ne atoko a wɔabɔ no akuturuku a wɔasiesie ama dodow a wɔtɔn no kɛse",
+          "caption": "Asase so nnua a wɔayam ne atoko a wɔabɔ no akuturuku a wɔde ahyɛ pallet so de atɔn no kɛse."
+        },
+        "cashew-nuts": {
+          "highlights": [
+            "Ɛwɔ hɔ a wobetumi de akɔ amannɔne",
+            "Ɛfata ma aduantɔnbea ne nnwuma ho nsɛmmisa",
+            "Packed to each client ahwehwɛde ahorow"
+          ],
+          "name": "Cashew Nnua a Wɔde Yɛ Nnuadewa",
+          "description": "Nnuan a wɔde di agoru ne nneɛma a nkurɔfo ani gye ho, a wɔahyɛ no ma sɛnea w’ahiade te.",
+          "imageAlt": "Cashew nnua ne cashew apɔw-mu-teɛteɛ a wotwa fi nnuaba turo so kosi pon so",
+          "caption": "Nsa-graded quality assurance na ama wɔahwɛ ahu sɛ efĩ biara nni mu."
+        },
+        "plantain-chips": {
+          "highlights": [
+            "Nnuan a wɔasiesie sɛ wobedi",
+            "Retail ne wholesale nsɛmmisa ma akwaaba",
+            "Wobetumi aka sɛnea wɔde nneɛma gu nneɛma a wɔahyɛ da ayɛ ho asɛm"
+          ],
+          "name": "Plantain a Wɔde Yɛ Nneɛma",
+          "description": "Afrikafo aduan a wonim na ɛyɛ mmerɛw ma nnipa a wɔrehwehwɛ nnuan a ɛyɛ anigye. Nneɛma a wobisabisa no betumi asusuw nneɛma a wɔde kyekyere nneɛma ne nea wɔkyekyɛ ho ahwehwɛde ahorow ho.",
+          "imageAlt": "HappyMan Plantain Chips a wɔde ahyɛ plastic bag a emu da hɔ mu",
+          "caption": "Plantain chips a wɔatwitwa no foforo a ɛyɛ crispy a wɔahyɛ no ma de akɔ aguadidan ahorow mu na wɔde akɔ amannɔne."
+        },
+        "hibiscus-teas": {
+          "highlights": [
+            "Hibiscus ne tii nneɛma a wobetumi de akɔ amannɔne",
+            "Sɛ wopɛ tii, infusion ne anonne ho nsɛmmisa",
+            "Packed to each client ahwehwɛde ahorow"
+          ],
+          "name": "Hibiscus ne Tia",
+          "description": "Afrika afifide a wogye tom a wɔde yɛ tii, infusions ne anonne. Di yɛn ho nkɔmmɔ na munsusuw nneɛma a ɛwɔ hɔ ne ahwehwɛde ahorow ho.",
+          "imageAlt": "African Food King nhabannuru tii a ɛyɛ fɛ a wɔaboaboa ano a Hibiscus, Ginger, Clove & Cinnamon pyramid tii bag ahorow wom",
+          "caption": "African Food King nhabannuru tii line, 100% abɔde ne caffeine-free."
+        },
+        "kuli-kuli": {
+          "varieties": [
+            "Nnua a Ɛyɛ Crunchy",
+            "Spiced Bites a Wɔde Yɛ Nneɛma"
+          ],
+          "highlights": [
+            "100% premium a wɔayam a wɔayam",
+            "Ɛwɔ hɔ a wobetumi de akɔ amannɔne",
+            "Wɔde ahyɛ nkuku a ɛda adi sɛ ɛyɛ nsakrae mu ma ɛne akraman ahwehwɛde ahorow hyia"
+          ],
+          "name": "Kuli Kuli na ɔkyerɛwee",
+          "description": "Afrika Atɔe Fam aduan a ɛyɛ mmerɛw a ɛyɛ nwonwa a wɔde asase mu nnua a wɔayam ayɛ, a wɔde ahyɛ mu ma na wɔayɛ no yiye ma ɛyɛ pɛpɛɛpɛ. Afifide mu protein dɔɔso na wɔahyɛ no ma ama adetɔnbea foforo ne nea wɔde kɔ amannɔne.",
+          "imageAlt": "Kuli Kuli nnuan a ɛyɛ mmerɛw ankasa a wɔde ahyɛ aguadidan nkuku a ɛda adi sɛ wɔayɛ no basabasa a akataso yɛ ahabammono mu",
+          "caption": "Kuli Kuli a wɔayam no foforo a wɔde ahyɛ mu ma a wɔde ahyɛ nkuku a wɔasiesie sɛ wɔbɛtɔn ne nnaka a wɔtɔn no kɛse mu."
+        },
+        "palm-oil": {
+          "varieties": [
+            "Grade A Aduannoa Ho Adesua",
+            "Bulk Processing Grade a Wɔde Di Dwuma"
+          ],
+          "highlights": [
+            "Sɛnea ɛte no, carotenoids ne aduannuru pii wom",
+            "Wɔde ahotew ahyɛ toa mu na wɔatoto mu ma wɔde akɔ amannɔne",
+            "Wobetumi anya wɔ retail nkotoku ne mfiridwuma mu nneɛma a wɔde kyekyere nneɛma pii mu"
+          ],
+          "name": "Palm Ngo a Ɛho Tew",
+          "description": "Nnuadewa ngo kɔkɔɔ a ɛho tew a wɔansiesie a wonya fi baabi a ɛtra hɔ daa a wɔayɛ ho adwuma wɔ ahotew tebea a emu yɛ den mu. Ɛho hia ma Afrikafo aduannoa ankasa, aduan a wɔde ma, ne aguadi mu nneɛma a wɔyɛ.",
+          "imageAlt": "Nnuadewa ngo kɔkɔɔ a ɛho tew nkotoku a wɔatoto mu a wɔasiesie sɛ wɔbɛkyekyɛ na wɔde akɔ amannɔne a wɔhwɛ wɔ soro",
+          "caption": "Premium pure red palm oil, a wɔde ahyɛ toa mu wɔ ahotew mu na wɔayɛ no yiye ama amanaman ntam gua ahorow."
+        },
+        "ayamase-sauce": {
+          "highlights": [
+            "Wobetumi anya wɔ 250g retail pouches mu",
+            "Ɛwɔ hɔ a wobetumi de akɔ amannɔne",
+            "Packed to each client ahwehwɛde ahorow"
+          ],
+          "name": "Ayamase Sauce a wɔde yɛ aduan",
+          "description": "West African pepper sauce a ɛyɛ dɛ, a wɔsan frɛ no Ofada sauce, a wɔasiesie ama da biara da aduannoa na wɔde ahyɛ 250g nkotoku mu.",
+          "imageAlt": "HappyMan Ayamase Sauce aguadidan kotoku a Ofada sauce nkyerɛwde wɔ so",
+          "caption": "HappyMan Ayamase (Ofada) sauce a ɛwɔ 250g adetɔn kotoku mu."
+        },
+        "seasonings-spices": {
+          "name": "Nneɛma a Wɔde Yɛ Nnuan ne Nnuhwam",
+          "description": "Nneɛma ahorow a wɔayɛ ho nhyehyɛe a ɛde kuayɛ mu nneɛma bata da biara da aduannoa ho, a wɔde wɔn adwene si dɛ, nea ɛyɛ mmerɛw ne nea ɛkɔ so daa so. Wonnya nnyaa bi.",
+          "imageAlt": "Rustic spice still life a wɔde garlic, chili peppers, peppercorns, curry powder, ne nhabannuru a wɔayɛ no foforo wɔ nnua so",
+          "caption": "Ɛrenkyɛ: Nneɛma a wɔde yɛ aduan a ɛyɛ fɛ ne nnuhuam ahorow a wɔasiesie a ɛde kuayɛ mu nneɛma bata da biara da aduannoa ho."
+        }
+      },
+      "eyebrow": "Yɛn nneɛma a yɛyɛ",
+      "heading": "Afrika kuayɛ mu nneɛma, a wɔdan no da biara da aduan.",
+      "intro": "Efi atetesɛm mu nnuan titiriw so kosi nnuan nketenkete, nneɛma a wɔde yɛ ne anonne so no, yɛreyɛ nneɛma a ɛde Afrika kuayɛ mu nneɛma ne adetɔfo ahiade a ɛrekɔ so no bata ho. Nneɛma a yɛde kɔ amannɔne ne nea yɛde yɛn adwene si so nnɛ, a wɔayɛ nhyehyɛe sɛ wɔbɛtɔn nneɛma wɔ Nigeria.",
+      "onSaleBadge": "Wɔtɔn mprempren · Wɔde kɔ amannɔne",
+      "varieties": "Nneɛma ahorow: {varieties}",
+      "requestProductInformation": "Bisa nneɛma a wɔyɛ ho nsɛm",
+      "plannedEyebrow": "Wɔayɛ ho nhyehyɛe",
+      "comingSoon": "Reba seesei ara",
+      "notifyMe": "Bɔ me amanneɛ",
+      "exportNote": "Wɔntintim mmeae a wɔde nneɛma kɔ amannɔne ne standard pack sizes. Di yɛn ho nkɔmmɔ na yɛne wo nsusuw w’ahiade ahorow ho.",
+      "requestProductInfo": "Bisa product info",
+      "metadataTitle": "Nneɛma a wɔyɛ",
+      "metadataDescription": "Hwehwɛ AcresxManna nneɛma a wɔtɔn de kɔ amannɔne, nneɛma ahorow, ne Nigeria aguadidan a wɔayɛ ho nhyehyɛe."
+    },
+    "becomeADistributor": {
+      "whatToKnow": [
+        "Ka wɔn a wosom wɔn, baabi a woyɛ adwuma ne akwan a wofa so tɔn nneɛma kyerɛ yɛn.",
+        "Ma yɛnhu nneɛma a w’ani gye ho ne sɛnea wohwɛ kwan sɛ wobɛkra.",
+        "Wɔasi nneɛma ho nsɛm, nea ɛwɔ hɔ, nneɛma a wɔde kɔ ne nhwɛsode biara so dua mmiako mmiako."
+      ],
+      "steps": [
+        "Fa wo ho ne w’adwuma no kyerɛ.",
+        "Yɛkyɛ nneɛma a wɔyɛ ho nsɛm.",
+        "Yɛka fit, volumes ne logistics ho asɛm.",
+        "Yɛpene ɔkwan bi a yɛbɛfa so abom ayɛ adwuma so."
+      ],
+      "metadataTitle": "Bɛyɛ Ɔkyekyɛfo",
+      "metadataDescription": "Wo ne yɛn kuw no nsusuw AcresxManna nnuan a wɔkyekyɛ ho.",
+      "eyebrow": "Stock nea ɛyɛ dɛ no",
+      "title": "Fa nnuan a wɔayɛ wɔ Afrika bra mo nneɛma a wɔde gu nneɛma so.",
+      "intro": "Yɛgye nsɛmmisa a ɛfiri adetɔnfoɔ, adetɔnfoɔ akɛseɛ, wɔn a wɔkyekyɛ ne wɔn a wɔde nneɛma ba amannɔne a wɔn ani gye Afrika nnuan ne aguadiɛ mu fekubɔ a ɛbɛkyɛ ho no tom.",
+      "submitLabel": "Fa akwammisa krataa kɔma sɛ wobɛyɛ obi a ɔkyekyɛ nneɛma",
+      "formIntro": "Ka w’adwuma ho asɛm kyerɛ yɛn.",
+      "imageAlt": "Pallets a wɔde nnuan a wɔakyekyere ne nnuan gu mu wɔ dispatch depot",
+      "imageCaption": "Palletized inventory ne wholesale mmamu ma kyekyɛ ahokafo."
+    },
+    "becomeASupplier": {
+      "whatToKnow": [
+        "Yɛn ani gye cassava, plantain, asase ne atoko, hibiscus, ne nneɛma a wɔde yɛ nnuhuam ne nneɛma a wɔde yɛ aduan ho.",
+        "Ka quality, origin, handling ne volumes a wobɛtumi de ama wɔ season no mu ho asɛm kyerɛ yɛn.",
+        "Wɔpene nneɛma bo, dodow a wɔahyɛ ho bɔ ne sikatua ho nhyehyɛe so bere a yɛahwɛ hokwan no mu awie nkutoo."
+      ],
+      "steps": [
+        "Ka nea wode ma kyerɛ yɛn.",
+        "Yɛsan hwɛ sɛnea ɛyɛ papa, dodow ne bere a wɔde yɛ adwuma.",
+        "Yɛpene nsɛm pɔtee ne nsɛm a wɔahyehyɛ so.",
+        "Yɛkyekye nneɛma a wɔde ma no abusuabɔ no anammɔn anammɔn."
+      ],
+      "metadataTitle": "Bɛyɛ Ɔdemafoɔ",
+      "metadataDescription": "Ka kuayɛ mu nneɛma a wodua, woboaboa ano anaa wotɔn ho asɛm kyerɛ AcresxManna.",
+      "eyebrow": "Wo ne yɛn nyin",
+      "title": "Momma yɛnbom nnya Afrika nnɔbae.",
+      "intro": "Adwuma a wɔde di dwuma a wotumi de ho to so hia kuayɛ mu nneɛma a wotumi de ho to so. Sɛ wodua, woboaboa ano anaa wodi gua wɔ kuayɛ mu nneɛma ho a, yɛn ani begye ho sɛ yɛbɛte wo nka.",
+      "submitLabel": "Fa akwammisa krataa kɔma sɛ wobɛyɛ obi a ɔde nneɛma ma",
+      "formIntro": "Ka nea wodua anaa wotɔn kyerɛ yɛn.",
+      "imageAlt": "AcresxManna aguadi plantain nnua a wɔde nsuo a ɛtɔ gu fam gugu so",
+      "imageCaption": "Sustainable sourcing ne off-take fekubɔ a wɔne mpɔtam hɔ akuafo bɛyɛ."
+    },
+    "businessEnquiries": {
+      "whatToKnow": [
+        "Aguade ho nsɛmmisa: nea ɛwɔ hɔ ne nneɛma ho nsɛm.",
+        "Nneɛma a wɔde ma anaa kuayɛ mu fekubɔ: kuayɛ mu nneɛma ne mmere dodow.",
+        "Nkyekyɛmu anaa adetɔn kɛseɛ: akwan, gua ne nneɛma a wɔn ani gye ho.",
+        "Nneɛma a wɔyɛ no fekubɔ, sikasɛm mu nsɛmmisa ne adwumayɛ ho nsɛmti afoforo."
+      ],
+      "steps": [
+        "Fa wo ho anaa w’ahyehyɛde no kyerɛ.",
+        "Ka nkɔmmɔ a wopɛ sɛ wobɔ kyerɛ yɛn.",
+        "Yɛn kuw no bɛkyerɛ w’abisade no kwan akɔ nkitahodi a ɛfata so."
+      ],
+      "metadataTitle": "Adwumayɛ ho Nsɛm a Wɔbisabisa",
+      "metadataDescription": "Di AcresxManna di nkitaho fa nneɛma a wɔyɛ, fekubɔ, nsɛm ho amanneɛbɔ ne adwumayɛ ho nsɛm afoforo ho.",
+      "eyebrow": "Adwumayɛ ho nsɛmmisa",
+      "title": "Momma yɛnka aguadi ho asɛm.",
+      "intro": "Sɛ wopɛ biribiara a ɛnyɛ asɛmmisa a ɛfa nneɛma a wɔde ma, nneɛma a wɔde ma anaa wɔkyekyɛ ho a, di nkitaho fa nneɛma a wɔyɛ ne ankorankoro-label nkɔmmɔbɔ, fekubɔ, nsɛm ho amanneɛbɔ, anaa adwene foforo ho.",
+      "submitLabel": "Fi nkɔmmɔbɔ no ase",
+      "formIntro": "Ka nea ɛwɔ w’adwene mu kyerɛ yɛn.",
+      "imageAlt": "AcresxManna adwumayɛfoɔ afotuo ne showroom adwumayɛbea",
+      "imageCaption": "Nkɔmmɔbɔ a ɛfa ɔkwan a wɔfa so yɛ adwuma ho wɔ AcresxManna adwumayɛbea ti a ɛwɔ Ibadan, Nigeria."
+    },
+    "about": {
+      "eyebrow": "Ɛfa AcresxManna ho",
+      "heading": "Yɛgye di sɛ ɛsɛ sɛ Afrika nya mfasoɔ kɛseɛ firi ne kuayɛ mu.",
+      "intro": "AcresxManna yɛ adwuma a ɛtwe adwene si kuayɛ ne aduane a wɔyɛ so a ɛtwe adwene si nneɛma a wɔde kɔ amannɔne so. Yɛde kuayɛ mu nneɛma a wonya fi nneɛma mu bata nneɛma a wɔyɛ, nneɛma a wɔyɛ ne gua so a wobenya ho. Wɔayɛ nhyehyɛe ama mpɔtam hɔ aguadidan wɔ Nigeria denam sotɔɔ ahorow ne UncleTobi intanɛt so aduan a wɔtɔn ho adwene no so.",
+      "storyEyebrow": "Yɛn asɛm no",
+      "storyHeading": "Wobetumi ama mfaso pii aba bere a wɔatwa awie no.",
+      "storyParagraph1": "Afrika wɔ kuayɛ mu nneɛma a ɛho hia, nanso mfaso a ɛwɔ aduan ho sikasɛm mu no fã kɛse no ara tra nea ɛkɔ so wɔ otwa akyi no so. Yɛgye di sɛ wɔbɛtumi afa saa boɔ no pii denam nneɛma a wɔyɛ, nneɛma a wɔyɛ, nea wɔde kyekyere nneɛma, nea wɔhwɛ so yiye ne nnuan a wɔde si akan so.",
+      "storyParagraph2": "Ɛnam yɛn Nigeria adwumayɛ ne UK-hyia adwuma so no, yɛrekyekye fapem ama abusuabɔ a emu yɛ den a ɛda Afrika nnuan a wɔyɛ ne amanaman ntam gua ahorow ntam. Yɛte afã abien no nyinaa ase: nokwasɛm ahorow a ɛfa fibea ne nea wɔyɛ ho adwuma wɔ Afrika, ne gua ahorow a yɛpɛ sɛ yɛsom no yiyedi, nea ɛkɔ so daa ne aguadi ahiade ahorow.",
+      "storyImageAlt": "AcresxManna showroom a ɛwɔ geometric ɔfasu a ɛyɛ kɔkɔɔ ne nneɛma a wɔakyerɛw so wɔ pon so",
+      "entities": {
+        "acresxmannaLtd": {
+          "title": "AcresxManna Ltd. a ɛyɛ adwuma wɔ hɔ",
+          "alt": "AcresxManna nnwumakuw agyede ɔfasu wɔ Ibadan, Nigeria",
+          "description": "Nigeria adwumakuw no yɛ nneɛma, de wɔn nsa hyɛ adetɔfo apam ase na wɔde nneɛma kɔ amannɔne fi yɛn Moniya adwumayɛbea hɔ."
+        },
+        "uncleTobiShop": {
+          "title": "UncleTobi.Adetɔnbea",
+          "alt": "UncleTobi.Shop aban kwan so ahyɛnsode ho adansedi krataa",
+          "description": "Adwumakuw a ɛhwɛ UK no bɔ adetɔfo ho ka na ɛyɛ adekoradan ne adwumayɛbea bi wɔ Hertford, United Kingdom."
+        }
+      },
+      "companyStructureEyebrow": "Company nhyehyɛe",
+      "visionEyebrow": "Yɛn anisoadehu",
+      "visionText": "Sɛ yɛbɛyɛ Afrika adwumakuw a ɛdi kan a ɛyɛ kuayɛ ne aduane a wɔyɛ, a wɔgye tom wɔ wiase nyinaa wɔ ne kɛseɛ, ne su, nneɛma foforɔ ne boɔ a yɛnya firi Afrika kuayɛ mu.",
+      "missionEyebrow": "Yɛn asɛmpatrɛw adwuma",
+      "missionText": "Sɛ wɔbɛdan Afrika kuayɛ mu nneɛma ayɛ no nnuan a wɔde si akan denam nneɛma a wɔyɛ, nneɛma a wɔyɛ, nea wɔhwɛ so yiye, ahyɛnsode a wɔyɛ ne gua so a wobenya so.",
+      "fieldToFactoryEyebrow": "Efi afuw mu kosi adwumayɛbea",
+      "fieldToFactoryHeading": "Kuadwuma ntini, mfiridwuma mu atirimpɔw.",
+      "fieldToFactoryText": "Yɛn dwumadi ahorow no fa kuayɛ a ɛma wim yɛ hyew, nneɛma a wɔboaboa ano, nnuan a wɔyɛ ne nea wɔakyekyere ho —ne nyinaa yɛ nea wɔasisi wɔ Afrika asase so.",
+      "gallery": {
+        "palmOilBottling": {
+          "alt": "Palm oil bottling ne production kuw wɔ AcresxManna adwumayɛbea",
+          "caption": "Palm ngo a wɔde gu toa mu"
+        },
+        "seedlingNursery": {
+          "alt": "Tomato nnuadewa a ɛyɛ den a ɛwɔ sunsuma dan mu mmofra atrae a ɛtoatoa so",
+          "caption": "Nnuadewa a wɔde yɛ nnuadewa"
+        },
+        "papayaGrowing": {
+          "alt": "Papaya dua a nnuaba ahyɛ mu ma wɔ greenhouse mu ne okuafo",
+          "caption": "Papaya a wɔrenyin"
+        },
+        "peanutProcessing": {
+          "alt": "Nut sorting team a wɔhyɛ lab coats fitaa wɔ pon tenten so",
+          "caption": "Peanut a wɔde yɛ adwuma"
+        },
+        "bottlingLine": {
+          "alt": "Adwumayɛfo a wɔrekyerɛw nnuadewa nkotoku a ɛtoatoa so wɔ fam a wɔyɛ nneɛma no",
+          "caption": "Palm ngo a wɔde gu toa mu"
+        },
+        "finishedProductStock": {
+          "alt": "Atoko nkuku a wɔakata so ne nnuan nkuku a wɔaboaboa ano wɔ adekoradan mu",
+          "caption": "Nneɛma a wɔawie no stock"
+        }
+      },
+      "valuesEyebrow": "Nea ɛkyerɛ yɛn kwan",
+      "valuesHeading": "Gyinapɛn ahorow a ɛkyerɛ sɛnea yɛkyekye.",
+      "values": {
+        "qualityAndExcellence": {
+          "title": "Nneɛma a ɛyɛ papa ne nea ɛkyɛn so",
+          "description": "Gyinapɛn, nteɛso ne nea ɛkɔ so daa a ɛma wonya ahotoso."
+        },
+        "community": {
+          "title": "Mpɔtam",
+          "description": "Nkɔsoɔ a ɛma hokwan ma wɔn a wɔde nneɛma ma, adwumayɛfoɔ, wɔn a wɔyɛ nneɛma ne mpɔtam hɔfoɔ."
+        },
+        "innovation": {
+          "title": "Nsakramu",
+          "description": "Akwan pa a wɔfa so yɛ Afrikafo nnuan ho adwuma, wɔkyekyere na wɔde kɔma."
+        },
+        "collaboration": {
+          "title": "Nkɔmmɔbɔ",
+          "description": "Nkɔmmɔbɔ, nimdeɛ a wɔkyɛ ne aguadi mu abusuabɔ a emu yɛ den."
+        },
+        "dedicationAndHeart": {
+          "title": "Ahosohyira ne koma",
+          "description": "Asɛyɛde, ahoɔden a wɔde gyina ano ne ahofama a wɔde ma nnipa."
+        },
+        "capacityBuilding": {
+          "title": "Tumi a wɔbɛma ayɛ kɛse",
+          "description": "Sika a wɔde bɛto nnipa, akwan, fekubɔ ne nnwuma mu."
+        }
+      },
+      "quote": "Ɛsɛ sɛ Afrika kuayɛ mu ahonyade ma Afrika mfiridwuma mu mfaso ba: aguade pii a wɔdan no nneɛma a wɔawie, tumi a wɔde yɛ nneɛma pii a wɔasi wɔ Afrika sikasɛm mu, ne Afrikafo nnuan ho nnwuma pii a wɔde ahotoso si akan wɔ wiase nyinaa.",
+      "locationsEyebrow": "Mmeae a yɛwɔ",
+      "locations": {
+        "factory": {
+          "label": "Mfididwuma"
+        },
+        "nigerianOffice": {
+          "label": "Nigeria adwumayɛbea"
+        },
+        "ukWarehouse": {
+          "label": "UK adekoradan ne adwumayɛbea"
+        }
+      },
+      "cta": "Momma Yɛnkasa",
+      "metadataTitle": "Yɛn Ho Nsɛm",
+      "metadataDescription": "Sua AcresxManna, Nigeria agro-processing ne aduan a wɔyɛ adwuma a ɛtwe adwene si nneɛma a wɔde kɔ amannɔne so ho ade."
+    },
+    "ourBrands": {
+      "eyebrow": "Yɛn brands a yɛde yɛ nneɛma",
+      "heading": "Asɛnka agua biako. Akwan ahorow a wɔfa so de Afrikafo nnuan ba gua so.",
+      "intro": "AcresxManna abɔdeɛ a nkwa wom a ɛtrɛ no bi ne aduane ahodoɔ, baabi a wɔyɛ paanoo ne intanɛt so aduane ho adwene, a emu biara wɔ atirimpɔw soronko wɔ aduane boɔ mu.",
+      "items": {
+        "africanFoodKing": {
+          "description": "Afrikafo nnuan a ɛyɛ nokware a ɛde aduannoa ho atetesɛm a ɛyɛ hyew ne tii a ɛyɛ fɛ brɛ wiase nyinaa adetɔfo.",
+          "alt": "African Food King aban ahyɛnsode ahyɛnsode"
+        },
+        "happyManFoods": {
+          "description": "Brand AcresxManna de di dwuma de tɔn ne nneɛma nyinaa.",
+          "alt": "HappyMan Foods ahyɛnsode"
+        },
+        "maluzaFoods": {
+          "description": "Paanoodan bi a wɔreyɛ nneɛma foforo na wɔrebue aguadidan foforo wɔ Ibadan ne ne mpɔtam.",
+          "alt": "Maluza Foods Co. ahyɛnsode"
+        },
+        "uncleTobi": {
+          "description": "An online grocery adwene a ɛboaboa wɔn a wɔde nneɛma ma no ano ma retail. Wɔbɛbɔ da a wɔde befi ase no ho amanneɛ.",
+          "alt": "UncleTobi intanɛt so aduannoa adwene logo"
+        },
+        "ijgbFoods": {
+          "description": "Afrikafo nnuan a wɔde di agoru a wiase nyinaa swagger — a ɛma aguadi yɛ mmerɛw na ɛka nneɛma a ɛyɛ papa bom wɔ gua ahorow so.",
+          "alt": "IJGB Foods ahyɛnsodeɛ ahyɛnsodeɛ"
+        }
+      },
+      "distribution": {
+        "heading": "Nkyekyɛmu ne aguadi",
+        "body": "HappyMan Foods yɛ ahyɛnsodeɛ a AcresxManna de tɔn na ɛkyekyɛ ne nneɛma ma adetɔnfoɔ ne aguadifoɔ ahokafoɔ.",
+        "imageAlt": "Pallets of bottled peanuts a wɔakyekyere wɔ yɛn brands ase na wɔasiesie sɛ wɔbɛkyekyɛ na wɔadi gua"
+      },
+      "contact": {
+        "body": "Wopɛ yɛn nneɛma, yɛn nneɛma a yɛyɛ anaa aguadi fekubɔ bi ho anigye? Yɛn ani begye ho sɛ yɛbɛte wo nka.",
+        "cta": "Wo ne Yɛn Kuw no nni nkitaho"
+      },
+      "metadataTitle": "Yɛn Brands no",
+      "metadataDescription": "Hu HappyMan Foods, Maluza Foods Co., UncleTobi, ne IJGB Foods, na sua brand biara dwumadie ne ne gyinabea."
+    },
+    "productDetail": {
+      "backToProducts": "San kɔ nneɛma a wɔyɛ so",
+      "onSaleBadge": "Wɔtɔn mprempren · Wɔde kɔ amannɔne",
+      "plannedBadge": "Wɔayɛ ho nhyehyɛe · Wɔnnya nnya mmae",
+      "varieties": "Nneɛma ahorow: {varieties}",
+      "productHighlights": "Nneɛma a wɔyɛ no nsɛntitiriw",
+      "enquiryWelcome": "Yɛgye nsɛmmisa a ɛfiri adetɔnfoɔ, wɔn a wɔtɔn nneɛma akɛseɛ, wɔn a wɔtɔn nnuan, wɔn a wɔde nneɛma ba amannɔne ne wɔn a wɔkyekyɛ hɔ no tom.",
+      "packSizesNote": "Wɔde pack akɛseɛ asisi hɔ sɛdeɛ client biara ahwehwɛdeɛ teɛ. Ɛsɛ sɛ wɔsi aduru no ho nsɛm, nneɛma a wɔde yɛ, fibea, nea wɔkora so, bere a wɔde sie, nneɛma a ɛma obi ho yɛ no hyew ne nsɛm a ɛfa sɛnea wodi so no so dua ma ade pɔtee no na wɔantintim wɔ ha.",
+      "requestInformationEyebrow": "Bisa nsɛm",
+      "requestInformationHeading": "Ka w’ahiade ahorow ho asɛm kyerɛ yɛn.",
+      "requestInformationText": "Fa wo nsɛmmisa mena yɛn na yɛn kuw no bɛsan de nneɛma ho nsɛm, sɛnea ɛwɔ hɔ ne anammɔn a edi hɔ aba wo nkyɛn.",
+      "requestProductInformation": "Bisa nneɛma a wɔyɛ ho nsɛm",
+      "moreProducts": "Nneɛma pii a wɔyɛ",
+      "viewProduct": "Hwɛ ade a wɔyɛ"
+    },
+    "infrastructure": {
+      "eyebrow": "Yɛn oprehyɛn ahorow",
+      "heading": "Tumi a ɛwɔ Afrikafo nnuan akyi a wɔbɛkyekye.",
+      "intro": "Yɛn apɛde no hia pii sen kuayɛ mu nneɛma a yɛde bɛma. Ɛhia nneɛma a wɔyɛ, nnipa, nhyehyɛe ne fekubɔ a ɛbɛma nneɛma a wɔde yɛ nneɛma no adan aduan a ɛkɔ so daa, a wɔasiesie ama gua. AcresxManna Ltd yɛ nneɛma na ɛde kɔ amannɔne fi Nigeria; yɛrekyekye tumi foforo sɛnea ahwehwɛde, sika a wɔde bɛto mu ne ahoboa ma kwan no.",
+      "cards": {
+        "production": {
+          "title": "Nneɛma a wɔyɛ ne nea wɔyɛ",
+          "status": "Wɔreyɛ adwuma nnɛ",
+          "description": "AcresxManna Ltd yɛ nnuan ho nneɛma wɔ wɔn adwumayɛbea a ɛwɔ Moniya, Ibadan. Nneɛma a yɛtumi yɛ bio ne dwumadie mu nkɔsoɔ yɛ yɛn nkɔsoɔ apɛdeɛ no fã."
+        },
+        "quality": {
+          "title": "Nsɛm a ɛyɛ papa",
+          "status": "Wɔde asi adwuma no mu",
+          "description": "Nneɛma a wɔhwehwɛ wɔ nneɛma pa ho no fa nneɛma a wɔyɛ ne gua pɔtee bi ho. Yɛsi nsɛm a wɔakyerɛkyerɛ mu ne nsɛm a ɛfa sɛdeɛ wɔdi mmara so no so dua wɔ asɛmmisa biara ho, na yɛntintim adansedie ho nsɛm a wɔannye antom."
+        },
+        "supplyChain": {
+          "title": "Nneɛma a wɔde ma ne adekoradan",
+          "status": "Wɔreyɛ adwuma nnɛ",
+          "description": "Mmeae a yɛasi so dua no bi ne adwumayɛbea a ɛwɔ Moniya, Ibadan, Nigeria adwumayɛbea a ɛwɔ Lagos, ne UK adekoradan ne adwumayɛbea a ɛwɔ Hertford."
+        },
+        "growth": {
+          "title": "Nneɛma a wɔde bɛyɛ nkɔso",
+          "status": "Ɔdan a edi hɔ",
+          "description": "Nkɔsoɔ a wɔayɛ ho nhyehyɛeɛ no bi ne tumi foforɔ a wɔde yɛ nneɛma, dwumadie ne nneɛma a wɔde kyekyere nneɛma a ɛyɛ adwuma yie, nneɛma a wɔkora so ne nneɛma a wɔde asie a wɔbɛhwɛ so yie, ne nneɛma a wɔde yɛ adwuma a ɛtrɛ."
+        }
+      },
+      "insideFacilityEyebrow": "Wɔ adwumayɛbea hɔ",
+      "insideFacilityHeading": "Active processing, sɔhwɛ ne packaging wɔ Moniya, Ibadan.",
+      "insideFacilityText": "Da biara da dwumadi ahorow a ɛdannan nneɛma a wɔatwa ma ɛbɛyɛ nnuan a wɔasiesie ama gua, a wɔakyekyere wɔ ahotew mu no ho mfonini ketewaa bi.",
+      "gallery": {
+        "mixingSifting": {
+          "title": "Stainless Steel a Wɔde frafra & Wɔde Sifting",
+          "caption": "Mfiridwuma mu nsukorabea ahorow a wɔde yɛ aduan a ɛyɛ dɛ, mfiri a wɔde fra nneɛma a wɔde mfiri yɛ, ne mfiri a wɔde yiyi nneɛma mu a ɛyɛ adwuma wɔ yɛn mfinimfini adwumayɛbea a wɔyɛ nneɛma no."
+        },
+        "bakeryOvens": {
+          "title": "Aguadi Multi-Deck Bakery Ovens",
+          "caption": "Paatofo a wɔn ho akokwaw a wɔde dijitaal fononoo a wɔde di gua a ɛyɛ adwuma kɛse di dwuma de yɛ sika kɔkɔɔ paanoo ne nneɛma a wɔato."
+        },
+        "sortingQualityControl": {
+          "title": "Hygienic Sorting & Nneɛma a Ɛyɛ Paara a Wɔhwɛ So",
+          "caption": "Adwumayɛfo a wɔn ho akokwaw a wɔhwɛ nneɛma a ɛyɛ papa so wɔ ahobammɔ nneɛma a ɛnyɛ yare mu a wɔde nsa hyehyɛ nneɛma mu yiye ma wɔde kɔ amannɔne."
+        },
+        "palmOilBottlingLine": {
+          "title": "Palm Oil Bottling Line a Wɔde Gu Nnua Mu",
+          "caption": "Wɔn a wɔyɛ nkotoku a ɛho tew a wɔreyɛ nhyehyɛe na wɔrehwehwɛ nnuadewa ngo nkotoku ɔhaha pii mu ansa na wɔaboaboa ano de akɔma."
+        },
+        "nutSortingLongTable": {
+          "title": "Nut Sorting — Table Tenten Dwumadi Ahorow",
+          "caption": "Kuw kɛse bi a wɔn ho akokwaw a wɔhyehyɛ atoko mu a wɔtetew atoko a wɔayam mu ma ɛyɛ nea ɛkorɔn wɔ yɛn nhyehyɛe a wɔatrɛw mu no nyinaa so."
+        },
+        "rotaryCooker": {
+          "title": "Nnwumayɛbea Rotary Cooker",
+          "caption": "Adwumayɛfo a wɔde motorized stainless rotary cooker a wɔde di dwuma ma mpo roasting wɔ batch production runs nyinaa."
+        },
+        "palletRacking": {
+          "title": "High-Bay Pallet Nneɛma a Wɔde Kɔma Nneɛma Ho Racking",
+          "caption": "Adekoradan mu nneɛma a wɔde gu mu nhyehyɛe a ɛwɔ hɔ nnɛ a kɔmputa so barcode tracking wɔ yɛn central agro-logistics hub."
+        },
+        "containerLoading": {
+          "title": "Container Loading & Nneɛma a Wɔde Kɔma",
+          "caption": "Ɔhwɛɛ container loading adwumayɛ so hwɛ hu sɛ ahobammɔ wɔ akwantuo mu ma ɔmantam ne wiase nyinaa nneɛma a wɔde kɔ amannɔne ahyɛdeɛ a ɛwɔ tumi kɛseɛ."
+        },
+        "sealedContainer": {
+          "title": "Wɔatoto Container a Wɔasiesie no So sɛ Wɔde Kɔ Amannɔne",
+          "caption": "Nneɛma a wɔde fa mu a wɔde nneɛma ahyɛ mu ma, a wɔatoto mu na wɔasiesie ama amanneɛbɔ krataa ne amanaman ntam a wɔde bɛkɔ."
+        }
+      },
+      "locations": {
+        "factory": {
+          "label": "Mfididwuma"
+        },
+        "nigerianOffice": {
+          "label": "Nigeria adwumayɛbea"
+        },
+        "ukWarehouse": {
+          "label": "UK adekoradan ne adwumayɛbea"
+        }
+      },
+      "cta": "Bisa nsrahwɛ ho asɛm",
+      "metadataTitle": "Nneɛma a wɔde yɛ adwuma",
+      "metadataDescription": "Sɛnea AcresxManna rekyekye nneɛma a wɔyɛ, nea ɛyɛ papa ne nneɛma a wɔde ma ho tumi ama Afrikafo nnuan a wɔyɛ."
+    },
+    "impact": {
+      "eyebrow": "Yɛn adwene a yɛde si biribi so",
+      "heading": "Nneɛma a wɔyɛ no ma wonya mfaso. Botae ma wonya hokwan.",
+      "intro": "AcresxManna rekyekye n’adwuma no atwa kuayɛ mu mfasoɔ a wɔde ka ho, mpɔtam hɔ nneɛma a wɔyɛ ne gua so kwan a wɔbɛnya so. Yɛbɛtintim nkɛntɛnsoɔ ho nsɛm a wɔbɛtumi asusu berɛ a data a wɔagye atom wɔ hɔ.",
+      "stories": {
+        "valueAddition": {
+          "title": "Kuadwuma mu mfaso a wɔde ka ho",
+          "caption": "Akuafoɔ nkumaa a wɔbɛma wɔn tumi denam nnɛyi sunsuma afie kuayɛ, nsuo a wɔde gugu nnɔbaeɛ so ne nnɔbaeɛ a ɛsow aba pii so."
+        },
+        "localProduction": {
+          "title": "Mpɔtam hɔ nneɛma a wɔyɛ ne adwumayɛ",
+          "caption": "Nnwuma a ɛbɛkɔ so atra hɔ daa ne mfiridwuma ho ntetee a wɔbɛhyehyɛ wɔ nnuan a wɔhyehyɛ no yiye, aduan a wɔde di dwuma yiye, ne nneɛma a wɔyɛ ho."
+        },
+        "supplyChains": {
+          "title": "Nneɛma a wɔde ma a ɛyɛ den",
+          "caption": "Ɔkwan a ɛda nkuraase akuafo nkumaa a wodua ne mfiridwuma mu kuayɛ mu nneɛma a wɔyɛ no ntam a wɔbɛsiw ano."
+        },
+        "globalMarkets": {
+          "title": "Afrikafo nnuan a ɛwɔ wiase nyinaa gua so",
+          "caption": "Scaling containerized export akwan ma enti Afrikafo nnuan a ɛkorɔn ne nsonsonoe si akan wɔ wiase nyinaa."
+        }
+      },
+      "spotlightImageAlt": "Okuafo a ɔrehwɛ papaya nnua a ɛyɛ dwarf a wɔde afrafra a ɛsow aba pii",
+      "spotlightEyebrow": "Mpɔtam & Agronomy",
+      "spotlightHeading": "Akuafo a wɔde kuayɛ a wotumi gyina ano a wɔbɛbɔ wɔn ho ban.",
+      "spotlightText": "Ɛdenam fekubɔ a yɛne mpɔtam hɔ akuafo yɛ so no, yɛde nnɔbae ahorow a wɔde afrafra a ɛyɛ dwarf, aba a ɛko tia mmoawa, ne sunsuma nhyehyɛe a wɔabɔ ho ban ba. Eyi ma otwa dodow kɔ soro wɔ hekta biara mu na ɛbɔ mmusua a wɔyɛ akuafo ho ban fi wim tebea a ɛsakrasakra ho.",
+      "spotlightTagSeedlings": "Nnuadewa a Wɔhwɛ So",
+      "spotlightTagContracts": "Direct Offtake Apam ahorow",
+      "spotlightTagWorkforce": "Mmea Adwumayɛfo Tumi a Wɔde Ma",
+      "scorecardEyebrow": "Nkɛntɛnso nkyerɛwde krataa",
+      "scorecardHeading": "Akontaabu a yebetumi agyina akyi.",
+      "scorecardText": "Yɛtintim data a wɔagye atom nkutoo. Wɔbɛma akontabuo a ɛwɔ aseɛ ha yi ayɛ foforɔ berɛ a yɛregye metric biara na yɛasi so dua afiri yɛn adwumayɛkuo no hɔ.",
+      "verified": "Wɔagye atom",
+      "scorecard": {
+        "tonnesProcessed": {
+          "label": "Tonnes a wɔayɛ ho adwuma",
+          "note": "Target nɔma ahorow a ɛreba nnansa yi ara"
+        },
+        "finishedProducts": {
+          "label": "Nneɛma a wɔawie a wɔayɛ",
+          "note": "Target nɔma ahorow a ɛreba nnansa yi ara"
+        },
+        "activeSuppliers": {
+          "label": "Active suppliers & producer fekubɔ",
+          "note": "Target nɔma ahorow a ɛreba nnansa yi ara"
+        },
+        "directJobs": {
+          "label": "Nnwuma tẽẽ a wɔbɔ na wɔkora so",
+          "note": "Target nɔma ahorow a ɛreba nnansa yi ara"
+        },
+        "productCategories": {
+          "label": "Product categories a wɔyɛ ho adwuma wɔ mpɔtam hɔ",
+          "note": "Target nɔma ahorow a ɛreba nnansa yi ara"
+        },
+        "countriesWithVerifiedSales": {
+          "label": "Aman a wɔagye atom sɛ wɔtɔn nneɛma",
+          "note": "Target nɔma ahorow a ɛreba nnansa yi ara"
+        },
+        "complianceQualityMeasures": {
+          "label": "Compliance & quality gyinaesi ahorow",
+          "note": "Target nɔma ahorow a ɛreba nnansa yi ara"
+        }
+      },
+      "closing": "Ɛnyɛ nneɛma a yɛtɔn nko na yɛpɛ sɛ wɔde susuw yɛn nkɔso ho, na mmom tumi a yɛde yɛ nneɛma ne sikasɛm mu hokwan ahorow a yɛboa ma yɛbɔ no.",
+      "cta": "Wo ne yɛn kuw no nkasa",
+      "metadataTitle": "Nsunsuansoɔ",
+      "metadataDescription": "Hwehwɛ mmeae a adwumayɛ de wɔn adwene si so wɔ AcresxManna agro-processing ne aduan a wɔyɛ adwuma no akyi."
+    },
+    "globalMarkets": {
+      "eyebrow": "Wiase nyinaa gua ahorow",
+      "heading": "Efi Afrika kuayɛ mu nneɛma so kosi wiase nyinaa nnuan gua so.",
+      "intro": "Yɛrekyekye adwuma bi a ɛka Afrikafo nnuan a wɔyɛ ne adetɔfo, nnwuma ne hokwan ahorow a ɛwɔ amanaman ntam gua so no bom. Nneɛma a yɛde kɔ amannɔne ne nea yɛde yɛn adwene si so mprempren; wontintim mmeae pɔtee a wɔbɛkɔ.",
+      "routes": {
+        "currentRoute": {
+          "label": "Mprempren ɔkwan a wɔfa so",
+          "value": "Fa kɔ amannɔne nnɛ"
+        },
+        "nigerianRetail": {
+          "label": "Nigeriafo aguadidan ahorow",
+          "value": "Wɔayɛ nhyehyɛe denam sotɔɔ ahorow ne UncleTobi so"
+        },
+        "packSizes": {
+          "label": "Pack akɛse",
+          "value": "Set to client biara ahwehwɛde ahorow"
+        }
+      },
+      "destinationsNote": "Wɔntintim mmeae pɔtee biara a wɔde nneɛma kɔ amannɔne anaasɛ standard pack sizes.",
+      "freightImageAlt": "Nneɛma a wɔde fa nneɛma a emu duru yɛ tɔn 28 a wɔde ahyɛ mu ma wɔde akɔ amannɔne",
+      "freightEyebrow": "Nneɛma a Wɔde Kɔ Amannɔne a Wɔde Ahyɛ Mu",
+      "freightHeading": "Container a wɔde fi adwumayɛbea kɔ hyɛn gyinabea tẽẽ.",
+      "freightText": "Yɛn Moniya processing facility no wɔ strategically gyinabea ma containerized akwantuo. Wɔde nneɛma a wɔde fa nneɛma a ɛyɛ 20ft ne 40ft a ɛyɛ gyinapɛn (a ɛkura nnuan ne nneɛma a wɔakyekyere bɛyɛ tɔn 28+) ahyɛ mu ma na wɔatoto mu wɔ beaeɛ hɔ ma wɔde akɔ tẽẽ.",
+      "accessEyebrow": "Sɛnea yɛkyekye gua so kwan",
+      "accessHeading": "Aguadi a wotumi de ho to so gye pii sen po so hyɛn a wɔde bɛkɔ.",
+      "accessText": "Yɛrekyekye ɔkwan bi a ɛfa gua so ahwehwɛde, nneɛma a wɔyɛ ho ahoboa, aguadi fekubɔ ne nneɛma a wɔde ma a wotumi de ho to so ho.",
+      "steps": {
+        "marketDevelopment": {
+          "title": "Guadidan mu nkɔso",
+          "description": "Susuw ahwehwɛde, akansi, mmara ne nkyekyɛmu wɔ ɔmantam ne amannɔne gua ahorow so ho.",
+          "alt": "AcresxManna Ibadan adwumayɛbea a wɔde ahyɛnsode kɔkɔɔ ahyɛ so fasu"
+        },
+        "productReadiness": {
+          "title": "Product ahoboa a wɔyɛ",
+          "description": "Si nneɛma pɔtee, hermetic nnuan a wɔde kyekyere, ne phytosanitary adansedi nkrataa a ɛfa aguadi kwan biara ho no so dua.",
+          "alt": "Kuw a wɔreyɛ nhyehyɛe na wɔrehwɛ mmɛw ngo a wɔde gu toa mu a wɔyɛ no mmirikatu mu"
+        },
+        "commercialPartnerships": {
+          "title": "Aguadi mu fekubɔ ahorow",
+          "description": "Wo ne wɔn a wɔde nneɛma ba amannɔne, wɔn a wɔtɔ nneɛma pii, aguadidan akɛse, ne nnwumakuw a wɔde nnuan ma no nya abusuabɔ.",
+          "alt": "Kuw bi a wɔde atoko nneɛma a wɔde ahyɛ toa mu regu ade a wɔde fa nneɛma mu ma wɔde akɔ"
+        },
+        "supplyReliability": {
+          "title": "Ahotoso a wɔde ma wɔ nneɛma a wɔde ma ho",
+          "description": "Yɛ scalable processing lines de ma multi-container volume a ɛsan ba bio wɔ nhyehyɛe a ɛyɛ katee so.",
+          "alt": "Fa ade a wɔde ahyɛ toa mu a wɔasiesie ama amanaman ntam a wɔde bɛkɔ amannɔne ahyɛ ade a wɔde ahyɛ mu ma wɔ ɔfasu so kɔ ɔfasu so kɔ amannɔne"
+        }
+      },
+      "ukOperationsEyebrow": "Oprehyɛn ahorow a ɛhwɛ UK",
+      "ukOperationsHeading": "UncleTobi.Adetɔnbea",
+      "ukOperationsText": "AcresxManna Ltd yɛ nneɛma, de wɔn nsa hyɛ adetɔfoɔ apam ase na wɔde fi Nigeria kɔ amannɔne. UncleTobi.Shop no tua adetɔfoɔ ka na ɛyɛ adekoradan ne adwumayɛbea wɔ Hertford, United Kingdom.",
+      "ukOperationsNote": "Wɔntintim mmeae a wɔde nneɛma kɔ amannɔne, enti wɔmfa ɔman biara nkyerɛ wɔ ha sɛ gua a wɔde asi hɔ anaasɛ wɔde wɔn ani asi so.",
+      "cta": "Amanaman Ntam Aguadi Ho Nsɛm a Wɔhwehwɛ",
+      "metadataTitle": "Wiase Nyinaa Guadidan ahorow",
+      "metadataDescription": "Yɛrekyekye adwuma bi a ɛde Afrikafo nnuan a wɔyɛ ne adetɔfo ne hokwan ahorow a ɛwɔ amanaman ntam gua ahorow so no bata ho."
+    },
+    "investorsPartners": {
+      "eyebrow": "Sikakorabea ne ahokafo",
+      "heading": "Afrika awo ntoatoaso a edi hɔ a ɛbɛma wɔatumi ayɛ kuayɛ ho adwuma a wɔbɛkyekye.",
+      "intro": "AcresxManna de n’adwene asi so sɛ wɔbɛdan Afrika kuayɛ ahodeɛ ayɛ no aduane a wɔde si akan denam dwumadie, nneɛma a wɔyɛ ne gua so nkɔsoɔ so. Nkɔsoɔ gyina nneɛma a wɔyɛ, adwumayɛ sika, nneɛma a wɔde ma abusuabɔ, gua so kwan ne dwumadie nhyehyɛeɛ so.",
+      "spotlightImageAlt": "AcresxManna adwumayɛbea a ɛwɔ Ibadan, Nigeria",
+      "spotlightEyebrow": "Yɛn Dwumadie Gyinabea",
+      "spotlightHeading": "Wɔde sii fam wɔ Nigeria. Wɔasusuw ho ama Wiase Nyinaa Guadidan ahorow.",
+      "spotlightText": "Yɛn mfinimfini adwumayɛbea, nneɛma a wɔkora so, ne adwumayɛbea ti a ɛhwɛ so no wɔ Moniya, Ibadan, Oyo Mantam — a ɛwɔ baabi a kuayɛ mu kuayɛ abɔso akɛse ne akwan a wɔfa so kɔ hyɛn gyinabea tẽẽ no betumi akɔ hɔ.",
+      "buildingEyebrow": "Nea yɛrekyekye",
+      "building": {
+        "productionCapacity": {
+          "title": "Nneɛma a wɔyɛ",
+          "description": "Nneɛma a wɔyɛ no a wɔbɛkyekyere wɔ Afrika kuayɛ mu nneɛma a wɔyɛ ne aduan a wɔyɛ akyi.",
+          "alt": "Industrial dade a ɛnyɛ den aduannoa ne afrafra gyinabea"
+        },
+        "workingCapital": {
+          "title": "Adwumayɛ sika & Inventory",
+          "description": "Nneɛma a ɛho hia ma nneɛma a wɔde yɛ nneɛma, nneɛma a wɔyɛ no kyinhyia, nneɛma a wɔde kyekyere nneɛma, nneɛma a wɔakora so ne nea wɔde di dwuma.",
+          "alt": "Aduan a wɔawie a wɔde palletized ayɛ wɔ adekoradan mu nneɛma a wɔkora so"
+        },
+        "productDevelopment": {
+          "title": "Nneɛma a wɔyɛ no nkɔso",
+          "description": "Aduan a wɔbɛyɛ a ɛde Afrika kuayɛ mu nneɛma ne adetɔfo ahiade ahorow bata ho.",
+          "alt": "Agro-food snacks a wɔakyekyere wɔ nkuku a wɔakyerɛw din wɔ so mu"
+        },
+        "marketDevelopment": {
+          "title": "Guadidan mu nkɔso",
+          "description": "Aguadi mu abusuabɔ ne akwan a wɔbɛfa so akɔ gua so a wɔbɛkyekye wɔ Afrika ne amanaman ntam.",
+          "alt": "Export freight container a wɔasiesie ama amanaman ntam po so hyɛn"
+        }
+      },
+      "meetEyebrow": "Nea yɛn ani begye ho sɛ yebehyia no",
+      "people": {
+        "investors": {
+          "title": "Sikakorafo",
+          "description": "Bere tenten anigye a wɔwɔ wɔ Afrika kuayɛ mu nneɛma a wɔyɛ, aduan a wɔyɛ ne bo a wɔde ka ho."
+        },
+        "agriculturalSuppliers": {
+          "title": "Kuadwuma mu nneɛma a wɔde ma",
+          "description": "Nneɛma a wɔde yɛ adwuma a ɛfata ne ɔpɛ a wɔwɔ sɛ wɔbɛyɛ adwuma sɛnea wɔapene so."
+        },
+        "distributors": {
+          "title": "Wɔn a wɔkyekyɛ nneɛma",
+          "description": "Adetɔnfo, adetɔnfo akɛse, wɔn a wɔkyekyɛ ne wɔn a wɔde nneɛma ba amannɔne a wɔn ani gye Afrikafo nnuan ho."
+        },
+        "buyers": {
+          "title": "Adetɔfo",
+          "description": "Aduan ho adwumayɛfo ne adetɔfo a wɔn ani gye nneɛma anaa nneɛma a wɔde ma ho nkɔmmɔbɔ ho."
+        },
+        "strategicPartners": {
+          "title": "Mfiridwuma ne akwankyerɛ ho ahokafo",
+          "description": "Nneɛma a wɔde di dwuma, nneɛma a wɔde kyekyere nneɛma, nneɛma a wɔde kɔ, mfiridwuma anaa gua so-kɔ tumi."
+        }
+      },
+      "conversationEyebrow": "Fi ase mmɔ nkɔmmɔ",
+      "conversationHeading": "Momma yɛnbom nkyekye Afrikafoɔ aduane tumi.",
+      "conversationText": "Yɛma nnipa ne ahyehyɛdeɛ a wɔbɛtumi de sika kɛseɛ, tumi, nneɛma a wɔde ma, mfiridwuma anaa gua so kwan a wɔbɛnya no akwaaba. Wɔntintim sika a wɔde bɛboaboa ano, bo a wɔabu, sika a wɔde bɛto gua ne sikasɛm ho nkɔmhyɛ.",
+      "conversationSubmitLabel": "Fi ase bɔ nkɔmmɔ a ɛfa fekubɔ ho",
+      "metadataTitle": "Sikakorabea ne Ahokafo",
+      "metadataDescription": "Wo ne AcresxManna nsusuw sikasɛm mu asisifo, kuayɛ mu adetɔnfo, nkyekyɛmu ne nneɛma a wɔyɛ ho fekubɔ ho."
+    },
+    "whatWeDo": {
+      "eyebrow": "Nea yɛyɛ",
+      "heading": "Yɛdan kuayɛ mu tumi yɛ no nnuan ne aguadi mu mfaso.",
+      "intro": "Yɛde kuayɛ mu nneɛma bata nneɛma a wɔyɛ, nneɛma a wɔyɛ, nneɛma a wɔyɛ ne gua so kwan a wɔfa so nya ho.",
+      "capabilities": {
+        "agriculturalSourcing": {
+          "title": "Kuadwuma mu nneɛma a wonya fi mu",
+          "description": "Abusuabɔ a wotumi de ho to so a ɛfa nneɛma a wɔde ma ho no fi ase denam nneɛma a wɔde yɛ nneɛma no yiyedi, nea ɛwɔ hɔ ne bere a wɔde yɛ adwuma no ntease so."
+        },
+        "aggregationAndSupply": {
+          "title": "Aggregation ne nneɛma a wɔde ma ho nhyehyɛe",
+          "description": "Wɔn a wɔde nneɛma ma ne nneɛma a wɔde ba no a wɔyɛ bom no boa ma wɔde nneɛma ma ne nneɛma a wɔyɛ no ahiade ahorow hyia."
+        },
+        "agroProcessing": {
+          "title": "Agro-processing a wɔde yɛ adwuma",
+          "description": "Nneɛma a wɔdannan no ma ɛbɛyɛ aduane nneɛma a mfasoɔ, ɛyɛ mmerɛ na ɛsom boɔ kɛseɛ."
+        },
+        "foodManufacturing": {
+          "title": "Aduan a wɔyɛ",
+          "description": "AcresxManna Ltd yɛ nnuan nneɛma wɔ Nigeria ma gua a wɔde kɔ amannɔne."
+        },
+        "qualityAssurance": {
+          "title": "Nneɛma a ɛyɛ papa ho awerɛhyem",
+          "description": "Yɛrekyekye quality assurance akɔ production mu. Yɛntintim adansedi krataa a wɔannye ho adanse."
+        },
+        "productAndBrandDevelopment": {
+          "title": "Product ne brand nkɔso",
+          "description": "AcresxManna tɔn ne nneɛma wɔ HappyMan Foods ase; Maluza Foods Co. reyɛ nneɛma a wɔde yɛ paanoo."
+        },
+        "distributionAndInternationalTrade": {
+          "title": "Nkyekyɛmu ne amanaman ntam aguadi",
+          "description": "Nneɛma a yɛde kɔ amannɔne ne ɔkwan a yɛfa so kɔ gua so mprempren. Wɔntintim mmeae pɔtee a wɔde nneɛma kɔ amannɔne."
+        },
+        "contractManufacturing": {
+          "title": "Apam a wɔde yɛ nneɛma ne fekubɔ",
+          "description": "Di yɛn ho nkɔmmɔ na yɛne yɛn nsusuw fekubɔ ahorow a ebetumi aba ho. Wɔhyɛ tumi, dodow a wɔkra a ɛba fam koraa ne bere a wɔde di dwuma no so dua asɛm biara."
+        }
+      },
+      "closing": "Yɛrekyekye Afrikafo aduan adwuma biako a wɔaka abom, ɛnyɛ afã horow a wɔatwa mu a wɔaboaboa ano.",
+      "cta": "Munsusuw Aguadi Ho Nkɔmmɔbɔ Ho",
+      "metadataTitle": "Nea Yɛyɛ",
+      "metadataDescription": "Sɛnea AcresxManna de kuayɛ mu nneɛma a wɔde ma ne nneɛma a wɔyɛ, nneɛma a wɔyɛ, nneɛma a wɔyɛ ne gua so kwan bata ho."
+    },
+    "newsInsights": {
+      "eyebrow": "Nsɛm & nhumu",
+      "heading": "Adwene, nkɔso ne adwene a ɛkyerɛ Afrikafo aduan.",
+      "intro": "Di nkɔsoɔ, fekubɔ ne adwene a ɛwɔ yɛn adwuma a ɛwɔ agro-processing, aduane a wɔyɛ ne kuayɛ mu mfasoɔ a wɔde ka ho akyi.",
+      "categories": {
+        "companyNews": "Company News",
+        "productsAndInnovation": "Nneɛma & Nneɛma Foforo a Wɔyɛ",
+        "industryInsights": "Nnwuma mu Nhumu",
+        "supplyChain": "Nneɛma a Wɔde Ma",
+        "globalTrade": "Wiase Nyinaa Aguadi"
+      },
+      "comingSoonEyebrow": "Reba seesei ara",
+      "comingSoonText": "Yɛn nsɛm a edi kan no reba nnansa yi ara.",
+      "meantimeText": "Saa bere yi de, hwehwɛ yɛn nneɛma mu anaa wo ne yɛn kuw no nni nkitaho.",
+      "cta": "Wo ne Yɛn Kuw no nni nkitaho",
+      "metadataTitle": "Nsɛm ne Nhumu",
+      "metadataDescription": "Di nkɔsoɔ, fekubɔ ne adwene a ɛwɔ yɛn adwuma a yɛyɛ wɔ agro-processing, aduane a wɔyɛ ne kuayɛ mu mfasoɔ a wɔde ka ho no akyi."
+    },
+    "notFound": {
+      "eyebrow": "Kratafa a wɔanhu",
+      "heading": "Oops! Saa krataafa yi faa ɔkwan bi a ɛkɔ akyiri.",
+      "body": "Kratafa a worehwehwɛ no atu anaasɛ enni hɔ. Momma yɛnsan nkɔ biribi a ɛyɛ dɛ so.",
+      "backHome": "San kɔ fie",
+      "exploreProducts": "Hwehwɛ yɛn nneɛma mu",
+      "contactUs": "Wo ne yɛn nni nkitaho"
+    },
+    "thankYou": {
+      "metadataTitle": "Meda wo ase",
+      "metadataDescription": "Yɛda wo ase sɛ wo nsa kaa AcresxManna. Yɛn kuw no muni bi bɛkenkan wo nkrasɛm no na wabua.",
+      "eyebrow": "Nkrasɛm a wɔanya",
+      "heading": "Yay, nkrasɛm a wɔanya!",
+      "body": "Aseda sɛ woakɔ AcresxManna nkyɛn afa wo {type} ho. Yɛn kuw no muni bi bɛkenkan wo nkrasɛm no na wabua.",
+      "bodyWithProduct": "Yɛda wo ase sɛ wo nsa kaa AcresxManna faa wo {type} ({product}) ho. Yɛn kuw no muni bi bɛkenkan wo nkrasɛm no na wabua.",
+      "typeLabels": {
+        "product": "nneɛma a wɔyɛ ho nsɛmmisa",
+        "supply": "nneɛma a wɔde ma anaa kuayɛ fekubɔ",
+        "distribution": "kyekyɛ anaasɛ wholesale nsɛmmisa",
+        "manufacturing": "nneɛma a wɔyɛ no fekubɔ ho nsɛmmisa",
+        "investment": "sika a wɔde asie ho nsɛmmisa",
+        "other": "adwumayɛ ho nsɛmmisa",
+        "supplier": "adetɔnfo akwammisa krataa",
+        "distributor": "distributor application",
+        "investor": "sikasɛm mu asisifo nsɛmmisa",
+        "fallback": "nhwehwɛmu"
+      },
+      "browseProducts": "Browse yɛn nneɛma a yɛyɛ",
+      "readOurStory": "Kenkan yɛn asɛm no",
+      "followOurNews": "Di yɛn amanneɛbɔ akyi"
+    },
+    "contact": {
+      "metadataTitle": "Di nkutaho",
+      "metadataDescription": "Di nkitaho fa nneɛma, nneɛma a wɔde ma, nkyekyɛmu, nneɛma a wɔyɛ ho fekubɔ anaa sika a wɔde bɛto mu ho. AcresxManna bua wɔ adwuma nna abien ntam.",
+      "eyebrow": "Wo ne AcresxManna nkasa",
+      "heading": "Nkɔmmɔbɔ na efi ase fekubɔ akɛse.",
+      "intro": "Sɛ́ ebia wopɛ sɛ wotɔ yɛn nneɛma, de kuayɛ mu nneɛma ma, kyekyɛ yɛn nneɛma a yɛde yɛ nneɛma, hwehwɛ nneɛma a wɔyɛ mu fekubɔ mu anaasɛ wosusuw sika a wɔde bɛto mu ho no, yɛn ani begye ho sɛ yɛbɛte wo nka. Yɛbua wɔ adwuma nna mmienu ntam.",
+      "emailCta": "Fa email mena yɛn kuw no",
+      "whatsappCta": "WhatsApp na ɔkyerɛwee",
+      "callUs": "Wubetumi nso afrɛ <phone>+234 804 700 0587</phone>.",
+      "emailLabel": "Email a wɔde mena",
+      "formEyebrow": "Fa nkra bi mena yɛn",
+      "formHeading": "Ka sɛnea yebetumi aboa kyerɛ yɛn.",
+      "formBody": "Fa kratasin no di dwuma de wo nsɛmmisa no mena na yɛde bɛkɔ onipa a ɔfata wɔ yɛn kuw no mu. Wubetumi nso de email anaa WhatsApp akɔ yɛn nkyɛn tẽẽ denam nsɛm a ɛwɔ atifi hɔ no so.",
+      "submitLabel": "Fa nkra mena"
+    },
+    "privacy": {
+      "metadataTitle": "Nsɛm a Wɔde Sie",
+      "metadataDescription": "Sɛnea AcresxManna boaboa ankorankoro data ano, de di dwuma, sie na ɛbɔ ho ban fi nkitahodi nkrataa, nsɛmmisa ne nsɛmma nhoma a wɔde wɔn nsa hyɛ ase ho.",
+      "eyebrow": "Nsɛm a Wɔde Sie",
+      "heading": "Sɛnea yɛhwɛ wo ho nsɛm so.",
+      "intro": "Last updated: October 2026. Saa nhyehyeɛ yi kyerɛkyerɛ sɛdeɛ AcresxManna di ankorankoro ho nsɛm a wɔaboaboa ano denam wɛbsaet yi so ho dwuma. Wɔde kasa a emu da hɔ na ɛkyerɛwee na ɛfa nsrahwɛfo a wɔwɔ Nigeria, United Kingdom ne mmeae afoforo ho.",
+      "whoWeAreHeading": "Nnipa ko a yɛyɛ",
+      "whoWeAreBody": "AcresxManna Ltd yɛ Nigeria adwumakuw a ɛyɛ nneɛma, de wɔn nsa hyɛ adetɔfo apam ase na wɔde nneɛma kɔ amannɔne. UncleTobi.Shop yɛ adwumakuw a ɛhwɛ UK a ɛbɔ adetɔfo ho ka na ɛyɛ adekoradan ne adwumayɛbea wɔ Hertford, United Kingdom. Yɛn nyinaa bom yɛ data sohwɛfo ma nsɛm a wɔde fa wɛbsaet yi so de mena.",
+      "whoWeAreContact": "Sɛ wopɛ kokoam nsɛmmisa biara a, di yɛn ho nkɔmmɔ wɔ <link>info@acresxmanna.com</link>.",
+      "collectHeading": "Nea yɛboaboa ano",
+      "collectIntro": "Nsɛm a wopaw sɛ wode bɛma yɛn nkutoo na yɛboaboa ano:",
+      "collectItem1": "Nkitahodi-kratasin a wɔde bɛmena: din, email, adwumakuw anaa ahyehyɛde, nsɛmmisa no su ne nkrasɛm.",
+      "collectItem2": "Supplier ne distributor applications: din, adwuma anaa afuo din, beaeɛ, aguadeɛ, dodoɔ a wɔasusu ne berɛ, ne nkrasɛm.",
+      "collectItem3": "Aguade ho nsɛmmisa: din, email, adwumakuw ne nkrasɛm.",
+      "collectItem4": "Nsɛmma nhoma a wɔde wɔn nsa hyɛ ase: email address nkutoo.",
+      "collectItem5": "Mfiridwuma ho nsɛm te sɛ IP address, mfiri su ne browser, a nhwehwɛmu nnwinnade boaboa ano ankasa bere a woapene so akyi nkutoo.",
+      "whyHeading": "Nea enti a yɛboaboa ano ne nea yegyina so",
+      "whyIntro": "Yɛde wo ho nsɛm di dwuma de:",
+      "whyItem1": "Bua w’asɛmmisa anaa wo akwammisa krataa no.",
+      "whyItem2": "Hwɛ aguadi ne nneɛma a wɔde ma ho fekubɔ so.",
+      "whyItem3": "Fa nsɛmma nhoma mu nsɛm foforo mena bere a woabisa sɛ wo nsa aka nkutoo.",
+      "whyItem4": "Ma wɛbsaet no ntu mpɔn na te sɛnea wɔde di dwuma no ase.",
+      "whyItem5": "Di mmara ne nhyehyɛe mu asɛyɛde ahorow ho dwuma.",
+      "whyBasis": "Yɛgyina wo pene so (ma nsɛm ho amanneɛbɔ ne nhwehwɛmu), yɛn anigyeɛ a ɛfata sɛ yebua adwumayɛfoɔ nsɛmmisa, ne yɛn mmara kwan so asɛdeɛ so di saa nsɛm yi ho dwuma.",
+      "shareHeading": "Wɔn a yɛne wɔn kyɛ",
+      "shareBody": "Yɛntɔn ankorankoro ho nsɛm. Yɛkyɛ no ma service providers a wɔyɛ adwuma wɔ yɛn ananmu nkutoo, a hosting, email, CRM ne analytics providers ka ho. Yebetumi nso de nsɛm akyerɛ afotufo anaa atumfoɔ a wɔyɛ adwumaden wɔ baabi a mmara hwehwɛ.",
+      "transfersHeading": "Amanaman ntam nneɛma a wɔde kɔ baabi foforo",
+      "transfersBody": "Wobetumi adi wo ho nsɛm ho dwuma wɔ Nigeria, United Kingdom ne aman afoforo a yɛn nnwuma a yɛde ma no yɛ adwuma wɔ hɔ. Yɛde ahobammɔ a ɛfata di dwuma de bɔ wo ho nsɛm ho ban bere a wɔde fa ahye so no.",
+      "retentionHeading": "Bere tenten ahe na yɛde sie",
+      "retentionBody": "Yɛkora nsɛmmisa ne akwammisa ho kyerɛwtohɔ so bere tenten a ɛho hia na yɛadi abusuabɔ no ho dwuma na yɛadi mmara mu asɛyɛde ahorow ho dwuma. Wɔkora nsɛmma nhoma mu kyerɛwtohɔ ahorow so kosi sɛ wubegyae wo ho. Yɛhwɛ yɛn ho nsɛm mu na yɛpopa wɔ nhyehyɛe a yɛyɛ daa so bere a ɛho nhia bio no.",
+      "securityHeading": "Bammɔ",
+      "securityBody": "Yɛde mfiridwuma ne nhyehyɛe mu akwan a ntease wom di dwuma de bɔ wo ho nsɛm ho ban, a nea ɛka ho ne hosting a ahobammɔ wom, akwan a wɔfa so kɔ hɔ ne nhwehwɛmu a wɔyɛ no daa. Ɔkwan biara nni hɔ a wɔfa so de mena wɔ intanɛt so a ahobammɔ wom koraa, nanso yɛyɛ adwuma de bɔ wo data ho ban sɛnea yebetumi biara.",
+      "rightsHeading": "Wo hokwan ahorow",
+      "rightsBody": "Ɛdenam baabi a wote so no, wubetumi anya hokwan sɛ wobɛkɔ, wobɛteɛteɛ, wobɛpopa, wobɛkasa atia anaa wobɛto w’ankasa wo ho nsɛm a wode bedi dwuma no ano, na wotwe pene a wopɛ sɛ wopene so no bere biara. Sɛ wopɛ sɛ wode saa hokwan ahorow yi di dwuma a, di yɛn ho nkɔmmɔ wɔ <link>info@acresxmanna.com</link>.",
+      "complaintsHeading": "Anwiinwii",
+      "complaintsBody": "Sɛ w’ani nnye sɛnea yɛdi wo ho nsɛm ho dwuma no ho a, wubetumi ne yɛn adi nkitaho wɔ <link>info@acresxmanna.com</link>. Wubetumi nso anya hokwan anwiinwii akyerɛ adwumakuw bi a ɛbɔ data ho ban wɔ wo man mu.",
+      "cookiesHeading": "Kukisi ne mmofra",
+      "cookiesBody": "Sɛ wopɛ cookies ho nsɛm a, hwɛ yɛn <link>Cookie Policy</link>. Ɛnyɛ mmofra na wɔde saa wɛbsaet yi asi hɔ na yennim sɛ yemgye ankorankoro ho nsɛm mfi mmofra hɔ.",
+      "changesHeading": "Nsakrae a aba wɔ nhyehyɛe yi mu",
+      "changesBody": "Yebetumi ayɛ nhyehyɛe yi foforo bere ne bere mu. Sɛ yɛyɛ saa a, yɛbɛma da a ɛwɔ kratafa yi atifi no ayɛ foforo, na baabi a ɛfata no, yɛbɛfa email anaa wɛbsaet no so abɔ wo amanneɛ."
+    },
+    "terms": {
+      "metadataTitle": "Nsɛm a Wɔde Di Dwuma",
+      "metadataDescription": "Nsɛm a ɛfa sɛnea wɔde AcresxManna wɛbsaet no bedi dwuma ho, a nea ɛka ho ne sɛnea wɔde di dwuma a wogye tom, adwene mu agyapade ne nsɛm a wɔka sɛ wɔmfa nni dwuma.",
+      "eyebrow": "Nsɛm a Wɔde Di Dwuma",
+      "heading": "Nsɛm a Wɔde Di Dwuma",
+      "intro": "Last updated: October 2026. Saa nsɛm yi na ɛkyerɛ sɛnea wode AcresxManna wɛbsaet no bedi dwuma. Sɛ wokɔ wɛbsaet yi so anaa wode di dwuma a, ɛkyerɛ sɛ woapene saa nhyehyɛe yi so.",
+      "useHeading": "Hena na obetumi de wɛbsaet no adi dwuma",
+      "useBody": "Saa wɛbsaet yi yɛ ama nnwuma ne ankorankoro a wɔn ani gye AcresxManna nneɛma, dwumadie ne fekubɔ ho. Wubetumi de wɛbsaet no adi dwuma wɔ mmara kwan so atirimpɔw ahorow nkutoo mu na sɛnea saa nhyehyɛe yi kyerɛ no.",
+      "acceptableHeading": "Wɔde di dwuma a wogye tom na wɔabara",
+      "acceptableIntro": "Ebia worennyɛ:",
+      "acceptableItem1": "Fa wɛbsaet no di dwuma wɔ atirimpɔw biara a mmara mma ho kwan anaa ɔkwan bi so a ebetumi asɛe wɛbsaet no, ayɛ adwuma anaa asɛe.",
+      "acceptableItem2": "Bɔ mmɔden sɛ wubenya kwan akɔ wɛbsaet no, ne nhyehyɛe anaa data so a onni ho kwan.",
+      "acceptableItem3": "Fa nnwinnade a wɔde yɛ adwuma di dwuma de twetwe, kɔpi anaa san yɛ nneɛma a wunni ho kwan.",
+      "acceptableItem4": "Fa nsɛm a ɛnyɛ nokware, ɛdaadaa anaa epira fa kratasin biara a ɛwɔ wɛbsaet no so so mena.",
+      "ipHeading": "Adwene mu agyapade",
+      "ipBody": "Nsɛm a ɛwɔ wɛbsaet yi so nyinaa, a nsɛm, ahyɛnsode, mfonini, mfonini ne softwea ka ho, yɛ AcresxManna anaa wɔn a wɔama wɔn tumi krataa no dea na wɔde adwene mu agyapade ho mmara abɔ ho ban. Wubetumi ahwɛ na woakyekyɛ nneɛma a wode bedi dwuma wɔ w’ankasa de, ɛnyɛ aguadi mu de, nanso worentumi nsan nyɛ, nsakra anaa nkyekyɛ a wunnyaa yɛn kwan a yɛakyerɛw.",
+      "accuracyHeading": "Nsɛm a wɔka no pɛpɛɛpɛ",
+      "accuracyBody": "Wɔde nsɛm a ɛwɔ wɛbsaet yi so no ama sɛnea ɛbɛyɛ a wobetumi de nsɛm a ɛfa nneɛma nyinaa ho nkutoo na ebetumi asesa a wɔmmɔ amanneɛ. Ɛnyɛ ade a wɔde ma sɛ wɔbɛtɔn anaasɛ awerɛhyem a ɛkyerɛ sɛ nneɛma bi wɔ hɔ. Aguade ho nsɛm, ne nkyerɛkyerɛmu ne sɛnea ɛwɔ hɔ no yɛ nea ɛkyerɛ kosi sɛ AcresxManna bɛkyerɛw akyerɛ.",
+      "linksHeading": "Nkitahodi ahorow a ɛkɔ wɛbsaet ahorow a ɛto so abiɛsa so",
+      "linksBody": "Ebia saa wɛbsaet yi wɔ nkitahodi ahorow a ɛkɔ wɛbsaet ahorow a ɛto so abiɛsa so, a brand wɛbsaet ahorow ne sohyial media ka ho. Ɛnyɛ yɛn asɛyɛde wɔ saa wɛbsaet ahorow no mu nsɛm anaa nneyɛe ho.",
+      "liabilityHeading": "Asodi a ɛwɔ hɔ no anohyeto",
+      "liabilityBody": "Sɛnea mmara ma ho kwan koraa no, AcresxManna nni asodi biara wɔ ɔsɛe biara a ɛba tẽẽ, nea ɛnteɛ, nea ɛbae ara kwa anaa nea efi mu ba a efi wɛbsaet yi a wode bedi dwuma, anaasɛ wuntumi mfa nni dwuma no ho. Eyi nyi asodi mfi mu anaasɛ ɛnto ano hye wɔ baabi a mmara bara no.",
+      "governingLawHeading": "Mmara a edi so",
+      "governingLawBody": "Nigeria ne United Kingdom mmara na ɛkyerɛ saa nsɛm yi kwan, sɛnea ɛfata. Wobedi akasakasa ho dwuma wɔ asennibea ahorow a ɛfata.",
+      "contactHeading": "Di nkutaho",
+      "contactBody": "Sɛ wopɛ nsɛmmisa fa saa nsɛm yi ho a, di yɛn ho nkɔmmɔ wɔ <link>info@acresxmanna.com</link>."
+    },
+    "cookies": {
+      "metadataTitle": "Kuki ho Mmara",
+      "metadataDescription": "Nsɛm a ɛfa cookies ne mfiridwuma a ɛte saa a wɔde di dwuma wɔ AcresxManna wɛbsaet no so ne sɛnea wɔhwɛ so.",
+      "eyebrow": "Kuki ho Mmara",
+      "heading": "Kuki ne mfiridwuma a ɛtete saa.",
+      "intro": "Last updated: October 2026. Saa nhyehyɛe yi kyerɛkyerɛ nea cookies yɛ, nea yɛde di dwuma ne sɛnea wubetumi ahwɛ so.",
+      "whatAreCookiesHeading": "Dɛn ne kukisi?",
+      "whatAreCookiesBody": "Kuki yɛ nsɛm nketenkete a wɔde asie wo mfiri so bere a woakɔ wɛbsaet bi so no. Wɔboa wɛbsaet no ma wɔkae nea wopɛ na wɔte sɛnea wɔde wɛbsaet no di dwuma no ase. Mfiridwuma a ɛte saa ara bi ne local storage ne pixel tags.",
+      "tableHeading": "Kuki ahorow a yɛde di dwuma no",
+      "tableName": "Din",
+      "tablePurpose": "Botaeɛ",
+      "tableType": "Korɔ",
+      "tableDuration": "Berɛ",
+      "essentialName": "Kuki ahorow a ɛho hia",
+      "essentialPurpose": "Ɛho hia na ama wɛbsaet no ayɛ adwuma, te sɛ sɛ wobɛkae wo cookie pene a wopaw ne wo mpɔtam hɔ.",
+      "essentialType": "Hia",
+      "essentialDuration": "Afe 1",
+      "analyticsName": "Analytics cookies a wɔde yɛ nneɛma",
+      "analyticsPurpose": "Wɔde di dwuma de te sɛnea nsrahwɛfo de wɛbsaet no di dwuma ase, a nkratafa a wɔakɔ ne kar fibea ahorow ka ho. Wɔde si hɔ bere a woapene so akyi nkutoo.",
+      "analyticsType": "Nhwehwɛmu a wɔyɛe",
+      "analyticsDuration": "Ɛsono sɛnea ɛte",
+      "essentialVsOptionalHeading": "Essential vs cookies a wobetumi apaw",
+      "essentialVsOptionalBody": "Kuki a ɛho hia ho hia na ama wɛbsaet no ayɛ adwuma na wontumi ndum. Wɔde analytics cookies a wopɛ di dwuma bere a wonam yɛn cookie banner so ma pene nkutoo.",
+      "consentHeading": "Sɛnea yedi pene a wɔpene so ho dwuma",
+      "consentBody": "Sɛ wodi kan kɔ wɛbsaet no so a, wubehu cookie banner. Wubetumi apaw sɛ wubegye cookies nyinaa, agye cookies a ɛho hia nkutoo, anaasɛ wobɛhwɛ wo nhyehyɛe so. Wubetumi de Cookie nhyehyɛe link a ɛwɔ ase hɔ no asesa nea wopɛ bere biara.",
+      "blockDeleteHeading": "Sɛnea wobɛsiw cookies ano anaasɛ wobɛpopa",
+      "blockDeleteBody": "Wubetumi afa wo browser nhyehyɛe so asiw cookies ano anaasɛ wobɛpopa. Yɛsrɛ sɛ hyɛ no nsow sɛ, sɛ wosiw cookies a ɛho hia ano a, ebetumi aka sɛnea wɛbsaet no yɛ adwuma.",
+      "contactHeading": "Di nkutaho",
+      "contactBody": "Sɛ wopɛ nsɛmmisa fa Kuki Mmara yi ho a, di yɛn ho nkɔmmɔ wɔ <link>info@acresxmanna.com</link>."
+    }
+  },
+  "brandStatus": {
+    "active": "Asɔ",
+    "comingSoon": "Reba seesei ara",
+    "live": "Te ase"
+  },
+  "locations": {
+    "factory": "Mfididwuma",
+    "nigerianOffice": "Nigeria adwumayɛbea",
+    "ukWarehouse": "UK adekoradan ne adwumayɛbea"
+  },
+  "chrome": {
+    "logoAria": "AcresxManna Fie",
+    "logoAlt": "AcresxManna Ahyɛnsode",
+    "languages": {
+      "en": "Borɔfo",
+      "fr": "Français na ɔkyerɛwee",
+      "tw": "Twi",
+      "es": "Español",
+      "ru": "Русский na ɛyɛ adwuma",
+      "pt": "Portugalfo kasa",
+      "de": "Deutsch na ɛyɛ",
+      "it": "Italiano na ɔkyerɛwee",
+      "ar": "العربية deɛ",
+      "nl": "Nederlandfo a wɔyɛ saa",
+      "zh-CN": "简体中文 a wɔde kyerɛw nsɛm"
+    }
+  },
+  "forms": {
+    "nameLabel": "Edin a Edi Mu",
+    "emailLabel": "Email Address a Wɔde Di Dwuma",
+    "companyLabel": "Adwumakuw Din (wɔpɛ) .",
+    "enquiryTypeLabel": "Nsɛmmisa Type",
+    "productLabel": "Aguade no Edin",
+    "messageLabel": "Wo Nkrasɛm",
+    "messagePlaceholder": "Ka w'ahiadeɛ ho asɛm kyerɛ yɛn...",
+    "honeypotLabel": "Wɛbsaet (gyaw hɔ kwa) .",
+    "privacyConsent": "Sɛ wode kratasin yi mena a, ɛkyerɛ sɛ woapene yɛn {privacy} nhyehyɛe no so.",
+    "errorName": "Yɛsrɛ sɛ kyerɛw wo din",
+    "errorEmail": "Yɛsrɛ sɛ kyerɛw wo email no",
+    "errorEmailFormat": "Yɛsrɛ sɛ kyerɛw email address a ɛfata",
+    "errorMessage": "Yɛsrɛ wo kyerɛw nkra (anyɛ yiye koraa no nkyerɛwde 10) .",
+    "errorSend": "Biribi ankɔ yiye. Yɛsrɛ sɛ sɔ hwɛ bio.",
+    "sending": "Sending...",
+    "sendMessage": "Send Nkrasɛm",
+    "options": {
+      "product": "Nneɛma a Wɔde Yɛ Adwuma",
+      "supply": "Nneɛma a Wɔde Ma Ho Nkɔmmɔbɔ",
+      "distribution": "Akyekyɛ",
+      "manufacturing": "Nneɛma a wɔyɛ",
+      "investment": "Sika a wɔde bɛto mu",
+      "other": "Foforɔ"
+    }
+  },
+  "enquiry": {
+    "whatToInclude": "Nea Ɛsɛ sɛ Wɔde Ka Ho",
+    "howItWorks": "Sɛnea Ɛyɛ Adwuma",
+    "apply": "Fa Di Dwuma Mprempren",
+    "startConversation": "Fi Ase Nkɔmmɔbɔ",
+    "formIntroBody": "Hyehyɛ kratasin no na yɛn kuw no bɛsan akɔ wo nkyɛn wɔ nnɔnhwerew 48 ntam."
+  },
+  "ui": {
+    "cookieConsent": {
+      "title": "Yɛbu Wo Kokoam Nsɛm a Ɛsom Bo",
+      "description": "Yɛde cookies di dwuma de ma wo suahu yɛ yiye. Sɛ wokɔ so kɔ wɛbsaet yi so a, ɛkyerɛ sɛ woapene so sɛ yɛde cookies bedi dwuma.",
+      "accept": "Gye to mu",
+      "decline": "Te kɔ fam",
+      "settings": "Kuki Nsiesiei",
+      "dialogLabel": "Kuki a wɔpene so",
+      "essentialOnly": "Nea ɛho hia nkutoo",
+      "acceptAll": "Gye ne nyinaa tom"
     }
   }
 }

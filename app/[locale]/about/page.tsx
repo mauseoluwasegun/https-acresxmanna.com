@@ -8,11 +8,19 @@ import { Button } from "@/components/ui/Button";
 import { MotionSection, ScrollReveal } from "@/components/animations/MotionSection";
 import { BusinessFaq } from "@/components/sections/BusinessFaq";
 
-export const metadata = {
-  title: "About Us",
-  description:
-    "Learn about AcresxManna, an export-focused Nigerian agro-processing and food manufacturing business.",
-};
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}) {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: "pages.about" });
+
+  return {
+    title: t("metadataTitle"),
+    description: t("metadataDescription"),
+  };
+}
 
 const structures = [
   {

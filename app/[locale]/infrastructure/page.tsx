@@ -7,11 +7,19 @@ import { SITE_LOCATIONS } from "@/lib/constants";
 import { Button } from "@/components/ui/Button";
 import { ScrollReveal } from "@/components/animations/MotionSection";
 
-export const metadata = {
-  title: "Infrastructure",
-  description:
-    "How AcresxManna is building production, quality assurance and supply chain capacity for African food manufacturing.",
-};
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}) {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: "pages.infrastructure" });
+
+  return {
+    title: t("metadataTitle"),
+    description: t("metadataDescription"),
+  };
+}
 
 const capabilityCards = [
   {

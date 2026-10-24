@@ -1,3 +1,4 @@
+import { getTranslations } from "next-intl/server";
 import { LazyImage } from "@/components/ui/LazyImage";
 import { SectionContainer } from "@/components/layout/SectionContainer";
 import { ScrollReveal } from "@/components/animations/MotionSection";
@@ -7,69 +8,61 @@ import { Button } from "@/components/ui/Button";
 
 const brands = [
   {
+    id: "africanFoodKing",
     name: "African Food King",
-    status: "Active",
-    description:
-      "Authentic African food products bringing vibrant culinary traditions and premium tea lines to global consumers.",
     image: "/images/brands/african-food-king-logo.png",
-    alt: "African Food King official brand logo",
     fit: "contain",
   },
   {
+    id: "uncleTobi",
     name: "UncleTobi",
-    status: "Coming soon",
-    description:
-      "An online grocery concept that aggregates suppliers for retail and international delivery.",
     image: "/images/brands/uncletobi-logo.png",
-    alt: "UncleTobi online grocery concept logo",
     fit: "contain",
   },
   {
+    id: "ijgbFoods",
     name: "IJGB Foods",
-    status: "Active",
-    description:
-      "African snacks with global swagger — facilitating trade and connecting quality commodities across markets.",
     image: "/images/brands/ijgb-foods-logo.png",
-    alt: "IJGB Foods brand logo",
     fit: "contain",
   },
   {
+    id: "happyManFoods",
     name: "HappyMan Foods",
-    status: "Active",
-    description:
-      "The flagship brand AcresxManna uses to sell and distribute all of its products.",
     image: "/images/brands/happyman-foods-logo.svg",
-    alt: "HappyMan Foods logo",
     fit: "contain",
   },
   {
+    id: "maluzaFoods",
     name: "Maluza Foods Co.",
-    status: "Live",
-    description:
-      "A commercial bakery developing new products and opening retail stalls in and around Ibadan.",
     image: "/images/brands/maluza-foods-logo.svg",
-    alt: "Maluza Foods Co. logo",
     fit: "contain",
   },
-];
+] as const;
 
-export function BrandsSection() {
+export async function BrandsSection() {
+  const t = await getTranslations("sections.brandShowcase");
+  const tStatus = await getTranslations("brandStatus");
+
   return (
     <>
-      <PatternDivider pattern="ankara" thickness="medium" eyebrow="Our ecosystem" />
+      <PatternDivider
+        pattern="ankara"
+        thickness="medium"
+        eyebrow={t("dividerEyebrow")}
+      />
       <section className="bg-white py-16 sm:py-24">
         <SectionContainer size="wide">
           <div className="mb-10 max-w-3xl">
-            <Eyebrow className="mb-5">Our brands</Eyebrow>
+            <Eyebrow className="mb-5">{t("eyebrow")}</Eyebrow>
             <h2 className="font-display text-display-1 font-black">
-              Some of our brands.
+              {t("headline")}
             </h2>
           </div>
           <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
             {brands.map((brand, index) => (
               <ScrollReveal
                 as="article"
-                key={brand.name}
+                key={brand.id}
                 delay={0.05 * index}
                 className="group flex flex-col overflow-hidden rounded-3xl border border-cream-200 bg-cream-50 shadow-card transition duration-300 hover:shadow-card-hover"
               >
@@ -80,7 +73,7 @@ export function BrandsSection() {
                 >
                   <LazyImage
                     src={brand.image}
-                    alt={brand.alt}
+                    alt={t(`items.${brand.id}.alt`)}
                     fill
                     unoptimized={brand.image.endsWith(".svg")}
                     sizes="(max-width: 639px) 100vw, (max-width: 1023px) 50vw, 25vw"
@@ -93,7 +86,7 @@ export function BrandsSection() {
                   />
                   <div className="absolute top-4 left-4">
                     <span className="rounded-full bg-white/90 px-3 py-1 font-mono text-xs font-bold uppercase tracking-wider text-purple-700 shadow-sm backdrop-blur-sm">
-                      {brand.status}
+                      {tStatus(t(`items.${brand.id}.status`))}
                     </span>
                   </div>
                 </div>
@@ -102,7 +95,7 @@ export function BrandsSection() {
                     {brand.name}
                   </h3>
                   <p className="mt-3 font-sans text-body-md leading-relaxed text-charcoal-700">
-                    {brand.description}
+                    {t(`items.${brand.id}.description`)}
                   </p>
                 </div>
               </ScrollReveal>
@@ -110,7 +103,7 @@ export function BrandsSection() {
           </div>
           <div className="mt-8">
             <Button href="/our-brands" variant="secondary" size="lg">
-              Explore our brands
+              {t("cta")}
             </Button>
           </div>
         </SectionContainer>

@@ -5,11 +5,19 @@ import { ScrollReveal } from "@/components/animations/MotionSection";
 import { Eyebrow } from "@/components/ui/Eyebrow";
 import { Button } from "@/components/ui/Button";
 
-export const metadata = {
-  title: "What We Do",
-  description:
-    "How AcresxManna connects agricultural supply with processing, manufacturing, product development and market access.",
-};
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}) {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: "pages.whatWeDo" });
+
+  return {
+    title: t("metadataTitle"),
+    description: t("metadataDescription"),
+  };
+}
 
 const CAPABILITY_IDS = [
   "agriculturalSourcing",

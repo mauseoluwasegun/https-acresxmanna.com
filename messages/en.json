@@ -16,6 +16,16 @@
     "addressCountry": "Nigeria",
     "skipToContent": "Skip to content"
   },
+  "brandStatus": {
+    "active": "Active",
+    "comingSoon": "Coming soon",
+    "live": "Live"
+  },
+  "locations": {
+    "factory": "Factory",
+    "nigerianOffice": "Nigerian office",
+    "ukWarehouse": "UK warehouse and office"
+  },
   "nav": {
     "home": "Home",
     "about": "About",
@@ -44,7 +54,7 @@
       "de": "Deutsch",
       "it": "Italiano",
       "ar": "العربية",
-      "zh-CN": "",
+      "zh-CN": "简体中文",
       "nl": "Nederlands"
     }
   },
@@ -581,7 +591,61 @@
       "cta": "View All Brands"
     },
     "clients": {
-      "heading": "Our Clients"
+      "heading": "Our Clients",
+      "headline": "Some of our clients.",
+      "description": "Retailers, distributors and cash-and-carry partners who bring our products to customers.",
+      "items": {
+        "segGroup": {
+          "description": "Retail and wholesale partner stocking HappyMan Foods products for its customers.",
+          "location": "Hertford",
+          "logoAlt": "SEG Group logo"
+        },
+        "aliBabaFoods": {
+          "description": "Food business supplying African grocery products to retail customers.",
+          "location": "Hertford",
+          "logoAlt": "Ali Baba Foods Ltd logo"
+        },
+        "adesCashAndCarry": {
+          "description": "Cash-and-carry outlet giving local retailers and shoppers access to everyday African food staples.",
+          "logoAlt": "Ades Cash and Carry logo"
+        },
+        "wosiwosiCashAndCarry": {
+          "description": "Cash-and-carry outlet serving its community with trusted African food brands."
+        }
+      }
+    },
+    "brandShowcase": {
+      "dividerEyebrow": "Our ecosystem",
+      "eyebrow": "Our brands",
+      "headline": "Some of our brands.",
+      "cta": "Explore our brands",
+      "items": {
+        "africanFoodKing": {
+          "status": "active",
+          "description": "Authentic African food products bringing vibrant culinary traditions and premium tea lines to global consumers.",
+          "alt": "African Food King official brand logo"
+        },
+        "uncleTobi": {
+          "status": "comingSoon",
+          "description": "An online grocery concept that aggregates suppliers for retail and international delivery.",
+          "alt": "UncleTobi online grocery concept logo"
+        },
+        "ijgbFoods": {
+          "status": "active",
+          "description": "African snacks with global swagger — facilitating trade and connecting quality commodities across markets.",
+          "alt": "IJGB Foods brand logo"
+        },
+        "happyManFoods": {
+          "status": "active",
+          "description": "The flagship brand AcresxManna uses to sell and distribute all of its products.",
+          "alt": "HappyMan Foods logo"
+        },
+        "maluzaFoods": {
+          "status": "live",
+          "description": "A commercial bakery developing new products and opening retail stalls in and around Ibadan.",
+          "alt": "Maluza Foods Co. logo"
+        }
+      }
     },
     "impact": {
       "dividerEyebrow": "— IMPACT WE CAN FEEL",

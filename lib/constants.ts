@@ -6,14 +6,17 @@ export const INSTAGRAM_URL = "https://www.instagram.com/acresxmanna/";
 
 export const SITE_LOCATIONS = [
   {
+    id: "factory",
     label: "Factory",
     address: "The Goodland, Off Apapa Road, Moniya, Ibadan, Oyo State, Nigeria",
   },
   {
+    id: "nigerianOffice",
     label: "Nigerian office",
     address: "10 Adeniyi Coker, Dideolu Estate, Victoria Island, Lagos, Nigeria",
   },
   {
+    id: "ukWarehouse",
     label: "UK warehouse and office",
     address: "Orland House, Unit 1, Mead Lane, Hertford SG13 7AT, United Kingdom",
   },

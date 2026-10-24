@@ -1,30 +1,30 @@
 "use client";
 
-import { useLocale, useTranslations } from "next-intl";
+import { useLocale } from "next-intl";
 import { usePathname, useRouter } from "@/i18n/routing";
 import { useState, useRef, useEffect } from "react";
 import { cn } from "@/lib/utils";
 
+// Language names are shown in their own language (endonyms) so the menu is
+// recognisable whichever site language is active.
 const languages = [
-  { code: "en", flag: "gb" },
-  { code: "fr", flag: "fr" },
-  { code: "tw", flag: "gh" },
-  { code: "es", flag: "es" },
-  { code: "ru", flag: "ru" },
-  { code: "pt", flag: "pt" },
-  { code: "de", flag: "de" },
-  { code: "it", flag: "it" },
-  { code: "ar", flag: "ae" },
-  { code: "zh-CN", flag: "cn" },
-  { code: "nl", flag: "nl" },
+  { code: "en", flag: "gb", label: "English" },
+  { code: "fr", flag: "fr", label: "Français" },
+  { code: "tw", flag: "gh", label: "Twi" },
+  { code: "es", flag: "es", label: "Español" },
+  { code: "ru", flag: "ru", label: "Русский" },
+  { code: "pt", flag: "pt", label: "Português" },
+  { code: "de", flag: "de", label: "Deutsch" },
+  { code: "it", flag: "it", label: "Italiano" },
+  { code: "ar", flag: "ae", label: "العربية" },
+  { code: "zh-CN", flag: "cn", label: "简体中文" },
+  { code: "nl", flag: "nl", label: "Nederlands" },
 ];
 
 export function LanguageSwitcher({ isLight, dropUp }: { isLight?: boolean; dropUp?: boolean }) {
   const locale = useLocale();
   const router = useRouter();
   const pathname = usePathname();
-  const t = useTranslations("languageSwitcher");
-  const tc = useTranslations("chrome");
   const [isOpen, setIsOpen] = useState(false);
   const dropdownRef = useRef<HTMLDivElement>(null);
 
@@ -101,7 +101,7 @@ export function LanguageSwitcher({ isLight, dropUp }: { isLight?: boolean; dropU
                   className="h-4 w-6 object-contain"
                   loading="lazy"
                 />
-                <span>{tc(`languages.${lang.code}` as any) || lang.code}</span>
+                <span>{lang.label}</span>
               </button>
             ))}
           </div>

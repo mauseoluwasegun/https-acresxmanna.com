@@ -1,12 +1,16 @@
 {
   "meta": {
-    "siteTitle": "AcresxManna — 莱斯非洲的财富，转化为美食",
+    "siteTitle": "AcresxManna —— 非洲的富饶，转化为优质美食",
     "siteDescription": "扎根于非洲最富饶的农田，我们将这片大陆最好的收成转化为供本地和国际餐桌享用的优质食品。",
     "skipToContent": "跳到内容"
   },
   "layout": {
-    "title": "AcresxManna — 莱斯非洲的财富，转化为美食",
-    "description": "扎根于非洲最富饶的农田，我们将这片大陆最好的收成转化为供本地和国际餐桌享用的优质食品。"
+    "title": "AcresxManna —— 非洲的富饶，转化为优质美食",
+    "description": "扎根于非洲最富饶的农田，我们将这片大陆最好的收成转化为供本地和国际餐桌享用的优质食品。",
+    "titleTemplate": "%s | AcresxManna",
+    "ogImageAlt": "AcresxManna — 非洲农产品集团",
+    "legalName": "AcresxManna组",
+    "skipToContent": "跳至内容"
   },
   "nav": {
     "home": "首页",
@@ -15,7 +19,13 @@
     "whatWeDo": "我们做什么",
     "what-we-do": "我们做什么",
     "impact": "影响",
-    "contact": "联系我们"
+    "contact": "联系我们",
+    "primaryAria": "主要导航",
+    "more": "更多的",
+    "letsTalk": "让我们谈谈",
+    "openMenu": "打开菜单",
+    "mobileAria": "手机导航",
+    "closeMenu": "关闭菜单"
   },
   "hero": {
     "eyebrow": "AcresxManna · 非洲农产品加工",
@@ -23,7 +33,7 @@
       "africa": "非洲的",
       "richness": "财富.",
       "transformed": "转化为",
-      "into": "",
+      "into": "农产品",
       "great": "优质的",
       "food": "美食."
     },
@@ -319,7 +329,29 @@
     "copyright": "© {year} AcresxManna.",
     "privacy": "隐私政策",
     "terms": "条款",
-    "cookies": "Cookies"
+    "cookies": "Cookies",
+    "brandHomeAria": "AcresxManna 首页",
+    "brandLogoAlt": "AcresxManna 标志",
+    "taglineText": "将非洲丰富的农业资源转化为当地社区和全球餐桌上的美味食物。",
+    "exploreHeading": "探索",
+    "aboutUs": "关于我们",
+    "contactUs": "联系我们",
+    "brandsHeading": "我们的品牌",
+    "brand1Label": "UncleTobi 农民",
+    "brand2Label": "Maluza Foods Co.",
+    "brand3Label": "HappyMan Foods",
+    "brand4Label": "African Food King",
+    "certifiedBy": "认证机构",
+    "certifiedByAlt": "质量认证徽章",
+    "copyrightLine": "© {year} AcresxManna。版权所有。",
+    "privacyPolicy": "隐私政策",
+    "termsOfUse": "使用条款",
+    "cookiePolicy": "Cookie 政策",
+    "whatWeDo": "我们做什么",
+    "impact": "影响",
+    "globalMarkets": "全球市场",
+    "instagramAria": "AcresxManna 上 Instagram",
+    "certifiedByNote": "我们在整个工厂都遵循食品安全和质量标准。"
   },
   "languageSwitcher": {
     "label": "语言",
@@ -351,36 +383,1265 @@
     "manufacturing": {
       "eyebrow": "制造卓越",
       "headline": "现代化加工设施",
-      "description": "我们最先进的加工设施确保在食品生产的每个阶段保证质量、安全和保鲜。"
+      "description": "我们最先进的加工设施确保在食品生产的每个阶段保证质量、安全和保鲜。",
+      "cap0Alt": "有绿色植物的木薯农田",
+      "cap0Title": "采购",
+      "cap0Description": "我们直接从西非值得信赖的农民和合作社采购原材料。",
+      "cap1Alt": "成品储存中的包装罐装涂层花生的托盘罐",
+      "cap1Title": "贮存",
+      "cap1Description": "我们的仓储设施保持着最佳的质量保存条件。",
+      "cap2Alt": "身穿防护服的食品生产操作员监控不锈钢加工釜",
+      "cap2Title": "制造业",
+      "cap2Description": "先进的清洗、分选和制备加工设备。",
+      "cap3Alt": "加工设施中的工业混合和筛分罐",
+      "cap3Title": "质量控制",
+      "cap3Description": "严格的质量测试确保每件产品均符合国际标准。",
+      "cap4Alt": "农场团队穿着品牌制服在温室内采摘西红柿",
+      "cap4Title": "农业",
+      "cap4Description": "采用可持续技术和灌溉的现代农业实践。",
+      "cap5Alt": "装有瓶装产品的出口集装箱准备发货",
+      "cap5Title": "分配",
+      "cap5Description": "高效的物流网络将我们的产品连接到全球市场。"
     },
     "products": {
       "dividerEyebrow": "— 特色产品",
       "eyebrow": "产品展示",
       "headline": "优质非洲食品",
-      "description": "从谷物和面粉到即食餐，我们的产品将非洲的原汁原味带给全球市场。"
+      "description": "从谷物和面粉到即食餐，我们的产品将非洲的原汁原味带给全球市场。",
+      "statusAvailable": "现已上市",
+      "statusComingSoon": "即将推出",
+      "requestInfo": "索取信息",
+      "cta": "查看所有产品",
+      "items": {
+        "garri": {
+          "name": "加里",
+          "description": "这是许多非洲社区的重要主食，在零售、食品服务和国际非洲食品市场上都有机会。我们加工白色、伊杰布和黄色品种。",
+          "imageAlt": "加里麻袋存放在仓库中用于储存和分发"
+        },
+        "cassava-flour": {
+          "name": "木薯粉",
+          "description": "一种用于家庭烹饪、面包师和食品企业的木薯面粉，可根据您的要求进行包装。",
+          "imageAlt": "包装后分发的品牌木薯粉袋"
+        },
+        "plantain-flour": {
+          "name": "车前草粉",
+          "description": "一种用于家庭烹饪、面包师和食品企业的车前草面粉，可根据您的要求进行包装。",
+          "imageAlt": "带勺子的车前草面粉特写"
+        },
+        "groundnuts-peanuts": {
+          "name": "花生和花生",
+          "description": "一种多功能农产品，具有作为包装食品和进一步加工原料的潜力。",
+          "imageAlt": "散装包装的花生和花生在仓库里"
+        },
+        "roasted-groundnuts": {
+          "name": "烤花生",
+          "description": "烤花生和带壳花生批量批发供应，按您的要求包装。",
+          "imageAlt": "瓶装烤花生和带壳花生托盘可供批量批发供应"
+        },
+        "cashew-nuts": {
+          "name": "腰果",
+          "description": "人们喜爱的零食和配料，可根据您的要求进行包装。",
+          "imageAlt": "腰果和腰果苹果从果园收获到餐桌"
+        },
+        "plantain-chips": {
+          "name": "车前草片",
+          "description": "一种熟悉、方便的非洲小吃，适合寻找美味食物的人们。产品询问可以讨论包装和配送要求。",
+          "imageAlt": "HappyMan 车前草片装在透明塑料袋中"
+        },
+        "hibiscus-teas": {
+          "name": "芙蓉和茶",
+          "description": "一种著名的非洲植物，用于茶、输液和饮料。联系我们讨论可用的产品和要求。",
+          "imageAlt": "African Food King 优质花草茶系列，包含木槿、生姜、丁香和肉桂金字塔茶袋"
+        },
+        "kuli-kuli": {
+          "name": "库里库里",
+          "description": "一种标志性的西非松脆小吃，由烤花生制成，经过调味和脆化至完美。植物蛋白含量高，包装适合零售新鲜和出口。",
+          "imageAlt": "正宗松脆 Kuli Kuli 零食，包装在带绿色盖子的防拆零售罐中"
+        },
+        "palm-oil": {
+          "name": "纯棕榈油",
+          "description": "可持续采购的纯未精炼红棕榈油，在严格的卫生条件下加工。对于正宗的非洲烹饪、餐饮服务和商业制造至关重要。",
+          "imageAlt": "准备分配和出口的密封纯红棕榈油瓶俯视图"
+        },
+        "ayamase-sauce": {
+          "name": "Ayamase酱",
+          "description": "浓郁的西非辣椒酱，也称为 Ofada 酱，适合日常烹饪，包装在 250 克袋中。",
+          "imageAlt": "HappyMan Ayamase 带有 Ofada 酱标签的酱零售袋"
+        },
+        "seasonings-spices": {
+          "name": "调味料和香料",
+          "description": "规划的系列将农业原料与日常烹饪结合起来，重点关注风味、便利性和一致性。尚不可用。",
+          "imageAlt": "乡村香料静物画，木质表面有大蒜、辣椒、花椒、咖喱粉和新鲜香草"
+        }
+      }
     },
     "operatingModel": {
       "dividerEyebrow": "— 我们如何工作",
       "eyebrow": "我们的运营模式",
       "headline": "一体化价值链",
-      "description": "我们将农业、加工、融资和分销连接起来，创建可持续的食品系统。"
+      "description": "我们将农业、加工、融资和分销连接起来，创建可持续的食品系统。",
+      "steps": {
+        "source": {
+          "title": "来源",
+          "description": "直接来自加纳、尼日利亚和科特迪瓦的农民。"
+        },
+        "processAndManufacture": {
+          "title": "工艺与制造",
+          "description": "HACCP 和 ISO 22000 认证设施确保质量。"
+        },
+        "packageAndBuildBrands": {
+          "title": "包装和建立品牌",
+          "description": "创建讲述正宗非洲美食故事的品牌。"
+        },
+        "connectToMarkets": {
+          "title": "连接市场",
+          "description": "通过 AfCFTA 走廊在 24 个以上市场进行分销。"
+        }
+      }
     },
     "brands": {
       "dividerEyebrow": "— 我们的品牌",
       "eyebrow": "我们的品牌组合",
       "headline": "多元品牌，同一使命",
-      "description": "我们的品牌组合服务于农村生产者和城市消费者，通过诚信和创新创造价值。"
+      "description": "我们的品牌组合服务于农村生产者和城市消费者，通过诚信和创新创造价值。",
+      "heading": "多元化品牌，同一个使命",
+      "brand0Alt": "African Food King 标志",
+      "brand0Status": "积极的",
+      "brand0Name": "African Food King",
+      "brand0Description": "面向零售和出口市场的正宗非洲食品。",
+      "brand1Alt": "HappyMan Foods品牌商品麻袋",
+      "brand1Status": "积极的",
+      "brand1Name": "HappyMan Foods",
+      "brand1Description": "我们的消费食品品牌生产价格实惠的日常产品。",
+      "brand2Alt": "来自 Maluza Foods 面包店的新鲜面包",
+      "brand2Status": "积极的",
+      "brand2Name": "Maluza Foods",
+      "brand2Description": "我们的面包店生产新鲜面包和糕点。",
+      "brand3Alt": "UncleTobi 标志",
+      "brand3Status": "即将推出",
+      "brand3Name": "UncleTobi",
+      "brand3Description": "在线杂货概念将供应商聚集在一起进行零售。",
+      "cta": "查看所有品牌"
     },
     "impact": {
       "dividerEyebrow": "— 可感知的影响",
       "eyebrow": "数据说话",
       "headline": "真实影响，真实故事",
-      "description": "每个指标都代表一个人、一个社区或一餐我们帮助送达的食物。"
+      "description": "每个指标都代表一个人、一个社区或一餐我们帮助送达的食物。",
+      "chip0": "农民赋权",
+      "chip1": "到达的社区",
+      "chip2": "创造的就业机会",
+      "chip3": "服务的市场",
+      "cta": "查看全部影响"
     },
     "finalCta": {
       "eyebrow": "联系我们",
       "headline": "合作伙伴关系",
-      "description": "无论您是农民、分销商、投资者还是合作伙伴，让我们共同构建非洲食品的未来。"
+      "description": "无论您是农民、分销商、投资者还是合作伙伴，让我们共同构建非洲食品的未来。",
+      "partnerWithUs": "与我们合作",
+      "becomeSupplier": "成为供应商",
+      "exploreProducts": "探索产品"
+    },
+    "hero": {
+      "eyebrow": "AcresxManna·农食品集团",
+      "word0": "重新定义",
+      "word1": "非洲的",
+      "word2": "角色",
+      "word3": "在",
+      "word4": "全球的",
+      "word5": "市场",
+      "typingText": "一家多元化的国际食品、配料和零售集团。",
+      "exploreProducts": "探索我们的产品",
+      "letsTalk": "让我们谈谈",
+      "heroImageAlt": "AcresxManna 加工厂的棕榈油装瓶生产线",
+      "tagAfricanHarvest": "100% 非洲收获",
+      "tagExportReady": "出口就绪",
+      "tagValueAdded": "增值加工",
+      "tagFarmToGlobal": "农场到全球",
+      "tagQuality": "优质品质",
+      "mascotAlt": "AcresxManna品牌吉祥物"
+    },
+    "clients": {
+      "heading": "我们的客户",
+      "headline": "我们的一些客户。",
+      "description": "将我们的产品带给客户的零售商、分销商和现购自运合作伙伴。",
+      "items": {
+        "segGroup": {
+          "description": "零售和批发合作伙伴为其客户库存 HappyMan Foods 产品。",
+          "location": "赫特福德",
+          "logoAlt": "SEG Group 标志"
+        },
+        "aliBabaFoods": {
+          "description": "食品企业向零售客户供应非洲杂货产品。",
+          "location": "赫特福德",
+          "logoAlt": "Ali Baba Foods Ltd 标志"
+        },
+        "adesCashAndCarry": {
+          "description": "现购自运商店让当地零售商和购物者能够购买日常非洲主食。",
+          "logoAlt": "Ades Cash and Carry 标志"
+        },
+        "wosiwosiCashAndCarry": {
+          "description": "现购自运商店为社区提供值得信赖的非洲食品品牌。"
+        }
+      }
+    },
+    "brandShowcase": {
+      "dividerEyebrow": "我们的生态系统",
+      "eyebrow": "我们的品牌",
+      "headline": "我们的一些品牌。",
+      "cta": "探索我们的品牌",
+      "items": {
+        "africanFoodKing": {
+          "status": "积极的",
+          "description": "正宗的非洲食品为全球消费者带来充满活力的烹饪传统和优质茶系列。",
+          "alt": "African Food King官方品牌标志"
+        },
+        "uncleTobi": {
+          "status": "即将推出",
+          "description": "一种在线杂货概念，聚合零售和国际配送的供应商。",
+          "alt": "UncleTobi 在线杂货概念标志"
+        },
+        "ijgbFoods": {
+          "status": "积极的",
+          "description": "非洲零食在全球大放异彩——促进贸易并连接各个市场的优质商品。",
+          "alt": "IJGB Foods品牌标志"
+        },
+        "happyManFoods": {
+          "status": "积极的",
+          "description": "旗舰品牌AcresxManna用于销售和分销其所有产品。",
+          "alt": "HappyMan Foods 标志"
+        },
+        "maluzaFoods": {
+          "status": "居住",
+          "description": "一家商业面包店开发新产品并在伊巴丹及其周边地区开设零售摊位。",
+          "alt": "Maluza Foods Co. 标志"
+        }
+      }
+    },
+    "productTicker": {
+      "ariaLabel": "滚动产品代码：{products}"
+    },
+    "globalAmbition": {
+      "eyebrow": "全球野心",
+      "headline": "跨界建设",
+      "description": "从西非到全球市场，我们正在扩大我们的影响力，同时坚定不移地践行我们的使命。"
+    },
+    "stakeholderCube": {
+      "dividerEyebrow": "— 我们的利益相关者",
+      "eyebrow": "我们为谁服务",
+      "heading": "价值的六个方面",
+      "description": "我们生态系统中的每个利益相关者都很重要。探索我们如何在整个农产品价值链中创造价值。",
+      "cubeAriaLabel": "显示 {face} 的交互式立方体",
+      "faceAriaLabel": "查看 {label} 利益相关者的观点",
+      "face": "旋转立方体",
+      "hint": "点击即可旋转",
+      "panel": "细节",
+      "talkToTeam": "与我们的团队交谈",
+      "faces": {
+        "consumer": "消费者",
+        "farmer": "农民",
+        "distributor": "经销商",
+        "partner": "伙伴",
+        "investor": "投资者",
+        "employee": "员工"
+      },
+      "stakeholders": {
+        "consumer": {
+          "label": "消费者",
+          "headline": "质量与信任",
+          "description": "消费者应该获得安全、营养、正宗的非洲食品。我们确保每件产品都符合国际标准，同时保护文化遗产。",
+          "ctaLabel": "选购产品"
+        },
+        "farmer": {
+          "label": "农民",
+          "headline": "成长与尊严",
+          "description": "小农是我们生态系统的支柱。我们提供公平的价格、可持续实践培训和直接市场准入，以改变生计。",
+          "ctaLabel": "与我们合作"
+        },
+        "distributor": {
+          "label": "经销商",
+          "headline": "可靠性和覆盖范围",
+          "description": "分销商将我们的产品连接到全球市场。我们为无缝运营提供稳定的供应、有竞争力的价格和物流支持。",
+          "ctaLabel": "加入网络"
+        },
+        "partner": {
+          "label": "伙伴",
+          "headline": "协作与影响",
+          "description": "战略合作伙伴增强了我们的使命。从非政府组织到政府机构，我们建立联盟来加强非洲的粮食安全和经济增长。",
+          "ctaLabel": "探索合作伙伴关系"
+        },
+        "investor": {
+          "label": "投资者",
+          "headline": "回报与规模",
+          "description": "投资者推动我们在整个价值链上的扩张。我们在非洲农产品市场提供透明的运营、成熟的商业模式和巨大的增长潜力。",
+          "ctaLabel": "投资机会"
+        },
+        "employee": {
+          "label": "员工",
+          "headline": "目的与发展",
+          "description": "我们的团队推动我们的使命向前发展。我们在农场、工厂和办公室提供有意义的工作、技能发展和卓越文化。",
+          "ctaLabel": "加入我们的团队"
+        }
+      }
+    },
+    "businessFaq": {
+      "eyebrow": "常问问题",
+      "heading": "常见问题解答",
+      "faq0Question": "你们提供什么类型的合作伙伴关系？",
+      "faq0Answer": "我们提供各种合作机会，包括供应商合作伙伴关系、分销协议、制造合作和投资机会。每个都是根据合作伙伴的具体需求和规模量身定制的。",
+      "faq1Question": "你们的最小订购量是多少？",
+      "faq1Answer": "最低订购量因产品和市场而异。对于零售产品，我们通常从 500 件起。对于大宗商品和出口，最低数量根据集装箱容量和产品类型协商。",
+      "faq2Question": "你们出口国际吗？",
+      "faq2Answer": "是的，我们通过非洲大陆自由贸易区 (AfCFTA) 走廊以及与欧盟和北美进口商的直接合作伙伴关系向全球超过 24 个市场出口。我们的产品符合国际食品安全标准。",
+      "faq3Question": "您持有什么认证？",
+      "faq3Answer": "我们拥有HACCP、ISO 22000、NAFDAC、SON、MAN等多项认证。这些认证确保我们的产品符合市场上最高的食品安全、质量和监管标准。",
+      "faq4Question": "我如何成为供应商？",
+      "faq4Answer": "要成为供应商，请填写我们的供应商查询表，其中包含有关您的产品、产能和认证的详细信息。我们的采购团队将审核您的申请并在 5 个工作日内与您联系以了解后续步骤。",
+      "faq5Question": "你们提供什么付款条件？",
+      "faq5Answer": "我们根据合作伙伴类型和订单规模提供灵活的付款条件。常见条款包括针对已建立合作伙伴的 30-60 天净付款、针对新合作伙伴的预付款以及针对国际出口的信用证。",
+      "faq6Question": "你们提供自有品牌服务吗？",
+      "faq6Answer": "是的，我们为精选合作伙伴提供自有品牌和白标制造服务。这包括定制配方、包装设计和以您的品牌名称进行生产，并提供我们的质量保证。",
+      "faq7Question": "你们的订单交货时间是多少？",
+      "faq7Answer": "交货时间因产品而异：现成产品在 3-5 个工作日内发货，定制订单需要 2-4 周，大型出口订单可能需要 4-8 周，具体取决于生产计划和物流。",
+      "faq8Question": "你们提供样品吗？",
+      "faq8Answer": "是的，我们为合格的业务查询提供产品样品。您可以通过我们的联系表提出样品请求，并且可能会产生运费，具体取决于位置和样品数量。",
+      "faq9Question": "你们有哪些质量控制措施？",
+      "faq9Answer": "我们在每个阶段都实施严格的质量控制：农场分级、过程测试、最终产品检验和装运前验证。我们的设施配备了现代化的检测设备并遵循 GMP 标准。",
+      "faq10Question": "你们能处理大批量订单吗？",
+      "faq10Answer": "是的，我们的设施专为大规模生产而设计，拥有多条加工线和充足的存储容量。我们可以扩大生产以满足大量需求，同时保持质量标准。",
+      "faq11Question": "您支持可持续农业实践吗？",
+      "faq11Answer": "绝对地。我们与农民密切合作，促进可持续实践，包括土壤保护、水资源管理、减少化学品投入和生物多样性保护。我们的农业计划包括培训和认证支持。",
+      "faq12Question": "如何确保产品安全？",
+      "faq12Answer": "通过 HACCP 认证的流程、定期微生物测试、正确的储存和处理协议、可追溯性系统以及符合包括 USFDA 和欧盟标准在内的国际食品安全法规，确保产品安全。"
+    },
+    "pages": {
+      "notFound": {
+        "title": "找不到页面",
+        "description": "您要查找的页面不存在或已被移动。",
+        "backToHome": "返回首页"
+      }
+    }
+  },
+  "pages": {
+    "products": {
+      "items": {
+        "garri": {
+          "varieties": [
+            "白色的",
+            "伊杰布",
+            "黄色的"
+          ],
+          "highlights": [
+            "三个品种：白色、伊杰布和黄色",
+            "可出口",
+            "根据每个客户的要求进行包装"
+          ],
+          "name": "加里",
+          "description": "这是许多非洲社区的重要主食，在零售、食品服务和国际非洲食品市场上都有机会。我们加工白色、伊杰布和黄色品种。",
+          "imageAlt": "加里麻袋存放在仓库中用于储存和分发",
+          "caption": "我们的中央处理中心以 HappyMan Foods 品牌批量包装商品。"
+        },
+        "cassava-flour": {
+          "highlights": [
+            "木薯粉",
+            "适用于家庭烹饪和食品企业",
+            "根据每个客户的要求进行包装"
+          ],
+          "name": "木薯粉",
+          "description": "一种用于家庭烹饪、面包师和食品企业的木薯面粉，可根据您的要求进行包装。",
+          "imageAlt": "包装后分发的品牌木薯粉袋",
+          "caption": "出口级面粉直接装入集装箱进行国际运输。"
+        },
+        "plantain-flour": {
+          "highlights": [
+            "车前草面粉",
+            "适用于家庭烹饪和食品企业",
+            "根据每个客户的要求进行包装"
+          ],
+          "name": "车前草粉",
+          "description": "一种用于家庭烹饪、面包师和食品企业的车前草面粉，可根据您的要求进行包装。",
+          "imageAlt": "带勺子的车前草面粉特写",
+          "caption": "车前草粉由我们工厂的新鲜车前草加工而成。"
+        },
+        "groundnuts-peanuts": {
+          "highlights": [
+            "可出口",
+            "根据每个客户的要求进行包装",
+            "未列出未启动的产品扩展"
+          ],
+          "name": "花生和花生",
+          "description": "一种多功能农产品，具有作为包装食品和进一步加工原料的潜力。除非有市售，否则我们不会列出花生酱等产品。",
+          "imageAlt": "散装包装的花生和花生在仓库里",
+          "caption": "精心烘烤和分类的花生符合出口质量标准。"
+        },
+        "roasted-groundnuts": {
+          "highlights": [
+            "烘烤并去壳以供批量供应",
+            "欢迎批发及出口询问",
+            "根据每个客户的要求进行包装"
+          ],
+          "name": "烤花生",
+          "description": "烤花生和带壳花生批量批发供应，按您的要求包装。",
+          "imageAlt": "瓶装烤花生和带壳花生托盘可供批量批发供应",
+          "caption": "烤花生和带壳花生包装在托盘上，用于批量批发供应。"
+        },
+        "cashew-nuts": {
+          "highlights": [
+            "可出口",
+            "适合食品零售及商业查询",
+            "根据每个客户的要求进行包装"
+          ],
+          "name": "腰果",
+          "description": "人们喜爱的零食和配料，可根据您的要求进行包装。",
+          "imageAlt": "腰果和腰果苹果从果园收获到餐桌",
+          "caption": "手工分级质量保证，确保零杂质。"
+        },
+        "plantain-chips": {
+          "highlights": [
+            "即食零食",
+            "欢迎零售及批发询问",
+            "可以讨论定制包装"
+          ],
+          "name": "车前草片",
+          "description": "一种熟悉、方便的非洲小吃，适合寻找美味食物的人们。产品询问可以讨论包装和配送要求。",
+          "imageAlt": "HappyMan 车前草片装在透明塑料袋中",
+          "caption": "新鲜切片的脆皮车前草片包装用于零售货架和出口。"
+        },
+        "hibiscus-teas": {
+          "highlights": [
+            "可供出口的芙蓉和茶产品",
+            "茶、输液和饮料查询",
+            "根据每个客户的要求进行包装"
+          ],
+          "name": "芙蓉和茶",
+          "description": "一种著名的非洲植物，用于茶、输液和饮料。联系我们讨论可用的产品和要求。",
+          "imageAlt": "African Food King 优质花草茶系列，包含木槿、生姜、丁香和肉桂金字塔茶袋",
+          "caption": "African Food King 花草茶系列，100% 天然，不含咖啡因。"
+        },
+        "kuli-kuli": {
+          "varieties": [
+            "松脆条",
+            "五香小吃"
+          ],
+          "highlights": [
+            "100%优质烤花生",
+            "可出口",
+            "按照客户要求包装在防篡改罐中"
+          ],
+          "name": "库里库里",
+          "description": "一种标志性的西非松脆小吃，由烤花生制成，经过调味和脆化至完美。植物蛋白含量高，包装适合零售新鲜和出口。",
+          "imageAlt": "正宗松脆 Kuli Kuli 零食，包装在带绿色盖子的防拆零售罐中",
+          "caption": "新鲜烘烤、调味的花生 Kuli Kuli 包装在零售罐和批发纸箱中。"
+        },
+        "palm-oil": {
+          "varieties": [
+            "A级烹饪",
+            "散装加工级"
+          ],
+          "highlights": [
+            "天然富含类胡萝卜素和营养素",
+            "卫生装瓶并密封出口",
+            "有零售瓶和散装工业包装可供选择"
+          ],
+          "name": "纯棕榈油",
+          "description": "可持续采购的纯未精炼红棕榈油，在严格的卫生条件下加工。对于正宗的非洲烹饪、餐饮服务和商业制造至关重要。",
+          "imageAlt": "准备分配和出口的密封纯红棕榈油瓶俯视图",
+          "caption": "优质纯红棕榈油，采用卫生瓶装和质量分级，适合国际市场。"
+        },
+        "ayamase-sauce": {
+          "highlights": [
+            "250 克零售袋装",
+            "可出口",
+            "根据每个客户的要求进行包装"
+          ],
+          "name": "Ayamase酱",
+          "description": "浓郁的西非辣椒酱，也称为 Ofada 酱，适合日常烹饪，包装在 250 克袋中。",
+          "imageAlt": "HappyMan Ayamase 带有 Ofada 酱标签的酱零售袋",
+          "caption": "HappyMan Ayamase (Ofada) 酱，装在 250 克零售袋中。"
+        },
+        "seasonings-spices": {
+          "name": "调味料和香料",
+          "description": "规划的系列将农业原料与日常烹饪结合起来，重点关注风味、便利性和一致性。尚不可用。",
+          "imageAlt": "乡村香料静物画，木质表面有大蒜、辣椒、花椒、咖喱粉和新鲜香草",
+          "caption": "即将推出：一系列精选的优质调味料和香料，将农业原料与日常烹饪联系起来。"
+        }
+      },
+      "eyebrow": "我们的产品",
+      "heading": "非洲农产品，转变为日常食品。",
+      "intro": "从传统主食到零食、配料和饮料，我们正在开发将非洲农业资源与不断变化的消费者需求联系起来的产品。出口是我们今天的重点，并计划开展尼日利亚零售业务。",
+      "onSaleBadge": "现已发售 · 出口",
+      "varieties": "品种：{varieties}",
+      "requestProductInformation": "索取产品信息",
+      "plannedEyebrow": "计划",
+      "comingSoon": "即将推出",
+      "notifyMe": "通知我",
+      "exportNote": "出口目的地和标准包装尺寸未公布。联系我们讨论您的要求。",
+      "requestProductInfo": "索取产品信息",
+      "metadataTitle": "产品",
+      "metadataDescription": "了解 AcresxManna 的出口销售产品、产品品种以及计划的尼日利亚零售。"
+    },
+    "becomeADistributor": {
+      "whatToKnow": [
+        "告诉我们您的服务对象、您的经营地点以及您的销售渠道。",
+        "让我们知道您对哪些产品感兴趣以及您预期的订单规模。",
+        "产品信息、可用性、物流和任何样品均单独确认。"
+      ],
+      "steps": [
+        "介绍一下你自己和你的业务。",
+        "我们共享产品信息。",
+        "我们讨论适合度、体积和物流。",
+        "我们同意一种合作方式。"
+      ],
+      "metadataTitle": "成为经销商",
+      "metadataDescription": "与我们的团队讨论 AcresxManna 食品的分销。",
+      "eyebrow": "储备味道",
+      "title": "将非洲制造的食品带到您的货架上。",
+      "intro": "我们欢迎对非洲食品和长期商业合作伙伴关系感兴趣的零售商、批发商、分销商和进口商的询问。",
+      "submitLabel": "申请成为经销商",
+      "formIntro": "告诉我们您的业务。",
+      "imageAlt": "调度站中的包装零食和食品托盘",
+      "imageCaption": "为分销合作伙伴提供托盘库存和批发履行。"
+    },
+    "becomeASupplier": {
+      "whatToKnow": [
+        "我们对木薯、车前草、花生、木槿、香料和调味料感兴趣。",
+        "告诉我们有关质量、原产地、处理和整个季节可以供应的数量的信息。",
+        "价格、保证数量和付款条件只有在我们审查机会后才会达成一致。"
+      ],
+      "steps": [
+        "告诉我们您供应什么。",
+        "我们审查质量、数量和时间。",
+        "我们同意规格和条款。",
+        "我们一步步建立供应关系。"
+      ],
+      "metadataTitle": "成为供应商",
+      "metadataDescription": "告诉 AcresxManna 您种植、聚集或交易的农产品。",
+      "eyebrow": "与我们一起成长",
+      "title": "让我们一起采购非洲的收成。",
+      "intro": "可靠的加工业务需要可靠的农产品供应。如果您种植、聚集或交易农产品，我们很乐意听取您的意见。",
+      "submitLabel": "申请成为供应商",
+      "formIntro": "告诉我们您种植或交易什么。",
+      "imageAlt": "AcresxManna 滴灌商业车前草林",
+      "imageCaption": "与当地种植者建立可持续的采购和承购合作伙伴关系。"
+    },
+    "businessEnquiries": {
+      "whatToKnow": [
+        "产品查询：可用性和产品信息。",
+        "供应或农业合作伙伴关系：农产品和季节性数量。",
+        "分销或批发：感兴趣的渠道、市场和产品。",
+        "制造合作伙伴关系、投资咨询和其他商业主题。"
+      ],
+      "steps": [
+        "介绍一下你自己或你的组织。",
+        "告诉我们您想要进行什么样的对话。",
+        "我们的团队会将您的询问转给正确的联系人。"
+      ],
+      "metadataTitle": "业务查询",
+      "metadataDescription": "有关制造、合作伙伴关系、媒体和其他业务咨询，请联系 AcresxManna。",
+      "eyebrow": "业务查询",
+      "title": "我们来谈谈生意吧。",
+      "intro": "对于任何非产品、供应或分销问题，请联系有关制造和自有品牌的讨论、合作伙伴关系、媒体或其他想法。",
+      "submitLabel": "开始对话",
+      "formIntro": "告诉我们您的想法。",
+      "imageAlt": "AcresxManna 行政咨询及展厅办公室",
+      "imageCaption": "在尼日利亚伊巴丹的 AcresxManna 总部进行战略对话。"
+    },
+    "about": {
+      "eyebrow": "关于AcresxManna",
+      "heading": "我们相信非洲应该从农业中获取更多价值。",
+      "intro": "AcresxManna 是一家以出口为主的农产品加工和食品制造企业。我们将农产品采购与加工、产品开发和市场准入联系起来。尼日利亚的本地零售是通过商店和 UncleTobi 在线杂货概念规划的。",
+      "storyEyebrow": "我们的故事",
+      "storyHeading": "收获后可以创造更多的价值。",
+      "storyParagraph1": "非洲拥有丰富的农业资源，但粮食经济的大部分价值在于收获后发生的事情。我们相信，可以通过加工、制造、包装、质量控制和有竞争力的食品品牌来获取更多的价值。",
+      "storyParagraph2": "通过我们在尼日利亚的业务和面向英国的业务，我们正在为非洲粮食生产和国际市场之间更紧密的联系奠定基础。我们了解双方：非洲采购和加工的现实，以及我们想要服务的市场的质量、一致性和商业需求。",
+      "storyImageAlt": "AcresxManna 陈列室，配有紫色几何墙和办公桌上的品牌产品",
+      "entities": {
+        "acresxmannaLtd": {
+          "title": "AcresxManna有限公司",
+          "alt": "AcresxManna 尼日利亚伊巴丹公司接待墙",
+          "description": "该尼日利亚实体从我们的莫尼亚加工厂进行生产、签订客户合同并出口。"
+        },
+        "uncleTobiShop": {
+          "title": "UncleTobi.店铺",
+          "alt": "UncleTobi.Shop官方品牌标识",
+          "description": "这家面向英国的实体向买家开具发票，并在英国赫特福德经营仓库和办公室。"
+        }
+      },
+      "companyStructureEyebrow": "公司架构",
+      "visionEyebrow": "我们的愿景",
+      "visionText": "成为非洲领先的农产品加工和食品制造公司，因规模、质量、创新和我们从非洲农业创造的价值而获得全球认可。",
+      "missionEyebrow": "我们的使命",
+      "missionText": "通过加工、制造、质量控制、品牌开发和市场准入，将非洲农业资源转化为有竞争力的食品。",
+      "fieldToFactoryEyebrow": "从田间到工厂",
+      "fieldToFactoryHeading": "农业根基，工业志向。",
+      "fieldToFactoryText": "我们的业务涵盖温室农业、商品聚合、加工和包装食品——所有这些都建立在非洲的土地上。",
+      "gallery": {
+        "palmOilBottling": {
+          "alt": "AcresxManna 工厂的棕榈油装瓶和生产团队",
+          "caption": "棕榈油装瓶"
+        },
+        "seedlingNursery": {
+          "alt": "荫棚苗圃行中茂密的番茄幼苗",
+          "caption": "苗圃"
+        },
+        "papayaGrowing": {
+          "alt": "与农民一起在温室里挂满果实的木瓜树",
+          "caption": "木瓜种植"
+        },
+        "peanutProcessing": {
+          "alt": "身穿白色实验服的坚果分拣小组坐在长桌上",
+          "caption": "花生加工"
+        },
+        "bottlingLine": {
+          "alt": "工人在生产车间为一排排棕榈油瓶贴标签",
+          "caption": "棕榈油装瓶"
+        },
+        "finishedProductStock": {
+          "alt": "仓库里堆放的涂层花生罐和零食罐",
+          "caption": "成品库存"
+        }
+      },
+      "valuesEyebrow": "是什么指引着我们",
+      "valuesHeading": "塑造我们构建方式的价值观。",
+      "values": {
+        "qualityAndExcellence": {
+          "title": "品质卓越",
+          "description": "标准、纪律和一致性赢得信心。"
+        },
+        "community": {
+          "title": "社区",
+          "description": "增长为供应商、工人、生产者和社区创造机会。"
+        },
+        "innovation": {
+          "title": "创新",
+          "description": "更好的方式来加工、包装和运输非洲食品。"
+        },
+        "collaboration": {
+          "title": "合作",
+          "description": "合作伙伴关系、共享专业知识和牢固的商业关系。"
+        },
+        "dedicationAndHeart": {
+          "title": "奉献与心",
+          "description": "对人的责任、韧性和承诺。"
+        },
+        "capacityBuilding": {
+          "title": "能力建设",
+          "description": "投资于人员、流程、合作伙伴关系和基础设施。"
+        }
+      },
+      "quote": "非洲的农业财富应该创造非洲的工业价值：更多的商品转化为成品，非洲经济体内部建立更多的生产能力，以及更多的非洲食品企业在全球范围内自信地竞争。",
+      "locationsEyebrow": "我们的地点",
+      "locations": {
+        "factory": {
+          "label": "工厂"
+        },
+        "nigerianOffice": {
+          "label": "尼日利亚办事处"
+        },
+        "ukWarehouse": {
+          "label": "英国仓库及办公室"
+        }
+      },
+      "cta": "让我们谈谈",
+      "metadataTitle": "关于我们",
+      "metadataDescription": "了解 AcresxManna，这是一家以出口为主的尼日利亚农产品加工和食品制造企业。"
+    },
+    "ourBrands": {
+      "eyebrow": "我们的品牌",
+      "heading": "一个平台。将非洲食品推向市场的不同方式。",
+      "intro": "AcresxManna 更广泛的生态系统包括食品品牌、面包店和在线杂货概念，每个品牌在食品价值链中都有不同的目的。",
+      "items": {
+        "africanFoodKing": {
+          "description": "正宗的非洲食品为全球消费者带来充满活力的烹饪传统和优质茶系列。",
+          "alt": "African Food King官方品牌标志"
+        },
+        "happyManFoods": {
+          "description": "AcresxManna 品牌用于销售其所有产品。",
+          "alt": "HappyMan Foods 标志"
+        },
+        "maluzaFoods": {
+          "description": "一家面包店在伊巴丹及其周边地区开发新产品并开设新摊位。",
+          "alt": "Maluza Foods Co. 标志"
+        },
+        "uncleTobi": {
+          "description": "聚合零售供应商的在线杂货概念。推出日期待公布。",
+          "alt": "UncleTobi 在线杂货概念标志"
+        },
+        "ijgbFoods": {
+          "description": "非洲零食在全球大放异彩——促进贸易并连接各个市场的优质商品。",
+          "alt": "IJGB Foods品牌标志"
+        }
+      },
+      "distribution": {
+        "heading": "分销及贸易",
+        "body": "HappyMan Foods 是 AcresxManna 用于向零售和贸易合作伙伴销售和分销其产品的品牌。",
+        "imageAlt": "以我们的品牌包装的瓶装花生托盘，可供分销和贸易"
+      },
+      "contact": {
+        "body": "对我们的产品、品牌或商业合作伙伴感兴趣？我们很乐意听取您的意见。",
+        "cta": "联系我们的团队"
+      },
+      "metadataTitle": "我们的品牌",
+      "metadataDescription": "认识 HappyMan Foods、Maluza Foods Co.、UncleTobi 和 IJGB Foods，了解每个品牌的角色和地位。"
+    },
+    "productDetail": {
+      "backToProducts": "返回产品",
+      "onSaleBadge": "现已发售 · 出口",
+      "plannedBadge": "计划中 · 尚未提供",
+      "varieties": "品种：{varieties}",
+      "productHighlights": "产品亮点",
+      "enquiryWelcome": "我们欢迎零售商、批发商、食品服务企业、进口商和分销商的询问。",
+      "packSizesNote": "包装尺寸根据每个客户的要求而定。产品规格、成分、产地、储存、保质期、过敏原和合规信息必须针对特定产品进行确认，不会在此处发布。",
+      "requestInformationEyebrow": "索取信息",
+      "requestInformationHeading": "告诉我们您的要求。",
+      "requestInformationText": "将您的询问发送给我们，我们的团队将向您回复产品信息、供货情况和后续步骤。",
+      "requestProductInformation": "索取产品信息",
+      "moreProducts": "更多产品",
+      "viewProduct": "查看产品"
+    },
+    "infrastructure": {
+      "eyebrow": "我们的业务",
+      "heading": "建设非洲食品背后的能力。",
+      "intro": "我们的雄心需要的不仅仅是农业供应。它需要生产基础设施、人员、系统和合作伙伴关系，才能将原材料转化为一致的、可上市的食品。 AcresxManna Ltd 从尼日利亚生产和出口；我们正在根据需求、投资和准备情况进一步建设能力。",
+      "cards": {
+        "production": {
+          "title": "生产加工",
+          "status": "今天营业",
+          "description": "AcresxManna Ltd 在伊巴丹莫尼亚的工厂生产食品。进一步的生产能力和工艺改进是我们发展目标的一部分。"
+        },
+        "quality": {
+          "title": "质量信息",
+          "status": "融入到作品中",
+          "description": "质量要求因产品和市场而异。我们会确认每次询问的规格和合规性详细信息，并且不会发布未经验证的认证声明。"
+        },
+        "supplyChain": {
+          "title": "供应链和仓储",
+          "status": "今天营业",
+          "description": "我们已确认的地点包括伊巴丹莫尼亚的工厂、拉各斯的尼日利亚办事处以及赫特福德的英国仓库和办事处。"
+        },
+        "growth": {
+          "title": "促进增长的基础设施",
+          "status": "下一步建设",
+          "description": "计划的开发包括额外的生产能力、更高效的加工和包装、改进的存储和库存控制以及更广泛的产品能力。"
+        }
+      },
+      "insideFacilityEyebrow": "设施内",
+      "insideFacilityHeading": "在伊巴丹莫尼亚进行活性加工、测试和包装。",
+      "insideFacilityText": "了解将收获的商品转化为可上市、卫生包装的食品的日常操作。",
+      "gallery": {
+        "mixingSifting": {
+          "title": "不锈钢混合和筛分",
+          "caption": "我们的中央加工中心配备食品级工业加工罐、机动搅拌机和机械筛分机。"
+        },
+        "bakeryOvens": {
+          "title": "商用多层面包烤箱",
+          "caption": "烘焙大师使用大容量商用数字层式烤箱制作金色面包和烘焙食品。"
+        },
+        "sortingQualityControl": {
+          "title": "卫生分类和质量控制",
+          "caption": "熟练的质量保证人员穿着无菌防护装备，精心手工对产品进行分类，达到出口级别。"
+        },
+        "palmOilBottlingLine": {
+          "title": "棕榈油灌装线",
+          "caption": "卫生装瓶操作员在包装发货前安排和检查数百个棕榈油瓶。"
+        },
+        "nutSortingLongTable": {
+          "title": "坚果排序——长表操作",
+          "caption": "庞大的熟练分选人员团队通过我们的扩展分选线将烤花生分离为优质花生。"
+        },
+        "rotaryCooker": {
+          "title": "工业旋转锅",
+          "caption": "操作员运行电动不锈钢旋转炊具，用于跨批次生产运行进行均匀烘烤。"
+        },
+        "palletRacking": {
+          "title": "高湾托盘物流货架",
+          "caption": "我们的中央农业物流中心拥有最先进的仓库货架系统，配有计算机条形码跟踪功能。"
+        },
+        "containerLoading": {
+          "title": "集装箱装卸",
+          "caption": "监督集装箱装载操作，确保大容量区域和全球出口订单的安全运输。"
+        },
+        "sealedContainer": {
+          "title": "密封出口集装箱",
+          "caption": "满载的货运集装箱，密封并准备清关和国际发货。"
+        }
+      },
+      "locations": {
+        "factory": {
+          "label": "工厂"
+        },
+        "nigerianOffice": {
+          "label": "尼日利亚办事处"
+        },
+        "ukWarehouse": {
+          "label": "英国仓库及办公室"
+        }
+      },
+      "cta": "询问参观事宜",
+      "metadataTitle": "基础设施",
+      "metadataDescription": "AcresxManna 如何为非洲食品制造建设生产、质量保证和供应链能力。"
+    },
+    "impact": {
+      "eyebrow": "我们的重点",
+      "heading": "加工创造价值。价值创造机会。",
+      "intro": "AcresxManna 围绕农业增值、本地生产和市场准入开展业务。当经过验证的数据可用时，我们将发布可衡量的影响信息。",
+      "stories": {
+        "valueAddition": {
+          "title": "农业附加值",
+          "caption": "为小农户提供现代遮阳农业、滴灌和高产作物农艺。"
+        },
+        "localProduction": {
+          "title": "当地生产和就业",
+          "caption": "在质量分类、卫生食品处理和制造方面创造可持续的就业机会和技术培训。"
+        },
+        "supplyChains": {
+          "title": "更强大的供应链",
+          "caption": "缩小农村小农户与工业规模农产品加工设施之间的差距。"
+        },
+        "globalMarkets": {
+          "title": "全球市场上的非洲食品",
+          "caption": "扩大集装箱出口途径，使非洲高档食品在全球竞争中脱颖而出。"
+        }
+      },
+      "spotlightImageAlt": "农民检查高产矮化杂交木瓜树",
+      "spotlightEyebrow": "社区与农学",
+      "spotlightHeading": "通过弹性农艺来支持农民。",
+      "spotlightText": "通过与当地种植者的合作，我们引进矮化杂交作物品种、抗虫种子库和受保护的遮荫结构。这增加了每公顷的收成量，并保护农民家庭免受气候波动的影响。",
+      "spotlightTagSeedlings": "育苗",
+      "spotlightTagContracts": "直接承购合同",
+      "spotlightTagWorkforce": "女性劳动力赋权",
+      "scorecardEyebrow": "影响记分卡",
+      "scorecardHeading": "我们可以支持的数字。",
+      "scorecardText": "我们只发布经过验证的数据。当我们收到并确认运营团队的每项指标后，下面的数字将会更新。",
+      "verified": "已验证",
+      "scorecard": {
+        "tonnesProcessed": {
+          "label": "加工吨数",
+          "note": "目标数字即将到来"
+        },
+        "finishedProducts": {
+          "label": "制造出来的成品",
+          "note": "目标数字即将到来"
+        },
+        "activeSuppliers": {
+          "label": "活跃的供应商和生产商合作伙伴关系",
+          "note": "目标数字即将到来"
+        },
+        "directJobs": {
+          "label": "创造和保留直接就业机会",
+          "note": "目标数字即将到来"
+        },
+        "productCategories": {
+          "label": "本地加工的产品类别",
+          "note": "目标数字即将到来"
+        },
+        "countriesWithVerifiedSales": {
+          "label": "已核实销售额的国家/地区",
+          "note": "目标数字即将到来"
+        },
+        "complianceQualityMeasures": {
+          "label": "合规性和质量措施",
+          "note": "目标数字即将到来"
+        }
+      },
+      "closing": "我们希望我们的增长不仅以我们销售的产品来衡量，而且以我们帮助创造的生产力和经济机会来衡量。",
+      "cta": "与我们的团队交谈",
+      "metadataTitle": "影响",
+      "metadataDescription": "探索 AcresxManna 农产品加工和食品制造工作背后的业务重点领域。"
+    },
+    "globalMarkets": {
+      "eyebrow": "全球市场",
+      "heading": "从非洲农业资源到全球食品市场。",
+      "intro": "我们正在建立一个将非洲粮食生产与国际市场上的客户、企业和机会联系起来的业务。出口是我们当前的重点；具体目的地未公布。",
+      "routes": {
+        "currentRoute": {
+          "label": "当前路线",
+          "value": "今天出口"
+        },
+        "nigerianRetail": {
+          "label": "尼日利亚零售",
+          "value": "计划通过商店和UncleTobi"
+        },
+        "packSizes": {
+          "label": "包装尺寸",
+          "value": "根据每个客户的要求进行设置"
+        }
+      },
+      "destinationsNote": "没有公布具体的出口目的地或标准包装尺寸。",
+      "freightImageAlt": "28吨集装箱装载出口交货",
+      "freightEyebrow": "集装箱出口",
+      "freightHeading": "直接将集装箱从工厂发往港口。",
+      "freightText": "我们的莫尼亚加工设施处于战略位置，适合集装箱运输。标准 20 英尺和 40 英尺货运集装箱（最多可容纳 28 吨以上的包装食品和商品）在现场填充和密封，以便直接发货。",
+      "accessEyebrow": "我们如何建立市场准入",
+      "accessHeading": "可靠的贸易需要的不仅仅是运输。",
+      "accessText": "我们正在围绕市场需求、产品准备、商业合作伙伴关系和可靠的供应建立一种方法。",
+      "steps": {
+        "marketDevelopment": {
+          "title": "市场开发",
+          "description": "考虑区域和海外市场的需求、竞争、监管和分销。",
+          "alt": "AcresxManna 伊巴丹办公室，带有品牌紫色徽标墙"
+        },
+        "productReadiness": {
+          "title": "产品准备情况",
+          "description": "确认每个贸易通道的规格、密封食品包装和植物检疫证书。",
+          "alt": "团队安排和检查瓶装棕榈油生产运行"
+        },
+        "commercialPartnerships": {
+          "title": "商业伙伴关系",
+          "description": "与进口商、大宗买家、连锁超市和食品服务公司建立关系。",
+          "alt": "团队将瓶装花生产品装入货运集装箱以进行发货"
+        },
+        "supplyReliability": {
+          "title": "供应可靠性",
+          "description": "开发可扩展的加工线，以按严格的时间表供应经常性的多容器体积。",
+          "alt": "出口集装箱装满瓶装产品，准备国际发货"
+        }
+      },
+      "ukOperationsEyebrow": "面向英国的业务",
+      "ukOperationsHeading": "UncleTobi.店铺",
+      "ukOperationsText": "AcresxManna Ltd 生产产品、签订客户合同并从尼日利亚出口。 UncleTobi.Shop 向买家开具发票，并在英国赫特福德经营仓库和办公室。",
+      "ukOperationsNote": "出口目的地未公布，因此此处没有将任何国家/地区列为既定市场或目标市场。",
+      "cta": "国际贸易查询",
+      "metadataTitle": "全球市场",
+      "metadataDescription": "我们正在建立一项将非洲食品生产与国际市场的客户和机会联系起来的业务。"
+    },
+    "investorsPartners": {
+      "eyebrow": "投资者及合作伙伴",
+      "heading": "建设非洲下一代农产品加工能力。",
+      "intro": "AcresxManna专注于通过加工、制造和市场开发，将非洲农业资源转化为有竞争力的食品。增长取决于生产能力、营运资本、供应关系、市场准入和运营系统。",
+      "spotlightImageAlt": "AcresxManna 尼日利亚伊巴丹办事处",
+      "spotlightEyebrow": "我们的运营基地",
+      "spotlightHeading": "搁浅在尼日利亚。针对全球市场进行扩展。",
+      "spotlightText": "我们的中央处理设施、仓储基础设施和行政总部位于奥约州伊巴丹莫尼亚 - 靠近主要农业种植带和通往港口的直接物流走廊。",
+      "buildingEyebrow": "我们正在建设什么",
+      "building": {
+        "productionCapacity": {
+          "title": "生产能力",
+          "description": "建设非洲农产品加工和食品制造的生产能力。",
+          "alt": "工业不锈钢烹饪搅拌站"
+        },
+        "workingCapital": {
+          "title": "营运资金和库存",
+          "description": "原材料、生产周期、包装、库存和履行所需的资源。",
+          "alt": "仓库储存中的托盘成品食品库存"
+        },
+        "productDevelopment": {
+          "title": "产品开发",
+          "description": "开发将非洲农业资源与买家需求联系起来的食品。",
+          "alt": "将零售农产品零食包装在品牌罐中"
+        },
+        "marketDevelopment": {
+          "title": "市场开发",
+          "description": "在非洲和国际上建立商业关系和进入市场的路线。",
+          "alt": "为国际运输准备的出口货运集装箱"
+        }
+      },
+      "meetEyebrow": "我们想见谁",
+      "people": {
+        "investors": {
+          "title": "投资者",
+          "description": "对非洲农产品加工、食品制造和增值的长期兴趣。"
+        },
+        "agriculturalSuppliers": {
+          "title": "农产品供应商",
+          "description": "合适的原材料并愿意按照商定的规格工作。"
+        },
+        "distributors": {
+          "title": "经销商",
+          "description": "对非洲食品感兴趣的零售商、批发商、分销商和进口商。"
+        },
+        "buyers": {
+          "title": "买家",
+          "description": "对产品或供应讨论感兴趣的食品企业和买家。"
+        },
+        "strategicPartners": {
+          "title": "产业及战略合作伙伴",
+          "description": "加工、包装、物流、技术或市场准入能力。"
+        }
+      },
+      "conversationEyebrow": "开始对话",
+      "conversationHeading": "让我们共同建设非洲粮食能力。",
+      "conversationText": "我们欢迎能够贡献资金、能力、供应、技术或市场准入的个人和组织。融资金额、估值、股权条款和财务预测均未公布。",
+      "conversationSubmitLabel": "开始合作伙伴对话",
+      "metadataTitle": "投资者与合作伙伴",
+      "metadataDescription": "与 AcresxManna 讨论投资者、农产品供应商、分销和制造合作伙伴关系。"
+    },
+    "whatWeDo": {
+      "eyebrow": "我们做什么",
+      "heading": "我们将农业潜力转化为食品和商业价值。",
+      "intro": "我们将农业供应与加工、制造、产品开发和市场准入联系起来。",
+      "capabilities": {
+        "agriculturalSourcing": {
+          "title": "农产品采购",
+          "description": "可靠的供应关系始于了解原材料的质量、可用性和季节性。"
+        },
+        "aggregationAndSupply": {
+          "title": "聚合和供应管理",
+          "description": "协调供应商和进料有助于使供应与生产需求保持一致。"
+        },
+        "agroProcessing": {
+          "title": "农产品加工",
+          "description": "将商品转化为更实用、更方便、更有价值的食品。"
+        },
+        "foodManufacturing": {
+          "title": "食品制造",
+          "description": "AcresxManna Ltd 在尼日利亚为出口市场生产食品。"
+        },
+        "qualityAssurance": {
+          "title": "品质保证",
+          "description": "我们正在将质量保证融入到生产中。我们不会发布未经验证的认证声明。"
+        },
+        "productAndBrandDevelopment": {
+          "title": "产品和品牌发展",
+          "description": "AcresxManna以HappyMan Foods名义销售其产品； Maluza Foods Co.正在开发烘焙产品。"
+        },
+        "distributionAndInternationalTrade": {
+          "title": "分销和国际贸易",
+          "description": "出口是我们目前进入市场的途径。具体出口目的地未公布。"
+        },
+        "contractManufacturing": {
+          "title": "合同制造和合作伙伴关系",
+          "description": "联系我们讨论潜在的合作伙伴关系。能力、最小订购量和交货时间均根据具体情况进行确认。"
+        }
+      },
+      "closing": "我们正在建立一个综合的非洲食品企业，而不是一堆互不相关的部件。",
+      "cta": "讨论商业合作伙伴关系",
+      "metadataTitle": "我们做什么",
+      "metadataDescription": "AcresxManna 如何将农业供应与加工、制造、产品开发和市场准入联系起来。"
+    },
+    "newsInsights": {
+      "eyebrow": "新闻与见解",
+      "heading": "塑造非洲食品的想法、进展和观点。",
+      "intro": "关注我们在农产品加工、食品制造和农业增值方面工作背后的发展、合作伙伴关系和思考。",
+      "categories": {
+        "companyNews": "公司新闻",
+        "productsAndInnovation": "产品与创新",
+        "industryInsights": "行业洞察",
+        "supplyChain": "供应链",
+        "globalTrade": "全球贸易"
+      },
+      "comingSoonEyebrow": "即将推出",
+      "comingSoonText": "我们的第一个故事即将推出。",
+      "meantimeText": "同时，探索我们的产品或与我们的团队联系。",
+      "cta": "联系我们的团队",
+      "metadataTitle": "新闻与见解",
+      "metadataDescription": "关注我们在农产品加工、食品制造和农业增值方面工作背后的发展、合作伙伴关系和思考。"
+    },
+    "notFound": {
+      "eyebrow": "找不到页面",
+      "heading": "哎呀！这个页面走了弯路。",
+      "body": "您要查找的页面已移动或不存在。让我们带你回到一些美味的地方。",
+      "backHome": "回到家",
+      "exploreProducts": "探索我们的产品",
+      "contactUs": "联系我们"
+    },
+    "thankYou": {
+      "metadataTitle": "谢谢",
+      "metadataDescription": "感谢您联系 AcresxManna。我们团队的成员将阅读您的消息并回复。",
+      "eyebrow": "收到消息",
+      "heading": "耶，消息已收到！",
+      "body": "感谢您就 {type} 问题联系 AcresxManna。我们团队的成员将阅读您的消息并回复。",
+      "bodyWithProduct": "感谢您就 {type} ({product}) 问题联系 AcresxManna。我们团队的成员将阅读您的消息并回复。",
+      "typeLabels": {
+        "product": "产品查询",
+        "supply": "供应或农业伙伴关系",
+        "distribution": "经销或批发询价",
+        "manufacturing": "制造合作伙伴查询",
+        "investment": "投资查询",
+        "other": "业务查询",
+        "supplier": "供应商申请",
+        "distributor": "经销商申请",
+        "investor": "投资者询问",
+        "fallback": "询问"
+      },
+      "browseProducts": "浏览我们的产品",
+      "readOurStory": "阅读我们的故事",
+      "followOurNews": "关注我们的新闻"
+    },
+    "contact": {
+      "metadataTitle": "接触",
+      "metadataDescription": "就产品、供应、分销、制造合作伙伴关系或投资进行联系。 AcresxManna 两个工作日内回复。",
+      "eyebrow": "联系方式 AcresxManna",
+      "heading": "良好的合作伙伴关系始于对话。",
+      "intro": "无论您是想购买我们的产品、供应农产品、分销我们的品牌、探索制造合作伙伴关系还是讨论投资，我们都很乐意听取您的意见。我们会在两个工作日内回复。",
+      "emailCta": "给我们的团队发电子邮件",
+      "whatsappCta": "WhatsApp",
+      "callUs": "您也可以拨打<phone>+234 804 700 0587</phone>。",
+      "emailLabel": "电子邮件",
+      "formEyebrow": "给我们留言",
+      "formHeading": "告诉我们如何提供帮助。",
+      "formBody": "使用表格发送您的询问，我们会将其发送给我们团队中合适的人员。您还可以使用上述详细信息通过电子邮件或 WhatsApp 直接联系我们。",
+      "submitLabel": "发送消息"
+    },
+    "privacy": {
+      "metadataTitle": "隐私政策",
+      "metadataDescription": "AcresxManna 如何收集、使用、存储和保护联系表格、查询和时事通讯注册中的个人数据。",
+      "eyebrow": "隐私政策",
+      "heading": "我们如何保护您的信息。",
+      "intro": "最后更新时间：2026 年 10 月。本政策解释了 AcresxManna 如何处理通过本网站收集的个人信息。它以简单的语言编写，适用于尼日利亚、英国和其他地方的游客。",
+      "whoWeAreHeading": "我们是谁",
+      "whoWeAreBody": "AcresxManna Ltd 是一家制造、签署客户合同和出口产品的尼日利亚实体。 UncleTobi.Shop 是一家面向英国的实体，为买家开具发票，并在英国赫特福德经营仓库和办公室。我们共同是通过本网站提交的信息的数据控制者。",
+      "whoWeAreContact": "如有任何隐私问题，请通过 <link>info@acresxmanna.com</link> 联系我们。",
+      "collectHeading": "我们收集什么",
+      "collectIntro": "我们仅收集您选择与我们分享的信息：",
+      "collectItem1": "联系表格提交：姓名、电子邮件、公司或组织、查询类型和消息。",
+      "collectItem2": "供应商和分销商申请：名称、企业或农场名称、位置、商品、预计数量和季节以及消息。",
+      "collectItem3": "产品查询：姓名、电子邮件、公司和消息。",
+      "collectItem4": "新闻通讯注册：仅限电子邮件地址。",
+      "collectItem5": "仅在您同意后，分析工具才会自动收集 IP 地址、设备类型和浏览器等技术数据。",
+      "whyHeading": "我们为什么收集它以及收集的依据",
+      "whyIntro": "我们使用您的信息来：",
+      "whyItem1": "回复您的询问或申请。",
+      "whyItem2": "管理商业和供应合作伙伴关系。",
+      "whyItem3": "仅当您要求接收时事通讯更新时才发送它们。",
+      "whyItem4": "改进网站并了解其使用方式。",
+      "whyItem5": "履行法律和监管义务。",
+      "whyBasis": "我们根据您的同意（用于新闻通讯和分析）、我们响应业务查询的合法利益以及我们的法律义务来处理这些信息。",
+      "shareHeading": "我们与谁分享",
+      "shareBody": "我们不出售个人数据。我们仅与代表我们行事的服务提供商共享这些信息，包括托管、电子邮件、CRM 和分析提供商。根据法律要求，我们还可能与专业顾问或当局共享信息。",
+      "transfersHeading": "国际转账",
+      "transfersBody": "您的信息可能会在尼日利亚、英国和我们的服务提供商运营的其他国家/地区进行处理。当您的信息跨境传输时，我们会采取适当的保护措施来保护您的信息。",
+      "retentionHeading": "我们保留它多久",
+      "retentionBody": "我们会根据管理关系和履行法律义务所需的时间保留查询和申请记录。时事通讯记录将一直保留到您取消订阅为止。当不再需要时，我们会定期审查和删除个人数据。",
+      "securityHeading": "安全",
+      "securityBody": "我们使用合理的技术和组织措施来保护您的信息，包括安全托管、访问控制和定期审查。没有一种互联网传输方法是完全安全的，但我们会尽最大努力保护您的数据。",
+      "rightsHeading": "您的权利",
+      "rightsBody": "根据您居住的地方，您可能有权访问、更正、删除、反对或限制处理您的个人数据，并有权随时撤回同意。要行使这些权利，请通过 <link>info@acresxmanna.com</link> 联系我们。",
+      "complaintsHeading": "投诉",
+      "complaintsBody": "如果您对我们处理您信息的方式不满意，可以通过 <link>info@acresxmanna.com</link> 与我们联系。您可能还有权向您所在国家/地区的数据保护机构投诉。",
+      "cookiesHeading": "饼干和孩子",
+      "cookiesBody": "有关 cookie 的信息，请参阅我们的 <link>Cookie 政策</link>。本网站不针对儿童，我们不会故意收集儿童的个人数据。",
+      "changesHeading": "本政策的变更",
+      "changesBody": "我们可能会不时更新本政策。当我们这样做时，我们将更新本页顶部的日期，并在适当的情况下通过电子邮件或网站通知您。"
+    },
+    "terms": {
+      "metadataTitle": "使用条款",
+      "metadataDescription": "管理 AcresxManna 网站使用的条款，包括可接受的使用、知识产权和免责声明。",
+      "eyebrow": "使用条款",
+      "heading": "使用条款",
+      "intro": "最后更新时间：2026 年 10 月。这些条款约束您对 AcresxManna 网站的使用。通过访问或使用本网站，您同意这些条款。",
+      "useHeading": "谁可以使用该网站",
+      "useBody": "本网站面向对 AcresxManna 的产品、服务和合作伙伴关系感兴趣的企业和个人。您只能出于合法目的并根据这些条款使用本网站。",
+      "acceptableHeading": "可接受和禁止的使用",
+      "acceptableIntro": "你不可以：",
+      "acceptableItem1": "将本网站用于任何非法目的或以可能损坏、禁用或损害本网站的方式使用本网站。",
+      "acceptableItem2": "尝试未经授权访问网站、其系统或数据。",
+      "acceptableItem3": "未经许可，使用自动化工具抓取、复制或复制内容。",
+      "acceptableItem4": "通过网站上的任何形式提交虚假、误导性或有害信息。",
+      "ipHeading": "知识产权",
+      "ipBody": "本网站上的所有内容，包括文字、徽标、图像、图形和软件，均归AcresxManna或其许可方所有，并受知识产权法保护。您可以出于个人、非商业用途查看和共享内容，但未经我们书面许可，您不得复制、修改或分发该内容。",
+      "accuracyHeading": "信息准确性",
+      "accuracyBody": "本网站上的内容仅供一般参考之用，如有更改，恕不另行通知。它不是销售要约或产品可用性的保证。在 AcresxManna 书面确认之前，产品信息、规格和供货情况仅供参考。",
+      "linksHeading": "第三方网站的链接",
+      "linksBody": "本网站可能包含第三方网站的链接，包括品牌网站和社交媒体。我们对这些网站的内容或做法不承担任何责任。",
+      "liabilityHeading": "责任限制",
+      "liabilityBody": "在法律允许的最大范围内，AcresxManna 不对因您使用或无法使用本网站而产生的任何直接、间接、附带或后果性损害承担责任。这并不排除或限制法律禁止的责任。",
+      "governingLawHeading": "适用法律",
+      "governingLawBody": "这些条款受尼日利亚和英国法律（如适用）管辖。争议将在适当的法院处理。",
+      "contactHeading": "接触",
+      "contactBody": "如果对这些条款有疑问，请通过 <link>info@acresxmanna.com</link> 联系我们。"
+    },
+    "cookies": {
+      "metadataTitle": "Cookie 政策",
+      "metadataDescription": "有关 AcresxManna 网站上使用的 cookie 和类似技术以及如何管理它们的信息。",
+      "eyebrow": "Cookie 政策",
+      "heading": "Cookie 和类似技术。",
+      "intro": "最后更新时间：2026 年 10 月。本政策解释了什么是 cookie、我们使用哪些 cookie 以及您如何管理它们。",
+      "whatAreCookiesHeading": "什么是cookie？",
+      "whatAreCookiesBody": "Cookie 是您访问网站时存储在您设备上的小文本文件。它们帮助网站记住您的偏好并了解网站的使用方式。类似的技术包括本地存储和像素标签。",
+      "tableHeading": "我们使用的cookie",
+      "tableName": "姓名",
+      "tablePurpose": "目的",
+      "tableType": "类型",
+      "tableDuration": "期间",
+      "essentialName": "基本饼干",
+      "essentialPurpose": "网站正常运行所必需的，例如记住您的 cookie 同意选择和区域设置。",
+      "essentialType": "基本的",
+      "essentialDuration": "1年",
+      "analyticsName": "分析 cookies",
+      "analyticsPurpose": "用于了解访问者如何使用网站，包括访问的页面和流量来源。仅在您同意后设置。",
+      "analyticsType": "分析",
+      "analyticsDuration": "各不相同",
+      "essentialVsOptionalHeading": "基本 cookie 与可选 cookie",
+      "essentialVsOptionalBody": "网站运行需要基本 cookie，且无法关闭。仅当您通过我们的 cookie 横幅表示同意时，才会使用可选的分析 cookie。",
+      "consentHeading": "我们如何处理同意",
+      "consentBody": "当您第一次访问该网站时，您将看到一个 cookie 横幅。您可以选择接受所有 cookie、仅接受必要的 cookie 或管理您的设置。您可以随时使用页脚中的 Cookie 设置链接更改您的选择。",
+      "blockDeleteHeading": "如何阻止或删除 cookie",
+      "blockDeleteBody": "您可以通过浏览器设置阻止或删除 cookie。请注意，阻止必要的 cookie 可能会影响网站的功能。",
+      "contactHeading": "接触",
+      "contactBody": "如果对本 Cookie 政策有疑问，请通过 <link>info@acresxmanna.com</link> 联系我们。"
+    }
+  },
+  "brandStatus": {
+    "active": "积极的",
+    "comingSoon": "即将推出",
+    "live": "居住"
+  },
+  "locations": {
+    "factory": "工厂",
+    "nigerianOffice": "尼日利亚办事处",
+    "ukWarehouse": "英国仓库及办公室"
+  },
+  "chrome": {
+    "logoAria": "AcresxManna 首页",
+    "logoAlt": "AcresxManna 标志",
+    "languages": {
+      "en": "英语",
+      "fr": "法国人",
+      "tw": "契维语",
+      "es": "西班牙语",
+      "ru": "俄罗斯",
+      "pt": "葡萄牙语",
+      "de": "德语",
+      "it": "意大利人",
+      "ar": "巴黎",
+      "nl": "荷兰",
+      "zh-CN": "简体中文"
+    }
+  },
+  "forms": {
+    "nameLabel": "姓名",
+    "emailLabel": "电子邮件",
+    "companyLabel": "公司名称（可选）",
+    "enquiryTypeLabel": "查询类型",
+    "productLabel": "产品名称",
+    "messageLabel": "您的留言",
+    "messagePlaceholder": "告诉我们您的要求...",
+    "honeypotLabel": "网站（留空）",
+    "privacyConsent": "提交此表格即表示您同意我们的 {privacy} 政策。",
+    "errorName": "请输入您的姓名",
+    "errorEmail": "请输入您的电子邮件",
+    "errorEmailFormat": "请输入有效的电子邮件地址",
+    "errorMessage": "请输入留言内容（至少10个字符）",
+    "errorSend": "出了点问题。请再试一次。",
+    "sending": "正在发送...",
+    "sendMessage": "发送消息",
+    "options": {
+      "product": "产品查询",
+      "supply": "供应合作伙伴",
+      "distribution": "分配",
+      "manufacturing": "制造业",
+      "investment": "投资",
+      "other": "其他"
+    }
+  },
+  "enquiry": {
+    "whatToInclude": "包括什么",
+    "howItWorks": "它是如何运作的",
+    "apply": "立即申请",
+    "startConversation": "开始对话",
+    "formIntroBody": "填写表格，我们的团队将在 48 小时内回复您。"
+  },
+  "ui": {
+    "cookieConsent": {
+      "title": "我们重视您的隐私",
+      "description": "我们使用 cookie 来增强您的体验。继续访问本网站即表示您同意我们使用 cookie。",
+      "accept": "接受",
+      "decline": "衰退",
+      "settings": "Cookie 设置",
+      "dialogLabel": "Cookie 同意",
+      "essentialOnly": "仅限必需品",
+      "acceptAll": "全部接受"
     }
   }
 }

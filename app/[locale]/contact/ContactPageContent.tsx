@@ -13,6 +13,7 @@ import { EnquiryForm } from "@/components/forms/EnquiryForm";
 
 export async function ContactPageContent() {
   const t = await getTranslations("pages.contact");
+  const locationLabels = await getTranslations("locations");
 
   return (
     <main id="main" className="pb-24 pt-32">
@@ -62,12 +63,12 @@ export async function ContactPageContent() {
                 {CONTACT_EMAIL}
               </a>
             </div>
-            {SITE_LOCATIONS.map(({ label, address }) => (
+            {SITE_LOCATIONS.map(({ id, address }) => (
               <address
-                key={label}
+                key={id}
                 className="rounded-3xl border border-cream-200 bg-white p-6 not-italic"
               >
-                <Eyebrow className="mb-3">{label}</Eyebrow>
+                <Eyebrow className="mb-3">{locationLabels(id)}</Eyebrow>
                 <p className="font-sans text-body-md leading-relaxed text-charcoal-700">
                   {address}
                 </p>

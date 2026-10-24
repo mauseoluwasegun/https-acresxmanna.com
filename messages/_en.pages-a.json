@@ -1,6 +1,8 @@
 {
   "pages": {
     "about": {
+      "metadataTitle": "About Us",
+      "metadataDescription": "Learn about AcresxManna, an export-focused Nigerian agro-processing and food manufacturing business.",
       "eyebrow": "About AcresxManna",
       "heading": "We believe Africa should capture more value from its agriculture.",
       "intro": "AcresxManna is an export-focused agro-processing and food manufacturing business. We connect agricultural sourcing with processing, product development and market access. Local retail in Nigeria is planned through shops and the UncleTobi online grocery concept.",
@@ -101,7 +103,47 @@
       },
       "cta": "Let's Talk"
     },
+    "ourBrands": {
+      "metadataTitle": "Our Brands",
+      "metadataDescription": "Meet HappyMan Foods, Maluza Foods Co., UncleTobi, and IJGB Foods, and learn each brand's role and status.",
+      "eyebrow": "Our brands",
+      "heading": "One platform. Different ways to bring African food to market.",
+      "intro": "AcresxManna's wider ecosystem includes food brands, a bakery and an online grocery concept, each with a distinct purpose in the food value chain.",
+      "items": {
+        "africanFoodKing": {
+          "description": "Authentic African food products bringing vibrant culinary traditions and premium tea lines to global consumers.",
+          "alt": "African Food King official brand logo"
+        },
+        "happyManFoods": {
+          "description": "The brand AcresxManna uses to sell all of its products.",
+          "alt": "HappyMan Foods logo"
+        },
+        "maluzaFoods": {
+          "description": "A bakery developing new products and opening new stalls in and around Ibadan.",
+          "alt": "Maluza Foods Co. logo"
+        },
+        "uncleTobi": {
+          "description": "An online grocery concept aggregating suppliers for retail. Launch date to be announced.",
+          "alt": "UncleTobi online grocery concept logo"
+        },
+        "ijgbFoods": {
+          "description": "African snacks with global swagger — facilitating trade and connecting quality commodities across markets.",
+          "alt": "IJGB Foods brand logo"
+        }
+      },
+      "distribution": {
+        "heading": "Distribution and trade",
+        "body": "HappyMan Foods is the brand AcresxManna uses to sell and distribute its products to retail and trade partners.",
+        "imageAlt": "Pallets of bottled peanuts packaged under our brands and ready for distribution and trade"
+      },
+      "contact": {
+        "body": "Interested in our products, brands or a commercial partnership? We'd love to hear from you.",
+        "cta": "Contact Our Team"
+      }
+    },
     "products": {
+      "metadataTitle": "Products",
+      "metadataDescription": "Explore AcresxManna's products on sale for export, product varieties, and planned Nigerian retail.",
       "eyebrow": "Our products",
       "heading": "African agricultural products, transformed into everyday food.",
       "intro": "From traditional staples to snacks, ingredients and beverages, we're developing products that connect Africa's agricultural resources with evolving consumer needs. Export is our focus today, with Nigerian retail planned.",
@@ -272,6 +314,8 @@
       "viewProduct": "View product"
     },
     "infrastructure": {
+      "metadataTitle": "Infrastructure",
+      "metadataDescription": "How AcresxManna is building production, quality assurance and supply chain capacity for African food manufacturing.",
       "eyebrow": "Our operations",
       "heading": "Building the capacity behind African food.",
       "intro": "Our ambition needs more than agricultural supply. It needs production infrastructure, people, systems and partnerships to turn raw materials into consistent, market-ready food. AcresxManna Ltd manufactures and exports from Nigeria; we are building further capability as demand, investment and readiness allow.",
@@ -355,6 +399,8 @@
       "cta": "Enquire about visiting"
     },
     "impact": {
+      "metadataTitle": "Impact",
+      "metadataDescription": "Explore the business focus areas behind AcresxManna's agro-processing and food manufacturing work.",
       "eyebrow": "Our focus",
       "heading": "Processing creates value. Value creates opportunity.",
       "intro": "AcresxManna is building its business around agricultural value-addition, local production and access to markets. We will publish measurable impact information when verified data is available.",
@@ -421,6 +467,8 @@
       "cta": "Talk to our team"
     },
     "globalMarkets": {
+      "metadataTitle": "Global Markets",
+      "metadataDescription": "We’re building a business that connects African food production with customers and opportunities in international markets.",
       "eyebrow": "Global markets",
       "heading": "From African agricultural resources to global food markets.",
       "intro": "We're building a business that connects African food production with customers, businesses and opportunities in international markets. Export is our current focus; specific destinations are not published.",
@@ -475,6 +523,8 @@
       "cta": "International Trade Enquiries"
     },
     "investorsPartners": {
+      "metadataTitle": "Investors and Partners",
+      "metadataDescription": "Discuss investor, agricultural supplier, distribution and manufacturing partnerships with AcresxManna.",
       "eyebrow": "Investors and partners",
       "heading": "Building Africa's next generation of agro-processing capacity.",
       "intro": "AcresxManna is focused on transforming African agricultural resources into competitive food through processing, manufacturing and market development. Growth depends on production capacity, working capital, supply relationships, market access and operational systems.",
@@ -533,49 +583,9 @@
       "conversationText": "We welcome people and organisations who can contribute capital, capabilities, supply, technology or market access. Fundraising amounts, valuations, equity terms and financial projections are not published.",
       "conversationSubmitLabel": "Start a partnership conversation"
     },
-    "ourBrands": {
-      "eyebrow": "Our brands",
-      "heading": "One platform. Different ways to bring African food to market.",
-      "intro": "AcresxManna's wider ecosystem includes food brands, a bakery and an online grocery concept, each with a distinct purpose in the food value chain.",
-      "brands": {
-        "africanFoodKing": {
-          "name": "African Food King",
-          "status": "Active",
-          "description": "Authentic African food products bringing vibrant culinary traditions and premium tea lines to global consumers.",
-          "alt": "African Food King official brand logo"
-        },
-        "happyManFoods": {
-          "name": "HappyMan Foods",
-          "status": "Active",
-          "description": "The brand AcresxManna uses to sell all of its products.",
-          "alt": "HappyMan Foods 50kg agro-commodity sacks by AcresxManna Ltd."
-        },
-        "maluzaFoods": {
-          "name": "Maluza Foods Co.",
-          "status": "Live",
-          "description": "A bakery developing new products and opening new stalls in and around Ibadan.",
-          "alt": "Maluza Foods bakery master baker presenting freshly baked golden loaf from commercial deck ovens"
-        },
-        "uncleTobi": {
-          "name": "UncleTobi",
-          "status": "Coming soon",
-          "description": "An online grocery concept aggregating suppliers for retail. Launch date to be announced.",
-          "alt": "UncleTobi online grocery concept logo"
-        },
-        "ijgbFoods": {
-          "name": "IJGB Foods",
-          "status": "Active",
-          "description": "African snacks with global swagger — facilitating trade and connecting quality commodities across markets.",
-          "alt": "IJGB Foods brand logo"
-        }
-      },
-      "rolesEyebrow": "How the roles fit",
-      "rolesHeading": "Different roles across the food value chain.",
-      "rolesText": "HappyMan Foods is the brand AcresxManna uses to sell its products. Maluza Foods Co. is a bakery developing products and stalls in and around Ibadan. UncleTobi is an online grocery concept that will aggregate suppliers for retail and is coming soon.",
-      "ctaText": "Interested in our products, brands or a commercial partnership? We'd love to hear from you.",
-      "cta": "Contact Our Team"
-    },
     "whatWeDo": {
+      "metadataTitle": "What We Do",
+      "metadataDescription": "How AcresxManna connects agricultural supply with processing, manufacturing, product development and market access.",
       "eyebrow": "What we do",
       "heading": "We turn agricultural potential into food products and commercial value.",
       "intro": "We connect agricultural supply with processing, manufacturing, product development and market access.",
@@ -617,6 +627,8 @@
       "cta": "Discuss a Commercial Partnership"
     },
     "newsInsights": {
+      "metadataTitle": "News and Insights",
+      "metadataDescription": "Follow the developments, partnerships and thinking behind our work in agro-processing, food manufacturing and agricultural value addition.",
       "eyebrow": "News & insights",
       "heading": "Ideas, progress and perspectives shaping African food.",
       "intro": "Follow the developments, partnerships and thinking behind our work in agro-processing, food manufacturing and agricultural value addition.",

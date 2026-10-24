@@ -4,11 +4,19 @@ import { PatternDivider } from "@/components/animations/PatternDivider";
 import { Eyebrow } from "@/components/ui/Eyebrow";
 import { Button } from "@/components/ui/Button";
 
-export const metadata = {
-  title: "News and Insights",
-  description:
-    "Follow the developments, partnerships and thinking behind our work in agro-processing, food manufacturing and agricultural value addition.",
-};
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}) {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: "pages.newsInsights" });
+
+  return {
+    title: t("metadataTitle"),
+    description: t("metadataDescription"),
+  };
+}
 
 const CATEGORY_IDS = [
   "companyNews",

@@ -6,7 +6,11 @@
   },
   "layout": {
     "title": "AcresxManna — La richesse de l'Afrique, transformée en grande alimentation",
-    "description": "Ancrée dans les terres agricoles les plus riches d'Afrique, nous transformons les meilleures récoltes du continent en produits alimentaires premium pour les tables locales et internationales."
+    "description": "Ancrée dans les terres agricoles les plus riches d'Afrique, nous transformons les meilleures récoltes du continent en produits alimentaires premium pour les tables locales et internationales.",
+    "titleTemplate": "%s | AcresxManna",
+    "ogImageAlt": "AcresxManna — Groupe Agroalimentaire Africain",
+    "legalName": "Groupe AcresxManna",
+    "skipToContent": "Passer au contenu"
   },
   "nav": {
     "home": "Accueil",
@@ -15,7 +19,13 @@
     "whatWeDo": "Nos activités",
     "what-we-do": "Nos activités",
     "impact": "Impact",
-    "contact": "Contact"
+    "contact": "Contact",
+    "primaryAria": "Navigation principale",
+    "more": "Plus",
+    "letsTalk": "Parlons",
+    "openMenu": "Ouvrir le menu",
+    "mobileAria": "Navigation mobile",
+    "closeMenu": "Fermer le menu"
   },
   "hero": {
     "eyebrow": "AcresxManna · Agro-transformation africaine",
@@ -319,7 +329,29 @@
     "copyright": "© {year} AcresxManna. Tous droits réservés.",
     "privacy": "Confidentialité",
     "terms": "Conditions",
-    "cookies": "Cookies"
+    "cookies": "Cookies",
+    "brandHomeAria": "AcresxManna Accueil",
+    "brandLogoAlt": "Logo AcresxManna",
+    "taglineText": "Transformer la richesse agricole de l'Afrique en une excellente nourriture pour les communautés locales et les tables mondiales.",
+    "exploreHeading": "Explorer",
+    "aboutUs": "À propos de nous",
+    "contactUs": "Contactez-nous",
+    "brandsHeading": "Nos marques",
+    "brand1Label": "UncleTobi Agriculteurs",
+    "brand2Label": "Maluza Foods Co.",
+    "brand3Label": "HappyMan Foods",
+    "brand4Label": "African Food King",
+    "certifiedBy": "Certifié par",
+    "certifiedByAlt": "Insigne de certification de qualité",
+    "copyrightLine": "© {year} AcresxManna. Tous droits réservés.",
+    "privacyPolicy": "politique de confidentialité",
+    "termsOfUse": "Conditions d'utilisation",
+    "cookiePolicy": "Politique en matière de cookies",
+    "whatWeDo": "Ce que nous faisons",
+    "impact": "Impact",
+    "globalMarkets": "Marchés mondiaux",
+    "instagramAria": "AcresxManna sur Instagram",
+    "certifiedByNote": "Normes de sécurité alimentaire et de qualité auxquelles nous travaillons dans toutes nos installations."
   },
   "languageSwitcher": {
     "label": "Langue",
@@ -343,36 +375,1265 @@
     "manufacturing": {
       "eyebrow": "Excellence de Fabrication",
       "headline": "Installations de Transformation Modernes",
-      "description": "Nos installations de transformation de pointe assurent la qualité, la sécurité et la conservation à chaque étape de la production alimentaire."
+      "description": "Nos installations de transformation de pointe assurent la qualité, la sécurité et la conservation à chaque étape de la production alimentaire.",
+      "cap0Alt": "Champ de culture de manioc avec plantes vertes",
+      "cap0Title": "Approvisionnement",
+      "cap0Description": "Nous nous approvisionnons en matières premières directement auprès d’agriculteurs et de coopératives de confiance à travers l’Afrique de l’Ouest.",
+      "cap1Alt": "Pots palettisés de cacahuètes enrobées emballées dans le stockage du produit fini",
+      "cap1Title": "Stockage",
+      "cap1Description": "Nos installations d'entreposage maintiennent des conditions optimales pour la préservation de la qualité.",
+      "cap2Alt": "Opérateur de production alimentaire en vêtements de protection surveillant une bouilloire de traitement en acier inoxydable",
+      "cap2Title": "Fabrication",
+      "cap2Description": "Équipement de traitement avancé pour le nettoyage, le tri et la préparation.",
+      "cap3Alt": "Réservoirs de mélange et de tamisage industriels dans une installation de traitement",
+      "cap3Title": "Contrôle de qualité",
+      "cap3Description": "Des tests de qualité rigoureux garantissent que chaque produit répond aux normes internationales.",
+      "cap4Alt": "Équipe agricole récoltant des tomates dans des uniformes de marque à l'intérieur d'une serre",
+      "cap4Title": "Agriculture",
+      "cap4Description": "Pratiques agricoles modernes avec techniques et irrigation durables.",
+      "cap5Alt": "Conteneur d'exportation chargé de produits en bouteille prêts à être expédiés",
+      "cap5Title": "Distribution",
+      "cap5Description": "Réseau logistique efficace reliant nos produits aux marchés mondiaux."
     },
     "products": {
       "dividerEyebrow": "— PRODUITS SIGNATURE",
       "eyebrow": "Vitrine Produits",
       "headline": "Produits Alimentaires Africains de Qualité",
-      "description": "Des céréales et farines aux plats préparés, nos produits portent le goût authentique de l'Afrique vers les marchés du monde entier."
+      "description": "Des céréales et farines aux plats préparés, nos produits portent le goût authentique de l'Afrique vers les marchés du monde entier.",
+      "statusAvailable": "Disponible maintenant",
+      "statusComingSoon": "À venir",
+      "requestInfo": "Demander des informations",
+      "cta": "Voir tous les produits",
+      "items": {
+        "garri": {
+          "name": "Garri",
+          "description": "Un produit de base important dans de nombreuses communautés africaines, avec des opportunités dans le commerce de détail, la restauration et les marchés alimentaires africains internationaux. Nous le transformons en variétés blanches, Ijebu et jaunes.",
+          "imageAlt": "Sacs Garri stockés dans un entrepôt pour le stockage et la distribution"
+        },
+        "cassava-flour": {
+          "name": "Farine de manioc",
+          "description": "Une farine à base de manioc pour la cuisine familiale, la boulangerie et les entreprises alimentaires, conditionnée selon vos besoins.",
+          "imageAlt": "Sacs de farine de manioc de marque emballés pour la distribution"
+        },
+        "plantain-flour": {
+          "name": "Farine de plantain",
+          "description": "Une farine à base de plantain pour la cuisine familiale, la boulangerie et les entreprises alimentaires, conditionnée selon vos besoins.",
+          "imageAlt": "Close-up de farine de plantain avec scoop"
+        },
+        "groundnuts-peanuts": {
+          "name": "Arachides et cacahuètes",
+          "description": "Un produit agricole polyvalent avec un potentiel comme aliment emballé et comme matière première pour une transformation ultérieure.",
+          "imageAlt": "Arachides et cacahuètes emballées en vrac dans un entrepôt"
+        },
+        "roasted-groundnuts": {
+          "name": "Arachides grillées",
+          "description": "Arachides grillées et cacahuètes décortiquées pour l'approvisionnement en gros en vrac, emballées selon vos besoins.",
+          "imageAlt": "Palettes d'arachides grillées en bouteille et d'arachides décortiquées prêtes à être fournies en gros en vrac"
+        },
+        "cashew-nuts": {
+          "name": "Noix De Cajou",
+          "description": "Une collation et un ingrédient que les gens adorent, emballés selon vos besoins.",
+          "imageAlt": "Noix de cajou et pommes de cajou récoltées du verger à la table"
+        },
+        "plantain-chips": {
+          "name": "Chips de plantain",
+          "description": "Une collation africaine familière et pratique pour les personnes à la recherche d’une nourriture agréable. Les demandes de renseignements sur les produits peuvent discuter des exigences d’emballage et de distribution.",
+          "imageAlt": "HappyMan Chips de plantain emballées dans un sac en plastique transparent"
+        },
+        "hibiscus-teas": {
+          "name": "Hibiscus et thés",
+          "description": "Une plante africaine reconnaissable pour les thés, infusions et boissons. Contactez-nous pour discuter des produits disponibles et des exigences.",
+          "imageAlt": "Collection de tisanes haut de gamme African Food King comprenant des sachets de thé pyramidaux à l'hibiscus, au gingembre, au clou de girofle et à la cannelle"
+        },
+        "kuli-kuli": {
+          "name": "Kuli Kuli",
+          "description": "Une collation croustillante emblématique d'Afrique de l'Ouest à base d'arachides grillées, assaisonnées et croustillantes à la perfection. Riche en protéines végétales et emballé pour la fraîcheur au détail et l'exportation.",
+          "imageAlt": "Authentique collation croustillante Kuli Kuli emballée dans des pots de vente au détail inviolables avec couvercles verts"
+        },
+        "palm-oil": {
+          "name": "Huile de palme pure",
+          "description": "Huile de palme rouge pure non raffinée, issue de sources durables, traitée dans des conditions d'hygiène strictes. Indispensable pour la cuisine africaine authentique, la restauration et la fabrication commerciale.",
+          "imageAlt": "Vue aérienne de bouteilles d'huile de palme rouge pure scellées, prêtes à être distribuées et exportées"
+        },
+        "ayamase-sauce": {
+          "name": "Ayamase Sauce",
+          "description": "Une riche sauce au poivre d'Afrique de l'Ouest, également connue sous le nom de sauce Ofada, préparée pour la cuisine de tous les jours et conditionnée en sachets de 250 g.",
+          "imageAlt": "HappyMan Ayamase Pochette de vente au détail de sauce avec étiquette de sauce Ofada"
+        },
+        "seasonings-spices": {
+          "name": "Assaisonnements et épices",
+          "description": "Une gamme planifiée reliant les ingrédients agricoles à la cuisine de tous les jours, en mettant l'accent sur la saveur, la commodité et la cohérence. Pas encore disponible.",
+          "imageAlt": "Nature morte aux épices rustiques avec ail, piments, grains de poivre, poudre de curry et herbes fraîches sur une surface en bois"
+        }
+      }
     },
     "operatingModel": {
       "dividerEyebrow": "— COMMENT NOUS TRAVAILLONS",
       "eyebrow": "Notre Modèle Opérationnel",
       "headline": "Chaîne de Valeur Intégrée",
-      "description": "Nous connectons l'agriculture, la transformation, le financement et la distribution pour créer des systèmes alimentaires durables."
+      "description": "Nous connectons l'agriculture, la transformation, le financement et la distribution pour créer des systèmes alimentaires durables.",
+      "steps": {
+        "source": {
+          "title": "Source",
+          "description": "Directement des agriculteurs du Ghana, du Nigeria et de la Côte d'Ivoire."
+        },
+        "processAndManufacture": {
+          "title": "Processus et fabrication",
+          "description": "Les installations certifiées HACCP et ISO 22000 garantissent la qualité."
+        },
+        "packageAndBuildBrands": {
+          "title": "Emballer et créer des marques",
+          "description": "Créer des marques qui racontent des histoires culinaires africaines authentiques."
+        },
+        "connectToMarkets": {
+          "title": "Connectez-vous aux marchés",
+          "description": "Distribution sur plus de 24 marchés via les corridors AfCFTA."
+        }
+      }
     },
     "brands": {
       "dividerEyebrow": "— NOS MARQUES",
       "eyebrow": "Notre Portefeuille de Marques",
       "headline": "Marques Diverses, Une Mission",
-      "description": "Notre collectif de marques sert à la fois les producteurs ruraux et les consommateurs urbains, créant de la valeur par l'innovation et l'intégrité."
+      "description": "Notre collectif de marques sert à la fois les producteurs ruraux et les consommateurs urbains, créant de la valeur par l'innovation et l'intégrité.",
+      "heading": "Diverses marques, une mission",
+      "brand0Alt": "Logo African Food King",
+      "brand0Status": "Actif",
+      "brand0Name": "African Food King",
+      "brand0Description": "Produits alimentaires africains authentiques destinés aux marchés de détail et d'exportation.",
+      "brand1Alt": "Sacs de produits de marque HappyMan Foods",
+      "brand1Status": "Actif",
+      "brand1Name": "HappyMan Foods",
+      "brand1Description": "Notre marque alimentaire de consommation produisant des produits abordables du quotidien.",
+      "brand2Alt": "Pain frais de la boulangerie Maluza Foods",
+      "brand2Status": "Actif",
+      "brand2Name": "Maluza Foods",
+      "brand2Description": "Notre boulangerie produisant du pain frais et des viennoiseries.",
+      "brand3Alt": "Logo UncleTobi",
+      "brand3Status": "À venir",
+      "brand3Name": "UncleTobi",
+      "brand3Description": "Un concept d'épicerie en ligne réunissant les fournisseurs pour la vente au détail.",
+      "cta": "Voir toutes les marques"
     },
     "impact": {
       "dividerEyebrow": "— L'IMPACT QUE L'ON RESSENT",
       "eyebrow": "En Chiffres",
       "headline": "Impact Réel, Histoires Réelles",
-      "description": "Chaque métrique représente une personne, une communauté ou un repas sur une table que nous avons aidé à atteindre."
+      "description": "Chaque métrique représente une personne, une communauté ou un repas sur une table que nous avons aidé à atteindre.",
+      "chip0": "Les agriculteurs responsabilisés",
+      "chip1": "Communautés touchées",
+      "chip2": "Emplois créés",
+      "chip3": "Marchés desservis",
+      "cta": "Voir l'impact complet"
     },
     "finalCta": {
       "eyebrow": "Connectons-Nous",
       "headline": "Partenariats",
-      "description": "Que vous soyez agriculteur, distributeur, investisseur ou partenaire, construisons ensemble l'avenir de l'alimentation africaine."
+      "description": "Que vous soyez agriculteur, distributeur, investisseur ou partenaire, construisons ensemble l'avenir de l'alimentation africaine.",
+      "partnerWithUs": "Devenez partenaire avec nous",
+      "becomeSupplier": "Devenez fournisseur",
+      "exploreProducts": "Explorer les produits"
+    },
+    "hero": {
+      "eyebrow": "AcresxManna · Groupe Agroalimentaire",
+      "word0": "Redéfinir",
+      "word1": "L'Afrique",
+      "word2": "rôle",
+      "word3": "dans le",
+      "word4": "mondial",
+      "word5": "marché",
+      "typingText": "Un groupe international diversifié d’aliments, d’ingrédients et de vente au détail.",
+      "exploreProducts": "Découvrez nos produits",
+      "letsTalk": "Parlons",
+      "heroImageAlt": "Ligne de production d'embouteillage d'huile de palme dans l'usine de traitement AcresxManna",
+      "tagAfricanHarvest": "Récolte 100% Africaine",
+      "tagExportReady": "Prêt à exporter",
+      "tagValueAdded": "Transformation à valeur ajoutée",
+      "tagFarmToGlobal": "De la ferme au monde",
+      "tagQuality": "Qualité supérieure",
+      "mascotAlt": "Personnage mascotte de la marque AcresxManna"
+    },
+    "clients": {
+      "heading": "Nos clients",
+      "headline": "Certains de nos clients.",
+      "description": "Détaillants, distributeurs et partenaires cash-and-carry qui proposent nos produits aux clients.",
+      "items": {
+        "segGroup": {
+          "description": "Partenaire de vente au détail et en gros stockant les produits HappyMan Foods pour ses clients.",
+          "location": "Hertford",
+          "logoAlt": "Logo SEG Group"
+        },
+        "aliBabaFoods": {
+          "description": "Entreprise alimentaire fournissant des produits d'épicerie africains aux clients de détail.",
+          "location": "Hertford",
+          "logoAlt": "Logo Ali Baba Foods Ltd"
+        },
+        "adesCashAndCarry": {
+          "description": "Point de vente cash-and-carry permettant aux détaillants et aux acheteurs locaux d'accéder aux produits alimentaires africains de tous les jours.",
+          "logoAlt": "Logo Ades Cash and Carry"
+        },
+        "wosiwosiCashAndCarry": {
+          "description": "Magasin de cash-and-carry au service de sa communauté avec des marques alimentaires africaines de confiance."
+        }
+      }
+    },
+    "brandShowcase": {
+      "dividerEyebrow": "Notre écosystème",
+      "eyebrow": "Nos marques",
+      "headline": "Certaines de nos marques.",
+      "cta": "Découvrez nos marques",
+      "items": {
+        "africanFoodKing": {
+          "status": "actif",
+          "description": "Des produits alimentaires africains authentiques apportant des traditions culinaires dynamiques et des gammes de thé haut de gamme aux consommateurs du monde entier.",
+          "alt": "Logo officiel de la marque African Food King"
+        },
+        "uncleTobi": {
+          "status": "à venir",
+          "description": "Un concept d'épicerie en ligne qui regroupe des fournisseurs pour la vente au détail et la livraison internationale.",
+          "alt": "Logo du concept d'épicerie en ligne UncleTobi"
+        },
+        "ijgbFoods": {
+          "status": "actif",
+          "description": "Des snacks africains avec une allure mondiale – facilitant le commerce et connectant des produits de qualité sur les marchés.",
+          "alt": "Logo de la marque IJGB Foods"
+        },
+        "happyManFoods": {
+          "status": "actif",
+          "description": "La marque phare AcresxManna utilise pour vendre et distribuer tous ses produits.",
+          "alt": "Logo HappyMan Foods"
+        },
+        "maluzaFoods": {
+          "status": "en direct",
+          "description": "Une boulangerie commerciale développant de nouveaux produits et ouvrant des stands de vente au détail dans et autour d'Ibadan.",
+          "alt": "Logo Maluza Foods Co."
+        }
+      }
+    },
+    "productTicker": {
+      "ariaLabel": "Ticker de produit défilant comprenant : {products}"
+    },
+    "globalAmbition": {
+      "eyebrow": "Ambition mondiale",
+      "headline": "Construire au-delà des frontières",
+      "description": "De l’Afrique de l’Ouest aux marchés mondiaux, nous élargissons notre portée tout en restant ancrés dans notre mission."
+    },
+    "stakeholderCube": {
+      "dividerEyebrow": "— NOS PARTIES PRENANTES",
+      "eyebrow": "Qui nous servons",
+      "heading": "Six visages de la valeur",
+      "description": "Chaque partie prenante de notre écosystème compte. Découvrez comment nous créons de la valeur tout au long de la chaîne de valeur agroalimentaire.",
+      "cubeAriaLabel": "Cube interactif montrant {face}",
+      "faceAriaLabel": "Voir le point de vue des parties prenantes de {label}",
+      "face": "Faire pivoter le cube",
+      "hint": "Appuyez pour faire pivoter",
+      "panel": "Détails",
+      "talkToTeam": "Parlez à notre équipe",
+      "faces": {
+        "consumer": "Consommateur",
+        "farmer": "Fermier",
+        "distributor": "Distributeur",
+        "partner": "Partenaire",
+        "investor": "Investisseur",
+        "employee": "Employé"
+      },
+      "stakeholders": {
+        "consumer": {
+          "label": "CONSOMMATEUR",
+          "headline": "Qualité et confiance",
+          "description": "Les consommateurs méritent des produits alimentaires africains sûrs, nutritifs et authentiques. Nous veillons à ce que chaque produit réponde aux normes internationales tout en préservant le patrimoine culturel.",
+          "ctaLabel": "Produits de la boutique"
+        },
+        "farmer": {
+          "label": "FERMIER",
+          "headline": "Croissance et dignité",
+          "description": "Les petits exploitants agricoles sont l’épine dorsale de notre écosystème. Nous proposons des prix équitables, une formation aux pratiques durables et un accès direct au marché pour transformer les moyens de subsistance.",
+          "ctaLabel": "Devenez partenaire avec nous"
+        },
+        "distributor": {
+          "label": "DISTRIBUTEUR",
+          "headline": "Fiabilité et portée",
+          "description": "Les distributeurs connectent nos produits aux marchés du monde entier. Nous offrons un approvisionnement constant, des prix compétitifs et un soutien logistique pour des opérations fluides.",
+          "ctaLabel": "Rejoindre le réseau"
+        },
+        "partner": {
+          "label": "PARTENAIRE",
+          "headline": "Collaboration et impact",
+          "description": "Les partenaires stratégiques amplifient notre mission. Des ONG aux agences gouvernementales, nous construisons des alliances qui renforcent la sécurité alimentaire et la croissance économique de l'Afrique.",
+          "ctaLabel": "Explorer le partenariat"
+        },
+        "investor": {
+          "label": "INVESTISSEUR",
+          "headline": "Retours et échelle",
+          "description": "Les investisseurs alimentent notre expansion tout au long de la chaîne de valeur. Nous proposons des opérations transparentes, des modèles économiques éprouvés et un potentiel de croissance important sur les marchés agroalimentaires africains.",
+          "ctaLabel": "Opportunités d'investissement"
+        },
+        "employee": {
+          "label": "EMPLOYÉ",
+          "headline": "Objectif et développement",
+          "description": "Notre équipe fait avancer notre mission. Nous proposons un travail significatif, le développement des compétences et une culture d’excellence dans les fermes, les usines et les bureaux.",
+          "ctaLabel": "Rejoignez notre équipe"
+        }
+      }
+    },
+    "businessFaq": {
+      "eyebrow": "FAQ",
+      "heading": "Foire aux questions",
+      "faq0Question": "Quels types de partenariats proposez-vous ?",
+      "faq0Answer": "Nous proposons diverses opportunités de partenariat, notamment des partenariats avec des fournisseurs, des accords de distribution, des collaborations de fabrication et des opportunités d'investissement. Chacun est adapté aux besoins spécifiques et à la taille du partenaire.",
+      "faq1Question": "Quelle est votre quantité minimum de commande ?",
+      "faq1Answer": "Les quantités minimales de commande varient selon le produit et le marché. Pour les produits vendus au détail, nous partons généralement de 500 unités. Pour les produits en vrac et les exportations, les quantités minimales sont négociées en fonction de la capacité du conteneur et du type de produit.",
+      "faq2Question": "Exportez-vous à l’international ?",
+      "faq2Answer": "Oui, nous exportons vers plus de 24 marchés dans le monde via les corridors de la zone de libre-échange continentale africaine (AfCFTA) et des partenariats directs avec des importateurs européens et nord-américains. Nos produits répondent aux normes internationales de sécurité alimentaire.",
+      "faq3Question": "Quelles certifications détenez-vous ?",
+      "faq3Answer": "Nous détenons plusieurs certifications, notamment HACCP, ISO 22000, NAFDAC, SON et MAN. Ces certifications garantissent que nos produits répondent aux normes les plus élevées en matière de sécurité alimentaire, de qualité et de réglementation sur tous les marchés.",
+      "faq4Question": "Comment devenir fournisseur ?",
+      "faq4Answer": "Pour devenir fournisseur, remplissez notre formulaire de demande de fournisseur avec des détails sur vos produits, votre capacité et vos certifications. Notre équipe d'approvisionnement examinera votre demande et vous contactera dans les 5 jours ouvrables pour les prochaines étapes.",
+      "faq5Question": "Quelles conditions de paiement proposez-vous ?",
+      "faq5Answer": "Nous proposons des conditions de paiement flexibles en fonction du type de partenariat et de la taille de la commande. Les conditions courantes incluent un paiement net dans un délai de 30 à 60 jours pour les partenaires établis, un paiement anticipé pour les nouveaux partenariats et une lettre de crédit pour les exportations internationales.",
+      "faq6Question": "Fournissez-vous des services de marque privée ?",
+      "faq6Answer": "Oui, nous proposons des services de fabrication en marque privée et en marque blanche pour certains partenaires. Cela inclut la formulation personnalisée, la conception de l’emballage et la production sous votre marque avec notre assurance qualité.",
+      "faq7Question": "Quel est votre délai de livraison pour les commandes ?",
+      "faq7Answer": "Les délais de livraison varient selon le produit : les produits prêts sont expédiés dans un délai de 3 à 5 jours ouvrables, les commandes personnalisées prennent de 2 à 4 semaines et les commandes à l'exportation importantes peuvent nécessiter 4 à 8 semaines en fonction du calendrier de production et de la logistique.",
+      "faq8Question": "Proposez-vous des échantillons ?",
+      "faq8Answer": "Oui, nous fournissons des échantillons de produits pour les demandes commerciales qualifiées. Les demandes d'échantillons peuvent être effectuées via notre formulaire de contact, et des frais d'expédition peuvent s'appliquer en fonction de l'emplacement et de la quantité d'échantillons.",
+      "faq9Question": "De quelles mesures de contrôle qualité disposez-vous ?",
+      "faq9Answer": "Nous mettons en œuvre un contrôle de qualité rigoureux à chaque étape : classement à la ferme, tests en cours de fabrication, inspection du produit final et vérification avant expédition. Nos installations sont équipées d'équipements de test modernes et respectent les normes GMP.",
+      "faq10Question": "Pouvez-vous gérer des commandes de gros volumes ?",
+      "faq10Answer": "Oui, nos installations sont conçues pour une production à grande échelle avec plusieurs lignes de traitement et une grande capacité de stockage. Nous pouvons adapter la production pour répondre à des exigences de volume importantes tout en maintenant les normes de qualité.",
+      "faq11Question": "Soutenez-vous les pratiques agricoles durables ?",
+      "faq11Answer": "Absolument. Nous travaillons en étroite collaboration avec les agriculteurs pour promouvoir des pratiques durables, notamment la conservation des sols, la gestion de l'eau, la réduction des intrants chimiques et la préservation de la biodiversité. Nos programmes agricoles comprennent une formation et un soutien à la certification.",
+      "faq12Question": "Comment garantir la sécurité des produits ?",
+      "faq12Answer": "La sécurité des produits est assurée grâce à des processus certifiés HACCP, des tests microbiologiques réguliers, des protocoles de stockage et de manipulation appropriés, des systèmes de traçabilité et le respect des réglementations internationales en matière de sécurité alimentaire, notamment USFDA et des normes européennes."
+    },
+    "pages": {
+      "notFound": {
+        "title": "Page introuvable",
+        "description": "La page que vous recherchez n'existe pas ou a été déplacée.",
+        "backToHome": "Retour à la maison"
+      }
+    }
+  },
+  "pages": {
+    "products": {
+      "items": {
+        "garri": {
+          "varieties": [
+            "Blanc",
+            "Ijebu",
+            "Jaune"
+          ],
+          "highlights": [
+            "Trois variétés : blanche, Ijebu et jaune",
+            "Disponible à l'exportation",
+            "Emballé selon les exigences de chaque client"
+          ],
+          "name": "Garri",
+          "description": "Un produit de base important dans de nombreuses communautés africaines, avec des opportunités dans le commerce de détail, la restauration et les marchés alimentaires africains internationaux. Nous le transformons en variétés blanches, Ijebu et jaunes.",
+          "imageAlt": "Sacs Garri stockés dans un entrepôt pour le stockage et la distribution",
+          "caption": "Produits emballés en vrac sous la marque HappyMan Foods dans notre centre de traitement central."
+        },
+        "cassava-flour": {
+          "highlights": [
+            "Farine à base de manioc",
+            "Pour la cuisine maison et les entreprises alimentaires",
+            "Emballé selon les exigences de chaque client"
+          ],
+          "name": "Farine de manioc",
+          "description": "Une farine à base de manioc pour la cuisine familiale, la boulangerie et les entreprises alimentaires, conditionnée selon vos besoins.",
+          "imageAlt": "Sacs de farine de manioc de marque emballés pour la distribution",
+          "caption": "Farine de qualité export chargée directement dans des conteneurs pour une expédition internationale."
+        },
+        "plantain-flour": {
+          "highlights": [
+            "Farine à base de plantain",
+            "Pour la cuisine maison et les entreprises alimentaires",
+            "Emballé selon les exigences de chaque client"
+          ],
+          "name": "Farine de plantain",
+          "description": "Une farine à base de plantain pour la cuisine familiale, la boulangerie et les entreprises alimentaires, conditionnée selon vos besoins.",
+          "imageAlt": "Close-up de farine de plantain avec scoop",
+          "caption": "Farine de plantain transformée à partir de plantains frais dans nos installations."
+        },
+        "groundnuts-peanuts": {
+          "highlights": [
+            "Disponible à l'exportation",
+            "Emballé selon les exigences de chaque client",
+            "Aucune extension de produit non lancée n'est répertoriée"
+          ],
+          "name": "Arachides et cacahuètes",
+          "description": "Un produit agricole polyvalent avec un potentiel comme aliment emballé et comme matière première pour une transformation ultérieure. Nous ne répertorions pas de produits tels que le beurre de cacahuète à moins qu'ils ne soient disponibles dans le commerce.",
+          "imageAlt": "Arachides et cacahuètes emballées en vrac dans un entrepôt",
+          "caption": "Cacahuètes minutieusement torréfiées et triées répondant aux normes de qualité à l’exportation."
+        },
+        "roasted-groundnuts": {
+          "highlights": [
+            "Rôti et décortiqué pour un approvisionnement en vrac",
+            "Les demandes de vente en gros et à l'exportation sont les bienvenues",
+            "Emballé selon les exigences de chaque client"
+          ],
+          "name": "Arachides grillées",
+          "description": "Arachides grillées et cacahuètes décortiquées pour l'approvisionnement en gros en vrac, emballées selon vos besoins.",
+          "imageAlt": "Palettes d'arachides grillées en bouteille et d'arachides décortiquées prêtes à être fournies en gros en vrac",
+          "caption": "Arachides grillées et cacahuètes décortiquées emballées sur des palettes pour l'approvisionnement en gros en vrac."
+        },
+        "cashew-nuts": {
+          "highlights": [
+            "Disponible à l'exportation",
+            "Convient aux demandes de renseignements sur la vente au détail de produits alimentaires et les entreprises",
+            "Emballé selon les exigences de chaque client"
+          ],
+          "name": "Noix De Cajou",
+          "description": "Une collation et un ingrédient que les gens adorent, emballés selon vos besoins.",
+          "imageAlt": "Noix de cajou et pommes de cajou récoltées du verger à la table",
+          "caption": "Assurance qualité graduée à la main pour garantir zéro impureté."
+        },
+        "plantain-chips": {
+          "highlights": [
+            "Collation prête à manger",
+            "Les demandes de renseignements au détail et en gros sont les bienvenues",
+            "L'emballage personnalisé peut être discuté"
+          ],
+          "name": "Chips de plantain",
+          "description": "Une collation africaine familière et pratique pour les personnes à la recherche d’une nourriture agréable. Les demandes de renseignements sur les produits peuvent discuter des exigences d’emballage et de distribution.",
+          "imageAlt": "HappyMan Chips de plantain emballées dans un sac en plastique transparent",
+          "caption": "Chips de plantain fraîchement tranchées et croustillantes, emballées pour les rayons de vente au détail et l'exportation."
+        },
+        "hibiscus-teas": {
+          "highlights": [
+            "Produits d'hibiscus et de thé disponibles à l'exportation",
+            "Pour toute demande de thé, infusion et boisson",
+            "Emballé selon les exigences de chaque client"
+          ],
+          "name": "Hibiscus et thés",
+          "description": "Une plante africaine reconnaissable pour les thés, infusions et boissons. Contactez-nous pour discuter des produits disponibles et des exigences.",
+          "imageAlt": "Collection de tisanes haut de gamme African Food King comprenant des sachets de thé pyramidaux à l'hibiscus, au gingembre, au clou de girofle et à la cannelle",
+          "caption": "Ligne de tisanes African Food King, 100% naturelle et sans caféine."
+        },
+        "kuli-kuli": {
+          "varieties": [
+            "Lanières croquantes",
+            "Bouchées épicées"
+          ],
+          "highlights": [
+            "100% arachides grillées de première qualité",
+            "Disponible à l'exportation",
+            "Emballé selon les exigences du client dans des pots inviolables"
+          ],
+          "name": "Kuli Kuli",
+          "description": "Une collation croustillante emblématique d'Afrique de l'Ouest à base d'arachides grillées, assaisonnées et croustillantes à la perfection. Riche en protéines végétales et emballé pour la fraîcheur au détail et l'exportation.",
+          "imageAlt": "Authentique collation croustillante Kuli Kuli emballée dans des pots de vente au détail inviolables avec couvercles verts",
+          "caption": "Kuli Kuli, cacahuètes fraîchement torréfiées et assaisonnées, emballées dans des pots prêts à la vente au détail et des cartons de vente en gros."
+        },
+        "palm-oil": {
+          "varieties": [
+            "Culinaire de catégorie A",
+            "Qualité de traitement en vrac"
+          ],
+          "highlights": [
+            "Naturellement riche en caroténoïdes et nutriments",
+            "Hygiéniquement mis en bouteille et scellé pour l'exportation",
+            "Disponible en bouteilles de détail et en emballage industriel en vrac"
+          ],
+          "name": "Huile de palme pure",
+          "description": "Huile de palme rouge pure non raffinée, issue de sources durables, traitée dans des conditions d'hygiène strictes. Indispensable pour la cuisine africaine authentique, la restauration et la fabrication commerciale.",
+          "imageAlt": "Vue aérienne de bouteilles d'huile de palme rouge pure scellées, prêtes à être distribuées et exportées",
+          "caption": "Huile de palme rouge pure de première qualité, mise en bouteille de manière hygiénique et de qualité supérieure pour les marchés internationaux."
+        },
+        "ayamase-sauce": {
+          "highlights": [
+            "Disponible en sachets de vente au détail de 250 g",
+            "Disponible à l'exportation",
+            "Emballé selon les exigences de chaque client"
+          ],
+          "name": "Ayamase Sauce",
+          "description": "Une riche sauce au poivre d'Afrique de l'Ouest, également connue sous le nom de sauce Ofada, préparée pour la cuisine de tous les jours et conditionnée en sachets de 250 g.",
+          "imageAlt": "HappyMan Ayamase Pochette de vente au détail de sauce avec étiquette de sauce Ofada",
+          "caption": "Sauce HappyMan Ayamase (Ofada) dans un sachet de 250 g."
+        },
+        "seasonings-spices": {
+          "name": "Assaisonnements et épices",
+          "description": "Une gamme planifiée reliant les ingrédients agricoles à la cuisine de tous les jours, en mettant l'accent sur la saveur, la commodité et la cohérence. Pas encore disponible.",
+          "imageAlt": "Nature morte aux épices rustiques avec ail, piments, grains de poivre, poudre de curry et herbes fraîches sur une surface en bois",
+          "caption": "Bientôt disponible : une gamme organisée d'assaisonnements et d'épices haut de gamme reliant les ingrédients agricoles à la cuisine de tous les jours."
+        }
+      },
+      "eyebrow": "Nos produits",
+      "heading": "Produits agricoles africains, transformés en nourriture quotidienne.",
+      "intro": "Des produits de base traditionnels aux collations, ingrédients et boissons, nous développons des produits qui relient les ressources agricoles de l'Afrique aux besoins changeants des consommateurs. L’exportation est notre priorité aujourd’hui, avec la vente au détail nigériane prévue.",
+      "onSaleBadge": "En vente maintenant · Exportation",
+      "varieties": "Variétés : {varieties}",
+      "requestProductInformation": "Demander des informations sur le produit",
+      "plannedEyebrow": "Prévu",
+      "comingSoon": "À venir",
+      "notifyMe": "Prévenez-moi",
+      "exportNote": "Les destinations d’exportation et les tailles d’emballage standard ne sont pas publiées. Contactez-nous pour discuter de vos besoins.",
+      "requestProductInfo": "Demander des informations sur le produit",
+      "metadataTitle": "Produits",
+      "metadataDescription": "Explorez les produits AcresxManna en vente pour l'exportation, les variétés de produits et la vente au détail nigériane prévue."
+    },
+    "becomeADistributor": {
+      "whatToKnow": [
+        "Dites-nous qui vous servez, où vous opérez et par quels canaux vous vendez.",
+        "Faites-nous savoir quels produits vous intéressent et quelles sont les tailles de commande attendues.",
+        "Les informations sur les produits, la disponibilité, la logistique et tout échantillonnage sont confirmés individuellement."
+      ],
+      "steps": [
+        "Présentez-vous ainsi que votre entreprise.",
+        "Nous partageons des informations sur les produits.",
+        "Nous discutons de l'ajustement, des volumes et de la logistique.",
+        "Nous convenons d’une manière de travailler ensemble."
+      ],
+      "metadataTitle": "Devenez distributeur",
+      "metadataDescription": "Discutez de la distribution des produits alimentaires AcresxManna avec notre équipe.",
+      "eyebrow": "Stockez la saveur",
+      "title": "Apportez des aliments fabriqués en Afrique dans vos étagères.",
+      "intro": "Nous accueillons les demandes des détaillants, grossistes, distributeurs et importateurs intéressés par les produits alimentaires africains et les partenariats commerciaux à long terme.",
+      "submitLabel": "Postuler pour devenir distributeur",
+      "formIntro": "Parlez-nous de votre entreprise.",
+      "imageAlt": "Palettes de collations et de produits alimentaires emballés dans le dépôt d'expédition",
+      "imageCaption": "Inventaire palettisé et exécution en gros pour les partenaires de distribution."
+    },
+    "becomeASupplier": {
+      "whatToKnow": [
+        "Nous nous intéressons au manioc, au plantain, aux arachides et aux cacahuètes, à l'hibiscus, ainsi qu'aux épices et aux assaisonnements.",
+        "Parlez-nous de la qualité, de l’origine, de la manutention et des volumes que vous pouvez fournir tout au long de la saison.",
+        "Les prix, les volumes garantis et les conditions de paiement ne sont convenus qu'après examen de l'opportunité."
+      ],
+      "steps": [
+        "Dites-nous ce que vous fournissez.",
+        "Nous examinons la qualité, le volume et le timing.",
+        "Nous convenons des spécifications et des conditions.",
+        "Nous construisons la relation d'approvisionnement étape par étape."
+      ],
+      "metadataTitle": "Devenez fournisseur",
+      "metadataDescription": "Parlez à AcresxManna des produits agricoles que vous cultivez, regroupez ou négociez.",
+      "eyebrow": "Grandissez avec nous",
+      "title": "Ensemble, collectons les récoltes de l’Afrique.",
+      "intro": "Une entreprise de transformation fiable a besoin d’un approvisionnement agricole fiable. Si vous cultivez, regroupez ou négociez des produits agricoles, nous serions ravis d’avoir de vos nouvelles.",
+      "submitLabel": "Postuler pour devenir fournisseur",
+      "formIntro": "Dites-nous ce que vous cultivez ou échangez.",
+      "imageAlt": "AcresxManna plantations commerciales de plantains avec irrigation goutte à goutte",
+      "imageCaption": "Approvisionnement durable et partenariats d'achat avec des producteurs locaux."
+    },
+    "businessEnquiries": {
+      "whatToKnow": [
+        "Demandes de produits : disponibilité et informations sur les produits.",
+        "Partenariats d’approvisionnement ou agricoles : matières premières agricoles et volumes saisonniers.",
+        "Distribution ou vente en gros : canaux, marchés et produits d'intérêt.",
+        "Partenariats de fabrication, demandes d’investissement et autres sujets commerciaux."
+      ],
+      "steps": [
+        "Présentez-vous ou présentez votre organisation.",
+        "Dites-nous le genre de conversation que vous aimeriez avoir.",
+        "Notre équipe dirigera votre demande vers le bon interlocuteur."
+      ],
+      "metadataTitle": "Demandes commerciales",
+      "metadataDescription": "Contactez AcresxManna au sujet de la fabrication, des partenariats, des médias et d'autres demandes commerciales.",
+      "eyebrow": "Demandes d'affaires",
+      "title": "Parlons affaires.",
+      "intro": "Pour tout ce qui n'est pas une question de produit, d'approvisionnement ou de distribution, contactez-nous au sujet de discussions sur la fabrication et les marques privées, de partenariats, de médias ou de toute autre idée.",
+      "submitLabel": "Démarrer la conversation",
+      "formIntro": "Dites-nous ce que vous pensez.",
+      "imageAlt": "AcresxManna bureau de consultation de direction et showroom",
+      "imageCaption": "Conversations stratégiques au siège de AcresxManna à Ibadan, Nigeria."
+    },
+    "about": {
+      "eyebrow": "À propos de AcresxManna",
+      "heading": "Nous pensons que l’Afrique devrait tirer davantage de valeur de son agriculture.",
+      "intro": "AcresxManna est une entreprise de transformation agroalimentaire et de fabrication de produits alimentaires axée sur l'exportation. Nous associons l'approvisionnement agricole à la transformation, au développement de produits et à l'accès au marché. Le commerce de détail local au Nigeria est prévu à travers des magasins et le concept d'épicerie en ligne UncleTobi.",
+      "storyEyebrow": "Notre histoire",
+      "storyHeading": "Plus de valeur peut être créée après la récolte.",
+      "storyParagraph1": "L’Afrique possède d’importantes ressources agricoles, mais une grande partie de la valeur de l’économie alimentaire réside dans ce qui se passe après la récolte. Nous pensons qu’une plus grande part de cette valeur peut être captée grâce à la transformation, à la fabrication, à l’emballage, au contrôle qualité et à des marques alimentaires compétitives.",
+      "storyParagraph2": "Grâce à nos opérations au Nigeria et à nos activités au Royaume-Uni, nous construisons les bases d'un lien plus fort entre la production alimentaire africaine et les marchés internationaux. Nous comprenons les deux côtés : les réalités de l’approvisionnement et de la transformation en Afrique, et la qualité, la cohérence et les besoins commerciaux des marchés que nous voulons servir.",
+      "storyImageAlt": "Salle d'exposition AcresxManna avec mur géométrique violet et produits de marque sur le bureau",
+      "entities": {
+        "acresxmannaLtd": {
+          "title": "AcresxManna Ltd",
+          "alt": "Mur de réception d'entreprise AcresxManna à Ibadan, Nigeria",
+          "description": "L'entité nigériane fabrique, signe des contrats clients et exporte depuis notre usine de transformation de Moniya."
+        },
+        "uncleTobiShop": {
+          "title": "UncleTobi.Boutique",
+          "alt": "Identité officielle de la marque UncleTobi.Shop",
+          "description": "L'entité basée au Royaume-Uni facture les acheteurs et exploite un entrepôt et un bureau à Hertford, au Royaume-Uni."
+        }
+      },
+      "companyStructureEyebrow": "Structure de l'entreprise",
+      "visionEyebrow": "Notre vision",
+      "visionText": "Devenir la principale entreprise africaine de transformation agroalimentaire et de fabrication de produits alimentaires, reconnue mondialement pour son ampleur, sa qualité, son innovation et la valeur que nous créons à partir de l’agriculture africaine.",
+      "missionEyebrow": "Notre mission",
+      "missionText": "Transformer les ressources agricoles africaines en produits alimentaires compétitifs grâce à la transformation, à la fabrication, au contrôle de la qualité, au développement de la marque et à l’accès aux marchés.",
+      "fieldToFactoryEyebrow": "Du champ à l'usine",
+      "fieldToFactoryHeading": "Racines agricoles, ambition industrielle.",
+      "fieldToFactoryText": "Nos opérations couvrent l’agriculture en serre, le regroupement de produits, la transformation et les aliments emballés, le tout construit sur le sol africain.",
+      "gallery": {
+        "palmOilBottling": {
+          "alt": "Équipe d'embouteillage et de production d'huile de palme dans l'usine AcresxManna",
+          "caption": "Mise en bouteille d'huile de palme"
+        },
+        "seedlingNursery": {
+          "alt": "Plants de tomates denses dans les rangées de pépinières d'ombre",
+          "caption": "Pépinière de semis"
+        },
+        "papayaGrowing": {
+          "alt": "Papayer chargé de fruits à l'intérieur d'une serre avec un agriculteur",
+          "caption": "Culture de papaye"
+        },
+        "peanutProcessing": {
+          "alt": "Équipe de tri des noix en blouse blanche à longue table",
+          "caption": "Transformation des arachides"
+        },
+        "bottlingLine": {
+          "alt": "Des ouvriers étiquetent des rangées de bouteilles d'huile de palme dans un atelier de production",
+          "caption": "Mise en bouteille d'huile de palme"
+        },
+        "finishedProductStock": {
+          "alt": "Pots d'arachides enduits empilés et pots de collations dans l'entrepôt",
+          "caption": "Stock de produits finis"
+        }
+      },
+      "valuesEyebrow": "Ce qui nous guide",
+      "valuesHeading": "Des valeurs qui façonnent notre façon de construire.",
+      "values": {
+        "qualityAndExcellence": {
+          "title": "Qualité et excellence",
+          "description": "Des normes, de la discipline et de la cohérence qui gagnent en confiance."
+        },
+        "community": {
+          "title": "Communauté",
+          "description": "Une croissance qui crée des opportunités pour les fournisseurs, les travailleurs, les producteurs et les communautés."
+        },
+        "innovation": {
+          "title": "Innovation",
+          "description": "De meilleures façons de traiter, d’emballer et de livrer les aliments africains."
+        },
+        "collaboration": {
+          "title": "Collaboration",
+          "description": "Partenariats, expertise partagée et relations commerciales solides."
+        },
+        "dedicationAndHeart": {
+          "title": "Dévouement et cœur",
+          "description": "Responsabilité, résilience et engagement envers les gens."
+        },
+        "capacityBuilding": {
+          "title": "Renforcement des capacités",
+          "description": "Investir dans les personnes, les processus, les partenariats et les infrastructures."
+        }
+      },
+      "quote": "La richesse agricole de l'Afrique devrait créer de la valeur industrielle africaine : davantage de matières premières transformées en produits finis, davantage de capacités de production construites au sein des économies africaines et davantage d'entreprises alimentaires africaines compétitives avec confiance à l'échelle mondiale.",
+      "locationsEyebrow": "Nos implantations",
+      "locations": {
+        "factory": {
+          "label": "Usine"
+        },
+        "nigerianOffice": {
+          "label": "Bureau nigérian"
+        },
+        "ukWarehouse": {
+          "label": "Entrepôt et bureau au Royaume-Uni"
+        }
+      },
+      "cta": "Parlons",
+      "metadataTitle": "À propos de nous",
+      "metadataDescription": "Découvrez AcresxManna, une entreprise nigériane de transformation agroalimentaire et de fabrication de produits alimentaires axée sur l'exportation."
+    },
+    "ourBrands": {
+      "eyebrow": "Nos marques",
+      "heading": "Une seule plateforme. Différentes façons de commercialiser les aliments africains.",
+      "intro": "L'écosystème plus large de AcresxManna comprend des marques alimentaires, une boulangerie et un concept d'épicerie en ligne, chacun ayant un objectif distinct dans la chaîne de valeur alimentaire.",
+      "items": {
+        "africanFoodKing": {
+          "description": "Des produits alimentaires africains authentiques apportant des traditions culinaires dynamiques et des gammes de thé haut de gamme aux consommateurs du monde entier.",
+          "alt": "Logo officiel de la marque African Food King"
+        },
+        "happyManFoods": {
+          "description": "La marque AcresxManna utilise pour vendre tous ses produits.",
+          "alt": "Logo HappyMan Foods"
+        },
+        "maluzaFoods": {
+          "description": "Une boulangerie développant de nouveaux produits et ouvrant de nouveaux stands dans et autour d'Ibadan.",
+          "alt": "Logo Maluza Foods Co."
+        },
+        "uncleTobi": {
+          "description": "Un concept d'épicerie en ligne regroupant des fournisseurs pour la vente au détail. Date de lancement à être annoncée.",
+          "alt": "Logo du concept d'épicerie en ligne UncleTobi"
+        },
+        "ijgbFoods": {
+          "description": "Des snacks africains avec une allure mondiale – facilitant le commerce et connectant des produits de qualité sur les marchés.",
+          "alt": "Logo de la marque IJGB Foods"
+        }
+      },
+      "distribution": {
+        "heading": "Distribution et commerce",
+        "body": "HappyMan Foods est la marque que AcresxManna utilise pour vendre et distribuer ses produits aux détaillants et partenaires commerciaux.",
+        "imageAlt": "Palettes de cacahuètes en bouteille conditionnées sous nos marques et prêtes à la distribution et au commerce"
+      },
+      "contact": {
+        "body": "Intéressé par nos produits, nos marques ou un partenariat commercial ? Nous aimerions avoir de vos nouvelles.",
+        "cta": "Contactez notre équipe"
+      },
+      "metadataTitle": "Nos marques",
+      "metadataDescription": "Rencontrez HappyMan Foods, Maluza Foods Co., UncleTobi et IJGB Foods et découvrez le rôle et le statut de chaque marque."
+    },
+    "productDetail": {
+      "backToProducts": "Retour aux produits",
+      "onSaleBadge": "En vente maintenant · Exportation",
+      "plannedBadge": "Prévu · Pas encore disponible",
+      "varieties": "Variétés : {varieties}",
+      "productHighlights": "Points forts du produit",
+      "enquiryWelcome": "Nous acceptons les demandes de renseignements des détaillants, des grossistes, des entreprises de restauration, des importateurs et des distributeurs.",
+      "packSizesNote": "Les tailles de pack sont définies selon les exigences de chaque client. Les spécifications du produit, les ingrédients, l'origine, le stockage, la durée de conservation, les allergènes et les informations de conformité doivent être confirmés pour le produit spécifique et ne sont pas publiés ici.",
+      "requestInformationEyebrow": "Demander des informations",
+      "requestInformationHeading": "Parlez-nous de vos besoins.",
+      "requestInformationText": "Envoyez-nous votre demande et notre équipe vous répondra avec des informations sur le produit, la disponibilité et les prochaines étapes.",
+      "requestProductInformation": "Demander des informations sur le produit",
+      "moreProducts": "Plus de produits",
+      "viewProduct": "Voir le produit"
+    },
+    "infrastructure": {
+      "eyebrow": "Nos opérations",
+      "heading": "Renforcer les capacités derrière l’alimentation africaine.",
+      "intro": "Notre ambition ne se limite pas à l’approvisionnement agricole. Elle a besoin d’infrastructures de production, de personnes, de systèmes et de partenariats pour transformer les matières premières en aliments cohérents et prêts à être commercialisés. AcresxManna Ltd fabrique et exporte du Nigéria ; nous renforçons nos capacités à mesure que la demande, les investissements et l’état de préparation le permettent.",
+      "cards": {
+        "production": {
+          "title": "Production et transformation",
+          "status": "En activité aujourd'hui",
+          "description": "AcresxManna Ltd fabrique des produits alimentaires dans son usine de Moniya, Ibadan. Des améliorations supplémentaires de la capacité de production et des processus font partie de nos ambitions de développement."
+        },
+        "quality": {
+          "title": "Informations de qualité",
+          "status": "Intégré à l'œuvre",
+          "description": "Les exigences de qualité sont spécifiques au produit et au marché. Nous confirmons les spécifications et les détails de conformité pour chaque demande et ne publions pas de réclamations de certification non vérifiées."
+        },
+        "supplyChain": {
+          "title": "Chaîne d'approvisionnement et entreposage",
+          "status": "En activité aujourd'hui",
+          "description": "Nos sites confirmés incluent l'usine de Moniya, Ibadan, le bureau nigérian à Lagos, ainsi que l'entrepôt et le bureau britanniques à Hertford."
+        },
+        "growth": {
+          "title": "Infrastructures pour la croissance",
+          "status": "Construire ensuite",
+          "description": "Le développement prévu comprend une capacité de production supplémentaire, un traitement et un emballage plus efficaces, un stockage et un contrôle des stocks améliorés et une capacité de produit plus large."
+        }
+      },
+      "insideFacilityEyebrow": "À l'intérieur de l'établissement",
+      "insideFacilityHeading": "Transformation, test et emballage actifs à Moniya, Ibadan.",
+      "insideFacilityText": "Un aperçu des opérations quotidiennes qui transforment les produits récoltés en produits alimentaires prêts à être commercialisés et emballés de manière hygiénique.",
+      "gallery": {
+        "mixingSifting": {
+          "title": "Mélange et tamisage en acier inoxydable",
+          "caption": "Réservoirs de traitement industriel de qualité alimentaire, mélangeurs motorisés et tamiseurs mécaniques fonctionnant dans notre centre de traitement central."
+        },
+        "bakeryOvens": {
+          "title": "Fours de boulangerie commerciaux à plusieurs étages",
+          "caption": "Des maîtres boulangers confectionnent des pains dorés et des produits cuits au four à l'aide de fours à sole numériques commerciaux de grande capacité."
+        },
+        "sortingQualityControl": {
+          "title": "Tri hygiénique et contrôle qualité",
+          "caption": "Un personnel d'assurance qualité qualifié portant un équipement de protection stérile triant méticuleusement à la main les produits jusqu'à leur qualité d'exportation."
+        },
+        "palmOilBottlingLine": {
+          "title": "Ligne d'embouteillage d'huile de palme",
+          "caption": "Opérateurs d'embouteillage hygiénique organisant et inspectant des centaines de bouteilles d'huile de palme avant de les emballer pour l'expédition."
+        },
+        "nutSortingLongTable": {
+          "title": "Tri des noix – Opérations sur table longue",
+          "caption": "Une grande équipe de trieurs qualifiés séparant les cacahuètes grillées de qualité supérieure sur notre ligne de tri étendue."
+        },
+        "rotaryCooker": {
+          "title": "Cuiseur rotatif industriel",
+          "caption": "Les opérateurs font fonctionner le cuiseur rotatif motorisé en acier inoxydable utilisé pour un rôtissage uniforme lors des cycles de production par lots."
+        },
+        "palletRacking": {
+          "title": "Rayonnage logistique de palettes à grande hauteur",
+          "caption": "Système de rayonnages d'entrepôt de pointe avec suivi informatisé des codes-barres dans notre centre agro-logistique central."
+        },
+        "containerLoading": {
+          "title": "Chargement et expédition de conteneurs",
+          "caption": "Supervision des opérations de chargement des conteneurs garantissant un transit sûr pour les commandes d'exportation régionales et mondiales de grande capacité."
+        },
+        "sealedContainer": {
+          "title": "Conteneur prêt à l'exportation scellé",
+          "caption": "Un conteneur de fret entièrement chargé, scellé et préparé pour le dédouanement et l'expédition internationale."
+        }
+      },
+      "locations": {
+        "factory": {
+          "label": "Usine"
+        },
+        "nigerianOffice": {
+          "label": "Bureau nigérian"
+        },
+        "ukWarehouse": {
+          "label": "Entrepôt et bureau au Royaume-Uni"
+        }
+      },
+      "cta": "Se renseigner sur la visite",
+      "metadataTitle": "Infrastructure",
+      "metadataDescription": "Comment AcresxManna renforce les capacités de production, d’assurance qualité et de chaîne d’approvisionnement pour la fabrication alimentaire africaine."
+    },
+    "impact": {
+      "eyebrow": "Notre objectif",
+      "heading": "La transformation crée de la valeur. La valeur crée des opportunités.",
+      "intro": "AcresxManna construit son activité autour de la valeur ajoutée agricole, de la production locale et de l'accès aux marchés. Nous publierons des informations sur l’impact mesurable lorsque des données vérifiées seront disponibles.",
+      "stories": {
+        "valueAddition": {
+          "title": "Valeur ajoutée agricole",
+          "caption": "Autonomiser les petits exploitants agricoles grâce à une agriculture ombragée moderne, à l’irrigation goutte à goutte et à une agronomie des cultures à haut rendement."
+        },
+        "localProduction": {
+          "title": "Production locale et emploi",
+          "caption": "Créer des emplois durables et une formation technique dans le tri de qualité, la manipulation hygiénique des aliments et la fabrication."
+        },
+        "supplyChains": {
+          "title": "Des chaînes d’approvisionnement plus solides",
+          "caption": "Combler le fossé entre les petits exploitants ruraux et les installations de transformation agroalimentaire à l’échelle industrielle."
+        },
+        "globalMarkets": {
+          "title": "L’alimentation africaine sur les marchés mondiaux",
+          "caption": "Développer les voies d’exportation conteneurisées afin que les produits alimentaires africains de haute qualité rivalisent avec distinction à l’échelle mondiale."
+        }
+      },
+      "spotlightImageAlt": "Un agriculteur inspecte des papayers hybrides nains à haut rendement",
+      "spotlightEyebrow": "Communauté et agronomie",
+      "spotlightHeading": "Défendre les agriculteurs avec une agronomie résiliente.",
+      "spotlightText": "Grâce à des partenariats avec des producteurs locaux, nous introduisons des variétés de cultures hybrides naines, des stocks de semences résistants aux parasites et des structures d'ombrage protégées. Cela augmente le volume de récolte par hectare et protège les familles agricoles de la volatilité climatique.",
+      "spotlightTagSeedlings": "Nourrir les semis",
+      "spotlightTagContracts": "Contrats de prélèvement direct",
+      "spotlightTagWorkforce": "Autonomisation de la main-d’œuvre féminine",
+      "scorecardEyebrow": "Tableau de bord des impacts",
+      "scorecardHeading": "Des chiffres que nous pouvons soutenir.",
+      "scorecardText": "Nous publions uniquement des données vérifiées. Les chiffres ci-dessous seront mis à jour au fur et à mesure que nous recevrons et confirmerons chaque mesure de notre équipe opérationnelle.",
+      "verified": "Vérifié",
+      "scorecard": {
+        "tonnesProcessed": {
+          "label": "Tonnes traitées",
+          "note": "Chiffres cibles à venir"
+        },
+        "finishedProducts": {
+          "label": "Produits finis fabriqués",
+          "note": "Chiffres cibles à venir"
+        },
+        "activeSuppliers": {
+          "label": "Partenariats actifs avec les fournisseurs et les producteurs",
+          "note": "Chiffres cibles à venir"
+        },
+        "directJobs": {
+          "label": "Emplois directs créés et conservés",
+          "note": "Chiffres cibles à venir"
+        },
+        "productCategories": {
+          "label": "Catégories de produits transformés localement",
+          "note": "Chiffres cibles à venir"
+        },
+        "countriesWithVerifiedSales": {
+          "label": "Pays avec des ventes vérifiées",
+          "note": "Chiffres cibles à venir"
+        },
+        "complianceQualityMeasures": {
+          "label": "Mesures de conformité et de qualité",
+          "note": "Chiffres cibles à venir"
+        }
+      },
+      "closing": "Nous voulons que notre croissance soit mesurée non seulement par les produits que nous vendons, mais aussi par la capacité de production et les opportunités économiques que nous contribuons à créer.",
+      "cta": "Parlez à notre équipe",
+      "metadataTitle": "Impact",
+      "metadataDescription": "Explorez les domaines d'activité derrière le travail de AcresxManna dans le domaine de la transformation agroalimentaire et de la fabrication de produits alimentaires."
+    },
+    "globalMarkets": {
+      "eyebrow": "Marchés mondiaux",
+      "heading": "Des ressources agricoles africaines aux marchés alimentaires mondiaux.",
+      "intro": "Nous bâtissons une entreprise qui relie la production alimentaire africaine aux clients, aux entreprises et aux opportunités sur les marchés internationaux. L'exportation est notre objectif actuel ; les destinations spécifiques ne sont pas publiées.",
+      "routes": {
+        "currentRoute": {
+          "label": "Itinéraire actuel",
+          "value": "Exportez aujourd’hui"
+        },
+        "nigerianRetail": {
+          "label": "Commerce de détail nigérian",
+          "value": "Prévu dans les magasins et UncleTobi"
+        },
+        "packSizes": {
+          "label": "Présentations",
+          "value": "Adapté aux exigences de chaque client"
+        }
+      },
+      "destinationsNote": "Aucune destination d'exportation spécifique ni taille d'emballage standard n'est publiée.",
+      "freightImageAlt": "Conteneur de fret de 28 tonnes chargé pour la livraison à l'exportation",
+      "freightEyebrow": "Exportation conteneurisée",
+      "freightHeading": "Expédition directe des conteneurs de l’usine au port.",
+      "freightText": "Notre usine de traitement de Moniya est stratégiquement positionnée pour le transport conteneurisé. Les conteneurs de fret standard de 20 pieds et 40 pieds (contenant jusqu'à 28+ tonnes de produits alimentaires et de produits emballés) sont remplis et scellés sur place pour une expédition directe.",
+      "accessEyebrow": "Comment nous construisons l’accès au marché",
+      "accessHeading": "Un commerce fiable ne se limite pas à l’expédition.",
+      "accessText": "Nous construisons une approche autour des exigences du marché, de la préparation des produits, des partenariats commerciaux et d'un approvisionnement fiable.",
+      "steps": {
+        "marketDevelopment": {
+          "title": "Développement du marché",
+          "description": "Tenez compte de la demande, de la concurrence, de la réglementation et de la distribution sur les marchés régionaux et étrangers.",
+          "alt": "AcresxManna Bureau d'Ibadan avec mur avec logo violet de marque"
+        },
+        "productReadiness": {
+          "title": "Préparation du produit",
+          "description": "Confirmer les spécifications, les emballages alimentaires hermétiques et les certificats phytosanitaires pour chaque voie commerciale.",
+          "alt": "Équipe organisant et inspectant la production d'huile de palme en bouteille"
+        },
+        "commercialPartnerships": {
+          "title": "Partenariats commerciaux",
+          "description": "Établissez des relations avec les importateurs, les acheteurs en gros, les chaînes de supermarchés et les entreprises de restauration.",
+          "alt": "Équipe chargeant des produits d'arachide en bouteille dans un conteneur de fret pour expédition"
+        },
+        "supplyReliability": {
+          "title": "Fiabilité de l'approvisionnement",
+          "description": "Développez des lignes de traitement évolutives pour fournir un volume multi-conteneurs récurrent selon des calendriers stricts.",
+          "alt": "Conteneur d'exportation emballé mur à mur avec un produit en bouteille prêt pour l'expédition internationale"
+        }
+      },
+      "ukOperationsEyebrow": "Opérations au Royaume-Uni",
+      "ukOperationsHeading": "UncleTobi.Boutique",
+      "ukOperationsText": "AcresxManna Ltd fabrique des produits, signe des contrats clients et exporte depuis le Nigeria. UncleTobi.Shop facture les acheteurs et exploite un entrepôt et un bureau à Hertford, au Royaume-Uni.",
+      "ukOperationsNote": "Les destinations des exportations ne sont pas publiées, aucun pays n’est donc présenté ici comme un marché établi ou cible.",
+      "cta": "Demandes de renseignements sur le commerce international",
+      "metadataTitle": "Marchés mondiaux",
+      "metadataDescription": "Nous bâtissons une entreprise qui relie la production alimentaire africaine aux clients et aux opportunités sur les marchés internationaux."
+    },
+    "investorsPartners": {
+      "eyebrow": "Investisseurs et partenaires",
+      "heading": "Construire la prochaine génération de capacités de transformation agroalimentaire en Afrique.",
+      "intro": "AcresxManna se concentre sur la transformation des ressources agricoles africaines en aliments compétitifs grâce à la transformation, à la fabrication et au développement du marché. La croissance dépend de la capacité de production, du fonds de roulement, des relations d’approvisionnement, de l’accès au marché et des systèmes opérationnels.",
+      "spotlightImageAlt": "Bureau AcresxManna à Ibadan, Nigéria",
+      "spotlightEyebrow": "Notre base d'opérations",
+      "spotlightHeading": "Fondé au Nigeria. Adapté aux marchés mondiaux.",
+      "spotlightText": "Notre installation centrale de traitement, notre infrastructure de stockage et notre siège administratif sont situés à Moniya, Ibadan, dans l'État d'Oyo, à proximité des principales ceintures de cultures agricoles et des couloirs logistiques directs vers le port.",
+      "buildingEyebrow": "Ce que nous construisons",
+      "building": {
+        "productionCapacity": {
+          "title": "Capacité de production",
+          "description": "Renforcer la capacité de production derrière l’agroalimentaire et la fabrication alimentaire en Afrique.",
+          "alt": "Station industrielle de cuisson et de mélange en inox"
+        },
+        "workingCapital": {
+          "title": "Fonds de roulement et stocks",
+          "description": "Les ressources nécessaires pour les matières premières, les cycles de production, l'emballage, l'inventaire et l'exécution.",
+          "alt": "Stock de produits alimentaires finis palettisés dans un entrepôt"
+        },
+        "productDevelopment": {
+          "title": "Développement de produits",
+          "description": "Développer des produits alimentaires qui relient les ressources agricoles africaines aux besoins des acheteurs.",
+          "alt": "Snacks agroalimentaires emballés au détail dans des pots de marque"
+        },
+        "marketDevelopment": {
+          "title": "Développement du marché",
+          "description": "Établir des relations commerciales et des routes d'accès au marché en Afrique et à l'international.",
+          "alt": "Conteneur de fret d'exportation préparé pour l'expédition internationale"
+        }
+      },
+      "meetEyebrow": "Qui nous aimerions rencontrer",
+      "people": {
+        "investors": {
+          "title": "Investisseurs",
+          "description": "Intérêt à long terme pour l’agroalimentaire, la fabrication alimentaire et la valeur ajoutée en Afrique."
+        },
+        "agriculturalSuppliers": {
+          "title": "Fournisseurs agricoles",
+          "description": "Matières premières appropriées et volonté de travailler selon les spécifications convenues."
+        },
+        "distributors": {
+          "title": "Distributeurs",
+          "description": "Détaillants, grossistes, distributeurs et importateurs intéressés par les produits alimentaires africains."
+        },
+        "buyers": {
+          "title": "Acheteurs",
+          "description": "Entreprises alimentaires et acheteurs intéressés par des discussions sur les produits ou les approvisionnements."
+        },
+        "strategicPartners": {
+          "title": "Partenaires industriels et stratégiques",
+          "description": "Capacités de transformation, d’emballage, de logistique, de technologie ou d’accès au marché."
+        }
+      },
+      "conversationEyebrow": "Démarrer une conversation",
+      "conversationHeading": "Renforçons ensemble les capacités alimentaires africaines.",
+      "conversationText": "Nous accueillons les personnes et les organisations qui peuvent apporter du capital, des capacités, de l'approvisionnement, de la technologie ou un accès au marché. Les montants des levées de fonds, les valorisations, les conditions des capitaux propres et les projections financières ne sont pas publiés.",
+      "conversationSubmitLabel": "Démarrer une conversation de partenariat",
+      "metadataTitle": "Investisseurs et partenaires",
+      "metadataDescription": "Discutez des partenariats avec les investisseurs, les fournisseurs agricoles, la distribution et la fabrication avec AcresxManna."
+    },
+    "whatWeDo": {
+      "eyebrow": "Ce que nous faisons",
+      "heading": "Nous transformons le potentiel agricole en produits alimentaires et en valeur commerciale.",
+      "intro": "Nous associons l’approvisionnement agricole à la transformation, à la fabrication, au développement de produits et à l’accès au marché.",
+      "capabilities": {
+        "agriculturalSourcing": {
+          "title": "Approvisionnement agricole",
+          "description": "Des relations d'approvisionnement fiables commencent par la compréhension de la qualité, de la disponibilité et de la saisonnalité des matières premières."
+        },
+        "aggregationAndSupply": {
+          "title": "Agrégation et gestion des approvisionnements",
+          "description": "La coordination des fournisseurs et des matériaux entrants permet d’aligner l’approvisionnement sur les besoins de production."
+        },
+        "agroProcessing": {
+          "title": "Transformation agroalimentaire",
+          "description": "Transformer les matières premières en produits alimentaires plus utiles, plus pratiques et plus rentables."
+        },
+        "foodManufacturing": {
+          "title": "Fabrication de produits alimentaires",
+          "description": "AcresxManna Ltd fabrique des produits alimentaires au Nigeria pour les marchés d'exportation."
+        },
+        "qualityAssurance": {
+          "title": "Assurance qualité",
+          "description": "Nous intégrons l’assurance qualité dans la production. Nous ne publions pas d'allégations de certification non vérifiées."
+        },
+        "productAndBrandDevelopment": {
+          "title": "Développement de produits et de marques",
+          "description": "AcresxManna vend ses produits sous HappyMan Foods ; Maluza Foods Co. développe des produits de boulangerie."
+        },
+        "distributionAndInternationalTrade": {
+          "title": "Distribution et commerce international",
+          "description": "L’exportation est notre voie actuelle vers le marché. Les destinations spécifiques des exportations ne sont pas publiées."
+        },
+        "contractManufacturing": {
+          "title": "Fabrication sous contrat et partenariats",
+          "description": "Contactez-nous pour discuter de partenariats potentiels. Les capacités, les quantités minimales de commande et les délais de livraison sont confirmés au cas par cas."
+        }
+      },
+      "closing": "Nous construisons une entreprise alimentaire africaine intégrée, et non un tas de pièces déconnectées.",
+      "cta": "Discutez d’un partenariat commercial",
+      "metadataTitle": "Ce que nous faisons",
+      "metadataDescription": "Comment AcresxManna relie l'approvisionnement agricole à la transformation, à la fabrication, au développement de produits et à l'accès au marché."
+    },
+    "newsInsights": {
+      "eyebrow": "Actualités et informations",
+      "heading": "Idées, progrès et perspectives façonnant l’alimentation africaine.",
+      "intro": "Suivez les développements, les partenariats et la réflexion derrière notre travail dans l’agroalimentaire, la fabrication alimentaire et la valeur ajoutée agricole.",
+      "categories": {
+        "companyNews": "Actualités de l'entreprise",
+        "productsAndInnovation": "Produits et innovations",
+        "industryInsights": "Aperçu de l'industrie",
+        "supplyChain": "Chaîne d'approvisionnement",
+        "globalTrade": "Commerce mondial"
+      },
+      "comingSoonEyebrow": "À venir",
+      "comingSoonText": "Nos premières histoires arrivent bientôt.",
+      "meantimeText": "En attendant, découvrez nos produits ou contactez notre équipe.",
+      "cta": "Contactez notre équipe",
+      "metadataTitle": "Actualités et informations",
+      "metadataDescription": "Suivez les développements, les partenariats et la réflexion derrière notre travail dans l’agroalimentaire, la fabrication alimentaire et la valeur ajoutée agricole."
+    },
+    "notFound": {
+      "eyebrow": "Page introuvable",
+      "heading": "Oups ! Cette page a fait un détour.",
+      "body": "La page que vous recherchez a été déplacée ou n’existe pas. Revenons à quelque chose de délicieux.",
+      "backHome": "Retour à la maison",
+      "exploreProducts": "Découvrez nos produits",
+      "contactUs": "Contactez-nous"
+    },
+    "thankYou": {
+      "metadataTitle": "Merci",
+      "metadataDescription": "Merci d'avoir contacté AcresxManna. Un membre de notre équipe lira votre message et vous répondra.",
+      "eyebrow": "Message reçu",
+      "heading": "Ouais, message reçu !",
+      "body": "Merci d'avoir contacté AcresxManna à propos de votre {type}. Un membre de notre équipe lira votre message et vous répondra.",
+      "bodyWithProduct": "Merci d'avoir contacté AcresxManna au sujet de votre {type} ({product}). Un membre de notre équipe lira votre message et vous répondra.",
+      "typeLabels": {
+        "product": "demande de produit",
+        "supply": "partenariat d’approvisionnement ou agricole",
+        "distribution": "demande de distribution ou de vente en gros",
+        "manufacturing": "demande de partenariat de fabrication",
+        "investment": "demande d'investissement",
+        "other": "enquête commerciale",
+        "supplier": "demande de fournisseur",
+        "distributor": "demande de distributeur",
+        "investor": "demande d'investisseur",
+        "fallback": "enquête"
+      },
+      "browseProducts": "Parcourez nos produits",
+      "readOurStory": "Lisez notre histoire",
+      "followOurNews": "Suivez notre actualité"
+    },
+    "contact": {
+      "metadataTitle": "Contact",
+      "metadataDescription": "Contactez-nous au sujet des produits, de l’approvisionnement, de la distribution, des partenariats de fabrication ou des investissements. AcresxManna répond sous deux jours ouvrés.",
+      "eyebrow": "Contacter AcresxManna",
+      "heading": "Les bons partenariats commencent par une conversation.",
+      "intro": "Que vous souhaitiez acheter nos produits, fournir des produits agricoles, distribuer nos marques, explorer des partenariats de fabrication ou discuter d'investissement, nous serions ravis d'avoir de vos nouvelles. Nous répondons sous deux jours ouvrés.",
+      "emailCta": "Envoyez un e-mail à notre équipe",
+      "whatsappCta": "WhatsApp",
+      "callUs": "Vous pouvez également appeler <phone>+234 804 700 0587</phone>.",
+      "emailLabel": "E-mail",
+      "formEyebrow": "Envoyez-nous un message",
+      "formHeading": "Dites-nous comment nous pouvons vous aider.",
+      "formBody": "Utilisez le formulaire pour envoyer votre demande et nous l'acheminerons à la bonne personne de notre équipe. Vous pouvez également nous joindre directement par email ou WhatsApp en utilisant les coordonnées ci-dessus.",
+      "submitLabel": "Envoyer un message"
+    },
+    "privacy": {
+      "metadataTitle": "politique de confidentialité",
+      "metadataDescription": "Comment AcresxManna collecte, utilise, stocke et protège les données personnelles des formulaires de contact, des demandes de renseignements et des inscriptions à la newsletter.",
+      "eyebrow": "politique de confidentialité",
+      "heading": "Comment nous traitons vos informations.",
+      "intro": "Dernière mise à jour : octobre 2026. Cette politique explique comment AcresxManna traite les informations personnelles collectées via ce site Web. Il est rédigé dans un langage simple et s'applique aux visiteurs au Nigeria, au Royaume-Uni et ailleurs.",
+      "whoWeAreHeading": "Qui nous sommes",
+      "whoWeAreBody": "AcresxManna Ltd est l'entité nigériane qui fabrique, signe des contrats clients et exporte des produits. UncleTobi.Shop est l'entité basée au Royaume-Uni qui facture les acheteurs et exploite un entrepôt et un bureau à Hertford, au Royaume-Uni. Ensemble, nous sommes les responsables du traitement des données soumises via ce site.",
+      "whoWeAreContact": "Pour toute question relative à la confidentialité, contactez-nous à <link>info@acresxmanna.com</link>.",
+      "collectHeading": "Ce que nous collectons",
+      "collectIntro": "Nous collectons uniquement les informations que vous choisissez de partager avec nous :",
+      "collectItem1": "Soumissions par formulaire de contact : nom, e-mail, entreprise ou organisation, type de demande et message.",
+      "collectItem2": "Applications des fournisseurs et des distributeurs : nom, nom de l'entreprise ou de la ferme, emplacement, produits, volumes et saisons estimés, et message.",
+      "collectItem3": "Demandes de produits : nom, e-mail, entreprise et message.",
+      "collectItem4": "Inscriptions à la newsletter : adresse e-mail uniquement.",
+      "collectItem5": "Données techniques telles que l'adresse IP, le type d'appareil et le navigateur, collectées automatiquement par des outils d'analyse uniquement après votre consentement.",
+      "whyHeading": "Pourquoi nous les collectons et sur quelle base",
+      "whyIntro": "Nous utilisons vos informations pour :",
+      "whyItem1": "Répondez à votre demande ou candidature.",
+      "whyItem2": "Gérer les partenariats commerciaux et d'approvisionnement.",
+      "whyItem3": "Envoyez les mises à jour de la newsletter uniquement lorsque vous avez demandé à les recevoir.",
+      "whyItem4": "Améliorez le site Web et comprenez comment il est utilisé.",
+      "whyItem5": "Respecter les obligations légales et réglementaires.",
+      "whyBasis": "Nous traitons ces informations sur la base de votre consentement (pour la newsletter et les analyses), de notre intérêt légitime à répondre aux demandes commerciales et de nos obligations légales.",
+      "shareHeading": "Avec qui nous le partageons",
+      "shareBody": "Nous ne vendons pas de données personnelles. Nous les partageons uniquement avec des prestataires de services agissant en notre nom, notamment des fournisseurs d'hébergement, de messagerie électronique, de CRM et d'analyse. Nous pouvons également partager des informations avec des conseillers professionnels ou des autorités lorsque la loi l'exige.",
+      "transfersHeading": "Virements internationaux",
+      "transfersBody": "Vos informations peuvent être traitées au Nigeria, au Royaume-Uni et dans d'autres pays où nos prestataires de services opèrent. Nous utilisons des mesures de protection appropriées pour protéger vos informations lorsqu'elles sont transférées au-delà des frontières.",
+      "retentionHeading": "Combien de temps on le garde",
+      "retentionBody": "Nous conservons les dossiers de demandes et de candidatures aussi longtemps que nécessaire pour gérer la relation et respecter les obligations légales. Les enregistrements de la newsletter sont conservés jusqu'à votre désinscription. Nous examinons et supprimons régulièrement les données personnelles lorsqu’elles ne sont plus nécessaires.",
+      "securityHeading": "Sécurité",
+      "securityBody": "Nous utilisons des mesures techniques et organisationnelles raisonnables pour protéger vos informations, notamment un hébergement sécurisé, des contrôles d'accès et des examens réguliers. Aucune méthode de transmission sur Internet n'est totalement sécurisée, mais nous nous efforçons de protéger vos données au mieux de nos capacités.",
+      "rightsHeading": "Vos droits",
+      "rightsBody": "Selon votre lieu de résidence, vous disposez d'un droit d'accès, de rectification, de suppression, d'opposition ou de limitation du traitement de vos données personnelles, ainsi que de retrait de votre consentement à tout moment. Pour exercer ces droits, contactez-nous à <link>info@acresxmanna.com</link>.",
+      "complaintsHeading": "Plaintes",
+      "complaintsBody": "Si vous n'êtes pas satisfait de la façon dont nous traitons vos informations, vous pouvez nous contacter à <link>info@acresxmanna.com</link>. Vous pouvez également avoir le droit de porter plainte auprès d'une autorité de protection des données de votre pays.",
+      "cookiesHeading": "Les cookies et les enfants",
+      "cookiesBody": "Pour plus d'informations sur les cookies, consultez notre <link>Politique en matière de cookies</link>. Ce site Web n'est pas destiné aux enfants et nous ne collectons pas sciemment de données personnelles auprès des enfants.",
+      "changesHeading": "Modifications de cette politique",
+      "changesBody": "Nous pouvons mettre à jour cette politique de temps à autre. Lorsque nous le ferons, nous mettrons à jour la date en haut de cette page et, le cas échéant, nous vous en informerons par e-mail ou via le site Web."
+    },
+    "terms": {
+      "metadataTitle": "Conditions d'utilisation",
+      "metadataDescription": "Conditions régissant l'utilisation du site Web AcresxManna, y compris l'utilisation acceptable, la propriété intellectuelle et les clauses de non-responsabilité.",
+      "eyebrow": "Conditions d'utilisation",
+      "heading": "Conditions d'utilisation",
+      "intro": "Dernière mise à jour : octobre 2026. Ces conditions régissent votre utilisation du site Web AcresxManna. En accédant ou en utilisant ce site, vous acceptez ces conditions.",
+      "useHeading": "Qui peut utiliser le site",
+      "useBody": "Ce site Internet est destiné aux entreprises et aux particuliers intéressés par les produits, services et partenariats de AcresxManna. Vous pouvez utiliser le site uniquement à des fins licites et conformément aux présentes conditions.",
+      "acceptableHeading": "Utilisation acceptable et interdite",
+      "acceptableIntro": "Vous ne pouvez pas :",
+      "acceptableItem1": "Utiliser le site à des fins illégales ou d'une manière qui pourrait endommager, désactiver ou détériorer le site.",
+      "acceptableItem2": "Tenter d'obtenir un accès non autorisé au site, à ses systèmes ou à ses données.",
+      "acceptableItem3": "Utilisez des outils automatisés pour récupérer, copier ou reproduire du contenu sans autorisation.",
+      "acceptableItem4": "Soumettez des informations fausses, trompeuses ou nuisibles via n’importe quel formulaire du site.",
+      "ipHeading": "Propriété intellectuelle",
+      "ipBody": "Tout le contenu de ce site Web, y compris les textes, logos, images, graphiques et logiciels, appartient à AcresxManna ou à ses concédants de licence et est protégé par les lois sur la propriété intellectuelle. Vous pouvez visualiser et partager du contenu pour un usage personnel et non commercial, mais vous ne pouvez pas le reproduire, le modifier ou le distribuer sans notre autorisation écrite.",
+      "accuracyHeading": "Exactitude des informations",
+      "accuracyBody": "Le contenu de ce site est fourni à titre d'information générale uniquement et peut changer sans préavis. Il ne s'agit pas d'une offre de vente ni d'une garantie de disponibilité des produits. Les informations sur le produit, les spécifications et la disponibilité sont indicatives jusqu'à confirmation écrite par AcresxManna.",
+      "linksHeading": "Liens vers des sites Web tiers",
+      "linksBody": "Ce site peut contenir des liens vers des sites Web de tiers, notamment des sites Web de marques et des réseaux sociaux. Nous ne sommes pas responsables du contenu ou des pratiques de ces sites.",
+      "liabilityHeading": "Limitation de responsabilité",
+      "liabilityBody": "Dans toute la mesure permise par la loi, AcresxManna n'est pas responsable des dommages directs, indirects, accessoires ou consécutifs découlant de votre utilisation ou de votre incapacité à utiliser ce site Web. Cela n’exclut ni ne limite la responsabilité là où la loi l’interdit.",
+      "governingLawHeading": "Loi applicable",
+      "governingLawBody": "Ces conditions sont régies par les lois du Nigeria et du Royaume-Uni, selon le cas. Les litiges seront traités devant les tribunaux appropriés.",
+      "contactHeading": "Contact",
+      "contactBody": "Pour toute question concernant ces conditions, contactez-nous à <link>info@acresxmanna.com</link>."
+    },
+    "cookies": {
+      "metadataTitle": "Politique en matière de cookies",
+      "metadataDescription": "Informations sur les cookies et technologies similaires utilisés sur le site AcresxManna et comment les gérer.",
+      "eyebrow": "Politique en matière de cookies",
+      "heading": "Cookies et technologies similaires.",
+      "intro": "Dernière mise à jour : octobre 2026. Cette politique explique ce que sont les cookies, lesquels nous utilisons et comment vous pouvez les gérer.",
+      "whatAreCookiesHeading": "Que sont les cookies ?",
+      "whatAreCookiesBody": "Les cookies sont de petits fichiers texte stockés sur votre appareil lorsque vous visitez un site Web. Ils aident le site Web à mémoriser vos préférences et à comprendre comment le site est utilisé. Des technologies similaires incluent le stockage local et les balises pixel.",
+      "tableHeading": "Les cookies que nous utilisons",
+      "tableName": "Nom",
+      "tablePurpose": "But",
+      "tableType": "Taper",
+      "tableDuration": "Durée",
+      "essentialName": "Cookies essentiels",
+      "essentialPurpose": "Nécessaire au fonctionnement du site, par exemple pour mémoriser votre choix de consentement aux cookies et vos paramètres régionaux.",
+      "essentialType": "Essentiel",
+      "essentialDuration": "1 an",
+      "analyticsName": "Cookies d'analyse",
+      "analyticsPurpose": "Utilisé pour comprendre comment les visiteurs utilisent le site, y compris les pages visitées et les sources de trafic. À définir uniquement après votre consentement.",
+      "analyticsType": "Analytique",
+      "analyticsDuration": "Varie",
+      "essentialVsOptionalHeading": "Cookies essentiels ou facultatifs",
+      "essentialVsOptionalBody": "Les cookies essentiels sont nécessaires au fonctionnement du site Web et ne peuvent pas être désactivés. Les cookies d'analyse facultatifs ne sont utilisés que lorsque vous donnez votre consentement via notre bannière de cookies.",
+      "consentHeading": "Comment nous traitons le consentement",
+      "consentBody": "Lors de votre première visite sur le site, vous verrez une bannière de cookies. Vous pouvez choisir d'accepter tous les cookies, d'accepter uniquement les cookies essentiels ou de gérer vos paramètres. Vous pouvez modifier votre choix à tout moment en utilisant le lien Paramètres des cookies en pied de page.",
+      "blockDeleteHeading": "Comment bloquer ou supprimer les cookies",
+      "blockDeleteBody": "Vous pouvez bloquer ou supprimer les cookies via les paramètres de votre navigateur. Veuillez noter que le blocage des cookies essentiels peut affecter la fonctionnalité du site Web.",
+      "contactHeading": "Contact",
+      "contactBody": "Pour toute question concernant cette politique en matière de cookies, contactez-nous à <link>info@acresxmanna.com</link>."
+    }
+  },
+  "brandStatus": {
+    "active": "Actif",
+    "comingSoon": "À venir",
+    "live": "En direct"
+  },
+  "locations": {
+    "factory": "Usine",
+    "nigerianOffice": "Bureau nigérian",
+    "ukWarehouse": "Entrepôt et bureau au Royaume-Uni"
+  },
+  "chrome": {
+    "logoAria": "AcresxManna Accueil",
+    "logoAlt": "Logo AcresxManna",
+    "languages": {
+      "en": "Anglais",
+      "fr": "Français",
+      "tw": "Twi",
+      "es": "espagnol",
+      "ru": "russe",
+      "pt": "Portugais",
+      "de": "Allemand",
+      "it": "Italien",
+      "ar": "العربية",
+      "nl": "Pays-Bas",
+      "zh-CN": "简体中文"
+    }
+  },
+  "forms": {
+    "nameLabel": "Nom et prénom",
+    "emailLabel": "Adresse email",
+    "companyLabel": "Nom de l'entreprise (facultatif)",
+    "enquiryTypeLabel": "Type de demande",
+    "productLabel": "Nom du produit",
+    "messageLabel": "Votre message",
+    "messagePlaceholder": "Parlez-nous de vos besoins...",
+    "honeypotLabel": "Site Web (laisser vide)",
+    "privacyConsent": "En soumettant ce formulaire, vous acceptez notre politique {privacy}.",
+    "errorName": "Veuillez entrer votre nom",
+    "errorEmail": "Veuillez entrer votre email",
+    "errorEmailFormat": "S'il vous plaît, mettez une adresse email valide",
+    "errorMessage": "Veuillez saisir un message (au moins 10 caractères)",
+    "errorSend": "Quelque chose s'est mal passé. Veuillez réessayer.",
+    "sending": "Envoi...",
+    "sendMessage": "Envoyer un message",
+    "options": {
+      "product": "Demande de produit",
+      "supply": "Partenariat d'approvisionnement",
+      "distribution": "Distribution",
+      "manufacturing": "Fabrication",
+      "investment": "Investissement",
+      "other": "Autre"
+    }
+  },
+  "enquiry": {
+    "whatToInclude": "Que faut-il inclure",
+    "howItWorks": "Comment ça marche",
+    "apply": "Postulez maintenant",
+    "startConversation": "Démarrer une conversation",
+    "formIntroBody": "Remplissez le formulaire et notre équipe vous répondra dans les 48 heures."
+  },
+  "ui": {
+    "cookieConsent": {
+      "title": "Nous apprécions votre confidentialité",
+      "description": "Nous utilisons des cookies pour améliorer votre expérience. En poursuivant votre navigation sur ce site, vous acceptez notre utilisation des cookies.",
+      "accept": "Accepter",
+      "decline": "Déclin",
+      "settings": "Paramètres des cookies",
+      "dialogLabel": "Consentement aux cookies",
+      "essentialOnly": "Essentiel uniquement",
+      "acceptAll": "Acceptez tout"
     }
   }
 }
