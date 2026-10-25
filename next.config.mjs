@@ -1,3 +1,4 @@
+import { fileURLToPath } from "node:url";
 import createNextIntlPlugin from 'next-intl/plugin';
 
 const withNextIntl = createNextIntlPlugin('./i18n/request.ts');
@@ -5,6 +6,11 @@ const withNextIntl = createNextIntlPlugin('./i18n/request.ts');
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
+  // A pnpm-workspace.yaml in the home directory otherwise makes Turbopack
+  // guess a root above this repo and warn on every start.
+  turbopack: {
+    root: fileURLToPath(new URL(".", import.meta.url)),
+  },
   async redirects() {
     const localePrefixes = [
       "",

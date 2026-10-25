@@ -204,6 +204,7 @@ export function Hero() {
                     src="/images/processing/palm-oil-bottling-wide.jpg"
                     alt={t("heroImageAlt")}
                     fill
+                    priority
                     sizes="(max-width: 640px) 100vw, 480px"
                     className="object-cover object-center transition-transform duration-700 hover:scale-105"
                     wrapperClassName="h-full w-full"

@@ -41,3 +41,6 @@ page*.png
 page*.svg
 test_logo_*
 
+
+# local dev/server logs
+*.log

@@ -107,7 +107,7 @@ export function Button(props: ButtonProps) {
       };
 
   if (props.href) {
-    const MotionLink = motion(Link);
+    const MotionLink = motion.create(Link);
     return (
       <MotionLink
         href={props.href}

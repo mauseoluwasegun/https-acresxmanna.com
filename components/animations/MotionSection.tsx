@@ -74,7 +74,7 @@ export function ScrollReveal({
   noBlur?: boolean;
 }) {
   const reduce = useReducedMotion();
-  const MotionTag = motion(as as keyof typeof motion);
+  const MotionTag = motion.create(as as keyof typeof motion);
 
   return (
     <MotionTag
