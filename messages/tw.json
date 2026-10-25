@@ -25,7 +25,12 @@
     "letsTalk": "Momma Yɛnkasa",
     "openMenu": "Bue menu no mu",
     "mobileAria": "Mobile akwantuo a wɔde fa so",
-    "closeMenu": "To menu no mu"
+    "closeMenu": "To menu no mu",
+    "brands": "Yɛn Brands no",
+    "infrastructure": "Nneɛma a wɔde yɛ adwuma",
+    "globalMarkets": "Wiase Nyinaa Guadidan ahorow",
+    "investorsPartners": "Sikakorabea ne Ahokafo",
+    "newsInsights": "Nsɛm ne Nhumu"
   },
   "hero": {
     "eyebrow": "AcresxManna · Agrofood Kuw",
@@ -568,27 +573,27 @@
       "cta": "Hwehwɛ yɛn brands mu",
       "items": {
         "africanFoodKing": {
-          "status": "asɔ",
+          "status": "active",
           "description": "Afrikafo nnuan a ɛyɛ nokware a ɛde aduannoa ho atetesɛm a ɛyɛ hyew ne tii a ɛyɛ fɛ brɛ wiase nyinaa adetɔfo.",
           "alt": "African Food King aban ahyɛnsode ahyɛnsode"
         },
         "uncleTobi": {
-          "status": "reba seesei ara",
+          "status": "comingSoon",
           "description": "Intanɛt so aduan ho adwene a ɛka wɔn a wɔde nneɛma ma no bom ma wɔde kɔ aguadidan ne amanaman ntam.",
           "alt": "UncleTobi intanɛt so aduannoa adwene logo"
         },
         "ijgbFoods": {
-          "status": "asɔ",
+          "status": "active",
           "description": "Afrikafo nnuan a wɔde di agoru a wiase nyinaa swagger — a ɛma aguadi yɛ mmerɛw na ɛka nneɛma a ɛyɛ papa bom wɔ gua ahorow so.",
           "alt": "IJGB Foods ahyɛnsodeɛ ahyɛnsodeɛ"
         },
         "happyManFoods": {
-          "status": "asɔ",
+          "status": "active",
           "description": "Flagship brand AcresxManna de di dwuma de tɔn na wɔkyekyɛ ne nneɛma nyinaa.",
           "alt": "HappyMan Foods ahyɛnsode"
         },
         "maluzaFoods": {
-          "status": "te ase",
+          "status": "live",
           "description": "Aguadidan bi a wɔyɛ paanoo a wɔreyɛ nneɛma foforo na wɔrebue aguadidan ahorow wɔ Ibadan ne ne mpɔtam.",
           "alt": "Maluza Foods Co. ahyɛnsode"
         }

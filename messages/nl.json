@@ -25,7 +25,12 @@
     "letsTalk": "Laten we praten",
     "openMenu": "Menu openen",
     "mobileAria": "Mobiele navigatie",
-    "closeMenu": "Menu sluiten"
+    "closeMenu": "Menu sluiten",
+    "brands": "Onze merken",
+    "infrastructure": "Infrastructuur",
+    "globalMarkets": "Mondiale markten",
+    "investorsPartners": "Investeerders en partners",
+    "newsInsights": "Nieuws en inzichten"
   },
   "hero": {
     "eyebrow": "AcresxManna · Afrikaanse landbouwverwerking",
@@ -592,22 +597,22 @@
       "cta": "Ontdek onze merken",
       "items": {
         "africanFoodKing": {
-          "status": "actief",
+          "status": "active",
           "description": "Authentieke Afrikaanse voedingsproducten die levendige culinaire tradities en premium theelijnen naar de wereldwijde consument brengen.",
           "alt": "African Food King officieel merklogo"
         },
         "uncleTobi": {
-          "status": "binnenkort beschikbaar",
+          "status": "comingSoon",
           "description": "Een online boodschappenconcept dat leveranciers samenbrengt voor retail en internationale bezorging.",
           "alt": "UncleTobi online boodschappenconcept-logo"
         },
         "ijgbFoods": {
-          "status": "actief",
+          "status": "active",
           "description": "Afrikaanse snacks met mondiale branie – die de handel vergemakkelijken en kwaliteitsproducten op verschillende markten met elkaar verbinden.",
           "alt": "IJGB Foods-merklogo"
         },
         "happyManFoods": {
-          "status": "actief",
+          "status": "active",
           "description": "Het vlaggenschipmerk AcresxManna gebruikt om al zijn producten te verkopen en distribueren.",
           "alt": "HappyMan Foods-logo"
         },

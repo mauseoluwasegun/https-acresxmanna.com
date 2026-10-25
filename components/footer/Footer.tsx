@@ -38,7 +38,7 @@ export function Footer() {
       <SectionContainer size="wide">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-12 gap-10 lg:gap-8 pb-14">
           {/* Column 1: Brand, tagline, social */}
-          <div className="lg:col-span-4 pr-0 lg:pr-8">
+          <div className="lg:col-span-4 pe-0 lg:pe-8">
             <Link href="/" className="inline-block group" aria-label={t("brandHomeAria")}>
               <img
                 src="/brand/acres-manna-wordmark-white.png"

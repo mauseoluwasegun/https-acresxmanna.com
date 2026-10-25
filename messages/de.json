@@ -25,7 +25,12 @@
     "letsTalk": "Lass uns reden",
     "openMenu": "Menü öffnen",
     "mobileAria": "Mobile Navigation",
-    "closeMenu": "Menü schließen"
+    "closeMenu": "Menü schließen",
+    "brands": "Unsere Marken",
+    "infrastructure": "Infrastruktur",
+    "globalMarkets": "Globale Märkte",
+    "investorsPartners": "Investoren und Partner",
+    "newsInsights": "Neuigkeiten und Einblicke"
   },
   "hero": {
     "eyebrow": "AcresxManna · Afrikanische Agrarverarbeitung",
@@ -592,22 +597,22 @@
       "cta": "Entdecken Sie unsere Marken",
       "items": {
         "africanFoodKing": {
-          "status": "aktiv",
+          "status": "active",
           "description": "Authentische afrikanische Lebensmittelprodukte bringen lebendige kulinarische Traditionen und erstklassige Teelinien zu Verbrauchern auf der ganzen Welt.",
           "alt": "African Food King offizielles Markenlogo"
         },
         "uncleTobi": {
-          "status": "kommt bald",
+          "status": "comingSoon",
           "description": "Ein Online-Lebensmittelkonzept, das Lieferanten für den Einzelhandel und die internationale Lieferung zusammenfasst.",
           "alt": "UncleTobi Logo des Online-Lebensmittelkonzepts"
         },
         "ijgbFoods": {
-          "status": "aktiv",
+          "status": "active",
           "description": "Afrikanische Snacks mit globalem Anspruch – sie erleichtern den Handel und verbinden hochwertige Waren über alle Märkte hinweg.",
           "alt": "IJGB Foods Markenlogo"
         },
         "happyManFoods": {
-          "status": "aktiv",
+          "status": "active",
           "description": "Die Flaggschiffmarke AcresxManna verkauft und vertreibt alle seine Produkte.",
           "alt": "HappyMan Foods-Logo"
         },

@@ -12,30 +12,35 @@ const brands = [
     name: "African Food King",
     image: "/images/brands/african-food-king-logo.png",
     fit: "contain",
+    status: "active",
   },
   {
     id: "uncleTobi",
     name: "UncleTobi",
     image: "/images/brands/uncletobi-logo.png",
     fit: "contain",
+    status: "comingSoon",
   },
   {
     id: "ijgbFoods",
     name: "IJGB Foods",
     image: "/images/brands/ijgb-foods-logo.png",
     fit: "contain",
+    status: "active",
   },
   {
     id: "happyManFoods",
     name: "HappyMan Foods",
     image: "/images/brands/happyman-foods-logo.svg",
     fit: "contain",
+    status: "active",
   },
   {
     id: "maluzaFoods",
     name: "Maluza Foods Co.",
     image: "/images/brands/maluza-foods-logo.svg",
     fit: "contain",
+    status: "live",
   },
 ] as const;
 
@@ -86,7 +91,7 @@ export async function BrandsSection() {
                   />
                   <div className="absolute top-4 left-4">
                     <span className="rounded-full bg-white/90 px-3 py-1 font-mono text-xs font-bold uppercase tracking-wider text-purple-700 shadow-sm backdrop-blur-sm">
-                      {tStatus(t(`items.${brand.id}.status`))}
+                      {tStatus(brand.status)}
                     </span>
                   </div>
                 </div>

@@ -206,3 +206,16 @@
     opacity: 0.06;
   }
 }
+
+/* Arabic is a connected script — the Latin tracking scale (0.08em–0.2em on
+   eyebrows, nav and headings) visually breaks letter joins, so RTL pages drop
+   letter-spacing entirely. Everything else still follows the Latin scale. */
+html[dir="rtl"] body,
+html[dir="rtl"] body * {
+  letter-spacing: normal !important;
+}
+
+/* Keep Arabic numerals and inline Latin brand names reading naturally. */
+html[dir="rtl"] .font-mono {
+  font-family: var(--font-sans), ui-sans-serif, system-ui, sans-serif;
+}

@@ -16,7 +16,12 @@ const NAV_KEY_MAP: Record<string, string> = {
   "/about": "about",
   "/what-we-do": "whatWeDo",
   "/products": "products",
+  "/our-brands": "brands",
+  "/infrastructure": "infrastructure",
   "/impact": "impact",
+  "/global-markets": "globalMarkets",
+  "/investors-partners": "investorsPartners",
+  "/news-insights": "newsInsights",
   "/contact": "contact",
 };
 
@@ -94,7 +99,7 @@ export function Navbar({ onOpenMenu }: { onOpenMenu: () => void }) {
                 <span
                   aria-hidden
                   className={cn(
-                    "absolute left-0 -bottom-0.5 h-[2px] w-0 transition-all duration-300 ease-spring group-hover:w-full",
+                    "absolute start-0 -bottom-0.5 h-[2px] w-0 transition-all duration-300 ease-spring group-hover:w-full",
                     active ? "w-full" : "",
                     isLight ? "bg-mango-400" : "bg-terracotta-500",
                   )}
@@ -117,12 +122,13 @@ export function Navbar({ onOpenMenu }: { onOpenMenu: () => void }) {
               {t("more")}
               <span
                 aria-hidden
-                className="ml-1 inline-block border-b-2 border-r-2 border-current p-[2px] align-[3px] rotate-45"
+                className="ms-1 inline-block border-b-2 border-e-2 border-current p-[2px] align-[3px] rotate-45 rtl:-rotate-45"
               />
             </summary>
-            <div className="absolute right-0 top-full z-50 mt-3 w-60 rounded-soft-lg border border-cream-100 bg-cream-50 p-2 shadow-card">
+            <div className="absolute end-0 top-full z-50 mt-3 w-60 rounded-soft-lg border border-cream-100 bg-cream-50 p-2 shadow-card">
               {MORE_NAV_LINKS.map((link) => {
                 const active = pathname === link.href || pathname?.startsWith(link.href);
+                const navKey = NAV_KEY_MAP[link.href];
 
                 return (
                   <Link
@@ -134,7 +140,7 @@ export function Navbar({ onOpenMenu }: { onOpenMenu: () => void }) {
                       active ? "text-terracotta-600" : "text-charcoal-900",
                     )}
                   >
-                    {link.label}
+                    {navKey ? t(navKey as any) : link.label}
                   </Link>
                 );
               })}
@@ -319,7 +325,7 @@ export function MobileMenu({
               paddingTop: "env(safe-area-inset-top)",
               paddingBottom: "env(safe-area-inset-bottom)",
             }}
-            className="fixed inset-y-0 right-0 z-[90] flex w-[86%] max-w-[380px] flex-col overflow-hidden bg-cream-100 shadow-[-30px_0_70px_-35px_rgba(26,26,26,0.5)]"
+            className="fixed inset-y-0 end-0 z-[90] flex w-[86%] max-w-[380px] flex-col overflow-hidden bg-cream-100 shadow-[-30px_0_70px_-35px_rgba(26,26,26,0.5)] rtl:shadow-[30px_0_70px_-35px_rgba(26,26,26,0.5)]"
           >
             <div
               aria-hidden
@@ -372,7 +378,7 @@ export function MobileMenu({
                       transition={{ duration: 0.28, ease: "easeInOut" }}
                       className="overflow-hidden"
                     >
-                      <div className="ml-5 border-l border-cream-50 pl-1">
+                      <div className="ms-5 border-s border-cream-50 ps-1">
                         {MORE_NAV_LINKS.map((link) => renderNavLink(link, true))}
                       </div>
                     </motion.div>

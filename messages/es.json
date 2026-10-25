@@ -25,7 +25,12 @@
     "letsTalk": "hablemos",
     "openMenu": "abrir menú",
     "mobileAria": "Navegación móvil",
-    "closeMenu": "Cerrar menú"
+    "closeMenu": "Cerrar menú",
+    "brands": "Nuestras marcas",
+    "infrastructure": "Infraestructura",
+    "globalMarkets": "Mercados globales",
+    "investorsPartners": "Inversores y socios",
+    "newsInsights": "Noticias y perspectivas"
   },
   "hero": {
     "eyebrow": "AcresxManna · Agroprocesamiento Africano",
@@ -586,27 +591,27 @@
       "cta": "Explora nuestras marcas",
       "items": {
         "africanFoodKing": {
-          "status": "activo",
+          "status": "active",
           "description": "Auténticos productos alimenticios africanos que aportan vibrantes tradiciones culinarias y líneas de té premium a los consumidores globales.",
           "alt": "Logotipo oficial de la marca African Food King."
         },
         "uncleTobi": {
-          "status": "muy pronto",
+          "status": "comingSoon",
           "description": "Un concepto de comestibles en línea que agrega proveedores para venta minorista y entrega internacional.",
           "alt": "Logotipo del concepto de comestibles en línea UncleTobi"
         },
         "ijgbFoods": {
-          "status": "activo",
+          "status": "active",
           "description": "Bocadillos africanos con arrogancia global: facilitando el comercio y conectando productos de calidad en todos los mercados.",
           "alt": "Logotipo de la marca IJGB Foods"
         },
         "happyManFoods": {
-          "status": "activo",
+          "status": "active",
           "description": "La marca insignia AcresxManna utiliza para vender y distribuir todos sus productos.",
           "alt": "Logotipo HappyMan Foods"
         },
         "maluzaFoods": {
-          "status": "vivir",
+          "status": "live",
           "description": "Una panadería comercial que desarrolla nuevos productos y abre puestos minoristas en Ibadan y sus alrededores.",
           "alt": "Logotipo Maluza Foods Co."
         }

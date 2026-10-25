@@ -2,7 +2,8 @@
 
 import { useLocale } from "next-intl";
 import { usePathname, useRouter } from "@/i18n/routing";
-import { useState, useRef, useEffect } from "react";
+import { useSearchParams } from "next/navigation";
+import { useState, useRef, useEffect, useTransition } from "react";
 import { cn } from "@/lib/utils";
 
 // Language names are shown in their own language (endonyms) so the menu is
@@ -25,7 +26,9 @@ export function LanguageSwitcher({ isLight, dropUp }: { isLight?: boolean; dropU
   const locale = useLocale();
   const router = useRouter();
   const pathname = usePathname();
+  const searchParams = useSearchParams();
   const [isOpen, setIsOpen] = useState(false);
+  const [isPending, startTransition] = useTransition();
   const dropdownRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
@@ -38,18 +41,20 @@ export function LanguageSwitcher({ isLight, dropUp }: { isLight?: boolean; dropU
     return () => document.removeEventListener("mousedown", handleClickOutside);
   }, []);
 
+  // Locale switches go through next-intl's router so the page swaps in place.
+  // A full `window.location` reload left the old language on screen until the
+  // new locale finished compiling, which read as "the switcher does nothing".
   const switchLanguage = (newLocale: string) => {
+    if (newLocale === locale) {
+      setIsOpen(false);
+      return;
+    }
     setIsOpen(false);
-    // Set cookie for next-intl
-    document.cookie = `NEXT_LOCALE=${newLocale}; path=/; max-age=31536000; SameSite=Lax`;
-    
-    // Get the current path without locale prefix
-    let cleanPath = pathname || "/";
-    if (cleanPath === "") cleanPath = "/";
-    
-    // Construct target URL
-    const targetUrl = newLocale === "en" ? cleanPath : `/${newLocale}${cleanPath === "/" ? "" : cleanPath}`;
-    window.location.href = targetUrl;
+    const query = searchParams?.toString();
+    const href = query ? `${pathname || "/"}?${query}` : pathname || "/";
+    startTransition(() => {
+      router.replace(href, { locale: newLocale });
+    });
   };
 
   const currentLang = languages.find((lang) => lang.code === locale) || languages[0];
@@ -58,8 +63,12 @@ export function LanguageSwitcher({ isLight, dropUp }: { isLight?: boolean; dropU
     <div className="relative" ref={dropdownRef}>
       <button
         onClick={() => setIsOpen(!isOpen)}
+        aria-busy={isPending}
+        aria-haspopup="menu"
+        aria-expanded={isOpen}
         className={cn(
           "flex items-center gap-2 px-3 py-2 text-sm font-bold tracking-wide transition-colors rounded-soft",
+          isPending && "opacity-60",
           isLight
             ? "text-white hover:bg-white/10"
             : "text-charcoal-900 hover:bg-charcoal-900/5 hover:text-terracotta-600"
@@ -78,7 +87,7 @@ export function LanguageSwitcher({ isLight, dropUp }: { isLight?: boolean; dropU
       {isOpen && (
         <div
           className={cn(
-            "absolute right-0 w-48 bg-white border border-charcoal-900/10 rounded-soft-lg shadow-xl overflow-hidden z-50",
+            "absolute end-0 w-48 bg-white border border-charcoal-900/10 rounded-soft-lg shadow-xl overflow-hidden z-50",
             dropUp ? "bottom-full mb-2" : "mt-2"
           )}
         >
@@ -88,7 +97,7 @@ export function LanguageSwitcher({ isLight, dropUp }: { isLight?: boolean; dropU
                 key={lang.code}
                 onClick={() => switchLanguage(lang.code)}
                 className={cn(
-                  "w-full text-left px-4 py-2 text-sm flex items-center gap-3 transition-colors",
+                  "w-full text-start px-4 py-2 text-sm flex items-center gap-3 transition-colors",
                   locale === lang.code
                     ? "bg-cream-100 text-terracotta-600 font-bold"
                     : "text-charcoal-700 hover:bg-cream-50 hover:text-charcoal-900"

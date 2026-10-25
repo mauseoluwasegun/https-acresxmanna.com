@@ -25,7 +25,12 @@
     "letsTalk": "Vamos conversar",
     "openMenu": "Abrir menu",
     "mobileAria": "Navegação móvel",
-    "closeMenu": "Fechar menu"
+    "closeMenu": "Fechar menu",
+    "brands": "Nossas marcas",
+    "infrastructure": "Infraestrutura",
+    "globalMarkets": "Mercados globais",
+    "investorsPartners": "Investidores e parceiros",
+    "newsInsights": "Notícias e insights"
   },
   "hero": {
     "eyebrow": "AcresxManna · Agro-Processamento Africano",
@@ -592,27 +597,27 @@
       "cta": "Explore nossas marcas",
       "items": {
         "africanFoodKing": {
-          "status": "ativo",
+          "status": "active",
           "description": "Produtos alimentares africanos autênticos que trazem tradições culinárias vibrantes e linhas de chá premium aos consumidores globais.",
           "alt": "Logotipo oficial da marca African Food King"
         },
         "uncleTobi": {
-          "status": "em breve",
+          "status": "comingSoon",
           "description": "Um conceito de mercearia online que agrega fornecedores para varejo e entrega internacional.",
           "alt": "Logotipo do conceito de mercearia on-line UncleTobi"
         },
         "ijgbFoods": {
-          "status": "ativo",
+          "status": "active",
           "description": "Petiscos africanos com arrogância global — facilitando o comércio e conectando produtos de qualidade entre mercados.",
           "alt": "Logotipo da marca IJGB Foods"
         },
         "happyManFoods": {
-          "status": "ativo",
+          "status": "active",
           "description": "A marca carro-chefe AcresxManna usa para vender e distribuir todos os seus produtos.",
           "alt": "Logotipo HappyMan Foods"
         },
         "maluzaFoods": {
-          "status": "ao vivo",
+          "status": "live",
           "description": "Uma padaria comercial que desenvolve novos produtos e abre barracas de varejo em Ibadan e arredores.",
           "alt": "Logotipo Maluza Foods Co."
         }

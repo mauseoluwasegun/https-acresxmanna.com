@@ -11,7 +11,7 @@ import { PRODUCTS } from "@/lib/products";
 import { EnquiryForm } from "@/components/forms/EnquiryForm";
 
 type ProductPageProps = {
-  params: Promise<{ slug: string }>;
+  params: Promise<{ slug: string; locale: string }>;
 };
 
 export function generateStaticParams() {
@@ -21,16 +21,21 @@ export function generateStaticParams() {
 export async function generateMetadata({
   params,
 }: ProductPageProps): Promise<Metadata> {
-  const { slug } = await params;
+  const { slug, locale } = await params;
   const product = PRODUCTS.find((item) => item.slug === slug);
 
   if (!product) {
     return { title: "Product not found" };
   }
 
+  // Read the card copy in the active locale so translated pages do not ship
+  // English titles and descriptions in their metadata.
+  const tProducts = await getTranslations({ locale, namespace: "pages.products.items" });
+  const name = tProducts(`${product.id}.name`);
+
   return {
-    title: product.name,
-    description: `${product.name} from AcresxManna. ${product.description}`,
+    title: name,
+    description: `${name} — ${tProducts(`${product.id}.description`)}`,
   };
 }
 
@@ -44,7 +49,9 @@ export default async function ProductDetailPage({ params }: ProductPageProps) {
 
   const t = await getTranslations("pages.productDetail");
   const tProducts = await getTranslations("pages.products.items");
+  const tNav = await getTranslations("nav");
   const name = tProducts(`${product.id}.name`);
+  const description = tProducts(`${product.id}.description`);
   const varieties = product.varieties
     ? (tProducts.raw(`${product.id}.varieties`) as string[])
     : undefined;
@@ -61,8 +68,8 @@ export default async function ProductDetailPage({ params }: ProductPageProps) {
     {
       "@context": "https://schema.org",
       "@type": "Product",
-      name: product.name,
-      description: product.description,
+      name,
+      description,
       brand: {
         "@type": "Brand",
         name: "HappyMan Foods",
@@ -75,19 +82,19 @@ export default async function ProductDetailPage({ params }: ProductPageProps) {
         {
           "@type": "ListItem",
           position: 1,
-          name: "Home",
+          name: tNav("home"),
           item: SITE_URL,
         },
         {
           "@type": "ListItem",
           position: 2,
-          name: "Products",
+          name: tNav("products"),
           item: `${SITE_URL}/products`,
         },
         {
           "@type": "ListItem",
           position: 3,
-          name: product.name,
+          name,
           item: `${SITE_URL}/products/${product.slug}`,
         },
       ],

@@ -25,7 +25,12 @@
     "letsTalk": "Parlons",
     "openMenu": "Ouvrir le menu",
     "mobileAria": "Navigation mobile",
-    "closeMenu": "Fermer le menu"
+    "closeMenu": "Fermer le menu",
+    "brands": "Nos marques",
+    "infrastructure": "Infrastructure",
+    "globalMarkets": "Marchés mondiaux",
+    "investorsPartners": "Investisseurs et partenaires",
+    "newsInsights": "Actualités et informations"
   },
   "hero": {
     "eyebrow": "AcresxManna · Agro-transformation africaine",
@@ -584,27 +589,27 @@
       "cta": "Découvrez nos marques",
       "items": {
         "africanFoodKing": {
-          "status": "actif",
+          "status": "active",
           "description": "Des produits alimentaires africains authentiques apportant des traditions culinaires dynamiques et des gammes de thé haut de gamme aux consommateurs du monde entier.",
           "alt": "Logo officiel de la marque African Food King"
         },
         "uncleTobi": {
-          "status": "à venir",
+          "status": "comingSoon",
           "description": "Un concept d'épicerie en ligne qui regroupe des fournisseurs pour la vente au détail et la livraison internationale.",
           "alt": "Logo du concept d'épicerie en ligne UncleTobi"
         },
         "ijgbFoods": {
-          "status": "actif",
+          "status": "active",
           "description": "Des snacks africains avec une allure mondiale – facilitant le commerce et connectant des produits de qualité sur les marchés.",
           "alt": "Logo de la marque IJGB Foods"
         },
         "happyManFoods": {
-          "status": "actif",
+          "status": "active",
           "description": "La marque phare AcresxManna utilise pour vendre et distribuer tous ses produits.",
           "alt": "Logo HappyMan Foods"
         },
         "maluzaFoods": {
-          "status": "en direct",
+          "status": "live",
           "description": "Une boulangerie commerciale développant de nouveaux produits et ouvrant des stands de vente au détail dans et autour d'Ibadan.",
           "alt": "Logo Maluza Foods Co."
         }

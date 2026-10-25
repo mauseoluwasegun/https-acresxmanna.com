@@ -10,6 +10,10 @@ import { Link } from "@/i18n/routing";
 
 export async function ProductsSection() {
   const t = await getTranslations("sections.products");
+  // Varieties are shared product data, so they live in the catalog page
+  // namespace. Reading them here keeps the homepage card copy in the active
+  // locale instead of falling back to the English list in lib/products.ts.
+  const tCatalog = await getTranslations("pages.products");
   return (
     <>
       <PatternDivider pattern="woven" thickness="medium" eyebrow={t("dividerEyebrow")} />
@@ -32,7 +36,13 @@ export async function ProductsSection() {
           <ul className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
             {PRODUCTS.map((product) => {
               const name = t(`items.${product.id}.name`);
-              const varieties = product.varieties ?? [];
+              const localizedVarieties = product.varieties
+                ? (tCatalog.raw(`items.${product.id}.varieties`) as string[] | undefined)
+                : undefined;
+              const varieties =
+                Array.isArray(localizedVarieties) && localizedVarieties.length > 0
+                  ? localizedVarieties
+                  : (product.varieties ?? []);
               return (
               <ScrollReveal
                 as="li"

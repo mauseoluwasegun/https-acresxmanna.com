@@ -99,12 +99,20 @@ function setPath(target, dotted, value) {
 const SKIP_KEY = /(^|\.)address$|^layout\.(streetAddress|addressLocality|addressRegion|addressCountry)$/;
 const SKIP_VALUE = /^(?:https?:\/\/|mailto:|tel:)|^[\w.+-]+@[\w-]+\.[\w.]+$|^\+?[\d\s()+-]{6,}$/;
 
+// `brandShowcase.items.*.status` is not copy — it is an enum token that the
+// components feed straight into the `brandStatus` namespace as a lookup key
+// (see components/sections/BrandsSection.tsx). Translating it produces
+// MISSING_MESSAGE at runtime, so these values stay in English everywhere.
+const ENUM_KEY = /\.status$/;
+const ENUM_TOKENS = new Set(["active", "comingSoon", "live"]);
+
 function shouldTranslate(key, value) {
   if (typeof value !== "string") return false;
   const text = value.trim();
   if (text.length < 2) return false;
   if (SKIP_KEY.test(key)) return false;
   if (SKIP_VALUE.test(text)) return false;
+  if (ENUM_KEY.test(key) && ENUM_TOKENS.has(text)) return false;
   if (!/\p{L}/u.test(text)) return false;
   return true;
 }

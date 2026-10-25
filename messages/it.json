@@ -25,7 +25,12 @@
     "letsTalk": "Parliamo",
     "openMenu": "Apri il menu",
     "mobileAria": "Navigazione mobile",
-    "closeMenu": "Chiudi menù"
+    "closeMenu": "Chiudi menù",
+    "brands": "I nostri marchi",
+    "infrastructure": "Infrastrutture",
+    "globalMarkets": "Mercati globali",
+    "investorsPartners": "Investitori e partner",
+    "newsInsights": "Novità e approfondimenti"
   },
   "hero": {
     "eyebrow": "AcresxManna · Agro-Trasformazione Africana",
@@ -592,27 +597,27 @@
       "cta": "Esplora i nostri marchi",
       "items": {
         "africanFoodKing": {
-          "status": "attivo",
+          "status": "active",
           "description": "Autentici prodotti alimentari africani che portano vivaci tradizioni culinarie e linee di tè premium ai consumatori globali.",
           "alt": "African Food King logo ufficiale del marchio"
         },
         "uncleTobi": {
-          "status": "prossimamente",
+          "status": "comingSoon",
           "description": "Un concetto di spesa online che aggrega fornitori per la vendita al dettaglio e la consegna internazionale.",
           "alt": "UncleTobi logo del concetto di generi alimentari online"
         },
         "ijgbFoods": {
-          "status": "attivo",
+          "status": "active",
           "description": "Snack africani con spavalderia globale: facilitare il commercio e collegare prodotti di qualità tra i mercati.",
           "alt": "Logo del marchio IJGB Foods"
         },
         "happyManFoods": {
-          "status": "attivo",
+          "status": "active",
           "description": "Il marchio di punta AcresxManna utilizza per vendere e distribuire tutti i suoi prodotti.",
           "alt": "Logo HappyMan Foods"
         },
         "maluzaFoods": {
-          "status": "vivere",
+          "status": "live",
           "description": "Una panetteria commerciale che sviluppa nuovi prodotti e apre bancarelle al dettaglio a Ibadan e dintorni.",
           "alt": "Logo Maluza Foods Co."
         }

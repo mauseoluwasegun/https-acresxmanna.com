@@ -39,7 +39,12 @@
     "letsTalk": "Let's Talk",
     "openMenu": "Open menu",
     "mobileAria": "Mobile navigation",
-    "closeMenu": "Close menu"
+    "closeMenu": "Close menu",
+    "brands": "Our Brands",
+    "infrastructure": "Infrastructure",
+    "globalMarkets": "Global Markets",
+    "investorsPartners": "Investors & Partners",
+    "newsInsights": "News & Insights"
   },
   "chrome": {
     "logoAria": "AcresxManna Home",

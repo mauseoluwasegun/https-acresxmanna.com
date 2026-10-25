@@ -25,7 +25,12 @@
     "letsTalk": "让我们谈谈",
     "openMenu": "打开菜单",
     "mobileAria": "手机导航",
-    "closeMenu": "关闭菜单"
+    "closeMenu": "关闭菜单",
+    "brands": "我们的品牌",
+    "infrastructure": "基础设施",
+    "globalMarkets": "全球市场",
+    "investorsPartners": "投资者与合作伙伴",
+    "newsInsights": "新闻与见解"
   },
   "hero": {
     "eyebrow": "AcresxManna · 非洲农产品加工",
@@ -592,27 +597,27 @@
       "cta": "探索我们的品牌",
       "items": {
         "africanFoodKing": {
-          "status": "积极的",
+          "status": "active",
           "description": "正宗的非洲食品为全球消费者带来充满活力的烹饪传统和优质茶系列。",
           "alt": "African Food King官方品牌标志"
         },
         "uncleTobi": {
-          "status": "即将推出",
+          "status": "comingSoon",
           "description": "一种在线杂货概念，聚合零售和国际配送的供应商。",
           "alt": "UncleTobi 在线杂货概念标志"
         },
         "ijgbFoods": {
-          "status": "积极的",
+          "status": "active",
           "description": "非洲零食在全球大放异彩——促进贸易并连接各个市场的优质商品。",
           "alt": "IJGB Foods品牌标志"
         },
         "happyManFoods": {
-          "status": "积极的",
+          "status": "active",
           "description": "旗舰品牌AcresxManna用于销售和分销其所有产品。",
           "alt": "HappyMan Foods 标志"
         },
         "maluzaFoods": {
-          "status": "居住",
+          "status": "live",
           "description": "一家商业面包店开发新产品并在伊巴丹及其周边地区开设零售摊位。",
           "alt": "Maluza Foods Co. 标志"
         }

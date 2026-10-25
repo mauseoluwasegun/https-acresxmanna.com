@@ -25,7 +25,12 @@
     "letsTalk": "دعونا نتحدث",
     "openMenu": "فتح القائمة",
     "mobileAria": "الملاحة المتنقلة",
-    "closeMenu": "إغلاق القائمة"
+    "closeMenu": "إغلاق القائمة",
+    "brands": "علاماتنا التجارية",
+    "infrastructure": "البنية التحتية",
+    "globalMarkets": "الأسواق العالمية",
+    "investorsPartners": "المستثمرون والشركاء",
+    "newsInsights": "الأخبار والرؤى"
   },
   "hero": {
     "eyebrow": "أكرس إكس مانا · التصنيع الزراعي الأفريقي",
@@ -592,27 +597,27 @@
       "cta": "اكتشف علاماتنا التجارية",
       "items": {
         "africanFoodKing": {
-          "status": "نشيط",
+          "status": "active",
           "description": "منتجات غذائية أفريقية أصيلة تجلب تقاليد الطهي النابضة بالحياة وخطوط الشاي المتميزة للمستهلكين العالميين.",
           "alt": "African Food King شعار العلامة التجارية الرسمي"
         },
         "uncleTobi": {
-          "status": "قريباً",
+          "status": "comingSoon",
           "description": "مفهوم بقالة عبر الإنترنت يجمع الموردين للبيع بالتجزئة والتوصيل الدولي.",
           "alt": "UncleTobi شعار مفهوم البقالة عبر الإنترنت"
         },
         "ijgbFoods": {
-          "status": "نشيط",
+          "status": "active",
           "description": "وجبات خفيفة أفريقية ذات تبجح عالمي - تسهيل التجارة وربط السلع عالية الجودة عبر الأسواق.",
           "alt": "شعار العلامة التجارية IJGB Foods"
         },
         "happyManFoods": {
-          "status": "نشيط",
+          "status": "active",
           "description": "تستخدم العلامة التجارية الرائدة AcresxManna لبيع وتوزيع جميع منتجاتها.",
           "alt": "شعار HappyMan Foods"
         },
         "maluzaFoods": {
-          "status": "يعيش",
+          "status": "live",
           "description": "مخبز تجاري يقوم بتطوير منتجات جديدة وفتح أكشاك للبيع بالتجزئة في إبادان وما حولها.",
           "alt": "شعار Maluza Foods Co."
         }
